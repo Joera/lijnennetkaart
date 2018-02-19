@@ -1,0 +1,2277 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "14400",
+        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 30,
+        "looptijd": 5,
+        "wachttijd": 1.25,
+        "totaaltijd": 36.25,
+        "isNieuw": false,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.904557,
+            52.374479
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "14400",
+        "start_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "14436",
+        "end_naam": "Amsterdam, Amstelstation",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "51",
+          "53",
+          "54"
+        ],
+        "traject_name": "PH-kade_Amstel",
+        "traject_stops": "",
+        "reistijd": 8,
+        "looptijd": 1,
+        "wachttijd": 0,
+        "totaaltijd": 0,
+        "isNieuw": false,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.904557,
+            52.374479
+          ],
+          [
+            4.919177,
+            52.34717
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "42061",
+        "end_naam": "Zaandam, Station",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "392"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 11,
+        "looptijd": 2,
+        "wachttijd": 3.75,
+        "totaaltijd": 16.75,
+        "isNieuw": false,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_oud_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.814378,
+            52.439076
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "42061",
+        "start_naam": "Zaandam, Station",
+        "end_id": "14436",
+        "end_naam": "Amsterdam, Amstelstation",
+        "traject_name": "Zaandam_NS_Amstel",
+        "traject_stops": "",
+        "reistijd": 24,
+        "looptijd": 1,
+        "wachttijd": 0,
+        "totaaltijd": 0,
+        "isNieuw": false,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_oud_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.814378,
+            52.439076
+          ],
+          [
+            4.919177,
+            52.34717
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 5,
+        "wachttijd": 1.25,
+        "function": "overstap",
+        "naam": "Amsterdam, Prins Hendrikkade",
+        "id": "14400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.904557,
+          52.374479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 1,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Amstelstation",
+        "id": "14436"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.919177,
+          52.34717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_oud_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Oost",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_oud_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 2,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Zaandam, Station",
+        "id": "42061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.814378,
+          52.439076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_oud_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 1,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Amstelstation",
+        "id": "14436"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.919177,
+          52.34717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "99998",
+        "end_naam": "Noorderpark",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 23,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "totaaltijd": 27.5,
+        "isNieuw": true,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.919167,
+            52.389167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "99998",
+        "start_naam": "Noorderpark",
+        "end_id": "14404",
+        "end_naam": "Amsterdam, Centraal Station",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "52"
+        ],
+        "traject_name": "Noorderpark_CS",
+        "traject_stops": "",
+        "reistijd": 2.2,
+        "looptijd": 2.5,
+        "wachttijd": 1.25,
+        "totaaltijd": 0,
+        "isNieuw": true,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.919167,
+            52.389167
+          ],
+          [
+            4.901776,
+            52.377604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operator": "GVB",
+        "route": "subway",
+        "wheelchair": "yes",
+        "from": "Amsterdam Centraal",
+        "name": "Metro 54: Amsterdam Centraal => Gein",
+        "colour": "#FCFB05",
+        "network": "Stadsvervoer Amsterdam",
+        "url": "http://wiki.ovinnederland.nl/wiki/Lijn_54_Amsterdam,_Centraal_Station_-_Gein",
+        "public_transport:version": "2",
+        "ref": "54",
+        "wikipedia": "nl:Metrolijn 54",
+        "type": "route",
+        "wikidata": "Q2183200",
+        "@id": "relation/18423",
+        "to": "Gein",
+        "route_pref_color": "yellow",
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9009287,
+            52.3774
+          ],
+          [
+            4.901112,
+            52.3773063
+          ],
+          [
+            4.9013634,
+            52.3771829
+          ],
+          [
+            4.9014273,
+            52.3771493
+          ],
+          [
+            4.9017203,
+            52.3769952
+          ],
+          [
+            4.9019404,
+            52.3768772
+          ],
+          [
+            4.9020466,
+            52.376822
+          ],
+          [
+            4.9021774,
+            52.3767382
+          ],
+          [
+            4.9022494,
+            52.3766897
+          ],
+          [
+            4.9022922,
+            52.3766609
+          ],
+          [
+            4.9024724,
+            52.3765266
+          ],
+          [
+            4.902558,
+            52.3764566
+          ],
+          [
+            4.9028824,
+            52.3761915
+          ],
+          [
+            4.9031081,
+            52.3759942
+          ],
+          [
+            4.9031905,
+            52.3759166
+          ],
+          [
+            4.9032636,
+            52.3758343
+          ],
+          [
+            4.9033341,
+            52.3757371
+          ],
+          [
+            4.9033877,
+            52.3756528
+          ],
+          [
+            4.9034329,
+            52.3755694
+          ],
+          [
+            4.903477,
+            52.3754159
+          ],
+          [
+            4.9034944,
+            52.3752857
+          ],
+          [
+            4.9035013,
+            52.3751202
+          ],
+          [
+            4.9034979,
+            52.3746897
+          ],
+          [
+            4.9034693,
+            52.3745194
+          ],
+          [
+            4.9034243,
+            52.3743563
+          ],
+          [
+            4.9033473,
+            52.3741312
+          ],
+          [
+            4.9032405,
+            52.3739251
+          ],
+          [
+            4.9030705,
+            52.3736774
+          ],
+          [
+            4.902873,
+            52.3734556
+          ],
+          [
+            4.902652,
+            52.3732613
+          ],
+          [
+            4.9021349,
+            52.37289
+          ],
+          [
+            4.9016178,
+            52.3724289
+          ],
+          [
+            4.9014097,
+            52.3721785
+          ],
+          [
+            4.9011861,
+            52.3718495
+          ],
+          [
+            4.9009009,
+            52.3714092
+          ],
+          [
+            4.9006469,
+            52.370979
+          ],
+          [
+            4.9004749,
+            52.3705164
+          ],
+          [
+            4.9003561,
+            52.3701413
+          ],
+          [
+            4.9003107,
+            52.369864
+          ],
+          [
+            4.9003107,
+            52.3695359
+          ],
+          [
+            4.9004303,
+            52.3692539
+          ],
+          [
+            4.9005486,
+            52.3688581
+          ],
+          [
+            4.9007338,
+            52.3684962
+          ],
+          [
+            4.9009027,
+            52.3682462
+          ],
+          [
+            4.9011341,
+            52.3679969
+          ],
+          [
+            4.9015499,
+            52.3677278
+          ],
+          [
+            4.901943,
+            52.3675312
+          ],
+          [
+            4.9027309,
+            52.3671178
+          ],
+          [
+            4.9043882,
+            52.3662026
+          ],
+          [
+            4.9045902,
+            52.366087
+          ],
+          [
+            4.9048114,
+            52.3659543
+          ],
+          [
+            4.9050247,
+            52.3658046
+          ],
+          [
+            4.9051768,
+            52.3656628
+          ],
+          [
+            4.9052714,
+            52.3655413
+          ],
+          [
+            4.9062171,
+            52.364054
+          ],
+          [
+            4.9064801,
+            52.3636064
+          ],
+          [
+            4.9070756,
+            52.3625928
+          ],
+          [
+            4.9078712,
+            52.3612031
+          ],
+          [
+            4.9085224,
+            52.360097
+          ],
+          [
+            4.9088963,
+            52.3594986
+          ],
+          [
+            4.9094166,
+            52.3586657
+          ],
+          [
+            4.910043,
+            52.3576082
+          ],
+          [
+            4.9105202,
+            52.3568497
+          ],
+          [
+            4.9111321,
+            52.3559248
+          ],
+          [
+            4.9113762,
+            52.3555388
+          ],
+          [
+            4.9115743,
+            52.3552154
+          ],
+          [
+            4.9118559,
+            52.3546929
+          ],
+          [
+            4.9122211,
+            52.3540168
+          ],
+          [
+            4.9128378,
+            52.3528697
+          ],
+          [
+            4.9133068,
+            52.3521047
+          ],
+          [
+            4.9144256,
+            52.3505339
+          ],
+          [
+            4.9151451,
+            52.3497612
+          ],
+          [
+            4.9151993,
+            52.3497111
+          ],
+          [
+            4.9154914,
+            52.349425
+          ],
+          [
+            4.9156499,
+            52.3492556
+          ],
+          [
+            4.9159152,
+            52.3489662
+          ],
+          [
+            4.916122,
+            52.348728
+          ],
+          [
+            4.9163366,
+            52.34842
+          ],
+          [
+            4.9165375,
+            52.3480848
+          ],
+          [
+            4.9167413,
+            52.3477276
+          ],
+          [
+            4.9168853,
+            52.3474683
+          ],
+          [
+            4.9174059,
+            52.3466361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "function": "overstap",
+        "naam": "Noorderpark",
+        "id": "99998"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.919167,
+          52.389167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 2.5,
+        "wachttijd": 1.25,
+        "function": "overstap",
+        "naam": "Amsterdam, Centraal Station",
+        "id": "14404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.901776,
+          52.377604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14436",
+        "routeId": "35250_14436_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Amstelstation",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 1,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "",
+        "id": "14436"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.919177,
+          52.34717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "14400",
+        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 30,
+        "looptijd": 5,
+        "wachttijd": 1.25,
+        "totaaltijd": 36.25,
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.904557,
+            52.374479
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "14400",
+        "start_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "14763",
+        "end_naam": "Amsterdam, Weesperplein",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "51",
+          "53",
+          "54"
+        ],
+        "traject_name": "PH-kade_Weesperplein",
+        "traject_stops": "",
+        "reistijd": 4,
+        "looptijd": 3,
+        "wachttijd": 3.75,
+        "totaaltijd": 0,
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.904557,
+            52.374479
+          ],
+          [
+            4.907872,
+            52.361199
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "14763",
+        "start_naam": "Amsterdam, Weesperplein",
+        "end_id": "14644",
+        "end_naam": "Amsterdam, Wijttenbachstraat",
+        "transport_type": "tram",
+        "transport_nrs": [
+          "7"
+        ],
+        "traject_name": "Weesperplein_Wijttenbachstraat",
+        "traject_stops": "",
+        "reistijd": 4,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "totaaltijd": 0,
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.907872,
+            52.361199
+          ],
+          [
+            4.925073,
+            52.36027
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "42061",
+        "end_naam": "Zaandam, Station",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "392"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 11,
+        "looptijd": 2,
+        "wachttijd": 3.75,
+        "totaaltijd": 16.75,
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.814378,
+            52.439076
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "42061",
+        "start_naam": "Zaandam, Station",
+        "end_id": "14699",
+        "end_naam": "Amsterdam, Muiderpoortstation",
+        "traject_name": "Zaandam_NS_Muiderpoort",
+        "traject_stops": "",
+        "reistijd": 24,
+        "looptijd": 5,
+        "wachttijd": 0,
+        "totaaltijd": 0,
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.814378,
+            52.439076
+          ],
+          [
+            4.932872,
+            52.361325
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 5,
+        "wachttijd": 1.25,
+        "function": "overstap",
+        "naam": "Amsterdam, Prins Hendrikkade",
+        "id": "14400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.904557,
+          52.374479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 3,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Amsterdam, Weesperplein",
+        "id": "14763"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.907872,
+          52.361199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 36.25,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 0,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Wijttenbachstraat",
+        "id": "14644"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.925073,
+          52.36027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Oost",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 2,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Zaandam, Station",
+        "id": "42061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.814378,
+          52.439076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_oud_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 5,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Muiderpoortstation",
+        "id": "14699"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.932872,
+          52.361325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "99998",
+        "end_naam": "Noorderpark",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 23,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "totaaltijd": 27.5,
+        "isNieuw": true,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.919167,
+            52.389167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "99998",
+        "start_naam": "Noorderpark",
+        "end_id": "99995",
+        "end_naam": "Vijzelgracht",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "52"
+        ],
+        "traject_name": "Noorderpark_Vijzelgracht",
+        "traject_stops": "",
+        "reistijd": 6,
+        "looptijd": 3,
+        "wachttijd": 3.75,
+        "totaaltijd": 0,
+        "isNieuw": true,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.919167,
+            52.389167
+          ],
+          [
+            4.892778,
+            52.371111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "99995",
+        "start_naam": "Vijzelgracht",
+        "end_id": "14644",
+        "end_naam": "Amsterdam, Wijttenbachstraat",
+        "transport_type": "tram",
+        "transport_nrs": [
+          "7"
+        ],
+        "traject_name": "Vijzelgracht_Wijttenbachstraat",
+        "traject_stops": "",
+        "reistijd": 9,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "totaaltijd": 0,
+        "isNieuw": true,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.892778,
+            52.371111
+          ],
+          [
+            4.925073,
+            52.36027
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "function": "overstap",
+        "naam": "Noorderpark",
+        "id": "99998"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.919167,
+          52.389167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 3,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Vijzelgracht",
+        "id": "99995"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.892778,
+          52.371111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14644",
+        "routeId": "35250_14644_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Wijttenbachstraat",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 0,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Wijttenbachstraat",
+        "id": "14644"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.925073,
+          52.36027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "14404",
+        "end_naam": "Amsterdam, Centraal Station",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 32,
+        "looptijd": 5,
+        "wachttijd": 3.75,
+        "totaaltijd": 40.75,
+        "isNieuw": false,
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 40.75,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.901776,
+            52.377604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operator": "GVB",
+        "route": "bus",
+        "from": "Amsterdam Station Sloterdijk",
+        "name": "Bus 22: Amsterdam Station Sloterdijk => Amsterdam Muiderpoortstation",
+        "network": "Stadsvervoer Amsterdam",
+        "public_transport:version": "2",
+        "ref": "22",
+        "type": "route",
+        "@id": "relation/4517358",
+        "to": "Amsterdam Muiderpoortstation",
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 40.75,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            4.901194,
+            52.376837
+          ],
+          [
+            4.901632,
+            52.376877
+          ],
+          [
+            4.90174,
+            52.376883
+          ],
+          [
+            4.901862,
+            52.376884
+          ],
+          [
+            4.901926,
+            52.376882
+          ],
+          [
+            4.902006,
+            52.37687
+          ],
+          [
+            4.902062,
+            52.376851
+          ],
+          [
+            4.902091,
+            52.376835
+          ],
+          [
+            4.902139,
+            52.376805
+          ],
+          [
+            4.902255,
+            52.376713
+          ],
+          [
+            4.902315,
+            52.376666
+          ],
+          [
+            4.90237,
+            52.376618
+          ],
+          [
+            4.90266,
+            52.37636
+          ],
+          [
+            4.902719,
+            52.37631
+          ],
+          [
+            4.90283,
+            52.376219
+          ],
+          [
+            4.902905,
+            52.376161
+          ],
+          [
+            4.903107,
+            52.375998
+          ],
+          [
+            4.903169,
+            52.375944
+          ],
+          [
+            4.903209,
+            52.375902
+          ],
+          [
+            4.903255,
+            52.375842
+          ],
+          [
+            4.903288,
+            52.37578
+          ],
+          [
+            4.903308,
+            52.375691
+          ],
+          [
+            4.903321,
+            52.37547
+          ],
+          [
+            4.903329,
+            52.375385
+          ],
+          [
+            4.903356,
+            52.375313
+          ],
+          [
+            4.903415,
+            52.375211
+          ],
+          [
+            4.903443,
+            52.375182
+          ],
+          [
+            4.903498,
+            52.375134
+          ],
+          [
+            4.903691,
+            52.375005
+          ],
+          [
+            4.903825,
+            52.374929
+          ],
+          [
+            4.904014,
+            52.374823
+          ],
+          [
+            4.90452,
+            52.374549
+          ],
+          [
+            4.904805,
+            52.374395
+          ],
+          [
+            4.906074,
+            52.373693
+          ],
+          [
+            4.906512,
+            52.373445
+          ],
+          [
+            4.907023,
+            52.373148
+          ],
+          [
+            4.907397,
+            52.372899
+          ],
+          [
+            4.90752,
+            52.37282
+          ],
+          [
+            4.907948,
+            52.372576
+          ],
+          [
+            4.908091,
+            52.372506
+          ],
+          [
+            4.908247,
+            52.372447
+          ],
+          [
+            4.90837,
+            52.372411
+          ],
+          [
+            4.908478,
+            52.372388
+          ],
+          [
+            4.90866,
+            52.372329
+          ],
+          [
+            4.908999,
+            52.372245
+          ],
+          [
+            4.910531,
+            52.371752
+          ],
+          [
+            4.91058,
+            52.371737
+          ],
+          [
+            4.910687,
+            52.371701
+          ],
+          [
+            4.911036,
+            52.371583
+          ],
+          [
+            4.911206,
+            52.371526
+          ],
+          [
+            4.912243,
+            52.371179
+          ],
+          [
+            4.912392,
+            52.371129
+          ],
+          [
+            4.912674,
+            52.371058
+          ],
+          [
+            4.912911,
+            52.370985
+          ],
+          [
+            4.913018,
+            52.370948
+          ],
+          [
+            4.913067,
+            52.370931
+          ],
+          [
+            4.91322,
+            52.370886
+          ],
+          [
+            4.913273,
+            52.37087
+          ],
+          [
+            4.913561,
+            52.370778
+          ],
+          [
+            4.91376,
+            52.37074
+          ],
+          [
+            4.913988,
+            52.370735
+          ],
+          [
+            4.914109,
+            52.370757
+          ],
+          [
+            4.914314,
+            52.370817
+          ],
+          [
+            4.914848,
+            52.371043
+          ],
+          [
+            4.914944,
+            52.371085
+          ],
+          [
+            4.91511,
+            52.371138
+          ],
+          [
+            4.91516,
+            52.371079
+          ],
+          [
+            4.915269,
+            52.371003
+          ],
+          [
+            4.9155,
+            52.370904
+          ],
+          [
+            4.91592,
+            52.370765
+          ],
+          [
+            4.916234,
+            52.370661
+          ],
+          [
+            4.916328,
+            52.37063
+          ],
+          [
+            4.917211,
+            52.370319
+          ],
+          [
+            4.917464,
+            52.370232
+          ],
+          [
+            4.917513,
+            52.370217
+          ],
+          [
+            4.918126,
+            52.370006
+          ],
+          [
+            4.918627,
+            52.36982
+          ],
+          [
+            4.919211,
+            52.369605
+          ],
+          [
+            4.919376,
+            52.369553
+          ],
+          [
+            4.920261,
+            52.369275
+          ],
+          [
+            4.92051,
+            52.369199
+          ],
+          [
+            4.920703,
+            52.369134
+          ],
+          [
+            4.920789,
+            52.369102
+          ],
+          [
+            4.921448,
+            52.368856
+          ],
+          [
+            4.92184,
+            52.36871
+          ],
+          [
+            4.923116,
+            52.368287
+          ],
+          [
+            4.923218,
+            52.368251
+          ],
+          [
+            4.92361,
+            52.368122
+          ],
+          [
+            4.924382,
+            52.36787
+          ],
+          [
+            4.924743,
+            52.367742
+          ],
+          [
+            4.925347,
+            52.367507
+          ],
+          [
+            4.92544,
+            52.367471
+          ],
+          [
+            4.925476,
+            52.367455
+          ],
+          [
+            4.925518,
+            52.367438
+          ],
+          [
+            4.925586,
+            52.367409
+          ],
+          [
+            4.925706,
+            52.367396
+          ],
+          [
+            4.925976,
+            52.367357
+          ],
+          [
+            4.926237,
+            52.36736
+          ],
+          [
+            4.926616,
+            52.367403
+          ],
+          [
+            4.926812,
+            52.367404
+          ],
+          [
+            4.92812,
+            52.36741
+          ],
+          [
+            4.930918,
+            52.367464
+          ],
+          [
+            4.931555,
+            52.367476
+          ],
+          [
+            4.932041,
+            52.367485
+          ],
+          [
+            4.932639,
+            52.367492
+          ],
+          [
+            4.932706,
+            52.367492
+          ],
+          [
+            4.93367,
+            52.367501
+          ],
+          [
+            4.933751,
+            52.367502
+          ],
+          [
+            4.933865,
+            52.367502
+          ],
+          [
+            4.933859,
+            52.367589
+          ],
+          [
+            4.933818,
+            52.368373
+          ],
+          [
+            4.933814,
+            52.368469
+          ],
+          [
+            4.933887,
+            52.368467
+          ],
+          [
+            4.933992,
+            52.368462
+          ],
+          [
+            4.934064,
+            52.368473
+          ],
+          [
+            4.934184,
+            52.368495
+          ],
+          [
+            4.934251,
+            52.368508
+          ],
+          [
+            4.934528,
+            52.368526
+          ],
+          [
+            4.934986,
+            52.368527
+          ],
+          [
+            4.935947,
+            52.368548
+          ],
+          [
+            4.937254,
+            52.368555
+          ],
+          [
+            4.93836,
+            52.36856
+          ],
+          [
+            4.938426,
+            52.368561
+          ],
+          [
+            4.938658,
+            52.368562
+          ],
+          [
+            4.938755,
+            52.368565
+          ],
+          [
+            4.939392,
+            52.368551
+          ],
+          [
+            4.939455,
+            52.368525
+          ],
+          [
+            4.93949,
+            52.368437
+          ],
+          [
+            4.939488,
+            52.367999
+          ],
+          [
+            4.939489,
+            52.367676
+          ],
+          [
+            4.939488,
+            52.367428
+          ],
+          [
+            4.939491,
+            52.367162
+          ],
+          [
+            4.939484,
+            52.366922
+          ],
+          [
+            4.939481,
+            52.366835
+          ],
+          [
+            4.939483,
+            52.36645
+          ],
+          [
+            4.939496,
+            52.36622
+          ],
+          [
+            4.939502,
+            52.366134
+          ],
+          [
+            4.939503,
+            52.366054
+          ],
+          [
+            4.93951,
+            52.36562
+          ],
+          [
+            4.939511,
+            52.365531
+          ],
+          [
+            4.939513,
+            52.365434
+          ],
+          [
+            4.939519,
+            52.365013
+          ],
+          [
+            4.939526,
+            52.364534
+          ],
+          [
+            4.939533,
+            52.364103
+          ],
+          [
+            4.939534,
+            52.364018
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 40.75,
+        "cluster": "Amsterdam Oost",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 40.75,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 5,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Amsterdam, Centraal Station",
+        "id": "14404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.901776,
+          52.377604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 40.75,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 0,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "",
+        "id": "14966"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.939496,
+          52.363957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "99998",
+        "end_naam": "Noorderpark",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 23,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "totaaltijd": 27.5,
+        "isNieuw": true,
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.919167,
+            52.389167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "99998",
+        "start_naam": "Noorderpark",
+        "end_id": "99996",
+        "end_naam": "Rokin",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "52"
+        ],
+        "traject_name": "Noorderpark_Rokin",
+        "traject_stops": "",
+        "reistijd": 4.2,
+        "looptijd": 1,
+        "wachttijd": 3.75,
+        "totaaltijd": 0,
+        "isNieuw": true,
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.919167,
+            52.389167
+          ],
+          [
+            4.900556,
+            52.378889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "99996",
+        "start_naam": "Rokin",
+        "end_id": "14966",
+        "end_naam": "Amsterdam, Javaplein",
+        "transport_type": "tram",
+        "transport_nrs": [
+          "14"
+        ],
+        "traject_name": "Rokin_Javaplein",
+        "traject_stops": "",
+        "reistijd": 14,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "totaaltijd": 0,
+        "isNieuw": true,
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.900556,
+            52.378889
+          ],
+          [
+            4.939496,
+            52.363957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "function": "overstap",
+        "naam": "Noorderpark",
+        "id": "99998"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.919167,
+          52.389167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 1,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Rokin",
+        "id": "99996"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.900556,
+          52.378889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14966",
+        "routeId": "35250_14966_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Javaplein",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Oost",
+        "looptijd": 0,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Javaplein",
+        "id": "14966"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.939496,
+          52.363957
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2263 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "14400",
+        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 30,
+        "looptijd": 5,
+        "wachttijd": 3.75,
+        "totaaltijd": 38.75,
+        "isNieuw": false,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 38.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.904557,
+            52.374479
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "14400",
+        "start_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "15146",
+        "end_naam": "Amsterdam, Station Holendrecht",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "54"
+        ],
+        "traject_name": "PH-Kade_AMC",
+        "traject_stops": "",
+        "reistijd": 17,
+        "looptijd": 3,
+        "wachttijd": 0,
+        "totaaltijd": 0,
+        "isNieuw": false,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 38.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.904557,
+            52.374479
+          ],
+          [
+            4.960216,
+            52.297802
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "42061",
+        "end_naam": "Zaandam, Station",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "392"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 11,
+        "looptijd": 2,
+        "wachttijd": 3.75,
+        "totaaltijd": 16.75,
+        "isNieuw": false,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_oud_inc_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.814378,
+            52.439076
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "42061",
+        "start_naam": "Zaandam, Station",
+        "end_id": "15146",
+        "end_naam": "Amsterdam, Station Holendrecht",
+        "traject_name": "Zaandam_NS_Holendrecht",
+        "traject_stops": "",
+        "reistijd": 36,
+        "looptijd": 3,
+        "wachttijd": 0,
+        "totaaltijd": 0,
+        "isNieuw": false,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_oud_inc_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.814378,
+            52.439076
+          ],
+          [
+            4.960216,
+            52.297802
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 38.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 38.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 5,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Amsterdam, Prins Hendrikkade",
+        "id": "14400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.904557,
+          52.374479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 38.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 3,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Station Holendrecht",
+        "id": "15146"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.960216,
+          52.297802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_oud_inc_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_oud_inc_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 2,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Zaandam, Station",
+        "id": "42061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.814378,
+          52.439076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_oud_inc_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 3,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Station Holendrecht",
+        "id": "15146"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.960216,
+          52.297802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "99998",
+        "end_naam": "Noorderpark",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 23,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "totaaltijd": 27.5,
+        "isNieuw": true,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.919167,
+            52.389167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "99998",
+        "start_naam": "Noorderpark",
+        "end_id": "14404",
+        "end_naam": "Amsterdam, Centraal Station",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "52"
+        ],
+        "traject_name": "Noorderpark_CS",
+        "traject_stops": "",
+        "reistijd": 2.2,
+        "looptijd": 5,
+        "wachttijd": 3.75,
+        "totaaltijd": 0,
+        "isNieuw": true,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.919167,
+            52.389167
+          ],
+          [
+            4.901776,
+            52.377604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operator": "GVB",
+        "route": "subway",
+        "wheelchair": "yes",
+        "from": "Amsterdam Centraal",
+        "name": "Metro 54: Amsterdam Centraal => Gein",
+        "colour": "#FCFB05",
+        "network": "Stadsvervoer Amsterdam",
+        "url": "http://wiki.ovinnederland.nl/wiki/Lijn_54_Amsterdam,_Centraal_Station_-_Gein",
+        "public_transport:version": "2",
+        "ref": "54",
+        "wikipedia": "nl:Metrolijn 54",
+        "type": "route",
+        "wikidata": "Q2183200",
+        "@id": "relation/18423",
+        "to": "Gein",
+        "route_pref_color": "yellow",
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9009287,
+            52.3774
+          ],
+          [
+            4.901112,
+            52.3773063
+          ],
+          [
+            4.9013634,
+            52.3771829
+          ],
+          [
+            4.9014273,
+            52.3771493
+          ],
+          [
+            4.9017203,
+            52.3769952
+          ],
+          [
+            4.9019404,
+            52.3768772
+          ],
+          [
+            4.9020466,
+            52.376822
+          ],
+          [
+            4.9021774,
+            52.3767382
+          ],
+          [
+            4.9022494,
+            52.3766897
+          ],
+          [
+            4.9022922,
+            52.3766609
+          ],
+          [
+            4.9024724,
+            52.3765266
+          ],
+          [
+            4.902558,
+            52.3764566
+          ],
+          [
+            4.9028824,
+            52.3761915
+          ],
+          [
+            4.9031081,
+            52.3759942
+          ],
+          [
+            4.9031905,
+            52.3759166
+          ],
+          [
+            4.9032636,
+            52.3758343
+          ],
+          [
+            4.9033341,
+            52.3757371
+          ],
+          [
+            4.9033877,
+            52.3756528
+          ],
+          [
+            4.9034329,
+            52.3755694
+          ],
+          [
+            4.903477,
+            52.3754159
+          ],
+          [
+            4.9034944,
+            52.3752857
+          ],
+          [
+            4.9035013,
+            52.3751202
+          ],
+          [
+            4.9034979,
+            52.3746897
+          ],
+          [
+            4.9034693,
+            52.3745194
+          ],
+          [
+            4.9034243,
+            52.3743563
+          ],
+          [
+            4.9033473,
+            52.3741312
+          ],
+          [
+            4.9032405,
+            52.3739251
+          ],
+          [
+            4.9030705,
+            52.3736774
+          ],
+          [
+            4.902873,
+            52.3734556
+          ],
+          [
+            4.902652,
+            52.3732613
+          ],
+          [
+            4.9021349,
+            52.37289
+          ],
+          [
+            4.9016178,
+            52.3724289
+          ],
+          [
+            4.9014097,
+            52.3721785
+          ],
+          [
+            4.9011861,
+            52.3718495
+          ],
+          [
+            4.9009009,
+            52.3714092
+          ],
+          [
+            4.9006469,
+            52.370979
+          ],
+          [
+            4.9004749,
+            52.3705164
+          ],
+          [
+            4.9003561,
+            52.3701413
+          ],
+          [
+            4.9003107,
+            52.369864
+          ],
+          [
+            4.9003107,
+            52.3695359
+          ],
+          [
+            4.9004303,
+            52.3692539
+          ],
+          [
+            4.9005486,
+            52.3688581
+          ],
+          [
+            4.9007338,
+            52.3684962
+          ],
+          [
+            4.9009027,
+            52.3682462
+          ],
+          [
+            4.9011341,
+            52.3679969
+          ],
+          [
+            4.9015499,
+            52.3677278
+          ],
+          [
+            4.901943,
+            52.3675312
+          ],
+          [
+            4.9027309,
+            52.3671178
+          ],
+          [
+            4.9043882,
+            52.3662026
+          ],
+          [
+            4.9045902,
+            52.366087
+          ],
+          [
+            4.9048114,
+            52.3659543
+          ],
+          [
+            4.9050247,
+            52.3658046
+          ],
+          [
+            4.9051768,
+            52.3656628
+          ],
+          [
+            4.9052714,
+            52.3655413
+          ],
+          [
+            4.9062171,
+            52.364054
+          ],
+          [
+            4.9064801,
+            52.3636064
+          ],
+          [
+            4.9070756,
+            52.3625928
+          ],
+          [
+            4.9078712,
+            52.3612031
+          ],
+          [
+            4.9085224,
+            52.360097
+          ],
+          [
+            4.9088963,
+            52.3594986
+          ],
+          [
+            4.9094166,
+            52.3586657
+          ],
+          [
+            4.910043,
+            52.3576082
+          ],
+          [
+            4.9105202,
+            52.3568497
+          ],
+          [
+            4.9111321,
+            52.3559248
+          ],
+          [
+            4.9113762,
+            52.3555388
+          ],
+          [
+            4.9115743,
+            52.3552154
+          ],
+          [
+            4.9118559,
+            52.3546929
+          ],
+          [
+            4.9122211,
+            52.3540168
+          ],
+          [
+            4.9128378,
+            52.3528697
+          ],
+          [
+            4.9133068,
+            52.3521047
+          ],
+          [
+            4.9144256,
+            52.3505339
+          ],
+          [
+            4.9151451,
+            52.3497612
+          ],
+          [
+            4.9151993,
+            52.3497111
+          ],
+          [
+            4.9154914,
+            52.349425
+          ],
+          [
+            4.9156499,
+            52.3492556
+          ],
+          [
+            4.9159152,
+            52.3489662
+          ],
+          [
+            4.916122,
+            52.348728
+          ],
+          [
+            4.9163366,
+            52.34842
+          ],
+          [
+            4.9165375,
+            52.3480848
+          ],
+          [
+            4.9167413,
+            52.3477276
+          ],
+          [
+            4.9168853,
+            52.3474683
+          ],
+          [
+            4.9174059,
+            52.3466361
+          ],
+          [
+            4.918238,
+            52.3453058
+          ],
+          [
+            4.9184258,
+            52.344988
+          ],
+          [
+            4.9185706,
+            52.344693
+          ],
+          [
+            4.9187023,
+            52.3443368
+          ],
+          [
+            4.9187959,
+            52.3439688
+          ],
+          [
+            4.918871,
+            52.3436705
+          ],
+          [
+            4.9189354,
+            52.3434739
+          ],
+          [
+            4.9190572,
+            52.3432154
+          ],
+          [
+            4.919254,
+            52.3427952
+          ],
+          [
+            4.9194511,
+            52.3423359
+          ],
+          [
+            4.9197265,
+            52.3417536
+          ],
+          [
+            4.9198397,
+            52.3414757
+          ],
+          [
+            4.9202866,
+            52.3407152
+          ],
+          [
+            4.9206141,
+            52.3401909
+          ],
+          [
+            4.9206917,
+            52.3400667
+          ],
+          [
+            4.9208861,
+            52.3398035
+          ],
+          [
+            4.9210491,
+            52.3395684
+          ],
+          [
+            4.9212058,
+            52.339371
+          ],
+          [
+            4.9223972,
+            52.3378707
+          ],
+          [
+            4.9238825,
+            52.336142
+          ],
+          [
+            4.9258764,
+            52.3338692
+          ],
+          [
+            4.9260441,
+            52.3336946
+          ],
+          [
+            4.9262212,
+            52.3335101
+          ],
+          [
+            4.9274943,
+            52.3322664
+          ],
+          [
+            4.9278375,
+            52.3319432
+          ],
+          [
+            4.9280599,
+            52.3317373
+          ],
+          [
+            4.9290526,
+            52.3307747
+          ],
+          [
+            4.9300743,
+            52.3296548
+          ],
+          [
+            4.9304545,
+            52.329238
+          ],
+          [
+            4.9309564,
+            52.3287008
+          ],
+          [
+            4.9309836,
+            52.3286705
+          ],
+          [
+            4.9312894,
+            52.3283394
+          ],
+          [
+            4.9314067,
+            52.3282058
+          ],
+          [
+            4.9315306,
+            52.3280734
+          ],
+          [
+            4.931655,
+            52.3279407
+          ],
+          [
+            4.9317804,
+            52.3278119
+          ],
+          [
+            4.9319779,
+            52.3276009
+          ],
+          [
+            4.9325004,
+            52.3270871
+          ],
+          [
+            4.9335518,
+            52.3260217
+          ],
+          [
+            4.933636,
+            52.3259421
+          ],
+          [
+            4.9339381,
+            52.3256572
+          ],
+          [
+            4.9342272,
+            52.325388
+          ],
+          [
+            4.9343736,
+            52.3252549
+          ],
+          [
+            4.9345224,
+            52.3251225
+          ],
+          [
+            4.934679,
+            52.3249928
+          ],
+          [
+            4.9348425,
+            52.324867
+          ],
+          [
+            4.9349266,
+            52.3248053
+          ],
+          [
+            4.9350122,
+            52.3247441
+          ],
+          [
+            4.935099,
+            52.3246834
+          ],
+          [
+            4.9351861,
+            52.3246234
+          ],
+          [
+            4.935361,
+            52.3245029
+          ],
+          [
+            4.9355307,
+            52.3243799
+          ],
+          [
+            4.9356953,
+            52.3242545
+          ],
+          [
+            4.9358506,
+            52.3241247
+          ],
+          [
+            4.9360017,
+            52.3239866
+          ],
+          [
+            4.9361587,
+            52.3238411
+          ],
+          [
+            4.936458,
+            52.3235649
+          ],
+          [
+            4.9369703,
+            52.3230921
+          ],
+          [
+            4.9374703,
+            52.3226222
+          ],
+          [
+            4.9382448,
+            52.3218422
+          ],
+          [
+            4.9391444,
+            52.32086
+          ],
+          [
+            4.940456,
+            52.3194185
+          ],
+          [
+            4.9406044,
+            52.319253
+          ],
+          [
+            4.9412151,
+            52.3185867
+          ],
+          [
+            4.9414198,
+            52.3183621
+          ],
+          [
+            4.9414687,
+            52.3183086
+          ],
+          [
+            4.9420779,
+            52.3176397
+          ],
+          [
+            4.9422289,
+            52.3174762
+          ],
+          [
+            4.9428607,
+            52.3167922
+          ],
+          [
+            4.9433062,
+            52.3162983
+          ],
+          [
+            4.944149,
+            52.3153341
+          ],
+          [
+            4.9444325,
+            52.3150087
+          ],
+          [
+            4.9446542,
+            52.3147574
+          ],
+          [
+            4.9451759,
+            52.3141669
+          ],
+          [
+            4.9457122,
+            52.3135777
+          ],
+          [
+            4.9459144,
+            52.3133536
+          ],
+          [
+            4.9473959,
+            52.3117311
+          ],
+          [
+            4.947491,
+            52.311627
+          ],
+          [
+            4.9475982,
+            52.3115106
+          ],
+          [
+            4.9477934,
+            52.3113002
+          ],
+          [
+            4.9482191,
+            52.3108457
+          ],
+          [
+            4.9505165,
+            52.3084061
+          ],
+          [
+            4.9511125,
+            52.3077602
+          ],
+          [
+            4.9512645,
+            52.3075943
+          ],
+          [
+            4.951875,
+            52.3069274
+          ],
+          [
+            4.9520015,
+            52.3067895
+          ],
+          [
+            4.9521206,
+            52.3066598
+          ],
+          [
+            4.9521301,
+            52.3066493
+          ],
+          [
+            4.9527105,
+            52.306014
+          ],
+          [
+            4.9528898,
+            52.3058181
+          ],
+          [
+            4.9529736,
+            52.3057263
+          ],
+          [
+            4.9555321,
+            52.3029282
+          ],
+          [
+            4.9563358,
+            52.3020516
+          ],
+          [
+            4.9566242,
+            52.3017368
+          ],
+          [
+            4.9567761,
+            52.301571
+          ],
+          [
+            4.9579019,
+            52.3003433
+          ],
+          [
+            4.9580715,
+            52.300158
+          ],
+          [
+            4.9581025,
+            52.3001223
+          ],
+          [
+            4.9581664,
+            52.3000517
+          ],
+          [
+            4.9582523,
+            52.2999581
+          ],
+          [
+            4.9589251,
+            52.29922
+          ],
+          [
+            4.9590756,
+            52.2990555
+          ],
+          [
+            4.9598063,
+            52.2982547
+          ],
+          [
+            4.9599574,
+            52.2980894
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "function": "overstap",
+        "naam": "Noorderpark",
+        "id": "99998"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.919167,
+          52.389167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 5,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Amsterdam, Centraal Station",
+        "id": "14404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.901776,
+          52.377604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15146",
+        "routeId": "35250_15146_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Station Holendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 3,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "",
+        "id": "15146"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.960216,
+          52.297802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "14400",
+        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 30,
+        "looptijd": 5,
+        "wachttijd": 3.75,
+        "totaaltijd": 38.75,
+        "isNieuw": false,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 38.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.904557,
+            52.374479
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "14400",
+        "start_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "15604",
+        "end_naam": "Duivendrecht, Station Duivendrecht",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "54"
+        ],
+        "traject_name": "PH-Kade_Duivendrecht",
+        "traject_stops": "",
+        "reistijd": 12,
+        "looptijd": 1,
+        "wachttijd": 0,
+        "totaaltijd": 0,
+        "isNieuw": false,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 38.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.904557,
+            52.374479
+          ],
+          [
+            4.936694,
+            52.323187
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "42061",
+        "end_naam": "Zaandam, Station",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "392"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 11,
+        "looptijd": 2,
+        "wachttijd": 3.75,
+        "totaaltijd": 16.75,
+        "isNieuw": false,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_oud_inc_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.814378,
+            52.439076
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "42061",
+        "start_naam": "Zaandam, Station",
+        "end_id": "15604",
+        "end_naam": "Duivendrecht, Station Duivendrecht",
+        "traject_name": "Zaandam_NS_Duivendrecht",
+        "traject_stops": "",
+        "reistijd": 29,
+        "looptijd": 1,
+        "wachttijd": 0,
+        "totaaltijd": 0,
+        "isNieuw": false,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_oud_inc_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.814378,
+            52.439076
+          ],
+          [
+            4.936694,
+            52.323187
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 38.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 38.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 5,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Amsterdam, Prins Hendrikkade",
+        "id": "14400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.904557,
+          52.374479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 38.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 1,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Duivendrecht, Station Duivendrecht",
+        "id": "15604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.936694,
+          52.323187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_oud_inc_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_oud_inc_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 2,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Zaandam, Station",
+        "id": "42061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.814378,
+          52.439076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_oud_inc_trein",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 16.75,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 1,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Duivendrecht, Station Duivendrecht",
+        "id": "15604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.936694,
+          52.323187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "99998",
+        "end_naam": "Noorderpark",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "traject_name": "",
+        "traject_stops": null,
+        "reistijd": 23,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "totaaltijd": 27.5,
+        "isNieuw": true,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.919167,
+            52.389167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "99998",
+        "start_naam": "Noorderpark",
+        "end_id": "14404",
+        "end_naam": "Amsterdam, Centraal Station",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "52"
+        ],
+        "traject_name": "Noorderpark_CS",
+        "traject_stops": "",
+        "reistijd": 2.2,
+        "looptijd": 5,
+        "wachttijd": 3.75,
+        "totaaltijd": 0,
+        "isNieuw": true,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.919167,
+            52.389167
+          ],
+          [
+            4.901776,
+            52.377604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operator": "GVB",
+        "route": "subway",
+        "wheelchair": "yes",
+        "from": "Amsterdam Centraal",
+        "name": "Metro 54: Amsterdam Centraal => Gein",
+        "colour": "#FCFB05",
+        "network": "Stadsvervoer Amsterdam",
+        "url": "http://wiki.ovinnederland.nl/wiki/Lijn_54_Amsterdam,_Centraal_Station_-_Gein",
+        "public_transport:version": "2",
+        "ref": "54",
+        "wikipedia": "nl:Metrolijn 54",
+        "type": "route",
+        "wikidata": "Q2183200",
+        "@id": "relation/18423",
+        "to": "Gein",
+        "route_pref_color": "yellow",
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9009287,
+            52.3774
+          ],
+          [
+            4.901112,
+            52.3773063
+          ],
+          [
+            4.9013634,
+            52.3771829
+          ],
+          [
+            4.9014273,
+            52.3771493
+          ],
+          [
+            4.9017203,
+            52.3769952
+          ],
+          [
+            4.9019404,
+            52.3768772
+          ],
+          [
+            4.9020466,
+            52.376822
+          ],
+          [
+            4.9021774,
+            52.3767382
+          ],
+          [
+            4.9022494,
+            52.3766897
+          ],
+          [
+            4.9022922,
+            52.3766609
+          ],
+          [
+            4.9024724,
+            52.3765266
+          ],
+          [
+            4.902558,
+            52.3764566
+          ],
+          [
+            4.9028824,
+            52.3761915
+          ],
+          [
+            4.9031081,
+            52.3759942
+          ],
+          [
+            4.9031905,
+            52.3759166
+          ],
+          [
+            4.9032636,
+            52.3758343
+          ],
+          [
+            4.9033341,
+            52.3757371
+          ],
+          [
+            4.9033877,
+            52.3756528
+          ],
+          [
+            4.9034329,
+            52.3755694
+          ],
+          [
+            4.903477,
+            52.3754159
+          ],
+          [
+            4.9034944,
+            52.3752857
+          ],
+          [
+            4.9035013,
+            52.3751202
+          ],
+          [
+            4.9034979,
+            52.3746897
+          ],
+          [
+            4.9034693,
+            52.3745194
+          ],
+          [
+            4.9034243,
+            52.3743563
+          ],
+          [
+            4.9033473,
+            52.3741312
+          ],
+          [
+            4.9032405,
+            52.3739251
+          ],
+          [
+            4.9030705,
+            52.3736774
+          ],
+          [
+            4.902873,
+            52.3734556
+          ],
+          [
+            4.902652,
+            52.3732613
+          ],
+          [
+            4.9021349,
+            52.37289
+          ],
+          [
+            4.9016178,
+            52.3724289
+          ],
+          [
+            4.9014097,
+            52.3721785
+          ],
+          [
+            4.9011861,
+            52.3718495
+          ],
+          [
+            4.9009009,
+            52.3714092
+          ],
+          [
+            4.9006469,
+            52.370979
+          ],
+          [
+            4.9004749,
+            52.3705164
+          ],
+          [
+            4.9003561,
+            52.3701413
+          ],
+          [
+            4.9003107,
+            52.369864
+          ],
+          [
+            4.9003107,
+            52.3695359
+          ],
+          [
+            4.9004303,
+            52.3692539
+          ],
+          [
+            4.9005486,
+            52.3688581
+          ],
+          [
+            4.9007338,
+            52.3684962
+          ],
+          [
+            4.9009027,
+            52.3682462
+          ],
+          [
+            4.9011341,
+            52.3679969
+          ],
+          [
+            4.9015499,
+            52.3677278
+          ],
+          [
+            4.901943,
+            52.3675312
+          ],
+          [
+            4.9027309,
+            52.3671178
+          ],
+          [
+            4.9043882,
+            52.3662026
+          ],
+          [
+            4.9045902,
+            52.366087
+          ],
+          [
+            4.9048114,
+            52.3659543
+          ],
+          [
+            4.9050247,
+            52.3658046
+          ],
+          [
+            4.9051768,
+            52.3656628
+          ],
+          [
+            4.9052714,
+            52.3655413
+          ],
+          [
+            4.9062171,
+            52.364054
+          ],
+          [
+            4.9064801,
+            52.3636064
+          ],
+          [
+            4.9070756,
+            52.3625928
+          ],
+          [
+            4.9078712,
+            52.3612031
+          ],
+          [
+            4.9085224,
+            52.360097
+          ],
+          [
+            4.9088963,
+            52.3594986
+          ],
+          [
+            4.9094166,
+            52.3586657
+          ],
+          [
+            4.910043,
+            52.3576082
+          ],
+          [
+            4.9105202,
+            52.3568497
+          ],
+          [
+            4.9111321,
+            52.3559248
+          ],
+          [
+            4.9113762,
+            52.3555388
+          ],
+          [
+            4.9115743,
+            52.3552154
+          ],
+          [
+            4.9118559,
+            52.3546929
+          ],
+          [
+            4.9122211,
+            52.3540168
+          ],
+          [
+            4.9128378,
+            52.3528697
+          ],
+          [
+            4.9133068,
+            52.3521047
+          ],
+          [
+            4.9144256,
+            52.3505339
+          ],
+          [
+            4.9151451,
+            52.3497612
+          ],
+          [
+            4.9151993,
+            52.3497111
+          ],
+          [
+            4.9154914,
+            52.349425
+          ],
+          [
+            4.9156499,
+            52.3492556
+          ],
+          [
+            4.9159152,
+            52.3489662
+          ],
+          [
+            4.916122,
+            52.348728
+          ],
+          [
+            4.9163366,
+            52.34842
+          ],
+          [
+            4.9165375,
+            52.3480848
+          ],
+          [
+            4.9167413,
+            52.3477276
+          ],
+          [
+            4.9168853,
+            52.3474683
+          ],
+          [
+            4.9174059,
+            52.3466361
+          ],
+          [
+            4.918238,
+            52.3453058
+          ],
+          [
+            4.9184258,
+            52.344988
+          ],
+          [
+            4.9185706,
+            52.344693
+          ],
+          [
+            4.9187023,
+            52.3443368
+          ],
+          [
+            4.9187959,
+            52.3439688
+          ],
+          [
+            4.918871,
+            52.3436705
+          ],
+          [
+            4.9189354,
+            52.3434739
+          ],
+          [
+            4.9190572,
+            52.3432154
+          ],
+          [
+            4.919254,
+            52.3427952
+          ],
+          [
+            4.9194511,
+            52.3423359
+          ],
+          [
+            4.9197265,
+            52.3417536
+          ],
+          [
+            4.9198397,
+            52.3414757
+          ],
+          [
+            4.9202866,
+            52.3407152
+          ],
+          [
+            4.9206141,
+            52.3401909
+          ],
+          [
+            4.9206917,
+            52.3400667
+          ],
+          [
+            4.9208861,
+            52.3398035
+          ],
+          [
+            4.9210491,
+            52.3395684
+          ],
+          [
+            4.9212058,
+            52.339371
+          ],
+          [
+            4.9223972,
+            52.3378707
+          ],
+          [
+            4.9238825,
+            52.336142
+          ],
+          [
+            4.9258764,
+            52.3338692
+          ],
+          [
+            4.9260441,
+            52.3336946
+          ],
+          [
+            4.9262212,
+            52.3335101
+          ],
+          [
+            4.9274943,
+            52.3322664
+          ],
+          [
+            4.9278375,
+            52.3319432
+          ],
+          [
+            4.9280599,
+            52.3317373
+          ],
+          [
+            4.9290526,
+            52.3307747
+          ],
+          [
+            4.9300743,
+            52.3296548
+          ],
+          [
+            4.9304545,
+            52.329238
+          ],
+          [
+            4.9309564,
+            52.3287008
+          ],
+          [
+            4.9309836,
+            52.3286705
+          ],
+          [
+            4.9312894,
+            52.3283394
+          ],
+          [
+            4.9314067,
+            52.3282058
+          ],
+          [
+            4.9315306,
+            52.3280734
+          ],
+          [
+            4.931655,
+            52.3279407
+          ],
+          [
+            4.9317804,
+            52.3278119
+          ],
+          [
+            4.9319779,
+            52.3276009
+          ],
+          [
+            4.9325004,
+            52.3270871
+          ],
+          [
+            4.9335518,
+            52.3260217
+          ],
+          [
+            4.933636,
+            52.3259421
+          ],
+          [
+            4.9339381,
+            52.3256572
+          ],
+          [
+            4.9342272,
+            52.325388
+          ],
+          [
+            4.9343736,
+            52.3252549
+          ],
+          [
+            4.9345224,
+            52.3251225
+          ],
+          [
+            4.934679,
+            52.3249928
+          ],
+          [
+            4.9348425,
+            52.324867
+          ],
+          [
+            4.9349266,
+            52.3248053
+          ],
+          [
+            4.9350122,
+            52.3247441
+          ],
+          [
+            4.935099,
+            52.3246834
+          ],
+          [
+            4.9351861,
+            52.3246234
+          ],
+          [
+            4.935361,
+            52.3245029
+          ],
+          [
+            4.9355307,
+            52.3243799
+          ],
+          [
+            4.9356953,
+            52.3242545
+          ],
+          [
+            4.9358506,
+            52.3241247
+          ],
+          [
+            4.9360017,
+            52.3239866
+          ],
+          [
+            4.9361587,
+            52.3238411
+          ],
+          [
+            4.936458,
+            52.3235649
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "function": "overstap",
+        "naam": "Noorderpark",
+        "id": "99998"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.919167,
+          52.389167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 5,
+        "wachttijd": 3.75,
+        "function": "overstap",
+        "naam": "Amsterdam, Centraal Station",
+        "id": "14404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.901776,
+          52.377604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15604",
+        "routeId": "35250_15604_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Duivendrecht, Station Duivendrecht",
+        "totaaltijdRoute": 27.5,
+        "cluster": "Amsterdam Zuidoost / Diemen / Duivendrecht",
+        "looptijd": 1,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "",
+        "id": "15604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.936694,
+          52.323187
+        ]
+      }
+    }
+  ]
+}

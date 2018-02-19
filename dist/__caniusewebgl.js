@@ -1,0 +1,1 @@
+"use strict";function webgl_detect(e){if(window.WebGLRenderingContext){for(var t=document.createElement("canvas"),n=["webgl","experimental-webgl","moz-webgl","webkit-3d"],r=!1,o=0;o<4;o++)try{if((r=t.getContext(n[o]))&&"function"==typeof r.getParameter)return!e||{name:n[o],gl:r}}catch(e){}return t&&null!==t&&t.remove(),!1}return!1}

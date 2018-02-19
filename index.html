@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Turf.js/5.1.5/turf.min.js'></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js'></script>
+<link rel='stylesheet' id='mapbox_css-css'  href='//api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css' type='text/css' media='all' />
+
+<style>
+
+    #map-container {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .datavis-map {
+        height: 100%;
+        width: 100%;
+    }
+
+    #call-to-action {
+        position: absolute;
+        top: 3rem;
+        left: 6rem;
+        /*width: 16rem;*/
+        height: 3rem;
+        line-height: 3rem;
+        color: #fff;
+        padding: 0 1rem;
+        background: rgb(0,154,200);
+    }
+
+    .route-info-block {
+
+        position: absolute;
+        bottom: 3rem;
+        left: 6rem;
+        width: 12rem;
+        height: 12rem;
+        background: #000;
+        padding: 1rem;
+        color: #fff;
+        opacity: 0;
+        transition: opacity 1000ms ease;
+    }
+
+    #new-route {
+        left: 20rem;
+        background: rgb(248, 175, 0);
+        color: #000;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    ul,li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+</style>
+
+<!--<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>-->
+<!--<script src="dist/browser-polyfill.min.js"></script>-->
+<script src="dist/map.js"></script>
+<script>
+    loadJSON('ja.json',function(response) {
+        var map = new Map('map-container',response);
+        map.init();
+    });
+</script>
+
+
+<body>
+        <div id="kaart">
+
+            <div id="map-container"></div>
+            <div id="call-to-action"></div>
+            <div id="old-route" class="route-info-block">
+                <h2>Huidige reis</h2>
+            </div>
+            <div id="new-route" class="route-info-block">
+                <h2>Nieuwe reis</h2>
+            </div>
+        </div>
+</body>
+</html>
