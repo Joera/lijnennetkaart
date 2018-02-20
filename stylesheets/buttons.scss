@@ -1,0 +1,45 @@
+
+#call-to-action {
+  position: absolute;
+  top: 1.2rem;
+  left: 4rem;
+  /*width: 16rem;*/
+  height: 3rem;
+  line-height: 3rem;
+  color: #fff;
+  padding: 0 1rem;
+  background: $purple;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  font-family:"Avenir Heavy";
+  cursor: pointer;
+
+  > span {
+    color: $yellow;
+  }
+
+}
+
+#restart {
+  position: absolute;
+  bottom: 3rem;
+  right: 6rem;
+  width: 12rem;
+  text-align: center;
+  padding: 1rem 0;
+
+  background: #000;
+  color: #fff;
+}
+
+#view-select {
+  position: absolute;
+  top: 1.4rem;
+  right: 1.4rem;
+  text-align: center;
+  padding: .5rem;
+
+  background: #000;
+  color: #fff;
+}

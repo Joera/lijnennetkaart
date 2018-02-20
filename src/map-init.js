@@ -15,9 +15,11 @@ class Map {
         let self = this,
             activeItems = [];
 
+        this.nightview = false;
+
         this.config = {
             accessToken: 'pk.eyJ1Ijoid2lqbmVtZW5qZW1lZSIsImEiOiJjaWgwZjB4ZGwwMGdza3FseW02MWNxcmttIn0.l-4VI25pfA5GKukRQTXnWA',
-            style: 'mapbox://styles/wijnemenjemee/cjcywszq502re2sobjc8d1e0z',
+            style: 'mapbox://styles/wijnemenjemee/cjcywszq502re2sobjc8d1e0z', // ',
             hostContainer: element,
             center: [4.9, 52.37],
             zoom: 10.2,
@@ -47,6 +49,7 @@ class Map {
         this._callToAction = document.getElementById('call-to-action');
         this._newRoute = document.getElementById('new-route');
         this._oldRoute = document.getElementById('old-route');
+        this._viewSelect = document.getElementById('view-select');
 
         this.interactionPopup = new InteractionPopup();
 
@@ -63,42 +66,42 @@ class Map {
         self._lines = new Lines(self._map, self.config);
         self._points = new Points(self._map, self.config);
 
-        // self._background.init();
-
         self._map.on('style.load', function () {
 
-            
             self._lines.draw();
             self._points.drawOrigins();
             self._points.drawDestinations();
             self._points.drawTransfers();
 
-            self._callToAction.innerHTML = 'Kies een herkomst in uw buurt';
-
+            self._callToAction.innerHTML = '<span>Kies</span> een <span>herkomst</span> in uw buurt';
 
             self._map.on("click", "origins", function (e) {
 
-                self._callToAction.innerHTML = 'Kies een bestemming in de stad';
-                self._callToAction.style.background = rood;
+                    self.session.origin = e.features[0].properties.id;
+                    self._showDestinations();
+            });
 
+            self._map.on("click", "origin-labels", function (e) {
                 self.session.origin = e.features[0].properties.id;
+                self._showDestinations();
+            });
 
-                let originFilter = self._map.getFilter('origins');
-                let originSelectedFilter = ["==", "id", self.session.origin];
-                originFilter.push(originSelectedFilter);
-                self._map.setFilter('origins',originFilter);
+            self._map.on("mouseover", "destinations", function (e) {
 
-                self._map.setFilter('destinations',['all',["==","function","bestemming"]]);
+                self._map.setFilter('destination-labels',['all',["==","naam",e.features[0].properties.naam]]);
+                self._map.setFilter('destination-labels-connector',['all',["==","naam",e.features[0].properties.naam]]);
             });
 
             self._map.on("click", "destinations", function (e) {
+
+                self._map.flyTo({
+                    zoom: 10.2
+                });
 
                 self.session.destination = e.features[0].properties.id;
                 self.session.traject = self.session.origin + '_' + self.session.destination;
 
                 self._oldRoute.style.opacity = 1;
-
-                console.log(self.session);
 
                 let destinationsFilter = self._map.getFilter('destinations');
                 let destinationSelectedFilter = ["==", "id", self.session.destination];
@@ -106,22 +109,46 @@ class Map {
                 self._map.setFilter('destinations',destinationsFilter);
 
                 self._map.setFilter('bus-old',['all',["==","transport_type","bus"],["==","isNieuw",false],["==","trajectId",self.session.traject]]);
+                self._map.setFilter('bus-old-icon',['all',["==","transport_type","bus"],["==","isNieuw",false],["==","trajectId",self.session.traject]]);
                 self._map.setFilter('metro-old',['all',["==","transport_type","metro"],["==","isNieuw",false],["==","trajectId",self.session.traject]]);
                 self._map.setFilter('tram-old',['all',["==","transport_type","tram"],["==","isNieuw",false],["==","trajectId",self.session.traject]]);
-                self._map.setFilter('transfers',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject]]);
+                self._map.setFilter('transfers',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",false]]);
+                self._map.setFilter('transfer-labels',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",false]]);
 
                 self._setRouteInfo(false,self.session.traject);
-                self._setBoundingBox();
+                // self._setBoundingBox();
 
                 setTimeout( function() {
                     self._newRoute.style.opacity = 1;
                     self._showNew(self.session.traject,self._map);
                     self._setRouteInfo(true,self.session.traject);
-                },2000);
+                },20000);
 
                 self._oldRoute.addEventListener("click",function() { self._showOld(self.session.traject,self._map) },false);
                 self._newRoute.addEventListener("click",function() { self._showNew(self.session.traject,self._map) },false);
             });
+        });
+
+        self._viewSelect.addEventListener("click",function() { self._switchView() },false);
+    }
+
+    _showDestinations() {
+
+        let self = this;
+
+        self._callToAction.innerHTML = '<span>Kies</span> een <span>bestemming</span> in de stad';
+        self._callToAction.style.background = purple;
+
+        let originFilter = self._map.getFilter('origins');
+        let originSelectedFilter = ["==", "id", self.session.origin];
+        originFilter.push(originSelectedFilter);
+        self._map.setFilter('origins',originFilter);
+        self._map.setFilter('origin-labels',originFilter);
+        self._map.setFilter('origin-labels-connector',originFilter);
+
+        self._map.setFilter('destinations',['all',["==","function","bestemming"]]);
+        self._map.flyTo({
+            zoom: 12
         });
     }
 
@@ -136,6 +163,10 @@ class Map {
         map.setFilter('bus-old',['all',["==","transport_type","bus"],["==","isNieuw",false],["==","trajectId",""]]);
         map.setFilter('metro-old',['all',["==","transport_type","metro"],["==","isNieuw",false],["==","trajectId",""]]);
         map.setFilter('tram-old',['all',["==","transport_type","tram"],["==","isNieuw",false],["==","trajectId",""]]);
+
+        map.setFilter('transfers',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",true]]);
+        map.setFilter('transfer-labels',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",true]]);
+
     }
 
     _showOld(traject,map) {
@@ -149,6 +180,9 @@ class Map {
         map.setFilter('bus-old',['all',["==","transport_type","bus"],["==","isNieuw",false],["==","trajectId",traject]]);
         map.setFilter('metro-old',['all',["==","transport_type","metro"],["==","isNieuw",false],["==","trajectId",traject]]);
         map.setFilter('tram-old',['all',["==","transport_type","tram"],["==","isNieuw",false],["==","trajectId",traject]]);
+
+        map.setFilter('transfers',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",false]]);
+        map.setFilter('transfer-labels',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",false]]);
     }
 
     _setRouteInfo(isNew,traject) {
@@ -185,11 +219,32 @@ class Map {
         }
         let bbox = turf.bbox(collection);
 
+        console.log(features.length);
+
         self._map.fitBounds(
             bbox, {
             padding: {top: 100, bottom:100, left: 100, right: 100},
             linear: true
         });
+    }
+
+    _switchView() {
+        let self = this;
+
+        if (this.nightview) {
+
+            this.nightview = false;
+            self._map.setStyle('mapbox://styles/wijnemenjemee/cjcywszq502re2sobjc8d1e0z');
+            self._viewSelect.innerHTML = 'nacht';
+        } else {
+            this.nightview = true;
+            self._map.setStyle('mapbox://styles/wijnemenjemee/cjdvrcqvn6dy32smopkqhd9q3');
+            self._viewSelect.innerHTML = 'dag';
+        }
+
+
+
+
     }
 
 }

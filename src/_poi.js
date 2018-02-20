@@ -22,7 +22,7 @@ class PoiLayer {
                 "source": "poi",
                 "layout": {
                     "visibility": "visible",
-                    "icon-image": "rect_white",
+                    "icon-image": "rect_purple",
                     "icon-padding": 0,
                     "icon-text-fit": 'both',
                     "icon-text-fit-padding": [10,5,0,5],

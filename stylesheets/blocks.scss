@@ -1,0 +1,19 @@
+.route-info-block {
+
+  position: absolute;
+  bottom: 1.2rem;
+  left: 4rem;
+  width: 12rem;
+  height: 12rem;
+  background: black;
+  padding: 1rem;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 1000ms ease;
+}
+
+#new-route {
+  left: 20rem;
+  background: $purple;
+  //color: #000;
+}

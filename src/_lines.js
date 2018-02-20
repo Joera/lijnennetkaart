@@ -12,13 +12,14 @@ class Lines {
         this.progress = 0; // progress = timestamp - startTime
         this.resetTime = false; // indicator of whether time reset is needed for the animation
         this.layerId = 'cjc4zc40d13wa2wqskv9bk020';
+
+        //mapbox://styles/wijnemenjemee/cjdvrcqvn6dy32smopkqhd9q3
     }
 
     init() {
 
         let self = this;
         self._draw();
-
     }
 
     draw() {
@@ -43,9 +44,44 @@ class Lines {
                 "line-cap": "square"
             },
             "paint": {
-                "line-color": "#000",
-                "line-width": 6,
+                "line-color": black,
+                "line-width": 4,
                 "line-dasharray": [1,0]
+            },
+            "filter": ['all',
+                ["==","trajectId",""],
+                ["==","isNieuw",false],
+                ["==","transport_type","bus"]
+            ]
+        });
+
+        self._map.addLayer({
+            "id": "bus-old-icon",
+            "type": "symbol",
+            "source": "lines",
+            "layout": {
+                "visibility": "visible",
+                "icon-image": "bus-15",
+                "icon-padding": 0,
+                // "icon-text-fit": 'both',
+                "icon-size": 1,
+                "icon-offset": [20,0],
+                // "icon-text-fit-padding": [5,10,2,10],
+                "icon-allow-overlap": true,
+                "text-field": "{transport_nrs}",
+                "symbol-placement": "line",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport",
+                "text-size": 15,
+                "text-anchor": "left",
+                "text-offset": [2,0.1],
+                "text-max-width": 30,
+                "text-font": ["Avenir LT Std 85 Heavy"],
+                "text-transform" : "uppercase",
+                "text-allow-overlap":true
+            },
+            "paint": {
+                'text-color': "#000"
             },
             "filter": ['all',
                 ["==","trajectId",""],
@@ -63,8 +99,8 @@ class Lines {
                 "line-cap": "square"
             },
             "paint": {
-                "line-color": donkergeel,
-                "line-width": 6,
+                "line-color": purple,
+                "line-width": 4,
                 "line-dasharray": [1,0]
             },
             "filter": ['all',
@@ -83,8 +119,8 @@ class Lines {
                 "line-cap": "square"
             },
             "paint": {
-                "line-color": "#000",
-                "line-width": 12,
+                "line-color": black,
+                "line-width": 4,
                 "line-dasharray": [.25,.25]
             },
             "filter": ['all',
@@ -103,8 +139,8 @@ class Lines {
                 "line-cap": "square"
             },
             "paint": {
-                "line-color": donkergeel,
-                "line-width": 12,
+                "line-color": purple,
+                "line-width": 4,
                 "line-dasharray": [.25,.25]
             },
             "filter": ['all',
@@ -123,8 +159,8 @@ class Lines {
                 "line-cap": "square"
             },
             "paint": {
-                "line-color": "#000",
-                "line-gap-width": 4,
+                "line-color": black,
+                // "line-gap-width": 4,
                 "line-width": 4,
             },
             "filter": ['all',
@@ -143,8 +179,8 @@ class Lines {
                 "line-cap": "square"
             },
             "paint": {
-                "line-color": donkergeel,
-                "line-gap-width": 4,
+                "line-color": purple,
+                // "line-gap-width": 4,
                 "line-width": 4,
             },
             "filter": ['all',
@@ -160,21 +196,17 @@ class Lines {
             "source": "lines",
             "layout": {
                 "visibility": "visible",
-                "icon-image": "rect_white",
+                "icon-image": "rect_purple",
                 "icon-padding": 0,
                 "icon-text-fit": 'both',
                 "icon-text-fit-padding": [10,5,0,5],
                 "icon-allow-overlap": true,
                 "icon-padding": 20,
                 "icon-anchor": "right",
-                "text-field": "{trajectNaam}",
-              //   "text-font": ["BC Falster Grotesk Bold"], // "Cabrito Sans W01 Norm Bold",
-                "text-size": 20,
-                "text-offset": [0,0],
-                "text-anchor": "center",
+
             },
             'paint': {
-                "text-color": "rgb(51,51,51)"
+                "text-color": "#fff"
             },
             'filter': ['all',
                 ['has','trajectNaam'],
@@ -182,7 +214,6 @@ class Lines {
             ]
         });
     }
-
 
     _animateLine(timestamp) {
 
