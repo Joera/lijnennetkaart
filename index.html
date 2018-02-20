@@ -50,6 +50,18 @@
         color: #000;
     }
 
+    #restart {
+        position: absolute;
+        bottom: 3rem;
+        right: 6rem;
+        width: 12rem;
+        text-align: center;
+        padding: 1rem 0;
+
+        background: #000;
+        color: #fff;
+    }
+
     h2 {
         margin: 0;
     }
@@ -66,10 +78,11 @@
 <!--<script src="dist/browser-polyfill.min.js"></script>-->
 <script src="dist/map.js"></script>
 <script>
-    loadJSON('ja.json',function(response) {
-        var map = new Map('map-container',response);
+    loadJSON('combined.geojson',function(response) {
+        var map = new Map('map-container', response);
         map.init();
     });
+
 </script>
 
 <body>
@@ -82,6 +95,9 @@
             </div>
             <div id="new-route" class="route-info-block">
                 <h2>Nieuwe reis</h2>
+            </div>
+            <div id="restart" class="route-new-block">
+                Opnieuw
             </div>
         </div>
 </body>

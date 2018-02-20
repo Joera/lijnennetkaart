@@ -66,6 +66,8 @@ class Map {
         // self._background.init();
 
         self._map.on('style.load', function () {
+
+            
             self._lines.draw();
             self._points.drawOrigins();
             self._points.drawDestinations();
