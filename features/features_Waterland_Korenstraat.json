@@ -107927,7 +107927,7 @@
       "properties": {
         "start_id": "14882",
         "start_naam": "Amsterdam, Station Zuid",
-        "end_id": "41933",
+        "end_id": "14386",
         "end_naam": "Amsterdam, Station Lelylaan",
         "transport_type": "metro",
         "transport_nrs": [
@@ -107955,8 +107955,8 @@
             52.340825
           ],
           [
-            4.834863,
-            52.356666
+            4.83382,
+            52.357901
           ]
         ]
       }
@@ -108045,13 +108045,13 @@
         "wachttijd": 0,
         "function": "bestemming",
         "naam": "Amsterdam, Station Lelylaan",
-        "id": "41933"
+        "id": "14386"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.834863,
-          52.356666
+          4.83382,
+          52.357901
         ]
       }
     },
