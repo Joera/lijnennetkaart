@@ -2396,7 +2396,7 @@ var Map = function () {
 
         self._map.setFilter('origins', ['all', ["==", "function", "herkomst"]]);
         self._map.setFilter('origin-labels', ['all', ["==", "function", "herkomst"], ["==", "naam", ""]]);
-        self._map.setFilter('origin-labels-connector', ['all', ["==", "function"], ["==", "naam", ""]]);
+        self._map.setFilter('origin-labels-connector', ['all', ["==", "function", "herkomst"], ["==", "naam", ""]]);
 
         self._map.setFilter('destinations', ['all', ["==", "function", ""]]);
         self._map.setFilter('destination-labels', ['all', ["==", "function", ""]]);

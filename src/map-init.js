@@ -141,7 +141,7 @@ class Map {
     _highlightOrigin(naam) {
 
         this._map.setFilter('origin-labels',['all', ["==", "function", "herkomst"],["==", "naam",naam]]);
-        this._map.setFilter('origin-labels-connector',['all', ["==", "function", "herkomst"],["==", "naam",naam]]);
+        this._map.setFilter('origin-labels-connector',['all', ["==", "function", "herkomst"], ["==", "naam",naam]]);
     }
 
     _highlightDestination(naam) {
@@ -396,11 +396,11 @@ class Map {
         }
 
         this._listContainer.innerHTML = '';
-        self._clearRoutes()
+        self._clearRoutes();
 
         self._map.setFilter('origins',['all', ["==", "function", "herkomst"]]);
         self._map.setFilter('origin-labels',['all', ["==", "function", "herkomst"],["==","naam",""]]);
-        self._map.setFilter('origin-labels-connector',['all', ["==", "function"],["==","naam",""]]);
+        self._map.setFilter('origin-labels-connector',['all', ["==", "function","herkomst"],["==","naam",""]]);
 
         self._map.setFilter('destinations',['all',["==","function",""]]);
         self._map.setFilter('destination-labels',['all',["==","function",""]]);
