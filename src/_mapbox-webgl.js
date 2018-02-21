@@ -25,11 +25,10 @@ class MapWebGL {
         });
 
         let nav = new mapboxgl.NavigationControl();
-        self._map.addControl(nav,'top-left');
-                    //
-                    // .addControl(new mapboxgl.AttributionControl({
-                    //     compact: true
-                    // }));
+        self._map.addControl(nav,'top-right')
+            .addControl(new mapboxgl.AttributionControl({
+                        compact: true
+                    }));
 
         if (self._map.scrollZoom && self._config.scrollzoom === false) {
             self._map.scrollZoom.disable();

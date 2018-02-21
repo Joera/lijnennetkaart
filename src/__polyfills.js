@@ -1,13 +1,11 @@
 
-// for babel
-// Array.includes = function() {
-//     let [first, ...rest] = arguments;
-//     return Array.prototype.includes.apply(first, rest);
-// }
-// // for IE
-// if (!String.prototype.includes) {
-//     String.prototype.includes = function() {
-//         'use strict';
-//         return String.prototype.indexOf.apply(this, arguments) !== -1;
-//     };
-// }
+Element.prototype.remove = function() {
+    this.parentElement.removeChild(this);
+}
+NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
+    for(var i = this.length - 1; i >= 0; i--) {
+        if(this[i] && this[i].parentElement) {
+            this[i].parentElement.removeChild(this[i]);
+        }
+    }
+}

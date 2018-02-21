@@ -26,10 +26,6 @@ class Lines {
 
         let self = this;
 
-        console.log(self._config.dataset);
-
-        // self.lines = lines;
-
         self._map.addSource("lines", {
             "type": "geojson",
             "data": self._config.dataset
@@ -131,6 +127,39 @@ class Lines {
         });
 
         self._map.addLayer({
+            "id": "metro-old-icon",
+            "type": "symbol",
+            "source": "lines",
+            "layout": {
+                "visibility": "visible",
+                "icon-image": "rail-15",
+                "icon-padding": 0,
+                "icon-size": 1,
+                "icon-offset": [20,0],
+                "icon-allow-overlap": true,
+                "text-field": "{transport_nrs}",
+                "symbol-placement": "line",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport",
+                "text-size": 15,
+                "text-anchor": "left",
+                "text-offset": [2,0.1],
+                "text-max-width": 30,
+                "text-font": ["Avenir LT Std 85 Heavy"],
+                "text-transform" : "uppercase",
+                "text-allow-overlap":true
+            },
+            "paint": {
+                'text-color': "#000"
+            },
+            "filter": ['all',
+                ["==","trajectId",""],
+                ["==","isNieuw",false],
+                ["==","transport_type","metro"]
+            ]
+        });
+
+        self._map.addLayer({
             "id": "metro-new",
             "type": "line",
             "source": "lines",
@@ -160,8 +189,40 @@ class Lines {
             },
             "paint": {
                 "line-color": black,
-                // "line-gap-width": 4,
                 "line-width": 4,
+            },
+            "filter": ['all',
+                ["==","trajectId",""],
+                ["==","isNieuw",false],
+                ["==","transport_type","tram"]
+            ]
+        });
+
+        self._map.addLayer({
+            "id": "tram-old-icon",
+            "type": "symbol",
+            "source": "lines",
+            "layout": {
+                "visibility": "visible",
+                "icon-image": "rail-light-15",
+                "icon-padding": 0,
+                "icon-size": 1,
+                "icon-offset": [20,0],
+                "icon-allow-overlap": true,
+                "text-field": "{transport_nrs}",
+                "symbol-placement": "line",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport",
+                "text-size": 15,
+                "text-anchor": "left",
+                "text-offset": [2,0.1],
+                "text-max-width": 30,
+                "text-font": ["Avenir LT Std 85 Heavy"],
+                "text-transform" : "uppercase",
+                "text-allow-overlap":true
+            },
+            "paint": {
+                'text-color': "#000"
             },
             "filter": ['all',
                 ["==","trajectId",""],
@@ -180,7 +241,6 @@ class Lines {
             },
             "paint": {
                 "line-color": purple,
-                // "line-gap-width": 4,
                 "line-width": 4,
             },
             "filter": ['all',
@@ -213,6 +273,8 @@ class Lines {
                 ["==","trajectId",""]
             ]
         });
+
+
     }
 
     _animateLine(timestamp) {

@@ -19,6 +19,7 @@
         "wachttijd": 0,
         "totaaltijd": 35,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14404",
         "routeId": "13527_14404_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Centraal Station",
@@ -1829,6 +1830,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14404",
         "routeId": "13527_14404_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Centraal Station",
@@ -1850,6 +1852,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14404",
         "routeId": "13527_14404_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Centraal Station",
@@ -1887,6 +1890,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14404",
         "routeId": "13527_14404_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Centraal Station",
@@ -2951,6 +2955,7 @@
         "wachttijd": 0,
         "totaaltijd": 7.1,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14404",
         "routeId": "13527_14404_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Centraal Station",
@@ -3127,6 +3132,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14404",
         "routeId": "13527_14404_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Centraal Station",
@@ -3148,6 +3154,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14404",
         "routeId": "13527_14404_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Centraal Station",
@@ -3171,6 +3178,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14404",
         "routeId": "13527_14404_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Centraal Station",
@@ -3195,8 +3203,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -3208,6 +3216,7 @@
         "wachttijd": 1.5,
         "totaaltijd": 34.5,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99996",
         "routeId": "13527_99996_oud",
         "trajectNaam": "Volendam, Stadskantoor - Rokin",
@@ -4694,6 +4703,7 @@
         "wachttijd": 0,
         "totaaltijd": 6,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99996",
         "routeId": "13527_99996_oud",
         "trajectNaam": "Volendam, Stadskantoor - Rokin",
@@ -4718,6 +4728,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99996",
         "routeId": "13527_99996_oud",
         "trajectNaam": "Volendam, Stadskantoor - Rokin",
@@ -4739,6 +4750,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99996",
         "routeId": "13527_99996_oud",
         "trajectNaam": "Volendam, Stadskantoor - Rokin",
@@ -4747,14 +4759,14 @@
         "looptijd": 3,
         "wachttijd": 1.5,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -4762,6 +4774,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99996",
         "routeId": "13527_99996_oud",
         "trajectNaam": "Volendam, Stadskantoor - Rokin",
@@ -4799,6 +4812,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99996",
         "routeId": "13527_99996_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Rokin",
@@ -5863,6 +5877,7 @@
         "wachttijd": 0,
         "totaaltijd": 8.1,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99996",
         "routeId": "13527_99996_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Rokin",
@@ -6103,6 +6118,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99996",
         "routeId": "13527_99996_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Rokin",
@@ -6124,6 +6140,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99996",
         "routeId": "13527_99996_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Rokin",
@@ -6147,6 +6164,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99996",
         "routeId": "13527_99996_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Rokin",
@@ -6171,8 +6189,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -6184,6 +6202,7 @@
         "wachttijd": 1.25,
         "totaaltijd": 33.75,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -7670,6 +7689,7 @@
         "wachttijd": 0,
         "totaaltijd": 3,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -7894,6 +7914,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -7915,6 +7936,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -7923,14 +7945,14 @@
         "looptijd": 2.5,
         "wachttijd": 1.25,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -7938,6 +7960,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -7975,6 +7998,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -9039,6 +9063,7 @@
         "wachttijd": 1.25,
         "totaaltijd": 7.85,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -9231,6 +9256,7 @@
         "wachttijd": 0,
         "totaaltijd": 3,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -9455,6 +9481,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -9476,6 +9503,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -9499,6 +9527,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -9522,6 +9551,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14584",
         "routeId": "13527_14584_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Waterlooplein",
@@ -9559,6 +9589,7 @@
         "wachttijd": 2,
         "totaaltijd": 39,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -11384,6 +11415,7 @@
         "wachttijd": 0,
         "totaaltijd": 8,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -11919,6 +11951,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -11940,6 +11973,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -11963,6 +11997,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -12000,6 +12035,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -13064,6 +13100,7 @@
         "wachttijd": 2,
         "totaaltijd": 15.2,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -13262,6 +13299,7 @@
         "wachttijd": 0,
         "totaaltijd": 3,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -13300,6 +13338,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -14364,6 +14403,7 @@
         "wachttijd": 2,
         "totaaltijd": 10.1,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -14555,6 +14595,7 @@
         "wachttijd": 0,
         "totaaltijd": 8,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -15090,6 +15131,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -15111,6 +15153,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -15134,6 +15177,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -15157,6 +15201,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -15180,6 +15225,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -15201,6 +15247,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -15224,6 +15271,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -15247,6 +15295,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14509",
         "routeId": "13527_14509_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Westermarkt",
@@ -15271,8 +15320,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -15284,6 +15333,7 @@
         "wachttijd": 1.5,
         "totaaltijd": 37.5,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -16770,6 +16820,7 @@
         "wachttijd": 0,
         "totaaltijd": 8,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -16794,6 +16845,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -16815,6 +16867,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -16823,14 +16876,14 @@
         "looptijd": 6,
         "wachttijd": 1.5,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -16838,6 +16891,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -16875,6 +16929,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -17939,6 +17994,7 @@
         "wachttijd": 1.5,
         "totaaltijd": 10.6,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -18131,6 +18187,7 @@
         "wachttijd": 0,
         "totaaltijd": 8,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -18485,6 +18542,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -18506,6 +18564,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -18529,6 +18588,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -18552,6 +18612,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15687",
         "routeId": "13527_15687_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Haarlemmerplein",
@@ -18589,6 +18650,7 @@
         "wachttijd": 1.5,
         "totaaltijd": 38.5,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -20415,6 +20477,7 @@
         "wachttijd": 0,
         "totaaltijd": 14,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -21207,6 +21270,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -21228,6 +21292,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -21251,6 +21316,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -21288,6 +21354,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -22352,6 +22419,7 @@
         "wachttijd": 1.5,
         "totaaltijd": 12.4,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -22735,6 +22803,7 @@
         "wachttijd": 0,
         "totaaltijd": 3,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -22759,6 +22828,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -22780,6 +22850,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -22803,6 +22874,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -22826,6 +22898,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14649",
         "routeId": "13527_14649_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Leidseplein",
@@ -22850,8 +22923,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -22863,6 +22936,7 @@
         "wachttijd": 2,
         "totaaltijd": 35,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -24341,12 +24415,13 @@
           "26"
         ],
         "traject_name": "PH-Kade_Muziekgebouw",
-        "traject_stops": "{\"type\":\"Feature\",\"properties\":{\"operator\":\"GVB\",\"route\":\"tram\",\"from\":\"IJburg\",\"name\":\"Tram 26: IJburg => Centraal Station\",\"colour\":\"#d59758\",\"network\":\"Stadsvervoer Amsterdam\",\"public_transport:version\":\"2\",\"ref\":\"26\",\"type\":\"route\",\"@id\":\"relation/4514562\",\"to\":\"Centraal Station\"},\"geometry\":{\"type\":\"LineString\",\"coordinates\":[[4.921354,52.376169],[4.919878,52.376372],[4.917817,52.376661],[4.91581,52.376919],[4.915331,52.376979],[4.91343,52.377206],[4.912994,52.377253],[4.91288,52.377266],[4.912505,52.377304],[4.912128,52.37734],[4.91126,52.377406],[4.910484,52.377462],[4.909792,52.377514],[4.909654,52.377526],[4.909519,52.377541],[4.908698,52.377649],[4.908221,52.377709],[4.907534,52.377802],[4.90642,52.377952],[4.905241,52.378104],[4.904788,52.378164],[4.904455,52.378214],[4.904413,52.378218],[4.904371,52.378219],[4.904293,52.378212],[4.904242,52.378205],[4.904163,52.378185],[4.904114,52.378169],[4.904035,52.378128],[4.904004,52.378106],[4.903958,52.37807],[4.903927,52.378039],[4.903408,52.377501],[4.903381,52.377477],[4.903356,52.377458],[4.903324,52.377441],[4.903303384780884,52.37742324907587],[4.903281927108765,52.37740851270654],[4.9032604694366455,52.377388864206424],[4.903225600719451,52.37736594094526],[4.903196096420288,52.37734301767218],[4.903171956539154,52.37733319340865],[4.903150498867035,52.377321731765115],[4.903118312358856,52.37731518225318],[4.903083443641663,52.3773069953619],[4.9030351638793945,52.37730208322638],[4.902997612953186,52.37730208322638],[4.902801811695099,52.377316819631254],[4.902713298797607,52.37733319340865],[4.902627468109131,52.37734792980314],[4.902525544166564,52.37734792980314],[4.902466535568237,52.37733974291792],[4.902383387088775,52.377321731765115],[4.9022868275642395,52.37727424778158],[4.9022385478019705,52.377243137557784],[4.902195632457733,52.377185829193444],[4.90214467048645,52.37711542167256],[4.902123212814331,52.377064662692504],[4.902099072933197,52.37702864015515],[4.902066886425018,52.377005716707],[4.90202933549881,52.376984430637314],[4.901989102363586,52.37696805673058],[4.9019381403923035,52.376950045426184],[4.901884496212006,52.37694349585913],[4.901833534240723,52.37693858368321],[4.901779890060425,52.37694022107523],[4.901739656925201,52.37693530889895],[4.901694059371948,52.37693039672208],[4.901669919490814,52.37692220975948],[4.9016377329826355,52.376923847152135],[4.901602864265442,52.37692220975948],[4.901541173458099,52.376917297581166],[4.90149825811386,52.37691566018828],[4.901458024978637,52.37690911061612],[4.90140974521637,52.37690583582967]]}}",
+        "traject_stops": "{\"geometry\":{\"coordinates\":[[4.91288,52.377266],[4.912505,52.377304],[4.912128,52.37734],[4.91126,52.377406],[4.910484,52.377462],[4.909792,52.377514],[4.909654,52.377526],[4.909519,52.377541],[4.908698,52.377649],[4.908221,52.377709],[4.907534,52.377802],[4.90642,52.377952],[4.905241,52.378104],[4.904788,52.378164],[4.904455,52.378214],[4.904413,52.378218],[4.904371,52.378219],[4.904293,52.378212],[4.904242,52.378205],[4.904163,52.378185],[4.904114,52.378169],[4.904035,52.378128],[4.904004,52.378106],[4.903958,52.37807],[4.903927,52.378039],[4.903408,52.377501],[4.903381,52.377477],[4.903356,52.377458],[4.903324,52.377441],[4.903294,52.377426],[4.903257,52.377412],[4.903214,52.377399],[4.903176,52.37739],[4.903132,52.37738],[4.90308,52.377374],[4.902998,52.37737],[4.902903433910535,52.3773701938546],[4.902814656033883,52.37737470893981],[4.902684312054731,52.37737541791958],[4.902573262078192,52.37737176101092],[4.9024384508597905,52.37735937230818],[4.902359769901551,52.37733847573375],[4.9022977153829,52.377304891992225],[4.902246052352865,52.37725862099049],[4.902198545977711,52.37719966276953],[4.902157569119339,52.377109657977115],[4.902079182754591,52.37700189085268],[4.90201177711802,52.37696270946873],[4.90191943182596,52.3769412903115]],\"type\":\"LineString\"},\"type\":\"Feature\",\"properties\":{\"operator\":\"GVB\",\"route\":\"tram\",\"from\":\"IJburg\",\"name\":\"Tram 26: IJburg => Centraal Station\",\"colour\":\"#d59758\",\"network\":\"Stadsvervoer Amsterdam\",\"public_transport:version\":\"2\",\"ref\":\"26\",\"type\":\"route\",\"@id\":\"relation/4514562\",\"to\":\"Centraal Station\"}}",
         "reistijd": 5,
         "looptijd": 0,
         "wachttijd": 0,
         "totaaltijd": 5,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -24365,36 +24440,7 @@
         "to": "Centraal Station"
       },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
-          [
-            4.921354,
-            52.376169
-          ],
-          [
-            4.919878,
-            52.376372
-          ],
-          [
-            4.917817,
-            52.376661
-          ],
-          [
-            4.91581,
-            52.376919
-          ],
-          [
-            4.915331,
-            52.376979
-          ],
-          [
-            4.91343,
-            52.377206
-          ],
-          [
-            4.912994,
-            52.377253
-          ],
           [
             4.91288,
             52.377266
@@ -24512,168 +24558,94 @@
             52.377441
           ],
           [
-            4.903303384780884,
-            52.37742324907587
+            4.903294,
+            52.377426
           ],
           [
-            4.903281927108765,
-            52.37740851270654
+            4.903257,
+            52.377412
           ],
           [
-            4.9032604694366455,
-            52.377388864206424
+            4.903214,
+            52.377399
           ],
           [
-            4.903225600719451,
-            52.37736594094526
+            4.903176,
+            52.37739
           ],
           [
-            4.903196096420288,
-            52.37734301767218
+            4.903132,
+            52.37738
           ],
           [
-            4.903171956539154,
-            52.37733319340865
+            4.90308,
+            52.377374
           ],
           [
-            4.903150498867035,
-            52.377321731765115
+            4.902998,
+            52.37737
           ],
           [
-            4.903118312358856,
-            52.37731518225318
+            4.902903433910535,
+            52.3773701938546
           ],
           [
-            4.903083443641663,
-            52.3773069953619
+            4.902814656033883,
+            52.37737470893981
           ],
           [
-            4.9030351638793945,
-            52.37730208322638
+            4.902684312054731,
+            52.37737541791958
           ],
           [
-            4.902997612953186,
-            52.37730208322638
+            4.902573262078192,
+            52.37737176101092
           ],
           [
-            4.902801811695099,
-            52.377316819631254
+            4.9024384508597905,
+            52.37735937230818
           ],
           [
-            4.902713298797607,
-            52.37733319340865
+            4.902359769901551,
+            52.37733847573375
           ],
           [
-            4.902627468109131,
-            52.37734792980314
+            4.9022977153829,
+            52.377304891992225
           ],
           [
-            4.902525544166564,
-            52.37734792980314
+            4.902246052352865,
+            52.37725862099049
           ],
           [
-            4.902466535568237,
-            52.37733974291792
+            4.902198545977711,
+            52.37719966276953
           ],
           [
-            4.902383387088775,
-            52.377321731765115
+            4.902157569119339,
+            52.377109657977115
           ],
           [
-            4.9022868275642395,
-            52.37727424778158
+            4.902079182754591,
+            52.37700189085268
           ],
           [
-            4.9022385478019705,
-            52.377243137557784
+            4.90201177711802,
+            52.37696270946873
           ],
           [
-            4.902195632457733,
-            52.377185829193444
-          ],
-          [
-            4.90214467048645,
-            52.37711542167256
-          ],
-          [
-            4.902123212814331,
-            52.377064662692504
-          ],
-          [
-            4.902099072933197,
-            52.37702864015515
-          ],
-          [
-            4.902066886425018,
-            52.377005716707
-          ],
-          [
-            4.90202933549881,
-            52.376984430637314
-          ],
-          [
-            4.901989102363586,
-            52.37696805673058
-          ],
-          [
-            4.9019381403923035,
-            52.376950045426184
-          ],
-          [
-            4.901884496212006,
-            52.37694349585913
-          ],
-          [
-            4.901833534240723,
-            52.37693858368321
-          ],
-          [
-            4.901779890060425,
-            52.37694022107523
-          ],
-          [
-            4.901739656925201,
-            52.37693530889895
-          ],
-          [
-            4.901694059371948,
-            52.37693039672208
-          ],
-          [
-            4.901669919490814,
-            52.37692220975948
-          ],
-          [
-            4.9016377329826355,
-            52.376923847152135
-          ],
-          [
-            4.901602864265442,
-            52.37692220975948
-          ],
-          [
-            4.901541173458099,
-            52.376917297581166
-          ],
-          [
-            4.90149825811386,
-            52.37691566018828
-          ],
-          [
-            4.901458024978637,
-            52.37690911061612
-          ],
-          [
-            4.90140974521637,
-            52.37690583582967
+            4.90191943182596,
+            52.3769412903115
           ]
-        ]
+        ],
+        "type": "LineString"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -24695,6 +24667,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -24703,14 +24676,14 @@
         "looptijd": 3,
         "wachttijd": 2,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -24718,6 +24691,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -24755,6 +24729,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -25819,6 +25794,7 @@
         "wachttijd": 2,
         "totaaltijd": 10.1,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -26003,12 +25979,13 @@
           "26"
         ],
         "traject_name": "CS_Muziekgebouw",
-        "traject_stops": "{\"type\":\"Feature\",\"properties\":{\"operator\":\"GVB\",\"route\":\"tram\",\"from\":\"IJburg\",\"name\":\"Tram 26: IJburg => Centraal Station\",\"colour\":\"#d59758\",\"network\":\"Stadsvervoer Amsterdam\",\"public_transport:version\":\"2\",\"ref\":\"26\",\"type\":\"route\",\"@id\":\"relation/4514562\",\"to\":\"Centraal Station\"},\"geometry\":{\"coordinates\":[[4.921354,52.376169],[4.919878,52.376372],[4.917817,52.376661],[4.91581,52.376919],[4.915331,52.376979],[4.91343,52.377206],[4.912994,52.377253],[4.91288,52.377266],[4.912505,52.377304],[4.912128,52.37734],[4.91126,52.377406],[4.910484,52.377462],[4.909792,52.377514],[4.909654,52.377526],[4.909519,52.377541],[4.908698,52.377649],[4.908221,52.377709],[4.907534,52.377802],[4.90642,52.377952],[4.905241,52.378104],[4.904788,52.378164],[4.904455,52.378214],[4.904413,52.378218],[4.904371,52.378219],[4.904293,52.378212],[4.904242,52.378205],[4.904163,52.378185],[4.904114,52.378169],[4.904035,52.378128],[4.904004,52.378106],[4.903958,52.37807],[4.903927,52.378039],[4.903408,52.377501],[4.903381,52.377477],[4.903356,52.377458],[4.903324,52.377441],[4.903294,52.377426],[4.903257,52.377412],[4.903214,52.377399],[4.903176,52.37739],[4.903132,52.37738],[4.90308,52.377374],[4.902998,52.37737],[4.902945,52.377374],[4.90289,52.377379],[4.90281,52.377393],[4.90273,52.377411],[4.902645,52.377433],[4.902566,52.377457],[4.902473,52.377489],[4.90243,52.377505],[4.902373,52.377526],[4.90211,52.377619],[4.902043,52.377643],[4.901875,52.377705],[4.901747,52.377754],[4.901721,52.377764],[4.901694,52.377771],[4.901668,52.377779],[4.901641,52.377786],[4.90161,52.377793],[4.901587,52.377796],[4.901561,52.377801],[4.901537,52.377804],[4.901512,52.377807],[4.90123,52.377828],[4.900942,52.377849]],\"type\":\"LineString\"}}",
+        "traject_stops": "{\"type\":\"Feature\",\"properties\":{\"operator\":\"GVB\",\"route\":\"tram\",\"from\":\"IJburg\",\"name\":\"Tram 26: IJburg => Centraal Station\",\"colour\":\"#d59758\",\"network\":\"Stadsvervoer Amsterdam\",\"public_transport:version\":\"2\",\"ref\":\"26\",\"type\":\"route\",\"@id\":\"relation/4514562\",\"to\":\"Centraal Station\"},\"geometry\":{\"coordinates\":[[4.91288,52.377266],[4.912505,52.377304],[4.912128,52.37734],[4.91126,52.377406],[4.910484,52.377462],[4.909792,52.377514],[4.909654,52.377526],[4.909519,52.377541],[4.908698,52.377649],[4.908221,52.377709],[4.907534,52.377802],[4.90642,52.377952],[4.905241,52.378104],[4.904788,52.378164],[4.904455,52.378214],[4.904413,52.378218],[4.904371,52.378219],[4.904293,52.378212],[4.904242,52.378205],[4.904163,52.378185],[4.904114,52.378169],[4.904035,52.378128],[4.904004,52.378106],[4.903958,52.37807],[4.903927,52.378039],[4.903408,52.377501],[4.903381,52.377477],[4.903356,52.377458],[4.903324,52.377441],[4.903294,52.377426],[4.903257,52.377412],[4.903214,52.377399],[4.903176,52.37739],[4.903132,52.37738],[4.90308,52.377374],[4.902998,52.37737],[4.902945,52.377374],[4.90289,52.377379]],\"type\":\"LineString\"}}",
         "reistijd": 5,
         "looptijd": 0,
         "wachttijd": 0,
         "totaaltijd": 5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -26028,34 +26005,6 @@
       },
       "geometry": {
         "coordinates": [
-          [
-            4.921354,
-            52.376169
-          ],
-          [
-            4.919878,
-            52.376372
-          ],
-          [
-            4.917817,
-            52.376661
-          ],
-          [
-            4.91581,
-            52.376919
-          ],
-          [
-            4.915331,
-            52.376979
-          ],
-          [
-            4.91343,
-            52.377206
-          ],
-          [
-            4.912994,
-            52.377253
-          ],
           [
             4.91288,
             52.377266
@@ -26207,94 +26156,6 @@
           [
             4.90289,
             52.377379
-          ],
-          [
-            4.90281,
-            52.377393
-          ],
-          [
-            4.90273,
-            52.377411
-          ],
-          [
-            4.902645,
-            52.377433
-          ],
-          [
-            4.902566,
-            52.377457
-          ],
-          [
-            4.902473,
-            52.377489
-          ],
-          [
-            4.90243,
-            52.377505
-          ],
-          [
-            4.902373,
-            52.377526
-          ],
-          [
-            4.90211,
-            52.377619
-          ],
-          [
-            4.902043,
-            52.377643
-          ],
-          [
-            4.901875,
-            52.377705
-          ],
-          [
-            4.901747,
-            52.377754
-          ],
-          [
-            4.901721,
-            52.377764
-          ],
-          [
-            4.901694,
-            52.377771
-          ],
-          [
-            4.901668,
-            52.377779
-          ],
-          [
-            4.901641,
-            52.377786
-          ],
-          [
-            4.90161,
-            52.377793
-          ],
-          [
-            4.901587,
-            52.377796
-          ],
-          [
-            4.901561,
-            52.377801
-          ],
-          [
-            4.901537,
-            52.377804
-          ],
-          [
-            4.901512,
-            52.377807
-          ],
-          [
-            4.90123,
-            52.377828
-          ],
-          [
-            4.900942,
-            52.377849
           ]
         ],
         "type": "LineString"
@@ -26304,6 +26165,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -26325,6 +26187,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -26348,6 +26211,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -26371,6 +26235,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14623",
         "routeId": "13527_14623_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Muziekgeb. Bimhuis",
@@ -26408,6 +26273,7 @@
         "wachttijd": 7,
         "totaaltijd": 27,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99999",
         "routeId": "13527_99999_oud",
         "trajectNaam": "Volendam, Stadskantoor - Station Noord",
@@ -27368,6 +27234,7 @@
         "wachttijd": 0,
         "totaaltijd": 4,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99999",
         "routeId": "13527_99999_oud",
         "trajectNaam": "Volendam, Stadskantoor - Station Noord",
@@ -27392,6 +27259,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99999",
         "routeId": "13527_99999_oud",
         "trajectNaam": "Volendam, Stadskantoor - Station Noord",
@@ -27413,6 +27281,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99999",
         "routeId": "13527_99999_oud",
         "trajectNaam": "Volendam, Stadskantoor - Station Noord",
@@ -27436,6 +27305,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99999",
         "routeId": "13527_99999_oud",
         "trajectNaam": "Volendam, Stadskantoor - Station Noord",
@@ -27473,6 +27343,7 @@
         "wachttijd": 0,
         "totaaltijd": 25,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99999",
         "routeId": "13527_99999_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Station Noord",
@@ -28523,6 +28394,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99999",
         "routeId": "13527_99999_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Station Noord",
@@ -28544,6 +28416,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99999",
         "routeId": "13527_99999_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Station Noord",
@@ -28568,8 +28441,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -28581,6 +28454,7 @@
         "wachttijd": 2,
         "totaaltijd": 33.5,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -30068,6 +29942,7 @@
         "wachttijd": 0,
         "totaaltijd": 9,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -30092,6 +29967,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -30113,6 +29989,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -30121,14 +29998,14 @@
         "looptijd": 1.5,
         "wachttijd": 2,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -30136,6 +30013,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -30173,6 +30051,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -31237,6 +31116,7 @@
         "wachttijd": 1,
         "totaaltijd": 4.9,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -31326,6 +31206,7 @@
         "wachttijd": 0,
         "totaaltijd": 3,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -31350,6 +31231,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -31371,6 +31253,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -31394,6 +31277,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -31417,6 +31301,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14121",
         "routeId": "13527_14121_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mosplein",
@@ -31454,6 +31339,7 @@
         "wachttijd": 2,
         "totaaltijd": 12,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14536",
         "routeId": "13527_14536_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Volendammerweg",
@@ -32407,6 +32293,7 @@
         "wachttijd": 0,
         "totaaltijd": 9,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14536",
         "routeId": "13527_14536_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Volendammerweg",
@@ -32431,6 +32318,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14536",
         "routeId": "13527_14536_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Volendammerweg",
@@ -32452,6 +32340,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14536",
         "routeId": "13527_14536_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Volendammerweg",
@@ -32475,6 +32364,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14536",
         "routeId": "13527_14536_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Volendammerweg",
@@ -32512,6 +32402,7 @@
         "wachttijd": 5,
         "totaaltijd": 31,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14536",
         "routeId": "13527_14536_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Volendammerweg",
@@ -33576,6 +33467,7 @@
         "wachttijd": 0,
         "totaaltijd": 9,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14536",
         "routeId": "13527_14536_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Volendammerweg",
@@ -33600,6 +33492,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14536",
         "routeId": "13527_14536_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Volendammerweg",
@@ -33621,6 +33514,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14536",
         "routeId": "13527_14536_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Volendammerweg",
@@ -33644,6 +33538,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14536",
         "routeId": "13527_14536_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Volendammerweg",
@@ -33668,8 +33563,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -33681,6 +33576,7 @@
         "wachttijd": 1.25,
         "totaaltijd": 36.25,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -35167,6 +35063,7 @@
         "wachttijd": 0,
         "totaaltijd": 9,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -35191,6 +35088,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -35212,6 +35110,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -35220,14 +35119,14 @@
         "looptijd": 5,
         "wachttijd": 1.25,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -35235,6 +35134,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -35272,6 +35172,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -36336,6 +36237,7 @@
         "wachttijd": 1.25,
         "totaaltijd": 7.85,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -36528,6 +36430,7 @@
         "wachttijd": 0,
         "totaaltijd": 9,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -36888,6 +36791,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -36909,6 +36813,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -36932,6 +36837,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -36955,6 +36861,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14436",
         "routeId": "13527_14436_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Amstelstation",
@@ -36979,8 +36886,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -36992,6 +36899,7 @@
         "wachttijd": 1.25,
         "totaaltijd": 36.25,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -38478,6 +38386,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 10.75,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -38516,6 +38425,7 @@
         "wachttijd": 0,
         "totaaltijd": 4,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -38540,6 +38450,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -38561,6 +38472,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -38569,14 +38481,14 @@
         "looptijd": 5,
         "wachttijd": 1.25,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -38584,6 +38496,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -38607,6 +38520,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -38644,6 +38558,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -39708,6 +39623,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 12.85,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -39895,6 +39811,7 @@
         "wachttijd": 0,
         "totaaltijd": 10,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -40542,6 +40459,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -41606,6 +41524,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 14.65,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -41988,6 +41907,7 @@
         "wachttijd": 0,
         "totaaltijd": 9,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -42012,6 +41932,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -42033,6 +41954,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -42056,6 +41978,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -42079,6 +42002,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -42102,6 +42026,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -42123,6 +42048,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -42146,6 +42072,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -42169,6 +42096,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14644",
         "routeId": "13527_14644_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Wijttenbachstraat",
@@ -42193,8 +42121,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -42206,6 +42134,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 37.75,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -43690,6 +43619,7 @@
         "wachttijd": 0,
         "totaaltijd": 14,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -43714,6 +43644,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -43735,6 +43666,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -43743,14 +43675,14 @@
         "looptijd": 4,
         "wachttijd": 3.75,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -43758,6 +43690,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -43795,6 +43728,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -44859,6 +44793,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 12.85,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -45049,6 +44984,7 @@
         "wachttijd": 0,
         "totaaltijd": 14,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -45655,6 +45591,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -45676,6 +45613,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -45699,6 +45637,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -45722,6 +45661,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14966",
         "routeId": "13527_14966_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Javaplein",
@@ -45746,8 +45686,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -45759,6 +45699,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 38.75,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99992",
         "routeId": "13527_99992_oud",
         "trajectNaam": "Volendam, Stadskantoor - Zuid",
@@ -47243,6 +47184,7 @@
         "wachttijd": 0,
         "totaaltijd": 17,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99992",
         "routeId": "13527_99992_oud",
         "trajectNaam": "Volendam, Stadskantoor - Zuid",
@@ -47267,6 +47209,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99992",
         "routeId": "13527_99992_oud",
         "trajectNaam": "Volendam, Stadskantoor - Zuid",
@@ -47288,6 +47231,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99992",
         "routeId": "13527_99992_oud",
         "trajectNaam": "Volendam, Stadskantoor - Zuid",
@@ -47296,14 +47240,14 @@
         "looptijd": 5,
         "wachttijd": 3.75,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -47311,6 +47255,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_99992",
         "routeId": "13527_99992_oud",
         "trajectNaam": "Volendam, Stadskantoor - Zuid",
@@ -47348,6 +47293,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99992",
         "routeId": "13527_99992_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Zuid",
@@ -48412,6 +48358,7 @@
         "wachttijd": 0,
         "totaaltijd": 14.8,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99992",
         "routeId": "13527_99992_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Zuid",
@@ -48896,6 +48843,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99992",
         "routeId": "13527_99992_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Zuid",
@@ -48917,6 +48865,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99992",
         "routeId": "13527_99992_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Zuid",
@@ -48940,6 +48889,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_99992",
         "routeId": "13527_99992_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Zuid",
@@ -48964,8 +48914,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -48977,6 +48927,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 38.75,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -50461,6 +50412,7 @@
         "wachttijd": 0,
         "totaaltijd": 18,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -50485,6 +50437,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -50506,6 +50459,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -50514,14 +50468,14 @@
         "looptijd": 5,
         "wachttijd": 3.75,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -50529,6 +50483,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -50566,6 +50521,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -51630,6 +51586,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 17.55,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -52128,6 +52085,7 @@
         "wachttijd": 0,
         "totaaltijd": 2,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -52152,6 +52110,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -52173,6 +52132,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -52196,6 +52156,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -52219,6 +52180,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14339",
         "routeId": "13527_14339_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, De Boelelaan/VU",
@@ -52256,6 +52218,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 39.5,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -54080,6 +54043,7 @@
         "wachttijd": 0,
         "totaaltijd": 15,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -54899,6 +54863,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -54920,6 +54885,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -54943,6 +54909,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -54980,6 +54947,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -56044,6 +56012,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 17.15,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -56434,6 +56403,7 @@
         "wachttijd": 0,
         "totaaltijd": 9,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -56815,6 +56785,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -57879,6 +57850,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 10.6,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -58069,6 +58041,7 @@
         "wachttijd": 0,
         "totaaltijd": 15,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -58902,6 +58875,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_C",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -59966,6 +59940,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 14.65,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_C",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60348,6 +60323,7 @@
         "wachttijd": 0,
         "totaaltijd": 7,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_C",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60372,6 +60348,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60393,6 +60370,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60416,6 +60394,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60439,6 +60418,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60462,6 +60442,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60483,6 +60464,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60506,6 +60488,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60529,6 +60512,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60552,6 +60536,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_C",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60573,6 +60558,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_C",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60596,6 +60582,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_C",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60619,6 +60606,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15462",
         "routeId": "13527_15462_nieuw_C",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ten Katestraat",
@@ -60656,6 +60644,7 @@
         "wachttijd": 1.25,
         "totaaltijd": 39.25,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -62481,6 +62470,7 @@
         "wachttijd": 0,
         "totaaltijd": 22,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -63544,6 +63534,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -63565,6 +63556,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -63588,6 +63580,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -63625,6 +63618,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -64689,6 +64683,7 @@
         "wachttijd": 0,
         "totaaltijd": 7.1,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -64879,6 +64874,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -65943,6 +65939,7 @@
         "wachttijd": 3,
         "totaaltijd": 20.8,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -66441,6 +66438,7 @@
         "wachttijd": 0,
         "totaaltijd": 17,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -66465,6 +66463,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -66486,6 +66485,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -66509,6 +66509,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -66532,6 +66533,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -66553,6 +66555,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -66576,6 +66579,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -66599,6 +66603,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15569",
         "routeId": "13527_15569_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Surinameplein",
@@ -66623,8 +66628,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -66636,6 +66641,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 36.75,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14420",
         "routeId": "13527_14420_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Albert Cuypstraat",
@@ -68120,6 +68126,7 @@
         "wachttijd": 0,
         "totaaltijd": 17,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14420",
         "routeId": "13527_14420_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Albert Cuypstraat",
@@ -68144,6 +68151,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14420",
         "routeId": "13527_14420_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Albert Cuypstraat",
@@ -68165,6 +68173,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14420",
         "routeId": "13527_14420_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Albert Cuypstraat",
@@ -68173,14 +68182,14 @@
         "looptijd": 3,
         "wachttijd": 3.75,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -68188,6 +68197,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14420",
         "routeId": "13527_14420_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Albert Cuypstraat",
@@ -68225,6 +68235,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14420",
         "routeId": "13527_14420_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Albert Cuypstraat",
@@ -69289,6 +69300,7 @@
         "wachttijd": 0,
         "totaaltijd": 11.4,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14420",
         "routeId": "13527_14420_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Albert Cuypstraat",
@@ -69665,6 +69677,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14420",
         "routeId": "13527_14420_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Albert Cuypstraat",
@@ -69686,6 +69699,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14420",
         "routeId": "13527_14420_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Albert Cuypstraat",
@@ -69709,6 +69723,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14420",
         "routeId": "13527_14420_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Albert Cuypstraat",
@@ -69733,8 +69748,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -69746,6 +69761,7 @@
         "wachttijd": 5,
         "totaaltijd": 38,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -71230,6 +71246,7 @@
         "wachttijd": 0,
         "totaaltijd": 17,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -71254,6 +71271,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -71275,6 +71293,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -71283,14 +71302,14 @@
         "looptijd": 3,
         "wachttijd": 5,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -71298,6 +71317,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -71335,6 +71355,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -72399,6 +72420,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 17.15,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -72789,6 +72811,7 @@
         "wachttijd": 0,
         "totaaltijd": 2,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -72860,6 +72883,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -72881,6 +72905,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -72904,6 +72929,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -72927,6 +72953,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15871",
         "routeId": "13527_15871_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Ceintuurbaan",
@@ -72951,8 +72978,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -72964,6 +72991,7 @@
         "wachttijd": 5,
         "totaaltijd": 38,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -74448,6 +74476,7 @@
         "wachttijd": 0,
         "totaaltijd": 25,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -74472,6 +74501,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -74493,6 +74523,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -74501,14 +74532,14 @@
         "looptijd": 3,
         "wachttijd": 5,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -74516,6 +74547,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -74553,6 +74585,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -75617,6 +75650,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 18.15,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -76047,6 +76081,7 @@
         "wachttijd": 0,
         "totaaltijd": 2,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -76071,6 +76106,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -76092,6 +76128,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -76115,6 +76152,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -76138,6 +76176,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14738",
         "routeId": "13527_14738_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Maasstraat",
@@ -76162,8 +76201,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -76175,6 +76214,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 36.75,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -77659,6 +77699,7 @@
         "wachttijd": 0,
         "totaaltijd": 26,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -77683,6 +77724,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -77704,6 +77746,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -77712,14 +77755,14 @@
         "looptijd": 3,
         "wachttijd": 3.75,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -77727,6 +77770,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -77764,6 +77808,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -78828,6 +78873,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 17.15,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -79218,6 +79264,7 @@
         "wachttijd": 0,
         "totaaltijd": 6,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -79450,6 +79497,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -79471,6 +79519,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -79494,6 +79543,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -79517,6 +79567,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14356",
         "routeId": "13527_14356_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Minervaplein",
@@ -79554,6 +79605,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 41.75,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -81378,6 +81430,7 @@
         "wachttijd": 0,
         "totaaltijd": 22,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -82623,6 +82676,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -82644,6 +82698,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -82667,6 +82722,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -82704,6 +82760,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -83768,6 +83825,7 @@
         "wachttijd": 2,
         "totaaltijd": 15.4,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -84159,6 +84217,7 @@
         "wachttijd": 3,
         "totaaltijd": 8,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -84308,6 +84367,7 @@
         "wachttijd": 0,
         "totaaltijd": 4,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -84559,6 +84619,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -85623,6 +85684,7 @@
         "wachttijd": 3,
         "totaaltijd": 20.8,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86121,6 +86183,7 @@
         "wachttijd": 3,
         "totaaltijd": 8,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86159,6 +86222,7 @@
         "wachttijd": 0,
         "totaaltijd": 1,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86183,6 +86247,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86204,6 +86269,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86227,6 +86293,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86250,6 +86317,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86273,6 +86341,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86296,6 +86365,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86317,6 +86387,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86340,6 +86411,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86363,6 +86435,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86386,6 +86459,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14681",
         "routeId": "13527_14681_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Valeriusplein",
@@ -86423,6 +86497,7 @@
         "wachttijd": 1.5,
         "totaaltijd": 39.5,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_oud_via_CS",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -88244,6 +88319,7 @@
         "wachttijd": 0,
         "totaaltijd": 6,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_oud_via_CS",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -89199,6 +89275,7 @@
         "wachttijd": 5,
         "totaaltijd": 25,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_oud_via_Schouw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -90160,6 +90237,7 @@
         "wachttijd": 0,
         "totaaltijd": 20,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_oud_via_Schouw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -90184,6 +90262,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_oud_via_CS",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -90205,6 +90284,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_oud_via_CS",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -90228,6 +90308,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_oud_via_CS",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -90251,6 +90332,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_oud_via_Schouw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -90272,6 +90354,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_oud_via_Schouw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -90295,6 +90378,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_oud_via_Schouw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -90332,6 +90416,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -91396,6 +91481,7 @@
         "wachttijd": 1.5,
         "totaaltijd": 10.6,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -91583,6 +91669,7 @@
         "wachttijd": 0,
         "totaaltijd": 6,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -92524,6 +92611,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -92545,6 +92633,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -92568,6 +92657,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -92591,6 +92681,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14851",
         "routeId": "13527_14851_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Sloterdijk",
@@ -92628,6 +92719,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 41.75,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -94452,6 +94544,7 @@
         "wachttijd": 0,
         "totaaltijd": 18,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -95331,6 +95424,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -95352,6 +95446,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -95375,6 +95470,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -95412,6 +95508,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -96476,6 +96573,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 12.85,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -96666,6 +96764,7 @@
         "wachttijd": 0,
         "totaaltijd": 18,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -97545,6 +97644,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -97566,6 +97666,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -97589,6 +97690,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -97612,6 +97714,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_13417",
         "routeId": "13527_13417_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Mercatorplein",
@@ -97649,6 +97752,7 @@
         "wachttijd": 1.25,
         "totaaltijd": 39.25,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -99474,6 +99578,7 @@
         "wachttijd": 0,
         "totaaltijd": 22,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -100663,6 +100768,7 @@
         "wachttijd": 7.5,
         "totaaltijd": 44.5,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_oud_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -102484,6 +102590,7 @@
         "wachttijd": 0,
         "totaaltijd": 11,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_oud_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -103837,6 +103944,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -103858,6 +103966,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -103881,6 +103990,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_oud",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -103904,6 +104014,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_oud_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -103925,6 +104036,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_oud_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -103948,6 +104060,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_oud_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -103985,6 +104098,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -105049,6 +105163,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 17.55,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -105547,6 +105662,7 @@
         "wachttijd": 0,
         "totaaltijd": 11,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -105585,6 +105701,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -106649,6 +106766,7 @@
         "wachttijd": 1.25,
         "totaaltijd": 9.35,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -106840,6 +106958,7 @@
         "wachttijd": 0,
         "totaaltijd": 22,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -108029,6 +108148,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -109093,6 +109213,7 @@
         "wachttijd": 7.5,
         "totaaltijd": 16.6,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -109280,6 +109401,7 @@
         "wachttijd": 0,
         "totaaltijd": 11,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110633,6 +110755,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110654,6 +110777,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110677,6 +110801,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110700,6 +110825,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_A",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110723,6 +110849,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110744,6 +110871,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110767,6 +110895,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110790,6 +110919,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_B",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110813,6 +110943,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110834,6 +110965,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110857,6 +110989,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110880,6 +111013,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_14386",
         "routeId": "13527_14386_nieuw_trein",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Lelylaan",
@@ -110917,6 +111051,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 41.75,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_oud_CS",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -112741,6 +112876,7 @@
         "wachttijd": 0,
         "totaaltijd": 20,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_oud_CS",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -113531,6 +113667,7 @@
         "wachttijd": 7.5,
         "totaaltijd": 27.5,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_oud_Bizzliner",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -114493,6 +114630,7 @@
         "wachttijd": 0,
         "totaaltijd": 30,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_oud_Bizzliner",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -114517,6 +114655,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_oud_CS",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -114538,6 +114677,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_oud_CS",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -114561,6 +114701,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_oud_CS",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -114584,6 +114725,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_oud_Bizzliner",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -114605,6 +114747,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_oud_Bizzliner",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -114628,6 +114771,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_oud_Bizzliner",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -114665,6 +114809,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -115729,6 +115874,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 12.85,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -115919,6 +116065,7 @@
         "wachttijd": 0,
         "totaaltijd": 20,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -116695,6 +116842,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -116716,6 +116864,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -116739,6 +116888,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -116762,6 +116912,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15146",
         "routeId": "13527_15146_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Station Holendrecht",
@@ -116786,8 +116937,8 @@
       "properties": {
         "start_id": "13527",
         "start_naam": "Volendam, Stadskantoor",
-        "end_id": "14400",
-        "end_naam": "Amsterdam, Prins Hendrikkade",
+        "end_id": "13651",
+        "end_naam": "Amsterdam, Pr. Hendrikkade",
         "transport_type": "bus",
         "transport_nrs": [
           "312"
@@ -116799,6 +116950,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 38.75,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_oud",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",
@@ -118283,6 +118435,7 @@
         "wachttijd": 0,
         "totaaltijd": 13,
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_oud",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",
@@ -118307,6 +118460,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_oud",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",
@@ -118328,6 +118482,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_oud",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",
@@ -118336,14 +118491,14 @@
         "looptijd": 5,
         "wachttijd": 3.75,
         "function": "overstap",
-        "naam": "Amsterdam, Prins Hendrikkade",
-        "id": "14400"
+        "naam": "Amsterdam, Pr. Hendrikkade",
+        "id": "13651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.904557,
-          52.374479
+          4.902165,
+          52.376977
         ]
       }
     },
@@ -118351,6 +118506,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_oud",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",
@@ -118388,6 +118544,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 29.5,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",
@@ -119452,6 +119609,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 12.85,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",
@@ -119642,6 +119800,7 @@
         "wachttijd": 0,
         "totaaltijd": 13,
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",
@@ -120230,6 +120389,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",
@@ -120251,6 +120411,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",
@@ -120274,6 +120435,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",
@@ -120297,6 +120459,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "13527",
         "trajectId": "13527_15604",
         "routeId": "13527_15604_nieuw",
         "trajectNaam": "Volendam, Stadskantoor - Duivendrecht, Station Duivendrecht",

@@ -16,6 +16,7 @@
         "wachttijd": 0,
         "totaaltijd": 24,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14404",
         "routeId": "34294_14404_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Centraal Station",
@@ -3249,6 +3250,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14404",
         "routeId": "34294_14404_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Centraal Station",
@@ -3270,6 +3272,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14404",
         "routeId": "34294_14404_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Centraal Station",
@@ -3304,6 +3307,7 @@
         "wachttijd": 0,
         "totaaltijd": 24,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14404",
         "routeId": "34294_14404_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Centraal Station",
@@ -6537,6 +6541,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14404",
         "routeId": "34294_14404_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Centraal Station",
@@ -6558,6 +6563,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14404",
         "routeId": "34294_14404_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Centraal Station",
@@ -6592,6 +6598,7 @@
         "wachttijd": 1.5,
         "totaaltijd": 28.5,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_oud_trein_via_CS",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -9841,6 +9848,7 @@
         "wachttijd": 0,
         "totaaltijd": 6,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_oud_trein_via_CS",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -9900,6 +9908,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_oud_trein_via_Lelylaan",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -11595,6 +11604,7 @@
         "wachttijd": 0,
         "totaaltijd": 18,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_oud_trein_via_Lelylaan",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -12462,6 +12472,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_oud_trein_via_CS",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -12483,6 +12494,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_oud_trein_via_CS",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -12506,6 +12518,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_oud_trein_via_CS",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -12529,6 +12542,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_oud_trein_via_Lelylaan",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -12550,6 +12564,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_oud_trein_via_Lelylaan",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -12573,6 +12588,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_oud_trein_via_Lelylaan",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -12607,6 +12623,7 @@
         "wachttijd": 1.5,
         "totaaltijd": 28.5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_nieuw_trein",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -15856,6 +15873,7 @@
         "wachttijd": 0,
         "totaaltijd": 6,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_nieuw_trein",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -15915,6 +15933,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_nieuw_nzl",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -16533,6 +16552,7 @@
         "wachttijd": 0,
         "totaaltijd": 9.4,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_nieuw_nzl",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -16557,6 +16577,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_nieuw_trein",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -16578,6 +16599,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_nieuw_trein",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -16601,6 +16623,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_nieuw_trein",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -16624,6 +16647,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_nieuw_nzl",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -16645,6 +16669,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_nieuw_nzl",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -16668,6 +16693,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99996",
         "routeId": "34294_99996_nieuw_nzl",
         "trajectNaam": "Hoofddorp, Station - Rokin",
@@ -16702,6 +16728,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 15.75,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -17320,6 +17347,7 @@
         "wachttijd": 0,
         "totaaltijd": 17,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -17344,6 +17372,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -17365,6 +17394,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -17388,6 +17418,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -17422,6 +17453,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -18040,6 +18072,7 @@
         "wachttijd": 1,
         "totaaltijd": 10.6,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -18080,6 +18113,7 @@
         "wachttijd": 0,
         "totaaltijd": 5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -18104,6 +18138,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -18125,6 +18160,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -18148,6 +18184,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -18171,6 +18208,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14584",
         "routeId": "34294_14584_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Waterlooplein",
@@ -18205,6 +18243,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 28.75,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_oud_trein_via_CS",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -21452,6 +21491,7 @@
         "wachttijd": 0,
         "totaaltijd": 5,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_oud_trein_via_CS",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -21487,6 +21527,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_oud_trein_via_Lelylaan",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -23182,6 +23223,7 @@
         "wachttijd": 0,
         "totaaltijd": 18,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_oud_trein_via_Lelylaan",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -23854,6 +23896,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_oud_trein_via_CS",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -23875,6 +23918,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_oud_trein_via_CS",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -23898,6 +23942,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_oud_trein_via_CS",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -23921,6 +23966,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_oud_trein_via_Lelylaan",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -23942,6 +23988,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_oud_trein_via_Lelylaan",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -23965,6 +24012,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_oud_trein_via_Lelylaan",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -23999,6 +24047,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -24617,6 +24666,7 @@
         "wachttijd": 0,
         "totaaltijd": 20.4,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -24641,6 +24691,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -24662,6 +24713,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -24685,6 +24737,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14509",
         "routeId": "34294_14509_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Westermarkt",
@@ -24719,6 +24772,7 @@
         "wachttijd": 1.5,
         "totaaltijd": 29.5,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15687",
         "routeId": "34294_15687_oud_via_CS",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Haarlemmerplein",
@@ -27968,6 +28022,7 @@
         "wachttijd": 0,
         "totaaltijd": 8,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15687",
         "routeId": "34294_15687_oud_via_CS",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Haarlemmerplein",
@@ -28333,6 +28388,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 22.75,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15687",
         "routeId": "34294_15687_oud_via_Sloterdijk",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Haarlemmerplein",
@@ -30480,6 +30536,7 @@
         "wachttijd": 0,
         "totaaltijd": 21,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15687",
         "routeId": "34294_15687_oud_via_Sloterdijk",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Haarlemmerplein",
@@ -30504,6 +30561,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15687",
         "routeId": "34294_15687_oud_via_CS",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Haarlemmerplein",
@@ -30525,6 +30583,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15687",
         "routeId": "34294_15687_oud_via_CS",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Haarlemmerplein",
@@ -30548,6 +30607,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15687",
         "routeId": "34294_15687_oud_via_CS",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Haarlemmerplein",
@@ -30571,6 +30631,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15687",
         "routeId": "34294_15687_oud_via_Sloterdijk",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Haarlemmerplein",
@@ -30592,6 +30653,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15687",
         "routeId": "34294_15687_oud_via_Sloterdijk",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Haarlemmerplein",
@@ -30615,6 +30677,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15687",
         "routeId": "34294_15687_oud_via_Sloterdijk",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Haarlemmerplein",
@@ -30652,6 +30715,7 @@
         "wachttijd": 0,
         "totaaltijd": 44,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_oud_bus",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -32753,6 +32817,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_oud_trein",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -34448,6 +34513,7 @@
         "wachttijd": 0,
         "totaaltijd": 12,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_oud_trein",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -34891,6 +34957,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_oud_bus",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -34912,6 +34979,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_oud_bus",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -34935,6 +35003,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_oud_trein",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -34956,6 +35025,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_oud_trein",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -34979,6 +35049,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_oud_trein",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -35013,6 +35084,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -35631,6 +35703,7 @@
         "wachttijd": 1,
         "totaaltijd": 10.6,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -35671,6 +35744,7 @@
         "wachttijd": 0,
         "totaaltijd": 3,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -35695,6 +35769,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -35716,6 +35791,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -35739,6 +35815,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -35762,6 +35839,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14649",
         "routeId": "34294_14649_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Leidseplein",
@@ -35796,6 +35874,7 @@
         "wachttijd": 2,
         "totaaltijd": 29,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14623",
         "routeId": "34294_14623_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Muziekgeb. Bimhuis",
@@ -39037,12 +39116,13 @@
           "26"
         ],
         "traject_name": "CS_Muziekgebouw",
-        "traject_stops": "{\"type\":\"Feature\",\"properties\":{\"operator\":\"GVB\",\"route\":\"tram\",\"from\":\"IJburg\",\"name\":\"Tram 26: IJburg => Centraal Station\",\"colour\":\"#d59758\",\"network\":\"Stadsvervoer Amsterdam\",\"public_transport:version\":\"2\",\"ref\":\"26\",\"type\":\"route\",\"@id\":\"relation/4514562\",\"to\":\"Centraal Station\"},\"geometry\":{\"coordinates\":[[4.921354,52.376169],[4.919878,52.376372],[4.917817,52.376661],[4.91581,52.376919],[4.915331,52.376979],[4.91343,52.377206],[4.912994,52.377253],[4.91288,52.377266],[4.912505,52.377304],[4.912128,52.37734],[4.91126,52.377406],[4.910484,52.377462],[4.909792,52.377514],[4.909654,52.377526],[4.909519,52.377541],[4.908698,52.377649],[4.908221,52.377709],[4.907534,52.377802],[4.90642,52.377952],[4.905241,52.378104],[4.904788,52.378164],[4.904455,52.378214],[4.904413,52.378218],[4.904371,52.378219],[4.904293,52.378212],[4.904242,52.378205],[4.904163,52.378185],[4.904114,52.378169],[4.904035,52.378128],[4.904004,52.378106],[4.903958,52.37807],[4.903927,52.378039],[4.903408,52.377501],[4.903381,52.377477],[4.903356,52.377458],[4.903324,52.377441],[4.903294,52.377426],[4.903257,52.377412],[4.903214,52.377399],[4.903176,52.37739],[4.903132,52.37738],[4.90308,52.377374],[4.902998,52.37737],[4.902945,52.377374],[4.90289,52.377379],[4.90281,52.377393],[4.90273,52.377411],[4.902645,52.377433],[4.902566,52.377457],[4.902473,52.377489],[4.90243,52.377505],[4.902373,52.377526],[4.90211,52.377619],[4.902043,52.377643],[4.901875,52.377705],[4.901747,52.377754],[4.901721,52.377764],[4.901694,52.377771],[4.901668,52.377779],[4.901641,52.377786],[4.90161,52.377793],[4.901587,52.377796],[4.901561,52.377801],[4.901537,52.377804],[4.901512,52.377807],[4.90123,52.377828],[4.900942,52.377849]],\"type\":\"LineString\"}}",
+        "traject_stops": "{\"type\":\"Feature\",\"properties\":{\"operator\":\"GVB\",\"route\":\"tram\",\"from\":\"IJburg\",\"name\":\"Tram 26: IJburg => Centraal Station\",\"colour\":\"#d59758\",\"network\":\"Stadsvervoer Amsterdam\",\"public_transport:version\":\"2\",\"ref\":\"26\",\"type\":\"route\",\"@id\":\"relation/4514562\",\"to\":\"Centraal Station\"},\"geometry\":{\"coordinates\":[[4.91288,52.377266],[4.912505,52.377304],[4.912128,52.37734],[4.91126,52.377406],[4.910484,52.377462],[4.909792,52.377514],[4.909654,52.377526],[4.909519,52.377541],[4.908698,52.377649],[4.908221,52.377709],[4.907534,52.377802],[4.90642,52.377952],[4.905241,52.378104],[4.904788,52.378164],[4.904455,52.378214],[4.904413,52.378218],[4.904371,52.378219],[4.904293,52.378212],[4.904242,52.378205],[4.904163,52.378185],[4.904114,52.378169],[4.904035,52.378128],[4.904004,52.378106],[4.903958,52.37807],[4.903927,52.378039],[4.903408,52.377501],[4.903381,52.377477],[4.903356,52.377458],[4.903324,52.377441],[4.903294,52.377426],[4.903257,52.377412],[4.903214,52.377399],[4.903176,52.37739],[4.903132,52.37738],[4.90308,52.377374],[4.902998,52.37737],[4.902945,52.377374],[4.90289,52.377379]],\"type\":\"LineString\"}}",
         "reistijd": 5,
         "looptijd": 0,
         "wachttijd": 0,
         "totaaltijd": 5,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14623",
         "routeId": "34294_14623_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Muziekgeb. Bimhuis",
@@ -39062,34 +39142,6 @@
       },
       "geometry": {
         "coordinates": [
-          [
-            4.921354,
-            52.376169
-          ],
-          [
-            4.919878,
-            52.376372
-          ],
-          [
-            4.917817,
-            52.376661
-          ],
-          [
-            4.91581,
-            52.376919
-          ],
-          [
-            4.915331,
-            52.376979
-          ],
-          [
-            4.91343,
-            52.377206
-          ],
-          [
-            4.912994,
-            52.377253
-          ],
           [
             4.91288,
             52.377266
@@ -39241,94 +39293,6 @@
           [
             4.90289,
             52.377379
-          ],
-          [
-            4.90281,
-            52.377393
-          ],
-          [
-            4.90273,
-            52.377411
-          ],
-          [
-            4.902645,
-            52.377433
-          ],
-          [
-            4.902566,
-            52.377457
-          ],
-          [
-            4.902473,
-            52.377489
-          ],
-          [
-            4.90243,
-            52.377505
-          ],
-          [
-            4.902373,
-            52.377526
-          ],
-          [
-            4.90211,
-            52.377619
-          ],
-          [
-            4.902043,
-            52.377643
-          ],
-          [
-            4.901875,
-            52.377705
-          ],
-          [
-            4.901747,
-            52.377754
-          ],
-          [
-            4.901721,
-            52.377764
-          ],
-          [
-            4.901694,
-            52.377771
-          ],
-          [
-            4.901668,
-            52.377779
-          ],
-          [
-            4.901641,
-            52.377786
-          ],
-          [
-            4.90161,
-            52.377793
-          ],
-          [
-            4.901587,
-            52.377796
-          ],
-          [
-            4.901561,
-            52.377801
-          ],
-          [
-            4.901537,
-            52.377804
-          ],
-          [
-            4.901512,
-            52.377807
-          ],
-          [
-            4.90123,
-            52.377828
-          ],
-          [
-            4.900942,
-            52.377849
           ]
         ],
         "type": "LineString"
@@ -39338,6 +39302,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14623",
         "routeId": "34294_14623_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Muziekgeb. Bimhuis",
@@ -39359,6 +39324,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14623",
         "routeId": "34294_14623_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Muziekgeb. Bimhuis",
@@ -39382,6 +39348,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14623",
         "routeId": "34294_14623_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Muziekgeb. Bimhuis",
@@ -39416,6 +39383,7 @@
         "wachttijd": 2,
         "totaaltijd": 29,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14623",
         "routeId": "34294_14623_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Muziekgeb. Bimhuis",
@@ -42657,12 +42625,13 @@
           "26"
         ],
         "traject_name": "CS_Muziekgebouw",
-        "traject_stops": "{\"type\":\"Feature\",\"properties\":{\"operator\":\"GVB\",\"route\":\"tram\",\"from\":\"IJburg\",\"name\":\"Tram 26: IJburg => Centraal Station\",\"colour\":\"#d59758\",\"network\":\"Stadsvervoer Amsterdam\",\"public_transport:version\":\"2\",\"ref\":\"26\",\"type\":\"route\",\"@id\":\"relation/4514562\",\"to\":\"Centraal Station\"},\"geometry\":{\"coordinates\":[[4.921354,52.376169],[4.919878,52.376372],[4.917817,52.376661],[4.91581,52.376919],[4.915331,52.376979],[4.91343,52.377206],[4.912994,52.377253],[4.91288,52.377266],[4.912505,52.377304],[4.912128,52.37734],[4.91126,52.377406],[4.910484,52.377462],[4.909792,52.377514],[4.909654,52.377526],[4.909519,52.377541],[4.908698,52.377649],[4.908221,52.377709],[4.907534,52.377802],[4.90642,52.377952],[4.905241,52.378104],[4.904788,52.378164],[4.904455,52.378214],[4.904413,52.378218],[4.904371,52.378219],[4.904293,52.378212],[4.904242,52.378205],[4.904163,52.378185],[4.904114,52.378169],[4.904035,52.378128],[4.904004,52.378106],[4.903958,52.37807],[4.903927,52.378039],[4.903408,52.377501],[4.903381,52.377477],[4.903356,52.377458],[4.903324,52.377441],[4.903294,52.377426],[4.903257,52.377412],[4.903214,52.377399],[4.903176,52.37739],[4.903132,52.37738],[4.90308,52.377374],[4.902998,52.37737],[4.902945,52.377374],[4.90289,52.377379],[4.90281,52.377393],[4.90273,52.377411],[4.902645,52.377433],[4.902566,52.377457],[4.902473,52.377489],[4.90243,52.377505],[4.902373,52.377526],[4.90211,52.377619],[4.902043,52.377643],[4.901875,52.377705],[4.901747,52.377754],[4.901721,52.377764],[4.901694,52.377771],[4.901668,52.377779],[4.901641,52.377786],[4.90161,52.377793],[4.901587,52.377796],[4.901561,52.377801],[4.901537,52.377804],[4.901512,52.377807],[4.90123,52.377828],[4.900942,52.377849]],\"type\":\"LineString\"}}",
+        "traject_stops": "{\"type\":\"Feature\",\"properties\":{\"operator\":\"GVB\",\"route\":\"tram\",\"from\":\"IJburg\",\"name\":\"Tram 26: IJburg => Centraal Station\",\"colour\":\"#d59758\",\"network\":\"Stadsvervoer Amsterdam\",\"public_transport:version\":\"2\",\"ref\":\"26\",\"type\":\"route\",\"@id\":\"relation/4514562\",\"to\":\"Centraal Station\"},\"geometry\":{\"coordinates\":[[4.91288,52.377266],[4.912505,52.377304],[4.912128,52.37734],[4.91126,52.377406],[4.910484,52.377462],[4.909792,52.377514],[4.909654,52.377526],[4.909519,52.377541],[4.908698,52.377649],[4.908221,52.377709],[4.907534,52.377802],[4.90642,52.377952],[4.905241,52.378104],[4.904788,52.378164],[4.904455,52.378214],[4.904413,52.378218],[4.904371,52.378219],[4.904293,52.378212],[4.904242,52.378205],[4.904163,52.378185],[4.904114,52.378169],[4.904035,52.378128],[4.904004,52.378106],[4.903958,52.37807],[4.903927,52.378039],[4.903408,52.377501],[4.903381,52.377477],[4.903356,52.377458],[4.903324,52.377441],[4.903294,52.377426],[4.903257,52.377412],[4.903214,52.377399],[4.903176,52.37739],[4.903132,52.37738],[4.90308,52.377374],[4.902998,52.37737],[4.902945,52.377374],[4.90289,52.377379]],\"type\":\"LineString\"}}",
         "reistijd": 5,
         "looptijd": 0,
         "wachttijd": 0,
         "totaaltijd": 5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14623",
         "routeId": "34294_14623_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Muziekgeb. Bimhuis",
@@ -42682,34 +42651,6 @@
       },
       "geometry": {
         "coordinates": [
-          [
-            4.921354,
-            52.376169
-          ],
-          [
-            4.919878,
-            52.376372
-          ],
-          [
-            4.917817,
-            52.376661
-          ],
-          [
-            4.91581,
-            52.376919
-          ],
-          [
-            4.915331,
-            52.376979
-          ],
-          [
-            4.91343,
-            52.377206
-          ],
-          [
-            4.912994,
-            52.377253
-          ],
           [
             4.91288,
             52.377266
@@ -42861,94 +42802,6 @@
           [
             4.90289,
             52.377379
-          ],
-          [
-            4.90281,
-            52.377393
-          ],
-          [
-            4.90273,
-            52.377411
-          ],
-          [
-            4.902645,
-            52.377433
-          ],
-          [
-            4.902566,
-            52.377457
-          ],
-          [
-            4.902473,
-            52.377489
-          ],
-          [
-            4.90243,
-            52.377505
-          ],
-          [
-            4.902373,
-            52.377526
-          ],
-          [
-            4.90211,
-            52.377619
-          ],
-          [
-            4.902043,
-            52.377643
-          ],
-          [
-            4.901875,
-            52.377705
-          ],
-          [
-            4.901747,
-            52.377754
-          ],
-          [
-            4.901721,
-            52.377764
-          ],
-          [
-            4.901694,
-            52.377771
-          ],
-          [
-            4.901668,
-            52.377779
-          ],
-          [
-            4.901641,
-            52.377786
-          ],
-          [
-            4.90161,
-            52.377793
-          ],
-          [
-            4.901587,
-            52.377796
-          ],
-          [
-            4.901561,
-            52.377801
-          ],
-          [
-            4.901537,
-            52.377804
-          ],
-          [
-            4.901512,
-            52.377807
-          ],
-          [
-            4.90123,
-            52.377828
-          ],
-          [
-            4.900942,
-            52.377849
           ]
         ],
         "type": "LineString"
@@ -42958,6 +42811,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14623",
         "routeId": "34294_14623_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Muziekgeb. Bimhuis",
@@ -42979,6 +42833,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14623",
         "routeId": "34294_14623_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Muziekgeb. Bimhuis",
@@ -43002,6 +42857,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14623",
         "routeId": "34294_14623_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Muziekgeb. Bimhuis",
@@ -43036,6 +42892,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 30.75,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99999",
         "routeId": "34294_99999_oud",
         "trajectNaam": "Hoofddorp, Station - Station Noord",
@@ -46284,6 +46141,7 @@
         "wachttijd": 0,
         "totaaltijd": 12,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99999",
         "routeId": "34294_99999_oud",
         "trajectNaam": "Hoofddorp, Station - Station Noord",
@@ -46308,6 +46166,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99999",
         "routeId": "34294_99999_oud",
         "trajectNaam": "Hoofddorp, Station - Station Noord",
@@ -46329,6 +46188,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99999",
         "routeId": "34294_99999_oud",
         "trajectNaam": "Hoofddorp, Station - Station Noord",
@@ -46352,6 +46212,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99999",
         "routeId": "34294_99999_oud",
         "trajectNaam": "Hoofddorp, Station - Station Noord",
@@ -46386,6 +46247,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99999",
         "routeId": "34294_99999_nieuw",
         "trajectNaam": "Hoofddorp, Station - Station Noord",
@@ -47004,6 +46866,7 @@
         "wachttijd": 0,
         "totaaltijd": 13.8,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99999",
         "routeId": "34294_99999_nieuw",
         "trajectNaam": "Hoofddorp, Station - Station Noord",
@@ -47488,6 +47351,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99999",
         "routeId": "34294_99999_nieuw",
         "trajectNaam": "Hoofddorp, Station - Station Noord",
@@ -47509,6 +47373,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99999",
         "routeId": "34294_99999_nieuw",
         "trajectNaam": "Hoofddorp, Station - Station Noord",
@@ -47532,6 +47397,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99999",
         "routeId": "34294_99999_nieuw",
         "trajectNaam": "Hoofddorp, Station - Station Noord",
@@ -47566,6 +47432,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 15.75,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14436",
         "routeId": "34294_14436_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Amstelstation",
@@ -48184,6 +48051,7 @@
         "wachttijd": 0,
         "totaaltijd": 8,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14436",
         "routeId": "34294_14436_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Amstelstation",
@@ -48208,6 +48076,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14436",
         "routeId": "34294_14436_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Amstelstation",
@@ -48229,6 +48098,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14436",
         "routeId": "34294_14436_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Amstelstation",
@@ -48252,6 +48122,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14436",
         "routeId": "34294_14436_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Amstelstation",
@@ -48286,6 +48157,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 15.75,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14436",
         "routeId": "34294_14436_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Amstelstation",
@@ -48904,6 +48776,7 @@
         "wachttijd": 0,
         "totaaltijd": 8,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14436",
         "routeId": "34294_14436_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Amstelstation",
@@ -48928,6 +48801,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14436",
         "routeId": "34294_14436_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Amstelstation",
@@ -48949,6 +48823,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14436",
         "routeId": "34294_14436_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Amstelstation",
@@ -48972,6 +48847,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14436",
         "routeId": "34294_14436_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Amstelstation",
@@ -49006,6 +48882,7 @@
         "wachttijd": 0,
         "totaaltijd": 12,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99992",
         "routeId": "34294_99992_oud",
         "trajectNaam": "Hoofddorp, Station - Zuid",
@@ -49610,6 +49487,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99992",
         "routeId": "34294_99992_oud",
         "trajectNaam": "Hoofddorp, Station - Zuid",
@@ -49631,6 +49509,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_99992",
         "routeId": "34294_99992_oud",
         "trajectNaam": "Hoofddorp, Station - Zuid",
@@ -49665,6 +49544,7 @@
         "wachttijd": 0,
         "totaaltijd": 12,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99992",
         "routeId": "34294_99992_nieuw",
         "trajectNaam": "Hoofddorp, Station - Zuid",
@@ -50269,6 +50149,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99992",
         "routeId": "34294_99992_nieuw",
         "trajectNaam": "Hoofddorp, Station - Zuid",
@@ -50290,6 +50171,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_99992",
         "routeId": "34294_99992_nieuw",
         "trajectNaam": "Hoofddorp, Station - Zuid",
@@ -50324,6 +50206,7 @@
         "wachttijd": 0,
         "totaaltijd": 22,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14339",
         "routeId": "34294_14339_oud_A",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, De Boelelaan/VU",
@@ -50939,6 +50822,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 15.75,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14339",
         "routeId": "34294_14339_oud_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, De Boelelaan/VU",
@@ -51557,6 +51441,7 @@
         "wachttijd": 0,
         "totaaltijd": 2,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14339",
         "routeId": "34294_14339_oud_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, De Boelelaan/VU",
@@ -51595,6 +51480,7 @@
         "wachttijd": 0,
         "totaaltijd": 33,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14339",
         "routeId": "34294_14339_oud_C",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, De Boelelaan/VU",
@@ -53881,6 +53767,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14339",
         "routeId": "34294_14339_oud_A",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, De Boelelaan/VU",
@@ -53902,6 +53789,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14339",
         "routeId": "34294_14339_oud_A",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, De Boelelaan/VU",
@@ -53925,6 +53813,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14339",
         "routeId": "34294_14339_oud_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, De Boelelaan/VU",
@@ -53946,6 +53835,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14339",
         "routeId": "34294_14339_oud_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, De Boelelaan/VU",
@@ -53969,6 +53859,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14339",
         "routeId": "34294_14339_oud_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, De Boelelaan/VU",
@@ -53992,6 +53883,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14339",
         "routeId": "34294_14339_oud_C",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, De Boelelaan/VU",
@@ -54013,6 +53905,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14339",
         "routeId": "34294_14339_oud_C",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, De Boelelaan/VU",
@@ -54047,6 +53940,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -55742,6 +55636,7 @@
         "wachttijd": 0,
         "totaaltijd": 11,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -56142,6 +56037,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -56163,6 +56059,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -56186,6 +56083,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -56220,6 +56118,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_A",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -56838,6 +56737,7 @@
         "wachttijd": 2,
         "totaaltijd": 10.2,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_A",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -56877,6 +56777,7 @@
         "wachttijd": 0,
         "totaaltijd": 9,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_A",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -57255,6 +57156,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -57873,6 +57775,7 @@
         "wachttijd": 3.75,
         "totaaltijd": 12.35,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -57911,6 +57814,7 @@
         "wachttijd": 0,
         "totaaltijd": 7,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -57935,6 +57839,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_A",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -57956,6 +57861,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_A",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -57979,6 +57885,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_A",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -58002,6 +57909,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_A",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -58025,6 +57933,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -58046,6 +57955,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -58069,6 +57979,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -58092,6 +58003,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15462",
         "routeId": "34294_15462_nieuw_B",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Ten Katestraat",
@@ -58126,6 +58038,7 @@
         "wachttijd": 2,
         "totaaltijd": 16,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15569",
         "routeId": "34294_15569_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Surinameplein",
@@ -59822,6 +59735,7 @@
         "wachttijd": 0,
         "totaaltijd": 2,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15569",
         "routeId": "34294_15569_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Surinameplein",
@@ -59965,6 +59879,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15569",
         "routeId": "34294_15569_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Surinameplein",
@@ -59986,6 +59901,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15569",
         "routeId": "34294_15569_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Surinameplein",
@@ -60009,6 +59925,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15569",
         "routeId": "34294_15569_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Surinameplein",
@@ -60043,6 +59960,7 @@
         "wachttijd": 2,
         "totaaltijd": 16,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15569",
         "routeId": "34294_15569_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Surinameplein",
@@ -61739,6 +61657,7 @@
         "wachttijd": 0,
         "totaaltijd": 2,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15569",
         "routeId": "34294_15569_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Surinameplein",
@@ -61882,6 +61801,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15569",
         "routeId": "34294_15569_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Surinameplein",
@@ -61903,6 +61823,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15569",
         "routeId": "34294_15569_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Surinameplein",
@@ -61926,6 +61847,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15569",
         "routeId": "34294_15569_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Surinameplein",
@@ -61963,6 +61885,7 @@
         "wachttijd": 5,
         "totaaltijd": 36,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14420",
         "routeId": "34294_14420_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Albert Cuypstraat",
@@ -63571,6 +63494,7 @@
         "wachttijd": 0,
         "totaaltijd": 12,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14420",
         "routeId": "34294_14420_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Albert Cuypstraat",
@@ -63595,6 +63519,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14420",
         "routeId": "34294_14420_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Albert Cuypstraat",
@@ -63616,6 +63541,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14420",
         "routeId": "34294_14420_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Albert Cuypstraat",
@@ -63639,6 +63565,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14420",
         "routeId": "34294_14420_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Albert Cuypstraat",
@@ -63673,6 +63600,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14420",
         "routeId": "34294_14420_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Albert Cuypstraat",
@@ -64291,6 +64219,7 @@
         "wachttijd": 0,
         "totaaltijd": 8.2,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14420",
         "routeId": "34294_14420_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Albert Cuypstraat",
@@ -64315,6 +64244,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14420",
         "routeId": "34294_14420_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Albert Cuypstraat",
@@ -64336,6 +64266,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14420",
         "routeId": "34294_14420_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Albert Cuypstraat",
@@ -64359,6 +64290,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14420",
         "routeId": "34294_14420_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Albert Cuypstraat",
@@ -64396,6 +64328,7 @@
         "wachttijd": 0,
         "totaaltijd": 40,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14577",
         "routeId": "34294_14577_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Museumplein",
@@ -66322,6 +66255,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14577",
         "routeId": "34294_14577_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Museumplein",
@@ -66343,6 +66277,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14577",
         "routeId": "34294_14577_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Museumplein",
@@ -66377,6 +66312,7 @@
         "wachttijd": 2.5,
         "totaaltijd": 16.5,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14577",
         "routeId": "34294_14577_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Museumplein",
@@ -66995,6 +66931,7 @@
         "wachttijd": 2,
         "totaaltijd": 10.2,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14577",
         "routeId": "34294_14577_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Museumplein",
@@ -67034,6 +66971,7 @@
         "wachttijd": 0,
         "totaaltijd": 4,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14577",
         "routeId": "34294_14577_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Museumplein",
@@ -67169,6 +67107,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14577",
         "routeId": "34294_14577_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Museumplein",
@@ -67190,6 +67129,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14577",
         "routeId": "34294_14577_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Museumplein",
@@ -67213,6 +67153,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14577",
         "routeId": "34294_14577_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Museumplein",
@@ -67236,6 +67177,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14577",
         "routeId": "34294_14577_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Museumplein",
@@ -67273,6 +67215,7 @@
         "wachttijd": 5,
         "totaaltijd": 36,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14354",
         "routeId": "34294_14354_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Olympiaplein",
@@ -68881,6 +68824,7 @@
         "wachttijd": 0,
         "totaaltijd": 3,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14354",
         "routeId": "34294_14354_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Olympiaplein",
@@ -68905,6 +68849,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14354",
         "routeId": "34294_14354_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Olympiaplein",
@@ -68926,6 +68871,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14354",
         "routeId": "34294_14354_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Olympiaplein",
@@ -68949,6 +68895,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14354",
         "routeId": "34294_14354_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Olympiaplein",
@@ -68986,6 +68933,7 @@
         "wachttijd": 5,
         "totaaltijd": 36,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14354",
         "routeId": "34294_14354_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Olympiaplein",
@@ -70594,6 +70542,7 @@
         "wachttijd": 0,
         "totaaltijd": 3,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14354",
         "routeId": "34294_14354_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Olympiaplein",
@@ -70618,6 +70567,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14354",
         "routeId": "34294_14354_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Olympiaplein",
@@ -70639,6 +70589,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14354",
         "routeId": "34294_14354_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Olympiaplein",
@@ -70662,6 +70613,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14354",
         "routeId": "34294_14354_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Olympiaplein",
@@ -70696,6 +70648,7 @@
         "wachttijd": 0,
         "totaaltijd": 13,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14386",
         "routeId": "34294_14386_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Station Lelylaan",
@@ -72377,6 +72330,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14386",
         "routeId": "34294_14386_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Station Lelylaan",
@@ -72398,6 +72352,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_14386",
         "routeId": "34294_14386_oud",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Station Lelylaan",
@@ -72432,6 +72387,7 @@
         "wachttijd": 0,
         "totaaltijd": 13,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14386",
         "routeId": "34294_14386_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Station Lelylaan",
@@ -74113,6 +74069,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14386",
         "routeId": "34294_14386_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Station Lelylaan",
@@ -74134,6 +74091,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_14386",
         "routeId": "34294_14386_nieuw",
         "trajectNaam": "Hoofddorp, Station - Amsterdam, Station Lelylaan",
@@ -74168,6 +74126,7 @@
         "wachttijd": 0,
         "totaaltijd": 20,
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15604",
         "routeId": "34294_15604_oud",
         "trajectNaam": "Hoofddorp, Station - Duivendrecht, Station Duivendrecht",
@@ -75060,6 +75019,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15604",
         "routeId": "34294_15604_oud",
         "trajectNaam": "Hoofddorp, Station - Duivendrecht, Station Duivendrecht",
@@ -75081,6 +75041,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": false,
+        "originId": "34294",
         "trajectId": "34294_15604",
         "routeId": "34294_15604_oud",
         "trajectNaam": "Hoofddorp, Station - Duivendrecht, Station Duivendrecht",
@@ -75115,6 +75076,7 @@
         "wachttijd": 0,
         "totaaltijd": 20,
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15604",
         "routeId": "34294_15604_nieuw",
         "trajectNaam": "Hoofddorp, Station - Duivendrecht, Station Duivendrecht",
@@ -76007,6 +75969,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15604",
         "routeId": "34294_15604_nieuw",
         "trajectNaam": "Hoofddorp, Station - Duivendrecht, Station Duivendrecht",
@@ -76028,6 +75991,7 @@
       "type": "Feature",
       "properties": {
         "isNieuw": true,
+        "originId": "34294",
         "trajectId": "34294_15604",
         "routeId": "34294_15604_nieuw",
         "trajectNaam": "Hoofddorp, Station - Duivendrecht, Station Duivendrecht",

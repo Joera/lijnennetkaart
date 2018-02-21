@@ -11,7 +11,12 @@ class Points {
 
         let self = this;
 
-        console.log(self._config.dataset);
+        console.log(self._config.origins);
+
+        self._map.addSource("origins", {
+            "type": "geojson",
+            "data": self._config.origins
+        });
 
         self._map.addSource("points", {
             "type": "geojson",
@@ -21,10 +26,10 @@ class Points {
         self._map.addLayer({
             "id": "origins",
             "type": "circle",
-            "source": "points",
+            "source": "origins",
             "paint": {
-                "circle-color": yellow,
-                "circle-radius": 8,
+                "circle-color": white,
+                "circle-radius": 4,
                 "circle-opacity": 1,
                 "circle-stroke-width": 4,
                 "circle-stroke-color": purple,
@@ -38,7 +43,7 @@ class Points {
         self._map.addLayer({
             "id": "origin-labels",
             "type": "symbol",
-            "source": "points",
+            "source": "origins",
             "layout": {
                 "visibility": "visible",
                 "icon-image": "rect_purple",
@@ -61,13 +66,14 @@ class Points {
             },
             "filter": ['all',
                 ["==", "function", "herkomst"],
+                ["==", "naam", "none"]
             ]
         });
 
         self._map.addLayer({
             "id": "origin-labels-connector",
             "type": "symbol",
-            "source": "points",
+            "source": "origins",
             "layout": {
 
                 "icon-image": "connector_purple",
@@ -80,6 +86,7 @@ class Points {
             },
             "filter": ['all',
                 ["==", "function", "herkomst"],
+                ["==", "naam", "none"]
             ]
         },'origins');
     }

@@ -1,15 +1,61 @@
-.route-info-block {
+#sidebar {
 
   position: absolute;
-  bottom: 1.2rem;
-  left: 4rem;
-  width: 12rem;
-  height: 12rem;
+  z-index: 20;
+  top: 0rem;
+  left: 0rem;
+  width: 24rem;
+  height: 100vh;
+  background: #e8e8e8;
+}
+
+#list-container {
+
+    max-height: calc(100% - 5rem);
+    overflow-y: scroll;
+
+    ul li {
+      padding: .75rem 1rem;
+      cursor:pointer;
+    }
+
+    ul li:hover {
+      background: #fff;
+    }
+}
+
+
+.route-info-block {
+
   background: black;
   padding: 1rem;
   color: #fff;
   opacity: 0;
   transition: opacity 1000ms ease;
+
+  ul li {
+    padding: .75rem 0rem;
+
+    > .start, .end {
+      display: inline;
+      text-transform: uppercase;
+    }
+
+    > .time {
+      font-size: .8rem;
+    }
+
+
+  }
+
+  li.button {
+    background: $purple;
+    color: $yellow;
+    width: 100%;
+    padding: 1rem;
+    margin-left: -1rem;
+    margin-bottom: -1rem;
+  }
 }
 
 #new-route {
