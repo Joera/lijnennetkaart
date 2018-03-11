@@ -1,27 +1,33 @@
 
+
 class Points {
 
     constructor(map,config) {
 
         this._map = map;
         this._config = config;
+
+
+    }
+
+    addOrigins() {
+
+        this._map.addSource("origins", {
+            "type": "geojson",
+            "data": this._config.origins
+        });
     }
 
     drawOrigins(filter) {
 
         let self = this;
 
-        console.log(self._config.origins);
 
-        self._map.addSource("origins", {
-            "type": "geojson",
-            "data": self._config.origins
-        });
 
-        self._map.addSource("points", {
-            "type": "geojson",
-            "data": self._config.dataset
-        });
+        // self._map.addSource("points", {
+        //     "type": "geojson",
+        //     "data": self._config.dataset
+        // });
 
         self._map.addLayer({
             "id": "origins",
@@ -98,24 +104,26 @@ class Points {
         self._map.addLayer({
             "id": "destinations",
             "type": "circle",
-            "source": "points",
+            "source": "originData",
             "paint": {
                 "circle-color": pink,
-                "circle-radius": 8,
+                "circle-radius": 4,
                 "circle-opacity": 1,
-                // "circle-stroke-width": 4,
-                // "circle-stroke-color": white,
+                "circle-stroke-width": 4,
+                "circle-stroke-color": pink,
                 "circle-stroke-opacity": 1,
             },
             "filter": ['all',
-                ["==", "function", "none"],
+                ["==", "function", "bestemming"],
+                ["==", "isNieuw", true],
+                ["==", "routeVersion", "prio"]
             ]
         });
 
         self._map.addLayer({
             "id": "destination-labels",
             "type": "symbol",
-            "source": "points",
+            "source": "originData",
             "layout": {
                 "visibility": "visible",
                 "icon-image": "rect_pink",
@@ -137,14 +145,17 @@ class Points {
                 'text-color': "#fff"
             },
             "filter": ['all',
-                ["==", "function", "none"],
+                ["==", "function", "bestemming"],
+                ["==", "isNieuw", true],
+                ["==", "id", "0"],
+                ["==", "routeVersion", "prio"]
             ]
         });
 
         self._map.addLayer({
             "id": "destination-labels-connector",
             "type": "symbol",
-            "source": "points",
+            "source": "originData",
             "layout": {
 
                 "icon-image": "connector_pink",
@@ -156,7 +167,10 @@ class Points {
 
             },
             "filter": ['all',
-                ["==", "function", "none"],
+                ["==", "function", "bestemming"],
+                ["==", "isNieuw", true],
+                ["==", "id", "0"],
+                ["==", "routeVersion", "prio"]
             ]
         },'destination-labels');
     }
@@ -168,13 +182,13 @@ class Points {
         self._map.addLayer({
             "id": "transfers",
             "type": "circle",
-            "source": "points",
+            "source": "originData",
             "paint": {
                 "circle-color": "#fff",
                 "circle-radius": 4,
                 "circle-opacity": 1,
                 "circle-stroke-width": 4,
-                "circle-stroke-color": black,
+                "circle-stroke-color": pink,
                 "circle-stroke-opacity": 1,
             },
             "filter": ['all',
@@ -186,10 +200,10 @@ class Points {
         self._map.addLayer({
             "id": "transfer-labels",
             "type": "symbol",
-            "source": "points",
+            "source": "originData",
             "layout": {
                 "visibility": "visible",
-                "icon-image": "rect_black",
+                "icon-image": "rect_pink",
                 "icon-padding": 0,
                 "icon-text-fit": 'both',
                 "icon-text-fit-padding": [5,10,2,10],
@@ -217,7 +231,7 @@ class Points {
         // self._map.addLayer({
         //     "id": "labels",
         //     "type": "symbol",
-        //     "source": "stops",
+        //     "source": "originData",
         //     "layout": {
         //         "text-font": ["Cabrito Semi W01 Norm E ExtraBold"],
         //         "text-field": "{name}",

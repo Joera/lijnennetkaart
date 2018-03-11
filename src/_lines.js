@@ -26,35 +26,38 @@ class Lines {
 
         let self = this;
 
-        self._map.addSource("lines", {
-            "type": "geojson",
-            "data": self._config.dataset
-        });
-
         self._map.addLayer({
             "id": "bus-old",
             "type": "line",
-            "source": "lines",
+            "source": "originData",
             "layout": {
                 "line-join": "miter",
                 "line-cap": "square"
             },
             "paint": {
-                "line-color": black,
+                "line-color": {
+                    property: 'routeVersion',
+                    type: 'categorical',
+                    stops: [
+                        ['prio', black],
+                        ['alt', '#999']
+                    ]
+                },
                 "line-width": 4,
-                "line-dasharray": [1,0]
+                "line-dasharray": [1,0],
+                // "line-translate": [-4,-4]
             },
             "filter": ['all',
                 ["==","trajectId",""],
                 ["==","isNieuw",false],
                 ["==","transport_type","bus"]
             ]
-        });
+        },'origins');
 
         self._map.addLayer({
             "id": "bus-old-icon",
             "type": "symbol",
-            "source": "lines",
+            "source": "originData",
             "layout": {
                 "visibility": "visible",
                 "icon-image": "bus-15",
@@ -84,32 +87,40 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","bus"]
             ]
-        });
+        },'origins');
 
         self._map.addLayer({
             "id": "bus-new",
             "type": "line",
-            "source": "lines",
+            "source": "originData",
             "layout": {
                 "line-join": "miter",
                 "line-cap": "square"
             },
             "paint": {
-                "line-color": purple,
+                "line-color": {
+                    property: 'routeVersion',
+                    type: 'categorical',
+                    stops: [
+                        ['prio', yellow],
+                        ['alt', pink]
+                    ]
+                },
                 "line-width": 4,
-                "line-dasharray": [1,0]
+
+                "line-dasharray": [1,1]
             },
             "filter": ['all',
                 ["==","trajectId",""],
                 ["==","isNieuw",true],
                 ["==","transport_type","bus"]
             ]
-        });
+        },'origins');
 
         self._map.addLayer({
             "id": "metro-old",
             "type": "line",
-            "source": "lines",
+            "source": "originData",
             "layout": {
                 "line-join": "miter",
                 "line-cap": "square"
@@ -124,12 +135,12 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","metro"]
             ]
-        });
+        },'origins');
 
         self._map.addLayer({
             "id": "metro-old-icon",
             "type": "symbol",
-            "source": "lines",
+            "source": "originData",
             "layout": {
                 "visibility": "visible",
                 "icon-image": "rail-15",
@@ -157,32 +168,34 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","metro"]
             ]
-        });
+        },'origins');
 
         self._map.addLayer({
             "id": "metro-new",
             "type": "line",
-            "source": "lines",
+            "source": "originData",
             "layout": {
                 "line-join": "miter",
                 "line-cap": "square"
             },
             "paint": {
-                "line-color": purple,
+                "line-color": pink,
                 "line-width": 4,
-                "line-dasharray": [.25,.25]
+                // "line-dasharray": [.25,.25]
             },
             "filter": ['all',
                 ["==","trajectId",""],
                 ["==","isNieuw",true],
                 ["==","transport_type","metro"]
             ]
-        });
+        },'origins');
+
+
 
         self._map.addLayer({
             "id": "tram-old",
             "type": "line",
-            "source": "lines",
+            "source": "originData",
             "layout": {
                 "line-join": "miter",
                 "line-cap": "square"
@@ -196,12 +209,12 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","tram"]
             ]
-        });
+        },'origins');
 
         self._map.addLayer({
             "id": "tram-old-icon",
             "type": "symbol",
-            "source": "lines",
+            "source": "originData",
             "layout": {
                 "visibility": "visible",
                 "icon-image": "rail-light-15",
@@ -229,18 +242,18 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","tram"]
             ]
-        });
+        },'origins');
 
         self._map.addLayer({
             "id": "tram-new",
             "type": "line",
-            "source": "lines",
+            "source": "originData",
             "layout": {
                 "line-join": "miter",
                 "line-cap": "square"
             },
             "paint": {
-                "line-color": purple,
+                "line-color": yellow,
                 "line-width": 4,
             },
             "filter": ['all',
@@ -248,12 +261,53 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","tram"]
             ]
-        });
+        },'origins');
+
+        self._map.addLayer({
+            "id": "train-old",
+            "type": "line",
+            "source": "originData",
+            "layout": {
+                "line-join": "miter",
+                "line-cap": "square"
+            },
+            "paint": {
+                "line-color": black,
+                "line-width": 4,
+                // "line-dasharray": [2,2]
+            },
+            "filter": ['all',
+                ["==","trajectId",""],
+                ["==","isNieuw",false],
+                ["==","transport_type","trein"]
+            ]
+        },'origins');
+
+
+        self._map.addLayer({
+            "id": "train-new",
+            "type": "line",
+            "source": "originData",
+            "layout": {
+                "line-join": "miter",
+                "line-cap": "square"
+            },
+            "paint": {
+                "line-color": pink,
+                "line-width": 4,
+                "line-dasharray": [2,2]
+            },
+            "filter": ['all',
+                ["==","trajectId",""],
+                ["==","isNieuw",true],
+                ["==","transport_type","trein"]
+            ]
+        },'origins');
 
         self._map.addLayer({
             "id": "caption",
             "type": "symbol",
-            "source": "lines",
+            "source": "originData",
             "layout": {
                 "visibility": "visible",
                 "icon-image": "rect_purple",
@@ -272,7 +326,7 @@ class Lines {
                 ['has','trajectNaam'],
                 ["==","trajectId",""]
             ]
-        });
+        },'origins');
 
 
     }

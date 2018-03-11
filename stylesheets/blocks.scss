@@ -58,8 +58,29 @@
   }
 }
 
-#new-route {
-  left: 20rem;
-  background: $purple;
-  //color: #000;
+#route-block {
+  position: absolute;
+  z-index: 20;
+  bottom: 2rem;
+  right: 2rem;
+  background: $black;
+  width: 16rem;
+  height: auto;
+  color: #fff;
+  padding: 1rem;
+
+  h3 {
+    margin: 0;
+  }
+
+  ul {
+    padding: .5rem 0;
+
+    li {
+      padding: .25rem 0;
+      input {
+        margin-right: .5rem;
+      }
+    }
+  }
 }

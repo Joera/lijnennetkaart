@@ -12,7 +12,7 @@
 <!--<script src="dist/browser-polyfill.min.js"></script>-->
 <script src="dist/map.js"></script>
 <script>
-    loadJSON('combined.geojson',function(response) {  //   // features/features_Waterland_Korenstraat.json
+    loadJSON('assets/geojson/herkomsten.geojson',function(response) {  //   // features/features_Waterland_Korenstraat.json
         var map = new Map('map-container', response);
         map.init();
     });
@@ -25,12 +25,6 @@
             <div id="sidebar">
                 <div id="call-to-action"></div>
                 <div id="list-container"></div>
-                <div id="old-route" class="route-info-block">
-                    <h3>Huidige reis</h3>
-                </div>
-                <div id="new-route" class="route-info-block">
-                    <h3>Nieuwe reis</h3>
-                </div>
                 <div id="next-action">
                     <div id="new-destination">
                         Andere bestemming
@@ -43,6 +37,9 @@
 
             <div id="view-select">
                 Nacht
+            </div>
+            <div id="route-block">
+
             </div>
         </div>
 </body>
