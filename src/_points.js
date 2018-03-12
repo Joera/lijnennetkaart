@@ -22,13 +22,6 @@ class Points {
 
         let self = this;
 
-
-
-        // self._map.addSource("points", {
-        //     "type": "geojson",
-        //     "data": self._config.dataset
-        // });
-
         self._map.addLayer({
             "id": "origins",
             "type": "circle",
@@ -104,26 +97,29 @@ class Points {
         self._map.addLayer({
             "id": "destinations",
             "type": "circle",
-            "source": "originData",
+            "source": "destinations",
             "paint": {
-                "circle-color": pink,
+                "circle-color": white,
                 "circle-radius": 4,
                 "circle-opacity": 1,
                 "circle-stroke-width": 4,
-                "circle-stroke-color": pink,
+                "circle-stroke-color": {
+                    property: 'state',
+                    type: 'categorical',
+                    stops: [
+                        ['inactive', grey],
+                        ['highlighted', pink],
+                        ['active', purple]
+                    ]
+                },
                 "circle-stroke-opacity": 1,
             },
-            "filter": ['all',
-                ["==", "function", "bestemming"],
-                ["==", "isNieuw", true],
-                ["==", "routeVersion", "prio"]
-            ]
         });
 
         self._map.addLayer({
             "id": "destination-labels",
             "type": "symbol",
-            "source": "originData",
+            "source": "destinations",
             "layout": {
                 "visibility": "visible",
                 "icon-image": "rect_pink",
@@ -145,17 +141,14 @@ class Points {
                 'text-color': "#fff"
             },
             "filter": ['all',
-                ["==", "function", "bestemming"],
-                ["==", "isNieuw", true],
-                ["==", "id", "0"],
-                ["==", "routeVersion", "prio"]
+                ["==", "state", "highlighted"]
             ]
         });
 
         self._map.addLayer({
             "id": "destination-labels-connector",
             "type": "symbol",
-            "source": "originData",
+            "source": "destinations",
             "layout": {
 
                 "icon-image": "connector_pink",
@@ -167,10 +160,7 @@ class Points {
 
             },
             "filter": ['all',
-                ["==", "function", "bestemming"],
-                ["==", "isNieuw", true],
-                ["==", "id", "0"],
-                ["==", "routeVersion", "prio"]
+                ["==", "state", "highlighted"]
             ]
         },'destination-labels');
     }

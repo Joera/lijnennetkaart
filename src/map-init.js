@@ -52,7 +52,7 @@ class Map {
         this._routeBlock = document.getElementById('route-block');
         this._viewSelect = document.getElementById('view-select');
         this._newOrigin = document.getElementById('new-origin');
-        this._newDestination = document.getElementById('new-destination');
+        // this._newDestination = document.getElementById('new-destination');
 
         this.interactionPopup = new InteractionPopup();
 
@@ -74,25 +74,14 @@ class Map {
             self._points.addOrigins();
             self._initMap();
         });
+
+        self._viewSelect.addEventListener("click",function() { self._switchView() },false);
+        self._newOrigin.addEventListener("click",function() { self._clearOrigin() },false);
     }
 
     _initMap() {
 
         let self = this;
-
-        if(self._map.getLayer('destinations') != undefined) {
-            self._map.removeLayer('destinations');
-        }
-        if(self._map.getLayer('destination-labels') != undefined) {
-            self._map.removeLayer('destination-labels');
-        }
-        if(self._map.getLayer('destination-labels-connector') != undefined) {
-            self._map.removeLayer('destination-labels-connector');
-        }
-
-        if(self._map.getSource('originData') != undefined) {
-            self._map.removeSource('originData');
-        }
 
         self._points.drawOrigins();
         self._originList();
@@ -101,13 +90,9 @@ class Map {
             self._highlightOrigin(e.features[0].properties.naam);
         });
         self._map.on("click", "origin-labels", function (e) {
-            self.session.origin = e.features[0].properties.id;
             self._selectOrigin(e.features[0].properties);
         });
 
-        self._viewSelect.addEventListener("click",function() { self._switchView() },false);
-        self._newOrigin.addEventListener("click",function() { self._clearOrigin() },false);
-        self._newDestination.addEventListener("click",function() { self._clearDestination() },false);
     }
 
     _originList() {
@@ -125,7 +110,6 @@ class Map {
                 self._highlightOrigin(o.properties.naam);
             }, false);
             li.addEventListener('click', function () {
-                self.session.origin = o.properties.id;
                 self._selectOrigin(o.properties);
             }, false);
 
@@ -143,68 +127,95 @@ class Map {
     }
 
     _selectOrigin(origin) {
-        let self = this;
+            let self = this;
+            self.session.origin = origin.id;
 
+            // hide other destinations
+            let originsFilter = self._map.getFilter('origins');
+            let originsSelectedFilter = ["==", "id", self.session.origin];
+            originsFilter.push(originsSelectedFilter);
+            self._map.setFilter('origins',originsFilter);
 
-        // hide other origins
+            let filename = '';
 
-        // hide other destinations
-        let originsFilter = self._map.getFilter('origins');
-        let originsSelectedFilter = ["==", "id", self.session.origin];
-        originsFilter.push(originsSelectedFilter);
-        self._map.setFilter('origins',originsFilter);
-
-        let filename = '';
-
-        // Hoofddorp, Station
-        if(origin.originId === '34294') {
-            filename = 'features_Amstelland_Station_Hoofddorp';
-        // Uithoorn, Busstation
-        } else if(origin.originId === '10220') {
-            filename = 'features_Amstelland_Uithoorn_Busstation';
-        // Purmerend, Korenstraat
-        } else if(origin.originId === '13412') {
-            filename = 'features_Waterland_Korenstraat';
-        // Volendam Stadskantoor
-        } else if(origin.originId === '13527') {
-            filename = 'features_Waterland_Stadskantoor';
-        // Zaandam, Morgensterstraat
-        } else if(origin.originId === '35250') {
-            filename = 'features_Zaanstreek_Morgensterstraat';
-        // Zaandam, Barkstraat
-        } else if(origin.originId === '36003') { //
-            filename = 'features_Zaanstreek_Noordwachter';
-        }
-
-        this._map.addSource('originData', {
-            type: 'geojson',
-            data: 'features/' + filename + '.json'
-        });
-
-        self._points.drawDestinations();
-        self._lines.draw();
-        self._points.drawTransfers();
-
-        function onSourceData(e){
-            if(e.isSourceLoaded) {
-                self._map.off('sourcedata', onSourceData);
-                setTimeout( function () {
-                    self._showDestinations();
-                    self._destinationList();
-                },1000);
+            // Hoofddorp, Station
+            if(origin.originId === '34294') {
+                filename = 'features_Amstelland_Station_Hoofddorp';
+            // Uithoorn, Busstation
+            } else if(origin.originId === '10220') {
+                filename = 'features_Amstelland_Uithoorn_Busstation';
+            // Purmerend, Korenstraat
+            } else if(origin.originId === '13412') {
+                filename = 'features_Waterland_Korenstraat';
+            // Volendam Stadskantoor
+            } else if(origin.originId === '13527') {
+                filename = 'features_Waterland_Stadskantoor';
+            // Zaandam, Morgensterstraat
+            } else if(origin.originId === '35250') {
+                filename = 'features_Zaanstreek_Morgensterstraat';
+            // Zaandam, Barkstraat
+            } else if(origin.originId === '36003') { //
+                filename = 'features_Zaanstreek_Noordwachter';
             }
-        };
 
-        self._map.on('sourcedata', onSourceData)
+            let url = 'features/' + filename + '.json';
 
+            axios.get(url)
+                .then(function(response) {
+                    if (response.status !== 200) {
+                        console.log('foutje bedankt')
+                    }
+                    self._data = {};
+                    self._data.originData = response.data;
+
+                    self._data.destinations = self._data.originData.find( (item) => {
+
+                        return item.name === 'destinations';
+                    })
+
+                    if (self._map.getSource('destinations') === undefined) {
+                        self._map.addSource("destinations", {
+                            "type": "geojson",
+                            "data": self._data.destinations
+                        });
+                    } else {
+                        self._map.getSource('destinations').setData(self._data.destinations);
+                    }
+
+                    self._points.drawDestinations();
+                    self._destinationList();
+
+                    self._map.on("mouseover", "destinations", function (e) {
+                        self._highlightDestination(e.features[0].properties.id);
+                    });
+                    self._map.on("click", "destination-labels", function (e) {
+                        self._initRoute(e.features[0].properties.id);
+                    });
+                });
     }
 
     _highlightDestination(id) {
 
-        console.log(id);
+        let self = this;
+        self._data.destinations.features.forEach( function(d) {
+            d.properties.state = 'inactive';
+            if (d.properties.id === id) {
+                d.properties.state = 'highlighted';
+            }
+        });
+        this._map.getSource('destinations').setData(self._data.destinations);
+    }
 
-        this._map.setFilter('destination-labels',['all',["==","function","bestemming"],["==","id",id],["==","isNieuw",true]]);
-        this._map.setFilter('destination-labels-connector',['all',["==","function","bestemming"],["==","id",id],["==","isNieuw",true]]);
+    _activateDestination(id) {
+
+        let self = this;
+        self._data.destinations.features.forEach( function(d) {
+            d.properties.state = 'inactive';
+            if (d.properties.id === id) {
+                d.properties.state = 'active';
+            }
+        });
+        this._map.getSource('destinations').setData(self._data.destinations);
     }
 
     _destinationList() {
@@ -215,13 +226,11 @@ class Map {
 
         let ul = document.createElement('ul');
 
-        self.config.destinations = self._removeAdam(self.config.destinations);
-
-        self.config.destinations.sort(function(a,b) {
+        self._data.destinations.features.sort(function(a,b) {
             return (a.properties.naam > b.properties.naam) ? 1 : ((b.properties.naam > a.properties.naam) ? -1 : 0);
         });
 
-        self.config.destinations.forEach( (o) => {
+        self._data.destinations.features.forEach( (o) => {
 
             let li = document.createElement('li');
             li.innerHTML = o.properties.naam;
@@ -229,10 +238,7 @@ class Map {
                 self._highlightDestination(o.properties.id);
             }, false);
             li.addEventListener('click', function () {
-                console.log(o.properties);
-                // moet dit wel de id zijn?
-                // evt het tweede deel van
-                self._initRoute(o.properties.trajectId.split('_')[1]);
+                self._initRoute(o.properties.id);
             }, false);
 
             ul.appendChild(li);
@@ -242,60 +248,261 @@ class Map {
 
     }
 
-    _removeAdam(destinations) {
-
-        destinations.forEach( (dest) => {
-
-            if(dest.properties.naam.indexOf('Amsterdam') > -1) {
-                dest.properties.naam = dest.properties.naam.slice(11,dest.properties.naam.length);
-            }
-        });
-        return destinations;
-    }
-
     _initRoute(destination) {
 
         let self = this;
+
+        // remove previous route layers
+        self._map.getStyle().layers.forEach( (l) => {
+            if(l.id.indexOf('route-') > -1) {
+                self._map.removeLayer(l.id);
+            }
+        });
 
         // add selected destination to session
         self.session.destination = destination;
         self.session.traject = self.session.origin + '_' + destination;
 
-        // hide other destinations
-        let destinationsFilter = self._map.getFilter('destinations');
-        let destinationSelectedFilter = ["==", "id", self.session.destination];
-        destinationsFilter.push(destinationSelectedFilter);
-        self._map.setFilter('destinations',destinationsFilter);
-        self._map.setPaintProperty('destinations','circle-color', '#fff');
-        self._map.setPaintProperty('destinations','circle-stroke-color','#000');
-        self._map.setLayoutProperty('destination-labels','icon-image','rect_black');
-        self._map.setLayoutProperty('destination-labels-connector','icon-image','connector_black');
-        self._highlightDestination(destination);
+        self._activateDestination(destination);
+
+        self._data.traject = self._data.originData.find( (route) => {
+
+            if(route[0] && route[0] && route[0].features && route[0].features.length > 0) {
+                return route[0].features[0].properties.trajectId.split('_')[1] === destination;
+            }
+
+        });
+
+        self._setRouteInfo(self._data.traject);
+
+        self._data.traject.forEach( (r) => {
+
+            if (self._map.getSource('route-' + r.features[0].properties.routeId) === undefined) {
+                self._map.addSource('route-' + r.features[0].properties.routeId, {
+                    "type": "geojson",
+                    "data": r
+                });
+            } else {
+                self._map.getSource('route-' + r.features[0].properties.routeId).setData(r);
+            }
+        });
+
+        self._data.traject.forEach( (r) => {
+
+            self._map.addLayer({
+                "id": 'route-' + r.features[0].properties.routeId + '-bus_old',
+                "type": "line",
+                "source": 'route-' + r.features[0].properties.routeId,
+                "layout": {
+                    "line-join": "miter",
+                    "line-cap": "square"
+                },
+                "paint": {
+                    "line-color": {
+                        property: 'routeVersion',
+                        type: 'categorical',
+                        stops: [
+                            ['prio', black],
+                            ['alt', '#999']
+                        ]
+                    },
+                    "line-width": 4,
+                    "line-dasharray": [1,0],
+                    // "line-translate": [-4,-4]
+                },
+                "filter": ['all',
+                    ["==","isNieuw",false],
+                    ["==","transport_type","bus"]
+                ]
+            },'origins');
+
+            self._map.addLayer({
+                "id": 'route-' + r.features[0].properties.routeId + '-bus_new',
+                "type": "line",
+                "source": 'route-' + r.features[0].properties.routeId,
+                "layout": {
+                    "line-join": "miter",
+                    "line-cap": "square"
+                },
+                "paint": {
+                    "line-color": {
+                        property: 'routeVersion',
+                        type: 'categorical',
+                        stops: [
+                            ['prio', purple],
+                            ['alt', pink]
+                        ]
+                    },
+                    "line-width": 4,
+                    "line-dasharray": [4,4],
+                },
+                "filter": ['all',
+                    ["==","isNieuw",true],
+                    ["==","transport_type","bus"]
+                ]
+            },'origins');
+
+            self._map.addLayer({
+                "id": 'route-' + r.features[0].properties.routeId + '-tram_old',
+                "type": "line",
+                "source": 'route-' + r.features[0].properties.routeId,
+                "layout": {
+                    "line-join": "miter",
+                    "line-cap": "square"
+                },
+                "paint": {
+                    "line-color": {
+                        property: 'routeVersion',
+                        type: 'categorical',
+                        stops: [
+                            ['prio', black],
+                            ['alt', '#999']
+                        ]
+                    },
+                    "line-width": 4,
+                    "line-dasharray": [1,0],
+                    // "line-translate": [-4,-4]
+                },
+                "filter": ['all',
+                    ["==","isNieuw",false],
+                    ["==","transport_type","tram"]
+                ]
+            },'origins');
+
+            self._map.addLayer({
+                "id": 'route-' + r.features[0].properties.routeId + '-tram_new',
+                "type": "line",
+                "source": 'route-' + r.features[0].properties.routeId,
+                "layout": {
+                    "line-join": "miter",
+                    "line-cap": "square"
+                },
+                "paint": {
+                    "line-color": {
+                        property: 'routeVersion',
+                        type: 'categorical',
+                        stops: [
+                            ['prio', purple],
+                            ['alt', pink]
+                        ]
+                    },
+                    "line-width": 4,
+                    "line-dasharray": [1,1],
+                },
+                "filter": ['all',
+                    ["==","isNieuw",true],
+                    ["==","transport_type","tram"]
+                ]
+            },'origins');
 
 
+            self._map.addLayer({
+                "id": 'route-' + r.features[0].properties.routeId + '-metro_old',
+                "type": "line",
+                "source": 'route-' + r.features[0].properties.routeId,
+                "layout": {
+                    "line-join": "miter",
+                    "line-cap": "square"
+                },
+                "paint": {
+                    "line-color": {
+                        property: 'routeVersion',
+                        type: 'categorical',
+                        stops: [
+                            ['prio', purple],
+                            ['alt', pink]
+                        ]
+                    },
+                    "line-width": 4,
+                    "line-dasharray": [1,1],
+                },
+                "filter": ['all',
+                    ["==","isNieuw",false],
+                    ["==","transport_type","metro"]
+                ]
+            },'origins');
 
-        // show routes
-        self._showOld(self.session.traject,self._map);
-        self._showNew(self.session.traject,self._map);
-        self._setRouteInfo(self.session.traject);
+            self._map.addLayer({
+                "id": 'route-' + r.features[0].properties.routeId + '-metro_new',
+                "type": "line",
+                "source": 'route-' + r.features[0].properties.routeId,
+                "layout": {
+                    "line-join": "miter",
+                    "line-cap": "square"
+                },
+                "paint": {
+                    "line-color": {
+                        property: 'routeVersion',
+                        type: 'categorical',
+                        stops: [
+                            ['prio', black],
+                            ['alt', '#999']
+                        ]
+                    },
+                    "line-width": 4,
+                    "line-dasharray": [1,0],
+                    // "line-translate": [-4,-4]
+                },
+                "filter": ['all',
+                    ["==","isNieuw",true],
+                    ["==","transport_type","tram"]
+                ]
+            },'origins');
 
+            self._map.addLayer({
+                "id": 'route-' + r.features[0].properties.routeId + '-train_old',
+                "type": "line",
+                "source": 'route-' + r.features[0].properties.routeId,
+                "layout": {
+                    "line-join": "miter",
+                    "line-cap": "square"
+                },
+                "paint": {
+                    "line-color": {
+                        property: 'routeVersion',
+                        type: 'categorical',
+                        stops: [
+                            ['prio', purple],
+                            ['alt', pink]
+                        ]
+                    },
+                    "line-width": 4,
+                    "line-dasharray": [1,1],
+                },
+                "filter": ['all',
+                    ["==","isNieuw",true],
+                    ["==","transport_type","trein"]
+                ]
+            },'origins');
 
-        // self._oldRoute.style.opacity = 1;
+            self._map.addLayer({
+                "id": 'route-' + r.features[0].properties.routeId + '-train_new',
+                "type": "line",
+                "source": 'route-' + r.features[0].properties.routeId,
+                "layout": {
+                    "line-join": "miter",
+                    "line-cap": "square"
+                },
+                "paint": {
+                    "line-color": {
+                        property: 'routeVersion',
+                        type: 'categorical',
+                        stops: [
+                            ['prio', purple],
+                            ['alt', pink]
+                        ]
+                    },
+                    "line-width": 4,
+                    "line-dasharray": [1,1],
+                },
+                "filter": ['all',
+                    ["==","isNieuw",true],
+                    ["==","transport_type","trein"]
+                ]
+            },'origins');
 
-        // self._map.setFilter('bus-old',['all',["==","transport_type","bus"],["==","isNieuw",false],["==","trajectId",self.session.traject]]);
-        // self._map.setFilter('bus-old-icon',['all',["==","transport_type","bus"],["==","isNieuw",false],["==","trajectId",self.session.traject]]);
-        // self._map.setFilter('metro-old',['all',["==","transport_type","metro"],["==","isNieuw",false],["==","trajectId",self.session.traject]]);
-        // self._map.setFilter('metro-old-icon',['all',["==","transport_type","metro"],["==","isNieuw",false],["==","trajectId",self.session.traject]]);
-        // self._map.setFilter('tram-old',['all',["==","transport_type","tram"],["==","isNieuw",false],["==","trajectId",self.session.traject]]);
-        // self._map.setFilter('tram-old-icon',['all',["==","transport_type","tram"],["==","isNieuw",false],["==","trajectId",self.session.traject]]);
-        // self._map.setFilter('transfers',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",false]]);
-        // self._map.setFilter('transfer-labels',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",false]]);
-        //
-        // self._setRouteInfo(false,self.session.traject);
-        // self._setBoundingBox();
+        });
 
-        // self._oldRoute.addEventListener("click",function() { self._showOld(self.session.traject,self._map) },false);
-        // self._newRoute.addEventListener("click",function() { self._showNew(self.session.traject,self._map) },false);
     }
 
 
@@ -308,108 +515,62 @@ class Map {
         self.config.destinations = self._filterDestinations(self._map.queryRenderedFeatures(params));
     }
 
-    _showNew(traject,map) {
-
-        let self = this;
-
-        self._map.setFilter('bus-new',['all',["==","transport_type","bus"],["==","isNieuw",true],["==","trajectId",traject]]);
-        self._map.setFilter('metro-new',['all',["==","transport_type","metro"],["==","isNieuw",true],["==","trajectId",traject]]);
-        self._map.setFilter('tram-new',['all',["==","transport_type","tram"],["==","isNieuw",false],["==","trajectId",traject]]);
-        self._map.setFilter('train-new',['all',["==","transport_type","trein"],["==","isNieuw",false],["==","trajectId",traject]]);
-
-        self._map.setFilter('transfers',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",true]]);
-        self._map.setFilter('transfer-labels',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",true]]);
-
-    }
-
-    _showOld(traject,map) {
-
-        let self = this;
-
-        map.setFilter('bus-old',['all',["==","transport_type","bus"],["==","isNieuw",false],["==","trajectId",traject]]);
-        map.setFilter('metro-old',['all',["==","transport_type","metro"],["==","isNieuw",false],["==","trajectId",traject]]);
-        map.setFilter('tram-old',['all',["==","transport_type","tram"],["==","isNieuw",false],["==","trajectId",traject]]);
-        map.setFilter('train-old',['all',["==","transport_type","trein"],["==","isNieuw",false],["==","trajectId",traject]]);
-
-        map.setFilter('transfers',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",false]]);
-        map.setFilter('transfer-labels',['all',["==", "function", "overstap"],["==", "trajectId", self.session.traject],["==","isNieuw",false]]);
-    }
 
     _setRouteInfo(traject) {
 
         let self = this;
 
         self._routeBlock.innerHTML = '';
-        let routes = self._map.querySourceFeatures(['originData'], { filter : ['all',["!has","function"],["==","trajectId",traject]]});  ///
-
-        console.log(routes);
-
-        let array = [];
-        routes.forEach( (r) => {
-            array.push(r.properties);
-        });
-        let grouped = self._groupBy(array,'routeId');
-
-        for (var g in grouped) {
-            grouped[g] = self._filterRoutes(grouped[g]);
-        }
-
         let header = document.createElement('h3');
-
-
-
-        let routesInArray = grouped[Object.keys(grouped)[0]];
-
-        console.log(routesInArray);
-
-        header.innerHTML = routesInArray[0].trajectNaam;
+        header.innerHTML = traject[0].features[0].properties.trajectNaam;
         let ul = document.createElement('ul');
 
-        for (var s in grouped) {
+        traject.forEach( (r) => {
             let q;
-            if (grouped[s][0].isNieuw === true) {
+            if (r.features && r.features[0].properties.isNieuw === true) {
                 q = 'Nieuwe route';
             } else {
                 q = 'Huidige route';
             }
-            if (grouped[s][0].routeVersion === 'firstAlt' || grouped[s][0].routeVersion === 'secondAlt') {
+            if (r.features[0].properties.routeVersion === 'firstAlt' || r.features[0].properties.routeVersion === 'secondAlt') {
                 q = q + ' ' + '(alternatief)';
             }
 
             let li = document.createElement('li');
             let input = document.createElement('input');
             input.type = "checkbox";
-            input.name = grouped[s][0].routeId;
+            input.name = r.features[0].properties.routeId;
             input.checked = true;
             li.appendChild(input);
             let label = document.createElement('label');
             label.innerHTML = q;
             li.appendChild(label);
             li.addEventListener("click", function (e) {
-                self._toggleRoute(e);
+                self._toggleRoute(e,r.features[0].properties.routeId);
             }, false);
             ul.appendChild(li);
-        }
+        });
 
         self._routeBlock.appendChild(header);
         self._routeBlock.appendChild(ul);
 
     }
 
-    _toggleRoute(route) {
+    _toggleRoute(e,routeId) {
 
         let self = this;
 
-        let checkbox = route.target.parentElement.querySelector('input[type=checkbox]');
+        let checkbox = e.target.parentElement.querySelector('input[type=checkbox]');
         let extraFilter = ["!=","routeId",checkbox.name];
-        let metro_new = self._map.getFilter('metro-new');
-        let bus_new = self._map.getFilter('bus-new');
-        let tram_new = self._map.getFilter('tram-old');
-        let train_new = self._map.getFilter('train-new');
-        let metro_old = self._map.getFilter('metro-old');
-        let bus_old = self._map.getFilter('bus-old');
-        let tram_old = self._map.getFilter('tram-old');
-        let train_old = self._map.getFilter('train-old');
+        let metro_new = self._map.getFilter('route-' + routeId + '-metro_new');
+        let bus_new = self._map.getFilter('route-' + routeId + '-bus_new');
+        let tram_new = self._map.getFilter('route-' + routeId + '-tram_new');
+        let train_new = self._map.getFilter('route-' + routeId +'-train_new');
+
+        let metro_old = self._map.getFilter('route-' + routeId + '-metro_old');
+        let bus_old = self._map.getFilter('route-' + routeId + '-bus_old');
+        let tram_old = self._map.getFilter('route-' + routeId + '-tram_old');
+        let train_old = self._map.getFilter('route-' + routeId + '-train_old');
         if(checkbox.checked === false) {
             // console.log(extraFilter);
             metro_new.push(extraFilter);
@@ -441,15 +602,15 @@ class Map {
 
         }
 
-        self._map.setFilter('metro-new',metro_new);
-        self._map.setFilter('bus-new',bus_new);
-        self._map.setFilter('tram-new',tram_new);
-        self._map.setFilter('train-new',train_new);
+        self._map.setFilter('route-' + routeId + '-metro_new',metro_new);
+        self._map.setFilter('route-' + routeId + '-bus_new',bus_new);
+        self._map.setFilter('route-' + routeId + '-tram_new',tram_new);
+        self._map.setFilter('route-' + routeId + '-train_new',train_new);
 
-        self._map.setFilter('metro-old',metro_old);
-        self._map.setFilter('bus-old',bus_old);
-        self._map.setFilter('tram-old',tram_old);
-        self._map.setFilter('train-old',train_old);
+        self._map.setFilter('route-' + routeId + '-metro_old',metro_old);
+        self._map.setFilter('route-' + routeId + '-bus_old',bus_old);
+        self._map.setFilter('route-' + routeId + '-tram_old',tram_old);
+        self._map.setFilter('route-' + routeId + '-train_old',train_old);
     }
 
     _setBoundingBox() {
@@ -540,46 +701,14 @@ class Map {
             destination : null
         }
         this._listContainer.innerHTML = '';
+
+        // remove previous route layers
+        self._map.getStyle().layers.forEach( (l) => {
+            if(l.id.indexOf('route-') > -1 || l.id.indexOf('origin') > -1 || l.id.indexOf('destination') > -1 ) {
+                self._map.removeLayer(l.id);
+            }
+        });
+
         self._initMap();
     }
-
-    _clearDestination() {
-        let self = this;
-        this.session.destination = null;
-        this._listContainer.innerHTML = '';
-        // self._clearRoutes()
-        self._showDestinations();
-        self._destinationList();
-    }
-
-    _clearRoutes() {
-
-        let self = this;
-
-        this._newRoute.innerHTML = '';
-        this._oldRoute.innerHTML = '';
-
-        self._map.setFilter('bus-new',['all',["==","transport_type","bus"],["==","isNieuw",true],["==","trajectId",""]]);
-        self._map.setFilter('metro-new',['all',["==","transport_type","metro"],["==","isNieuw",true],["==","trajectId",""]]);
-        self._map.setFilter('tram-new',['all',["==","transport_type","tram"],["==","isNieuw",false],["==","trajectId",""]]);
-
-        self._map.setFilter('bus-old',['all',["==","transport_type","bus"],["==","isNieuw",false],["==","trajectId",""]]);
-        self._map.setFilter('metro-old',['all',["==","transport_type","metro"],["==","isNieuw",false],["==","trajectId",""]]);
-        self._map.setFilter('tram-old',['all',["==","transport_type","tram"],["==","isNieuw",false],["==","trajectId",""]]);
-
-        self._map.setFilter('bus-old-icon',['all',["==","transport_type","bus"],["==","isNieuw",false],["==","trajectId",""]]);
-        self._map.setFilter('metro-old-icon',['all',["==","transport_type","metro"],["==","isNieuw",false],["==","trajectId",""]]);
-        self._map.setFilter('tram-old-icon',['all',["==","transport_type","tram"],["==","isNieuw",false],["==","trajectId",""]]);
-
-        self._map.setFilter('transfers',['all',["==", "function", "overstap"],["==", "trajectId",""],["==","isNieuw",true]]);
-        self._map.setFilter('transfer-labels',['all',["==", "function", "overstap"],["==", "trajectId",""],["==","isNieuw",true]]);
-    }
-
-    _groupBy(xs, key) {
-        return xs.reduce(function(rv, x) {
-            (rv[x[key]] = rv[x[key]] || []).push(x);
-            return rv;
-        }, {});
-    };
-
 }
