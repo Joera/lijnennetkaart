@@ -165,35 +165,34 @@ class Points {
         },'destination-labels');
     }
 
-    drawTransfers(filter) {
+    drawTransfers(routeId) {
 
         let self = this;
 
         self._map.addLayer({
-            "id": "transfers",
+            "id": "transfers-" + routeId,
             "type": "circle",
-            "source": "originData",
+            "source": "route-" + routeId,
             "paint": {
                 "circle-color": "#fff",
                 "circle-radius": 4,
                 "circle-opacity": 1,
                 "circle-stroke-width": 4,
-                "circle-stroke-color": pink,
+                "circle-stroke-color": black,
                 "circle-stroke-opacity": 1,
             },
             "filter": ['all',
-                ["==", "function", "overstap"],
-                ["==", "trajectId", "0"],
+                ["==", "function", "overstap"]
             ]
         });
 
         self._map.addLayer({
-            "id": "transfer-labels",
+            "id": "transfer-labels-" + routeId + "-old",
             "type": "symbol",
-            "source": "originData",
+            "source": "route-" + routeId,
             "layout": {
                 "visibility": "visible",
-                "icon-image": "rect_pink",
+                "icon-image": "rect_black",
                 "icon-padding": 0,
                 "icon-text-fit": 'both',
                 "icon-text-fit-padding": [5,10,2,10],
@@ -212,7 +211,74 @@ class Points {
                 'text-color': "#fff"
             },
             "filter": ['all',
-                ["==", "function", "none"],
+                ["==", "function", "overstap"],
+                ["==", "isNieuw", false]
+            ]
+        });
+
+        self._map.addLayer({
+            "id": "transfers-" + routeId + "-old",
+            "type": "circle",
+            "source": "route-" + routeId,
+            "paint": {
+                "circle-color": "#fff",
+                "circle-radius": 4,
+                "circle-opacity": 1,
+                "circle-stroke-width": 4,
+                "circle-stroke-color": black,
+                "circle-stroke-opacity": 1,
+            },
+            "filter": ['all',
+                ["==", "function", "overstap"],
+                ["==", "isNieuw", false]
+            ]
+        });
+
+        self._map.addLayer({
+            "id": "transfer-labels-" + routeId + "-new",
+            "type": "symbol",
+            "source": "route-" + routeId,
+            "layout": {
+                "visibility": "visible",
+                "icon-image": "rect_black",
+                "icon-padding": 0,
+                "icon-text-fit": 'both',
+                "icon-text-fit-padding": [5,10,2,10],
+                "icon-allow-overlap": true,
+                "text-field": "{naam}",
+                "symbol-placement": "point",
+                "text-size": 15,
+                "text-anchor": "right",
+                "text-offset": [-1.6,0],
+                "text-max-width": 30,
+                "text-font": ["Avenir LT Std 85 Heavy"],
+                "text-transform" : "uppercase",
+                "text-allow-overlap":true
+            },
+            "paint": {
+                'text-color': "#fff"
+            },
+            "filter": ['all',
+                ["==", "function", "overstap"],
+                ["==", "isNieuw", true]
+            ]
+        });
+
+        self._map.addLayer({
+            "id": "transfers-" + routeId + "-new",
+            "type": "circle",
+            "source": "route-" + routeId,
+            "paint": {
+                "circle-color": "#fff",
+                "circle-radius": 4,
+                "circle-opacity": 1,
+                "circle-stroke-width": 4,
+                "circle-stroke-color": black,
+                "circle-stroke-opacity": 1,
+            },
+            "filter": ['all',
+                ["==", "function", "overstap"],
+                ["==", "isNieuw", true]
             ]
         });
     }
