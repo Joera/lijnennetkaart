@@ -2262,8 +2262,32 @@ var Map = function () {
             // Zaandam, Barkstraat
         } else if (origin.originId === '36003') {
             //
-            filename = 'features_Zaanstreek_Noordwachter';
+            filename = 'features_Zaanstreek_Barkstraat';
+            // Amstelland_Hortensiaplein
+        } else if (origin.originId === '10220') {
+            //
+            filename = 'features_Amstelland_Hortensiaplein';
+            // Waterland_Minneweg
+        } else if (origin.originId === '13663') {
+            //
+            filename = 'features_Waterland_Minneweg';
+            // Waterland_Swaensborch
+        } else if (origin.originId === '13431') {
+            //
+            filename = 'features_Waterland_Swaensborch';
+            // Waterland_van_Beekstraat
+        } else if (origin.originId === '13378') {
+            //
+            filename = 'features_Waterland_van_Beekstraat';
+            // Zaanstreek_Lisweg
+        } else if (origin.originId === '41783') {
+            //
+            filename = 'features_Zaanstreek_Lisweg';
+            // Zaanstreek_Noordwachter
         }
+        // else if(origin.originId === '36003') { //
+        //     filename = 'features_Zaanstreek_Noordwachter';
+        // }
 
         var url = 'features/' + filename + '.json';
 
