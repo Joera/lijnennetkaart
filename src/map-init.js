@@ -713,6 +713,8 @@ class Map {
 
         console.log('show new');
 
+
+
         self._map.setLayoutProperty('route-' + routeId + '-bus_new', 'visibility', 'visible');
         self._map.setLayoutProperty('route-' + routeId + '-metro_new', 'visibility', 'visible');
         self._map.setLayoutProperty('route-' + routeId + '-tram_new', 'visibility', 'visible');
@@ -724,7 +726,9 @@ class Map {
         self._map.setLayoutProperty('route-' + routeId + '-train_old', 'visibility', 'none');
 
         self._map.setLayoutProperty('transfers-' + routeId + '-new', 'visibility', 'visible');
+        self._map.setLayoutProperty('transfer-labels-' + routeId + '-new', 'visibility', 'visible');
         self._map.setLayoutProperty('transfers-' + routeId + '-old', 'visibility', 'none');
+        self._map.setLayoutProperty('transfer-labels-' + routeId + '-old', 'visibility', 'none');
     }
 
     _showOld(routeId) {
@@ -732,6 +736,10 @@ class Map {
         let self = this;
 
         console.log('show old');
+
+        let ls = self._map.getStyle().layers;
+
+        console.log(ls);
 
         self._map.setLayoutProperty('route-' + routeId + '-bus_new', 'visibility', 'none');
         self._map.setLayoutProperty('route-' + routeId + '-metro_new', 'visibility', 'none');
@@ -743,8 +751,10 @@ class Map {
         self._map.setLayoutProperty('route-' + routeId + '-tram_old', 'visibility', 'visible');
         self._map.setLayoutProperty('route-' + routeId + '-train_old', 'visibility', 'visible');
 
-        self._map.setLayoutProperty('transfers-' + routeId + '-new', 'visibility', 'visible');
-        self._map.setLayoutProperty('transfers-' + routeId + '-old', 'visibility', 'none');
+        self._map.setLayoutProperty('transfers-' + routeId + '-new', 'visibility', 'none');
+        self._map.setLayoutProperty('transfer-labels-' + routeId + '-new', 'visibility', 'none');
+        self._map.setLayoutProperty('transfers-' + routeId + '-old', 'visibility', 'visible');
+        self._map.setLayoutProperty('transfer-labels-' + routeId + '-old', 'visibility', 'visible');
 
     }
 

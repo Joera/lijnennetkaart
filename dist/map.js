@@ -2777,7 +2777,9 @@ var Map = function () {
         self._map.setLayoutProperty('route-' + routeId + '-train_old', 'visibility', 'none');
 
         self._map.setLayoutProperty('transfers-' + routeId + '-new', 'visibility', 'visible');
+        self._map.setLayoutProperty('transfer-labels-' + routeId + '-new', 'visibility', 'visible');
         self._map.setLayoutProperty('transfers-' + routeId + '-old', 'visibility', 'none');
+        self._map.setLayoutProperty('transfer-labels-' + routeId + '-old', 'visibility', 'none');
     };
 
     Map.prototype._showOld = function _showOld(routeId) {
@@ -2785,6 +2787,10 @@ var Map = function () {
         var self = this;
 
         console.log('show old');
+
+        var ls = self._map.getStyle().layers;
+
+        console.log(ls);
 
         self._map.setLayoutProperty('route-' + routeId + '-bus_new', 'visibility', 'none');
         self._map.setLayoutProperty('route-' + routeId + '-metro_new', 'visibility', 'none');
@@ -2796,8 +2802,10 @@ var Map = function () {
         self._map.setLayoutProperty('route-' + routeId + '-tram_old', 'visibility', 'visible');
         self._map.setLayoutProperty('route-' + routeId + '-train_old', 'visibility', 'visible');
 
-        self._map.setLayoutProperty('transfers-' + routeId + '-new', 'visibility', 'visible');
-        self._map.setLayoutProperty('transfers-' + routeId + '-old', 'visibility', 'none');
+        self._map.setLayoutProperty('transfers-' + routeId + '-new', 'visibility', 'none');
+        self._map.setLayoutProperty('transfer-labels-' + routeId + '-new', 'visibility', 'none');
+        self._map.setLayoutProperty('transfers-' + routeId + '-old', 'visibility', 'visible');
+        self._map.setLayoutProperty('transfer-labels-' + routeId + '-old', 'visibility', 'visible');
     };
 
     Map.prototype._setBoundingBox = function _setBoundingBox() {
