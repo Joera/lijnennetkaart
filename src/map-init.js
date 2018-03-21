@@ -762,10 +762,10 @@ class Map {
             routes,
             routeIds = [];
 
-        if(this._route === 'old') {
-            this._route = 'nieuw';
+        if(this.session.route === 'old') {
+            this.session.route = 'new';
         } else {
-            this._route = 'old';
+            this.session.route = 'old';
         }
 
         if (self.session.data.traject !== undefined && self.session.data.traject.length > 0) {
