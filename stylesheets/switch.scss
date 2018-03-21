@@ -43,18 +43,19 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(143px);
-  -ms-transform: translateX(143px);
-  transform: translateX(143px);
+  -webkit-transform: translateX(148px);
+  -ms-transform: translateX(148px);
+  transform: translateX(148px);
 }
 
 span.label {
   display: none;
   color: #000;
   text-transform: uppercase;
+  font-family:"Avenir Heavy";
   position: absolute;
-  top: 10px;
-  font-size: .8rem;
+  top: 15px;
+  font-size: 1rem;
 }
 
 span.label.unchecked {
