@@ -621,7 +621,6 @@ class Map {
     _switchRouteBlockColor() {
 
         self = this;
-
         if(self.session.route === 'old') {
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = purple;
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = black;
@@ -629,7 +628,6 @@ class Map {
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = black;
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = purple;
         }
-
     }
 
     // _toggleRoute(e,routeId) {
