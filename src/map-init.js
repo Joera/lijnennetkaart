@@ -353,7 +353,6 @@ class Map {
                     },
                     "line-width": 4,
                     "line-dasharray": [1,0]
-                    // "line-translate": [-4,-4]
                 },
                 "filter": ['all',
                     ["==","isNieuw",false],
@@ -380,7 +379,7 @@ class Map {
                         ]
                     },
                     "line-width": 4,
-                    "line-dasharray": [4,4],
+                    "line-dasharray": [1,0],
 
                 },
                 "filter": ['all',

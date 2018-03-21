@@ -2494,7 +2494,7 @@ var Map = function () {
                         stops: [['prio', purple], ['alt', pink]]
                     },
                     "line-width": 4,
-                    "line-dasharray": [4, 4]
+                    "line-dasharray": [1, 0]
 
                 },
                 "filter": ['all', ["==", "isNieuw", true], ["==", "transport_type", "bus"]]
