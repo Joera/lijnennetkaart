@@ -2120,11 +2120,6 @@ var Map = function () {
             console.log(err);
         }
 
-        var self = this,
-            activeItems = [];
-
-        this.nightview = false;
-
         this.config = {
             accessToken: 'pk.eyJ1Ijoid2lqbmVtZW5qZW1lZSIsImEiOiJjaWgwZjB4ZGwwMGdza3FseW02MWNxcmttIn0.l-4VI25pfA5GKukRQTXnWA',
             style: 'mapbox://styles/wijnemenjemee/cjcywszq502re2sobjc8d1e0z',
@@ -2136,12 +2131,8 @@ var Map = function () {
             scrollZoom: false
         };
 
-        this.options = {
-            filters: true,
-            referenceList: true
-        };
-
         this.session = {
+            route: 'old',
             origin: null,
             destination: null,
             data: {}
@@ -2171,7 +2162,6 @@ var Map = function () {
 
         var mapWebGL = new MapWebGL(self.config);
         self._map = mapWebGL.create();
-        self._route = 'oud';
 
         self._background = new Background(self._map, self.config);
         self._origin = new Origin(self._map, self.config);
@@ -2624,21 +2614,6 @@ var Map = function () {
         header.innerHTML = traject[0].features[0].properties.trajectNaam;
         var ul = document.createElement('ul');
 
-        // let routeSelect = document.createElement('div');
-        // routeSelect.id = "route-select";
-        // let switchHTML = ` <div id=>
-        //     <label class="switch">
-        //     <input id="route-switch" type="checkbox">
-        //     <span class="slider round"></span>
-        //     <span class="label checked">Nieuw</span>
-        //     <span class="label unchecked">Huidig</span>
-        //     </label>`;
-        //
-        // routeSelect.innerHTML = switchHTML;
-        if (self._route === 'nieuw') {
-            // checkbox op checked zetten
-        }
-
         var routeIds = [];
 
         traject.forEach(function (r) {
@@ -2689,9 +2664,7 @@ var Map = function () {
 
             routeIds.push(r.features[0].properties.routeId);
         });
-        console.log('hwswi');
-        // routeSelect.addEventListener("click",function() {  self._routeSwitch(routeIds) },false)
-        // self._routeBlock.appendChild(routeSelect);
+
         self._routeBlock.appendChild(header);
         self._routeBlock.appendChild(ul);
     };
@@ -2699,13 +2672,10 @@ var Map = function () {
     Map.prototype._switchRouteBlockColor = function _switchRouteBlockColor() {
 
         self = this;
-
-        if (self._route === 'old') {
-            self._showNew(r.features[0].properties.routeId);
+        if (self.session.route === 'old') {
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = purple;
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = black;
         } else {
-            self._showOld(r.features[0].properties.routeId);
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = black;
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = purple;
         }
@@ -2856,7 +2826,7 @@ var Map = function () {
                     return f.geometry.type === 'LineString';
                 });
 
-                if (self._route === 'old') {
+                if (self.session.route === 'old') {
                     self._showNew(routes[0].properties.routeId);
                 } else {
                     self._showOld(routes[0].properties.routeId);
