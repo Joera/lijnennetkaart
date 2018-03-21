@@ -623,11 +623,9 @@ class Map {
         self = this;
 
         if(self.session.route === 'old') {
-            self._showNew(r.features[0].properties.routeId);
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = purple;
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = black;
         } else {
-            self._showOld(r.features[0].properties.routeId);
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = black;
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = purple;
         }
