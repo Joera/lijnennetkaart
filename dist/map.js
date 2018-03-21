@@ -1929,7 +1929,7 @@ var Points = function () {
                 "circle-stroke-color": {
                     property: 'state',
                     type: 'categorical',
-                    stops: [['inactive', grey], ['highlighted', pink], ['active', purple]]
+                    stops: [['inactive', grey], ['highlighted', pink], ['active', yellow]]
                 },
                 "circle-stroke-opacity": 1
             }
@@ -1941,7 +1941,11 @@ var Points = function () {
             "source": "destinations",
             "layout": {
                 "visibility": "visible",
-                "icon-image": "rect_pink",
+                "icon-image": {
+                    property: 'state',
+                    type: 'categorical',
+                    stops: [['inactive', ''], ['highlighted', 'rect_pink'], ['active', 'rect_yellow']]
+                },
                 "icon-padding": 0,
                 "icon-text-fit": 'both',
                 "icon-text-fit-padding": [5, 10, 2, 10],
@@ -1957,9 +1961,13 @@ var Points = function () {
                 "text-allow-overlap": true
             },
             "paint": {
-                'text-color': "#fff"
+                'text-color': {
+                    property: 'state',
+                    type: 'categorical',
+                    stops: [['inactive', '#fff'], ['highlighted', '#fff'], ['active', '#000']]
+                }
             },
-            "filter": ['all', ["==", "state", "highlighted"]]
+            "filter": ['all', ["in", "state", "highlighted", "active"]]
         });
 
         self._map.addLayer({
@@ -1968,7 +1976,11 @@ var Points = function () {
             "source": "destinations",
             "layout": {
 
-                "icon-image": "connector_pink",
+                "icon-image": {
+                    property: 'state',
+                    type: 'categorical',
+                    stops: [['inactive', ''], ['highlighted', 'connector_pink'], ['active', 'connector_yellow']]
+                },
                 "icon-padding": 0,
                 "icon-allow-overlap": true,
                 "symbol-placement": "point",
@@ -1976,7 +1988,7 @@ var Points = function () {
                 "icon-offset": [16, 0]
 
             },
-            "filter": ['all', ["==", "state", "highlighted"]]
+            "filter": ['all', ["in", "state", "highlighted", "active"]]
         }, 'destination-labels');
     };
 
@@ -2191,6 +2203,9 @@ var Map = function () {
         self._map.on("mouseover", "origins", function (e) {
             self._highlightOrigin(e.features[0].properties.naam);
         });
+        self._map.on("mouseout", "origins", function (e) {
+            self._unhighlightOrigin();
+        });
         self._map.on("click", "origin-labels", function (e) {
             self._selectOrigin(e.features[0].properties);
         });
@@ -2210,6 +2225,9 @@ var Map = function () {
             li.addEventListener('mouseover', function () {
                 self._highlightOrigin(o.properties.naam);
             }, false);
+            li.addEventListener('mouseout', function () {
+                self._unhighlightOrigin();
+            }, false);
             li.addEventListener('click', function () {
                 self._selectOrigin(o.properties);
             }, false);
@@ -2224,6 +2242,12 @@ var Map = function () {
 
         this._map.setFilter('origin-labels', ['all', ["==", "function", "herkomst"], ["==", "naam", naam]]);
         this._map.setFilter('origin-labels-connector', ['all', ["==", "function", "herkomst"], ["==", "naam", naam]]);
+    };
+
+    Map.prototype._unhighlightOrigin = function _unhighlightOrigin() {
+
+        this._map.setFilter('origin-labels', ['all', ["==", "function", "herkomst"], ["==", "naam", ""]]);
+        this._map.setFilter('origin-labels-connector', ['all', ["==", "function", "herkomst"], ["==", "naam", ""]]);
     };
 
     Map.prototype._selectOrigin = function _selectOrigin(origin) {
@@ -2314,6 +2338,9 @@ var Map = function () {
             self._map.on("mouseover", "destinations", function (e) {
                 self._highlightDestination(e.features[0].properties.id);
             });
+            self._map.on("mouseout", "destinations", function (e) {
+                self._unhighlightDestination();
+            });
             self._map.on("click", "destination-labels", function (e) {
                 self._initRoute(e.features[0].properties.id);
             });
@@ -2324,9 +2351,21 @@ var Map = function () {
 
         var self = this;
         self.session.data.destinations.features.forEach(function (d) {
-            d.properties.state = 'inactive';
-            if (d.properties.id === id) {
+            if (d.properties.state === 'highlighted') {
+                d.properties.state = 'inactive';
+            } else if (d.properties.id === id) {
                 d.properties.state = 'highlighted';
+            }
+        });
+        this._map.getSource('destinations').setData(self.session.data.destinations);
+    };
+
+    Map.prototype._unhighlightDestination = function _unhighlightDestination() {
+
+        var self = this;
+        self.session.data.destinations.features.forEach(function (d) {
+            if (d.properties.state === 'highlighted') {
+                d.properties.state = 'inactive';
             }
         });
         this._map.getSource('destinations').setData(self.session.data.destinations);
@@ -2338,6 +2377,7 @@ var Map = function () {
         self.session.data.destinations.features.forEach(function (d) {
             d.properties.state = 'inactive';
             if (d.properties.id === id) {
+                console.log('set active');
                 d.properties.state = 'active';
             }
         });
@@ -2362,6 +2402,9 @@ var Map = function () {
             li.innerHTML = o.properties.naam;
             li.addEventListener('mouseover', function () {
                 self._highlightDestination(o.properties.id);
+            }, false);
+            li.addEventListener('mouseout', function () {
+                self._unhighlightDestination();
             }, false);
             li.addEventListener('click', function () {
                 self._initRoute(o.properties.id);
@@ -2764,8 +2807,6 @@ var Map = function () {
 
         var self = this;
 
-        console.log('show new');
-
         self._map.setLayoutProperty('route-' + routeId + '-bus_new', 'visibility', 'visible');
         self._map.setLayoutProperty('route-' + routeId + '-metro_new', 'visibility', 'visible');
         self._map.setLayoutProperty('route-' + routeId + '-tram_new', 'visibility', 'visible');
@@ -2785,12 +2826,6 @@ var Map = function () {
     Map.prototype._showOld = function _showOld(routeId) {
 
         var self = this;
-
-        console.log('show old');
-
-        var ls = self._map.getStyle().layers;
-
-        console.log(ls);
 
         self._map.setLayoutProperty('route-' + routeId + '-bus_new', 'visibility', 'none');
         self._map.setLayoutProperty('route-' + routeId + '-metro_new', 'visibility', 'none');

@@ -109,7 +109,7 @@ class Points {
                     stops: [
                         ['inactive', grey],
                         ['highlighted', pink],
-                        ['active', purple]
+                        ['active', yellow]
                     ]
                 },
                 "circle-stroke-opacity": 1,
@@ -122,7 +122,15 @@ class Points {
             "source": "destinations",
             "layout": {
                 "visibility": "visible",
-                "icon-image": "rect_pink",
+                "icon-image": {
+                    property: 'state',
+                    type: 'categorical',
+                    stops: [
+                        ['inactive', ''],
+                        ['highlighted', 'rect_pink'],
+                        ['active', 'rect_yellow']
+                    ]
+                },
                 "icon-padding": 0,
                 "icon-text-fit": 'both',
                 "icon-text-fit-padding": [5,10,2,10],
@@ -138,10 +146,18 @@ class Points {
                 "text-allow-overlap":true
             },
             "paint": {
-                'text-color': "#fff"
+                'text-color': {
+                    property: 'state',
+                    type: 'categorical',
+                    stops: [
+                        ['inactive', '#fff'],
+                        ['highlighted', '#fff'],
+                        ['active', '#000']
+                    ]
+                },
             },
             "filter": ['all',
-                ["==", "state", "highlighted"]
+                ["in", "state", "highlighted","active"]
             ]
         });
 
@@ -151,7 +167,15 @@ class Points {
             "source": "destinations",
             "layout": {
 
-                "icon-image": "connector_pink",
+                "icon-image": {
+                    property: 'state',
+                    type: 'categorical',
+                    stops: [
+                        ['inactive', ''],
+                        ['highlighted', 'connector_pink'],
+                        ['active', 'connector_yellow']
+                    ]
+                },
                 "icon-padding": 0,
                 "icon-allow-overlap": true,
                 "symbol-placement": "point",
@@ -160,7 +184,7 @@ class Points {
 
             },
             "filter": ['all',
-                ["==", "state", "highlighted"]
+                ["in", "state", "highlighted","active"]
             ]
         },'destination-labels');
     }

@@ -82,6 +82,9 @@ class Map {
         self._map.on("mouseover", "origins", function (e) {
             self._highlightOrigin(e.features[0].properties.naam);
         });
+        self._map.on("mouseout", "origins", function (e) {
+            self._unhighlightOrigin();
+        });
         self._map.on("click", "origin-labels", function (e) {
             self._selectOrigin(e.features[0].properties);
         });
@@ -102,6 +105,9 @@ class Map {
             li.addEventListener('mouseover', function () {
                 self._highlightOrigin(o.properties.naam);
             }, false);
+            li.addEventListener('mouseout', function () {
+                self._unhighlightOrigin();
+            }, false);
             li.addEventListener('click', function () {
                 self._selectOrigin(o.properties);
             }, false);
@@ -117,6 +123,12 @@ class Map {
 
         this._map.setFilter('origin-labels',['all', ["==", "function", "herkomst"],["==", "naam",naam]]);
         this._map.setFilter('origin-labels-connector',['all', ["==", "function", "herkomst"], ["==", "naam",naam]]);
+    }
+
+    _unhighlightOrigin() {
+
+        this._map.setFilter('origin-labels',['all', ["==", "function", "herkomst"], ["==", "naam",""]]);
+        this._map.setFilter('origin-labels-connector',['all', ["==", "function", "herkomst"], ["==", "naam",""]]);
     }
 
     _selectOrigin(origin) {
@@ -202,6 +214,9 @@ class Map {
                     self._map.on("mouseover", "destinations", function (e) {
                         self._highlightDestination(e.features[0].properties.id);
                     });
+                    self._map.on("mouseout", "destinations", function (e) {
+                        self._unhighlightDestination();
+                    });
                     self._map.on("click", "destination-labels", function (e) {
                         self._initRoute(e.features[0].properties.id);
                     });
@@ -212,9 +227,21 @@ class Map {
 
         let self = this;
         self.session.data.destinations.features.forEach( function(d) {
-            d.properties.state = 'inactive';
-            if (d.properties.id === id) {
+            if(d.properties.state === 'highlighted') {
+                d.properties.state = 'inactive';
+            } else if (d.properties.id === id) {
                 d.properties.state = 'highlighted';
+            }
+        });
+        this._map.getSource('destinations').setData(self.session.data.destinations);
+    }
+
+    _unhighlightDestination() {
+
+        let self = this;
+        self.session.data.destinations.features.forEach( function(d) {
+            if(d.properties.state === 'highlighted') {
+                d.properties.state = 'inactive';
             }
         });
         this._map.getSource('destinations').setData(self.session.data.destinations);
@@ -226,6 +253,7 @@ class Map {
         self.session.data.destinations.features.forEach( function(d) {
             d.properties.state = 'inactive';
             if (d.properties.id === id) {
+                console.log('set active');
                 d.properties.state = 'active';
             }
         });
@@ -250,6 +278,9 @@ class Map {
             li.innerHTML = o.properties.naam;
             li.addEventListener('mouseover', function () {
                 self._highlightDestination(o.properties.id);
+            }, false);
+            li.addEventListener('mouseout', function () {
+                self._unhighlightDestination();
             }, false);
             li.addEventListener('click', function () {
                 self._initRoute(o.properties.id);
@@ -711,10 +742,6 @@ class Map {
 
         let self = this;
 
-        console.log('show new');
-
-
-
         self._map.setLayoutProperty('route-' + routeId + '-bus_new', 'visibility', 'visible');
         self._map.setLayoutProperty('route-' + routeId + '-metro_new', 'visibility', 'visible');
         self._map.setLayoutProperty('route-' + routeId + '-tram_new', 'visibility', 'visible');
@@ -734,12 +761,6 @@ class Map {
     _showOld(routeId) {
 
         let self = this;
-
-        console.log('show old');
-
-        let ls = self._map.getStyle().layers;
-
-        console.log(ls);
 
         self._map.setLayoutProperty('route-' + routeId + '-bus_new', 'visibility', 'none');
         self._map.setLayoutProperty('route-' + routeId + '-metro_new', 'visibility', 'none');
