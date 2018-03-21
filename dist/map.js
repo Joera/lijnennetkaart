@@ -2594,6 +2594,7 @@ var Map = function () {
             self._points.drawTransfers(r.features[0].properties.routeId);
 
             self._switchRouteBlockColor();
+            self._switchRouteLayers(r.features[0].properties.routeId);
         });
     };
 
@@ -2667,6 +2668,17 @@ var Map = function () {
 
         self._routeBlock.appendChild(header);
         self._routeBlock.appendChild(ul);
+    };
+
+    Map.prototype._switchRouteLayers = function _switchRouteLayers(routeId) {
+
+        self = this;
+
+        if (self.session.route === 'old') {
+            self._showNew(routeId);
+        } else {
+            self._showOld(routeId);
+        }
     };
 
     Map.prototype._switchRouteBlockColor = function _switchRouteBlockColor() {
@@ -2826,12 +2838,7 @@ var Map = function () {
                     return f.geometry.type === 'LineString';
                 });
 
-                if (self.session.route === 'old') {
-                    self._showNew(routes[0].properties.routeId);
-                } else {
-                    self._showOld(routes[0].properties.routeId);
-                }
-
+                self._switchRouteLayers(routes[0].properties.routeId);
                 self._switchRouteBlockColor();
             });
         } else {

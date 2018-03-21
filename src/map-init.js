@@ -264,8 +264,6 @@ class Map {
 
     _initRoute(destination) {
 
-
-
         let self = this;
 
         // remove previous route layers
@@ -534,6 +532,7 @@ class Map {
             self._points.drawTransfers(r.features[0].properties.routeId);
 
             self._switchRouteBlockColor();
+            self._switchRouteLayers(r.features[0].properties.routeId);
 
         });
 
@@ -616,6 +615,17 @@ class Map {
         self._routeBlock.appendChild(header);
         self._routeBlock.appendChild(ul);
 
+    }
+
+    _switchRouteLayers(routeId) {
+
+        self = this;
+
+        if(self.session.route === 'old') {
+            self._showNew(routeId);
+        } else {
+            self._showOld(routeId);
+        }
     }
 
     _switchRouteBlockColor() {
@@ -777,12 +787,7 @@ class Map {
                     return f.geometry.type === 'LineString';
                 });
 
-                if(self.session.route === 'old') {
-                    self._showNew(routes[0].properties.routeId);
-                } else {
-                    self._showOld(routes[0].properties.routeId);
-                }
-
+                self._switchRouteLayers(routes[0].properties.routeId);
                 self._switchRouteBlockColor();
             });
 
