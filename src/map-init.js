@@ -25,7 +25,7 @@ class Map {
         }
         
         this.session = {
-            route : 'old';
+            route : 'old',
             origin : null,
             destination : null,
             data : {}
