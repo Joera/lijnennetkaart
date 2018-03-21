@@ -2675,9 +2675,9 @@ var Map = function () {
         self = this;
 
         if (self.session.route === 'old') {
-            self._showNew(routeId);
-        } else {
             self._showOld(routeId);
+        } else {
+            self._showNew(routeId);
         }
     };
 
