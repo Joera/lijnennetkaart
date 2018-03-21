@@ -60,13 +60,13 @@ span.label {
 
 span.label.unchecked {
   display: inline;
-  right: 15px;
+  right: 31px;
 }
 
 input:checked ~ span.label.checked {
   color: #fff;
   display: inline;
-  right: 42px;
+  right: 64px;
 }
 
 input:checked ~ span.label.unchecked {
