@@ -2603,15 +2603,7 @@ var Map = function () {
 
             self._points.drawTransfers(r.features[0].properties.routeId);
 
-            if (self._route === 'old') {
-                self._showNew(r.features[0].properties.routeId);
-                self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = purple;
-                self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = black;
-            } else {
-                self._showOld(r.features[0].properties.routeId);
-                self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = black;
-                self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = purple;
-            }
+            self._switchRouteBlockColor();
         });
     };
 
@@ -2702,6 +2694,21 @@ var Map = function () {
         // self._routeBlock.appendChild(routeSelect);
         self._routeBlock.appendChild(header);
         self._routeBlock.appendChild(ul);
+    };
+
+    Map.prototype._switchRouteBlockColor = function _switchRouteBlockColor() {
+
+        self = this;
+
+        if (self._route === 'old') {
+            self._showNew(r.features[0].properties.routeId);
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = purple;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = black;
+        } else {
+            self._showOld(r.features[0].properties.routeId);
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = black;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = purple;
+        }
     };
 
     // _toggleRoute(e,routeId) {
@@ -2851,13 +2858,11 @@ var Map = function () {
 
                 if (self._route === 'old') {
                     self._showNew(routes[0].properties.routeId);
-                    self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = purple;
-                    self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = black;
                 } else {
                     self._showOld(routes[0].properties.routeId);
-                    self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = black;
-                    self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = purple;
                 }
+
+                self._switchRouteBlockColor();
             });
         } else {
 
