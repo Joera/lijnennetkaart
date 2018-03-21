@@ -2473,7 +2473,6 @@ var Map = function () {
                     },
                     "line-width": 4,
                     "line-dasharray": [1, 0]
-                    // "line-translate": [-4,-4]
                 },
                 "filter": ['all', ["==", "isNieuw", false], ["==", "transport_type", "bus"]]
             }, 'origins');
