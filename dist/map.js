@@ -1000,7 +1000,8 @@ var Map = function () {
         });
         this._map.getSource('origins').setData(self.config.origins);
 
-        var url = 'http://localhost:8080/api/route/' + originId;
+        // let url = 'http://localhost:9876/api/route/' + originId;
+        var url = 'http://37.46.136.132:9876/api/route/' + originId;
 
         axios.get(url).then(function (response) {
             if (response.status !== 200) {
