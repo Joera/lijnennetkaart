@@ -1,0 +1,735 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "36003",
+        "trajectId": "36003_14404",
+        "routeId": "36003_14404_oud",
+        "trajectNaam": "Zaandam, Barkstraat - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 35,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Zaandam, Barkstraat",
+        "id": "36003",
+        "state": "inactive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.845003,
+          52.449385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "35250",
+        "trajectId": "35250_14404",
+        "routeId": "35250_14404_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 34,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250",
+        "state": "inactive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "13527",
+        "trajectId": "13527_14404",
+        "routeId": "13527_14404_oud",
+        "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 35,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Volendam, Stadskantoor",
+        "id": "13527",
+        "state": "inactive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.054103,
+          52.500217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "13412",
+        "trajectId": "13412_14404",
+        "routeId": "13412_14404_oud",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 37,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Purmerend, Korenstraat",
+        "id": "13412",
+        "state": "inactive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.993163,
+          52.511956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "10220",
+        "trajectId": "10220_14404",
+        "routeId": "10220_14404_oud",
+        "trajectNaam": "Uithoorn, Busstation - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 64,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Uithoorn, Busstation",
+        "id": "10220",
+        "state": "inactive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.821661,
+          52.24297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "34294",
+        "trajectId": "34294_14404",
+        "routeId": "34294_14404_oud",
+        "trajectNaam": "Hoofddorp, Station - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 24,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Hoofddorp, Station",
+        "id": "34294",
+        "state": "inactive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.697839,
+          52.29287
+        ]
+      }
+    },
+     {
+       "type": "Feature",
+       "properties": {
+         "isNieuw": false,
+         "originId": "10220",
+         "trajectId": "10220_14404",
+         "routeId": "10220_14404_oud",
+         "trajectNaam": "Uithoorn, Busstation - Amsterdam, Centraal Station",
+         "totaaltijdRoute": 21.75,
+         "cluster": "Amsterdam Centrum",
+         "function": "herkomst",
+         "id": "37224",
+         "naam": "Aalsmeer, Hortensiaplein",
+         "state": "inactive"
+       },
+       "geometry": {
+         "type": "Point",
+         "coordinates": [
+           4.757719,
+           52.262762
+         ]
+       }
+     },
+      {
+        "type": "Feature",
+        "properties": {
+          "isNieuw": false,
+          "originId": "13663",
+          "trajectId": "13663_14404",
+          "routeId": "13663_14404_oud",
+          "trajectNaam": "Marken, Minneweg - Amsterdam, Centraal Station",
+          "totaaltijdRoute": 0,
+          "cluster": "Waterland_Minneweg",
+          "function": "herkomst",
+          "id": "13663",
+          "naam": "Marken, Minneweg",
+          "state": "inactive"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.109598,
+            52.461947
+          ]
+        }
+      },
+       {
+         "type": "Feature",
+         "properties": {
+           "isNieuw": false,
+           "originId": "13431",
+           "trajectId": "13431_14404",
+           "routeId": "13431_14404_oud",
+           "trajectNaam": "Monnickendam, Swaensborch - Amsterdam, Centraal Station",
+           "totaaltijdRoute": 0,
+           "cluster": "Waterland_Swaensborch",
+           "function": "herkomst",
+           "id": "13431",
+           "naam": "Monnickendam, Swaensborch",
+           "state": "inactive"
+         },
+         "geometry": {
+           "type": "Point",
+           "coordinates": [
+             5.037434,
+             52.45542
+           ]
+         }
+       },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "13378",
+            "trajectId": "13378_14404",
+            "routeId": "13378_14404_oud",
+            "trajectNaam": "Landsmeer, van Beekstraat - Amsterdam, Centraal Station",
+            "totaaltijdRoute": 0,
+            "cluster": "Waterland van Beekstraat",
+            "function": "herkomst",
+            "id": "13378",
+            "naam": "Landsmeer, van Beekstraat",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.913461,
+              52.428989
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "41783",
+            "trajectId": "41783_14404",
+            "routeId": "41783_14404_oud",
+            "trajectNaam": "Oostzaan, Lisweg - Amsterdam, Centraal Station",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "41783",
+            "naam": "Oostzaan, Lisweg",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.87739,
+              52.436964
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14420",
+            "trajectId": "14420_15871",
+            "routeId": "14420_15871_oud",
+            "trajectNaam": "Amsterdam, Albert Cuypstraat - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "15871-14420",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14420-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Albert Cuypstraat",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "14404",
+            "function": "herkomst",
+            "id": "14404",
+            "naam": "Amsterdam, Centraal Station",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899804040143607,
+              52.37818519858757
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15687",
+            "trajectId": "15687_14649",
+            "routeId": "15687_14649_oud",
+            "trajectNaam": "Amsterdam, Haarlemmerplein - Amsterdam, Leidseplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "15687",
+            "naam": "Amsterdam, Haarlemmerplein",
+            "trajectId_reversed": "14649-15687",
+            "originId_reversed": "14649",
+            "routeId_reversed": "14649_15687-oud",
+            "trajectNaam_reversed": "Amsterdam, Leidseplein - Amsterdam, Haarlemmerplein",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.88341,
+              52.384843
+            ]
+          }
+        },
+       {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "14966",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-oud",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939496,
+              52.363957
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_15569",
+            "routeId": "15462_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15569-15462",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Ten Katestraat",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_99999",
+            "routeId": "14649_99999_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Station Noord",
+            "totaaltijdRoute": 19.75,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "99999-14649",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_14649-oud",
+            "trajectNaam_reversed": "Station Noord - Amsterdam, Leidseplein",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14738",
+            "trajectId": "14738_14356",
+            "routeId": "14738_14356_oud",
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14356-14738",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14738-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Maasstraat",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14356",
+            "trajectId": "14356_13417",
+            "routeId": "14356_13417_oud",
+            "trajectNaam": "Amsterdam, Minervaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "13417-14356",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14356-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Minervaplein",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14121",
+            "trajectId": "14121_14536",
+            "routeId": "14121_14536_oud",
+            "trajectNaam": "Amsterdam, Mosplein - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "45642",
+            "naam": "Amsterdam, Mosplein",
+            "trajectId_reversed": "14536-14121",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_14121-oud",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Amsterdam, Mosplein",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.913551,
+              52.393048
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14584",
+            "routeId": "99996_14584_oud",
+            "trajectNaam": "Rokin - Amsterdam, Waterlooplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14584-99996",
+            "originId_reversed": "14584",
+            "routeId_reversed": "14584_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Waterlooplein - Rokin",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99999",
+            "trajectId": "99999_14121",
+            "routeId": "99999_14121_oud",
+            "trajectNaam": "Station Noord - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "99999",
+            "naam": "Station Noord",
+            "trajectId_reversed": "14121-99999",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_99999-oud",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Station Noord",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.935017824,
+              52.40412729
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99992",
+            "trajectId": "99992_14339",
+            "routeId": "99992_14339_oud",
+            "trajectNaam": "Zuid - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "14339-99992",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_99992-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Zuid",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14420",
+            "routeId": "15569_14420_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14420-15569",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Surinameplein",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_14738",
+            "routeId": "15871_14738_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15342",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "14738-15871",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ceintuurbaan",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14536",
+            "trajectId": "14536_14966",
+            "routeId": "14536_14966_oud",
+            "trajectNaam": "Amsterdam, Volendammerweg - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "function": "herkomst",
+            "id": "15674",
+            "naam": "Amsterdam, Volendammerweg",
+            "trajectId_reversed": "14966-14536",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_14536-oud",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Amsterdam, Volendammerweg",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.957564,
+              52.391688
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15462",
+            "routeId": "14339_15462_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15462-14339",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, De Boelelaan/VU",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14584",
+            "trajectId": "14584_14509",
+            "routeId": "14584_14509_oud",
+            "trajectNaam": "Amsterdam, Waterlooplein - Amsterdam, Westermarkt",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "14584",
+            "naam": "Amsterdam, Waterlooplein",
+            "trajectId_reversed": "14509-14584",
+            "originId_reversed": "14509",
+            "routeId_reversed": "14509_14584-oud",
+            "trajectNaam_reversed": "Amsterdam, Westermarkt - Amsterdam, Waterlooplein",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.902979,
+              52.366977
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14509",
+            "trajectId": "14509_15687",
+            "routeId": "14509_15687_oud",
+            "trajectNaam": "Amsterdam, Westermarkt - Amsterdam, Haarlemmerplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "48295",
+            "naam": "Amsterdam, Westermarkt",
+            "trajectId_reversed": "15687-14509",
+            "originId_reversed": "15687",
+            "routeId_reversed": "15687_14509-oud",
+            "trajectNaam_reversed": "Amsterdam, Haarlemmerplein - Amsterdam, Westermarkt",
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.883605,
+              52.374122
+            ]
+          }
+        }
+    ]
+}

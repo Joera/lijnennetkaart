@@ -1,0 +1,2544 @@
+[
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "43445",
+            "end_naam": "Amsterdam, Leidseplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "VU_Leidseplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15462",
+            "routeId": "14339_15462_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "43445",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Amsterdam, Leidseplein",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15462-14339",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.881773,
+                52.363482
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "15780",
+            "end_naam": "Amsterdam, Ten Katestraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Leidseplein_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15462",
+            "routeId": "14339_15462_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15780",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Ten Katestraat",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15462-14339",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.867737,
+                52.366036
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15462",
+            "routeId": "14339_15462_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15462-14339",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15462",
+            "routeId": "14339_15462_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "43445",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15462-14339",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881773,
+              52.363482
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15462",
+            "routeId": "14339_15462_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15780",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15462-14339",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867737,
+              52.366036
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "43445",
+            "end_naam": "Amsterdam, Leidseplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "VU_Leidseplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15462",
+            "routeId": "14339_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "43445",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Amsterdam, Leidseplein",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15462-14339",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.881773,
+                52.363482
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "15780",
+            "end_naam": "Amsterdam, Ten Katestraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Leidseplein_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15462",
+            "routeId": "14339_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15780",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Ten Katestraat",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15462-14339",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.867737,
+                52.366036
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15462",
+            "routeId": "14339_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15462-14339",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15462",
+            "routeId": "14339_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "43445",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15462-14339",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881773,
+              52.363482
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15462",
+            "routeId": "14339_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15780",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15462-14339",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867737,
+              52.366036
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "99992",
+            "end_naam": "Zuid",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "VU_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15569",
+            "routeId": "14339_15569_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 17,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "99992",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Zuid",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15569-14339",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.873056,
+                52.338889
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14882",
+            "start_naam": "Amsterdam, Station Zuid",
+            "end_id": "15569",
+            "end_naam": "Amsterdam, Surinameplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Zuid_Surinameplein",
+            "traject_stops": "",
+            "reistijd": 17,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 17,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15569",
+            "routeId": "14339_15569_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 17,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15569",
+            "end_id_reversed": "14882",
+            "start_naam_reversed": "Amsterdam, Surinameplein",
+            "end_naam_reversed": "Amsterdam, Station Zuid",
+            "trajectId_reversed": "15569-14339",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.87374,
+                52.340825
+              ],
+              [
+                4.85252,
+                52.358068
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15569",
+            "routeId": "14339_15569_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 17,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15569-14339",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15569",
+            "routeId": "14339_15569_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 17,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "15569-14339",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15569",
+            "routeId": "14339_15569_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 17,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15569",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15569-14339",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.85252,
+              52.358068
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "99992",
+            "end_naam": "Zuid",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "VU_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15569",
+            "routeId": "14339_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 17,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "99992",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Zuid",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15569-14339",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.873056,
+                52.338889
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14882",
+            "start_naam": "Amsterdam, Station Zuid",
+            "end_id": "15569",
+            "end_naam": "Amsterdam, Surinameplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Zuid_Surinameplein",
+            "traject_stops": "",
+            "reistijd": 17,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 17,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15569",
+            "routeId": "14339_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 17,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15569",
+            "end_id_reversed": "14882",
+            "start_naam_reversed": "Amsterdam, Surinameplein",
+            "end_naam_reversed": "Amsterdam, Station Zuid",
+            "trajectId_reversed": "15569-14339",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.87374,
+                52.340825
+              ],
+              [
+                4.85252,
+                52.358068
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15569",
+            "routeId": "14339_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 17,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15569-14339",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15569",
+            "routeId": "14339_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 17,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "15569-14339",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15569",
+            "routeId": "14339_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 17,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15569",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15569-14339",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.85252,
+              52.358068
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "24"
+            ],
+            "traject_name": "VU_Ceintuurbaan_tram",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14420",
+            "routeId": "14339_14420_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14420-14339",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14420",
+            "routeId": "14339_14420_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14420-14339",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14420",
+            "routeId": "14339_14420_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14420-14339",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "51"
+            ],
+            "traject_name": "VU_Ceintuurbaan",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14420",
+            "routeId": "14339_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14420-14339",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14420",
+            "routeId": "14339_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14420-14339",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14420",
+            "routeId": "14339_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14420-14339",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "14888",
+            "end_naam": "Amsterdam, Station RAI",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "51"
+            ],
+            "traject_name": "VU_RAI",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 3,
+            "wachttijd": 3.75,
+            "totaaltijd": 6.75,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15871",
+            "routeId": "14339_15871_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 6.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14888",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Amsterdam, Station RAI",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15871-14339",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.890688,
+                52.33696
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99993",
+            "start_naam": "Europaplein",
+            "end_id": "15118",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "Rai_van_Woustraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15871",
+            "routeId": "14339_15871_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 6.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15118",
+            "end_id_reversed": "99993",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Europaplein",
+            "trajectId_reversed": "15871-14339",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.890632629,
+                52.3428382
+              ],
+              [
+                4.899892,
+                52.357985
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15871",
+            "routeId": "14339_15871_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 6.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15871-14339",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15871",
+            "routeId": "14339_15871_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 6.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 3,
+            "wachttijd": 3.75,
+            "function": "overstap",
+            "id": "14888",
+            "naam": "Amsterdam, Station RAI",
+            "trajectId_reversed": "15871-14339",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.890688,
+              52.33696
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_15871",
+            "routeId": "14339_15871_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 6.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15118",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-14339",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899892,
+              52.357985
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "14888",
+            "end_naam": "Amsterdam, Station RAI",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "51"
+            ],
+            "traject_name": "VU_RAI",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 3,
+            "wachttijd": 3.75,
+            "totaaltijd": 6.75,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15871",
+            "routeId": "14339_15871_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 6.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14888",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Amsterdam, Station RAI",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15871-14339",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.890688,
+                52.33696
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99993",
+            "start_naam": "Europaplein",
+            "end_id": "15118",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "Rai_van_Woustraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15871",
+            "routeId": "14339_15871_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 6.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15118",
+            "end_id_reversed": "99993",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Europaplein",
+            "trajectId_reversed": "15871-14339",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.890632629,
+                52.3428382
+              ],
+              [
+                4.899892,
+                52.357985
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15871",
+            "routeId": "14339_15871_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 6.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "15871-14339",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15871",
+            "routeId": "14339_15871_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 6.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 3,
+            "wachttijd": 3.75,
+            "function": "overstap",
+            "id": "14888",
+            "naam": "Amsterdam, Station RAI",
+            "trajectId_reversed": "15871-14339",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.890688,
+              52.33696
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_15871",
+            "routeId": "14339_15871_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 6.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15118",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-14339",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899892,
+              52.357985
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "14888",
+            "end_naam": "Amsterdam, Station RAI",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "51"
+            ],
+            "traject_name": "VU_RAI",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 3,
+            "wachttijd": 3.75,
+            "totaaltijd": 6.75,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14738",
+            "routeId": "14339_14738_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14888",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Amsterdam, Station RAI",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14738-14339",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.890688,
+                52.33696
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99993",
+            "start_naam": "Europaplein",
+            "end_id": "14738",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "RAI_Rooseveltlaan/Maasstraat",
+            "traject_stops": "",
+            "reistijd": 2,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 2,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14738",
+            "routeId": "14339_14738_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14738",
+            "end_id_reversed": "99993",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Europaplein",
+            "trajectId_reversed": "14738-14339",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.890632629,
+                52.3428382
+              ],
+              [
+                4.896841,
+                52.343107
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14738",
+            "routeId": "14339_14738_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14738-14339",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14738",
+            "routeId": "14339_14738_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 3,
+            "wachttijd": 3.75,
+            "function": "overstap",
+            "id": "14888",
+            "naam": "Amsterdam, Station RAI",
+            "trajectId_reversed": "14738-14339",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.890688,
+              52.33696
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14738",
+            "routeId": "14339_14738_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14738",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-14339",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.896841,
+              52.343107
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "14888",
+            "end_naam": "Amsterdam, Station RAI",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "51"
+            ],
+            "traject_name": "VU_RAI",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 3,
+            "wachttijd": 3.75,
+            "totaaltijd": 6.75,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14738",
+            "routeId": "14339_14738_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14888",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Amsterdam, Station RAI",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14738-14339",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.890688,
+                52.33696
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99993",
+            "start_naam": "Europaplein",
+            "end_id": "14738",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "RAI_Rooseveltlaan/Maasstraat",
+            "traject_stops": "",
+            "reistijd": 2,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 2,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14738",
+            "routeId": "14339_14738_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14738",
+            "end_id_reversed": "99993",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Europaplein",
+            "trajectId_reversed": "14738-14339",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.890632629,
+                52.3428382
+              ],
+              [
+                4.896841,
+                52.343107
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14738",
+            "routeId": "14339_14738_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14738-14339",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14738",
+            "routeId": "14339_14738_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 3,
+            "wachttijd": 3.75,
+            "function": "overstap",
+            "id": "14888",
+            "naam": "Amsterdam, Station RAI",
+            "trajectId_reversed": "14738-14339",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.890688,
+              52.33696
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14738",
+            "routeId": "14339_14738_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14738",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-14339",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.896841,
+              52.343107
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "15818",
+            "end_naam": "Amsterdam, Stadionweg",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "VU_Stadionweg",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14356",
+            "routeId": "14339_14356_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15818",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Amsterdam, Stadionweg",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14356-14339",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.876881,
+                52.347148
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "49702",
+            "start_naam": "Amsterdam, Stadionplein",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "voet",
+            "traject_name": "Stadionweg_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14356",
+            "routeId": "14339_14356_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "49702",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Amsterdam, Stadionplein",
+            "trajectId_reversed": "14356-14339",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.856591,
+                52.344138
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14356",
+            "routeId": "14339_14356_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14356-14339",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14356",
+            "routeId": "14339_14356_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15818",
+            "naam": "Amsterdam, Stadionweg",
+            "trajectId_reversed": "14356-14339",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.876881,
+              52.347148
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_14356",
+            "routeId": "14339_14356_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-14339",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "15818",
+            "end_naam": "Amsterdam, Stadionweg",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "VU_Stadionweg",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14356",
+            "routeId": "14339_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15818",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Amsterdam, Stadionweg",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14356-14339",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.876881,
+                52.347148
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "49702",
+            "start_naam": "Amsterdam, Stadionplein",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "voet",
+            "traject_name": "Stadionweg_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14356",
+            "routeId": "14339_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "49702",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Amsterdam, Stadionplein",
+            "trajectId_reversed": "14356-14339",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.856591,
+                52.344138
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14356",
+            "routeId": "14339_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14356-14339",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14356",
+            "routeId": "14339_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15818",
+            "naam": "Amsterdam, Stadionweg",
+            "trajectId_reversed": "14356-14339",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.876881,
+              52.347148
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_14356",
+            "routeId": "14339_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-14339",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "99992",
+            "end_naam": "Zuid",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "VU_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_13417",
+            "routeId": "14339_13417_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "99992",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Zuid",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "13417-14339",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.873056,
+                52.338889
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14882",
+            "start_naam": "Amsterdam, Station Zuid",
+            "end_id": "13417",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Zuid_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_13417",
+            "routeId": "14339_13417_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "13417",
+            "end_id_reversed": "14882",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Station Zuid",
+            "trajectId_reversed": "13417-14339",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.87374,
+                52.340825
+              ],
+              [
+                4.850108,
+                52.370577
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_13417",
+            "routeId": "14339_13417_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "13417-14339",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_13417",
+            "routeId": "14339_13417_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "13417-14339",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14339",
+            "trajectId": "14339_13417",
+            "routeId": "14339_13417_oud",
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "13417",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-14339",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14339-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.850108,
+              52.370577
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "62855",
+            "start_naam": "Amsterdam, De Boelelaan/VU",
+            "end_id": "99992",
+            "end_naam": "Zuid",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "VU_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_13417",
+            "routeId": "14339_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "99992",
+            "end_id_reversed": "62855",
+            "start_naam_reversed": "Zuid",
+            "end_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "13417-14339",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.868605,
+                52.334484
+              ],
+              [
+                4.873056,
+                52.338889
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14882",
+            "start_naam": "Amsterdam, Station Zuid",
+            "end_id": "13417",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Zuid_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_13417",
+            "routeId": "14339_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "13417",
+            "end_id_reversed": "14882",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Station Zuid",
+            "trajectId_reversed": "13417-14339",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.87374,
+                52.340825
+              ],
+              [
+                4.850108,
+                52.370577
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_13417",
+            "routeId": "14339_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "13417-14339",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_13417",
+            "routeId": "14339_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "13417-14339",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14339",
+            "trajectId": "14339_13417",
+            "routeId": "14339_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, De Boelelaan/VU - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "13417",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-14339",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14339-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, De Boelelaan/VU"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.850108,
+              52.370577
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Kinkerstraat",
+          "id": "15462"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.867372,
+            52.365918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Surinameplein",
+          "id": "15569"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.85252,
+            52.358068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Ferdinand Bol/Ceintuurbaan",
+          "id": "14420"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.889402,
+            52.354823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "v.Woustr/Ceintuurbaan",
+          "id": "15871"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.891233,
+            52.352539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Rooseveltlaan/Maasstraat",
+          "id": "14738"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.896841,
+            52.343107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Minervaplein",
+          "id": "14356"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.872043,
+            52.346695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mercatorplein",
+          "id": "13417"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.850108,
+            52.370577
+          ]
+        }
+      }
+    ],
+    "name": "destinations"
+  }
+]

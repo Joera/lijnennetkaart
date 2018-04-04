@@ -1,0 +1,4330 @@
+[
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "48005",
+            "end_naam": "Amsterdam, Centraal Station",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1",
+              "2",
+              "5"
+            ],
+            "traject_name": "Leidseplein_CS",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 4,
+            "wachttijd": 3.75,
+            "totaaltijd": 7.75,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_99999",
+            "routeId": "14649_99999_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Station Noord",
+            "totaaltijdRoute": 19.75,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "48005",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Centraal Station",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "99999-14649",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_14649-oud",
+            "trajectNaam_reversed": "Station Noord - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.89787,
+                52.377579
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14404",
+            "start_naam": "Amsterdam, Centraal Station",
+            "end_id": "13871",
+            "end_naam": "Amsterdam, Buikslotermeerplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "33",
+              "392"
+            ],
+            "traject_name": "CS_Buikslotermeerplein(met_bus)",
+            "traject_stops": "",
+            "reistijd": 12,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 12,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_99999",
+            "routeId": "14649_99999_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Station Noord",
+            "totaaltijdRoute": 19.75,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "13871",
+            "end_id_reversed": "14404",
+            "start_naam_reversed": "Amsterdam, Buikslotermeerplein",
+            "end_naam_reversed": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "99999-14649",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_14649-oud",
+            "trajectNaam_reversed": "Station Noord - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.901776,
+                52.377604
+              ],
+              [
+                4.935204,
+                52.400385
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_99999",
+            "routeId": "14649_99999_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Station Noord",
+            "totaaltijdRoute": 19.75,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "99999-14649",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_14649-oud",
+            "trajectNaam_reversed": "Station Noord - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_99999",
+            "routeId": "14649_99999_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Station Noord",
+            "totaaltijdRoute": 19.75,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 4,
+            "wachttijd": 3.75,
+            "function": "overstap",
+            "id": "48005",
+            "naam": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "99999-14649",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_14649-oud",
+            "trajectNaam_reversed": "Station Noord - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89787,
+              52.377579
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_99999",
+            "routeId": "14649_99999_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Station Noord",
+            "totaaltijdRoute": 19.75,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "13871",
+            "naam": "Amsterdam, Buikslotermeerplein",
+            "trajectId_reversed": "99999-14649",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_14649-oud",
+            "trajectNaam_reversed": "Station Noord - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.935204,
+              52.400385
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "48005",
+            "end_naam": "Amsterdam, Centraal Station",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "2",
+              "11",
+              "12"
+            ],
+            "traject_name": "Leidseplein_CS",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_99999",
+            "routeId": "14649_99999_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Station Noord",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "48005",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Centraal Station",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "99999-14649",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_14649-nieuw",
+            "trajectNaam_reversed": "Station Noord - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.89787,
+                52.377579
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14404",
+            "start_naam": "Amsterdam, Centraal Station",
+            "end_id": "99999",
+            "end_naam": "Station Noord",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "52"
+            ],
+            "traject_name": "CS_Noord",
+            "traject_stops": null,
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_99999",
+            "routeId": "14649_99999_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Station Noord",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "99999",
+            "end_id_reversed": "14404",
+            "start_naam_reversed": "Station Noord",
+            "end_naam_reversed": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "99999-14649",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_14649-nieuw",
+            "trajectNaam_reversed": "Station Noord - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "coordinates": [
+              [
+                4.935349611969656,
+                52.4044330240167
+              ],
+              [
+                4.933700147459888,
+                52.403240342511
+              ],
+              [
+                4.932508867526167,
+                52.402258840842705
+              ],
+              [
+                4.931582316467882,
+                52.401513381940646
+              ],
+              [
+                4.929047028512201,
+                52.39950057997865
+              ],
+              [
+                4.927265199556757,
+                52.39812759765178
+              ],
+              [
+                4.925982282757275,
+                52.39700929991446
+              ],
+              [
+                4.92536118795627,
+                52.39645635336879
+              ],
+              [
+                4.925208459763752,
+                52.39628239121157
+              ],
+              [
+                4.924943730889879,
+                52.39597795578629
+              ],
+              [
+                4.924332818119666,
+                52.395275882404945
+              ],
+              [
+                4.923874633482541,
+                52.39470427463547
+              ],
+              [
+                4.9234266307827,
+                52.39406431362633
+              ],
+              [
+                4.922418624701777,
+                52.39244883678202
+              ],
+              [
+                4.921644801833509,
+                52.39131796785966
+              ],
+              [
+                4.921400436715317,
+                52.39100107080404
+              ],
+              [
+                4.921186617230575,
+                52.3907835911198
+              ],
+              [
+                4.920952434015504,
+                52.39057853786238
+              ],
+              [
+                4.920677523263777,
+                52.39038591121272
+              ],
+              [
+                4.920392430609212,
+                52.390168428497475
+              ],
+              [
+                4.920036064677902,
+                52.389932303195366
+              ],
+              [
+                4.91978151768194,
+                52.38978317076911
+              ],
+              [
+                4.919445515638159,
+                52.389596754535404
+              ],
+              [
+                4.918885512257077,
+                52.389254989390366
+              ],
+              [
+                4.918152416927768,
+                52.3888572957033
+              ],
+              [
+                4.916360405939656,
+                52.38780090449208
+              ],
+              [
+                4.91350519290711,
+                52.386392538980886
+              ],
+              [
+                4.912649324728335,
+                52.3859848377258
+              ],
+              [
+                4.911897830701662,
+                52.38564720747391
+              ],
+              [
+                4.91085988937715,
+                52.38520184300549
+              ],
+              [
+                4.907822600910322,
+                52.38389587665563
+              ],
+              [
+                4.906697791058406,
+                52.38334475662896
+              ],
+              [
+                4.905698230166308,
+                52.38288282114675
+              ],
+              [
+                4.904617601124869,
+                52.38234119030949
+              ],
+              [
+                4.903583584074767,
+                52.38179307305023
+              ],
+              [
+                4.903100853566343,
+                52.381472930903584
+              ],
+              [
+                4.902534623682158,
+                52.38101262295601
+              ],
+              [
+                4.901725723898778,
+                52.38016207590391
+              ],
+              [
+                4.901391726359805,
+                52.37979254473635
+              ],
+              [
+                4.899533866035881,
+                52.37810413014162
+              ]
+            ],
+            "type": "LineString"
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_99999",
+            "routeId": "14649_99999_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Station Noord",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "99999-14649",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_14649-nieuw",
+            "trajectNaam_reversed": "Station Noord - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_99999",
+            "routeId": "14649_99999_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Station Noord",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "48005",
+            "naam": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "99999-14649",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_14649-nieuw",
+            "trajectNaam_reversed": "Station Noord - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89787,
+              52.377579
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_99999",
+            "routeId": "14649_99999_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Station Noord",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "99999",
+            "naam": "Station Noord",
+            "trajectId_reversed": "99999-14649",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_14649-nieuw",
+            "trajectNaam_reversed": "Station Noord - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.935017824,
+              52.40412729
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "48005",
+            "end_naam": "Amsterdam, Centraal Station",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1",
+              "2",
+              "5"
+            ],
+            "traject_name": "Leidseplein_CS",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14121",
+            "routeId": "14649_14121_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "48005",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Centraal Station",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14121-14649",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.89787,
+                52.377579
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14404",
+            "start_naam": "Amsterdam, Centraal Station",
+            "end_id": "14121",
+            "end_naam": "Amsterdam, Mosplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "34",
+              "35",
+              "391",
+              "394"
+            ],
+            "traject_name": "CS_Mosplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14121",
+            "routeId": "14649_14121_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14121",
+            "end_id_reversed": "14404",
+            "start_naam_reversed": "Amsterdam, Mosplein",
+            "end_naam_reversed": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "14121-14649",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.901776,
+                52.377604
+              ],
+              [
+                4.913404,
+                52.393065
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14121",
+            "routeId": "14649_14121_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14121-14649",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14121",
+            "routeId": "14649_14121_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "48005",
+            "naam": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "14121-14649",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89787,
+              52.377579
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14121",
+            "routeId": "14649_14121_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14121",
+            "naam": "Amsterdam, Mosplein",
+            "trajectId_reversed": "14121-14649",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.913404,
+              52.393065
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "48005",
+            "end_naam": "Amsterdam, Centraal Station",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "2",
+              "11",
+              "12"
+            ],
+            "traject_name": "Leidseplein_CS",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14121",
+            "routeId": "14649_14121_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "48005",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Centraal Station",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14121-14649",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.89787,
+                52.377579
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14404",
+            "start_naam": "Amsterdam, Centraal Station",
+            "end_id": "14121",
+            "end_naam": "Amsterdam, Mosplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "391",
+              "394"
+            ],
+            "traject_name": "CS_Mosplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14121",
+            "routeId": "14649_14121_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14121",
+            "end_id_reversed": "14404",
+            "start_naam_reversed": "Amsterdam, Mosplein",
+            "end_naam_reversed": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "14121-14649",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.901776,
+                52.377604
+              ],
+              [
+                4.913404,
+                52.393065
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14121",
+            "routeId": "14649_14121_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14121-14649",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14121",
+            "routeId": "14649_14121_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "48005",
+            "naam": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "14121-14649",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89787,
+              52.377579
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14121",
+            "routeId": "14649_14121_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14121",
+            "naam": "Amsterdam, Mosplein",
+            "trajectId_reversed": "14121-14649",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.913404,
+              52.393065
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "14579",
+            "end_naam": "Amsterdam, Linnaeusstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Leidseplein_Linnaeusstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14536",
+            "routeId": "14649_14536_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14579",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Linnaeusstraat",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14536-14649",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.925735,
+                52.360129
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14579",
+            "start_naam": "Amsterdam, Linnaeusstraat",
+            "end_id": "14536",
+            "end_naam": "Amsterdam, Volendammerweg",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "37"
+            ],
+            "traject_name": "Linnaeusstraat_Volendammerweg",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14536",
+            "routeId": "14649_14536_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14536",
+            "end_id_reversed": "14579",
+            "start_naam_reversed": "Amsterdam, Volendammerweg",
+            "end_naam_reversed": "Amsterdam, Linnaeusstraat",
+            "trajectId_reversed": "14536-14649",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.925735,
+                52.360129
+              ],
+              [
+                4.956968,
+                52.392557
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14536",
+            "routeId": "14649_14536_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14536-14649",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14536",
+            "routeId": "14649_14536_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14579",
+            "naam": "Amsterdam, Linnaeusstraat",
+            "trajectId_reversed": "14536-14649",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.925735,
+              52.360129
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14536",
+            "routeId": "14649_14536_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14536",
+            "naam": "Amsterdam, Volendammerweg",
+            "trajectId_reversed": "14536-14649",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.956968,
+              52.392557
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "14579",
+            "end_naam": "Amsterdam, Linnaeusstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Leidseplein_Linnaeusstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14536",
+            "routeId": "14649_14536_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14579",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Linnaeusstraat",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14536-14649",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.925735,
+                52.360129
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14579",
+            "start_naam": "Amsterdam, Linnaeusstraat",
+            "end_id": "14536",
+            "end_naam": "Amsterdam, Volendammerweg",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "37"
+            ],
+            "traject_name": "Linnaeusstraat_Volendammerweg",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14536",
+            "routeId": "14649_14536_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14536",
+            "end_id_reversed": "14579",
+            "start_naam_reversed": "Amsterdam, Volendammerweg",
+            "end_naam_reversed": "Amsterdam, Linnaeusstraat",
+            "trajectId_reversed": "14536-14649",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.925735,
+                52.360129
+              ],
+              [
+                4.956968,
+                52.392557
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14536",
+            "routeId": "14649_14536_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14536-14649",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14536",
+            "routeId": "14649_14536_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14579",
+            "naam": "Amsterdam, Linnaeusstraat",
+            "trajectId_reversed": "14536-14649",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.925735,
+              52.360129
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14536",
+            "routeId": "14649_14536_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14536",
+            "naam": "Amsterdam, Volendammerweg",
+            "trajectId_reversed": "14536-14649",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.956968,
+              52.392557
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "43445",
+            "end_naam": "Amsterdam, Leidseplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Leidseplein_Molukkenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14966",
+            "routeId": "14649_14966_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "start_id_reversed": "43445",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Leidseplein",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14966-14649",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.881773,
+                52.363482
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14950",
+            "start_naam": "Amsterdam, 't Nopeind",
+            "end_id": "14969",
+            "end_naam": "Amsterdam, Javaplein",
+            "transport_type": "voet",
+            "traject_name": "Molukkenstraat_Javaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14966",
+            "routeId": "14649_14966_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "start_id_reversed": "14969",
+            "end_id_reversed": "14950",
+            "start_naam_reversed": "Amsterdam, Javaplein",
+            "end_naam_reversed": "Amsterdam, 't Nopeind",
+            "trajectId_reversed": "14966-14649",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.964943,
+                52.409788
+              ],
+              [
+                4.939553,
+                52.364119
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14966",
+            "routeId": "14649_14966_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14966-14649",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14966",
+            "routeId": "14649_14966_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "43445",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14966-14649",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881773,
+              52.363482
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14966",
+            "routeId": "14649_14966_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14966-14649",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "43445",
+            "end_naam": "Amsterdam, Leidseplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Leidseplein_Molukkenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14966",
+            "routeId": "14649_14966_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "start_id_reversed": "43445",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Leidseplein",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14966-14649",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.881773,
+                52.363482
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14950",
+            "start_naam": "Amsterdam, 't Nopeind",
+            "end_id": "14969",
+            "end_naam": "Amsterdam, Javaplein",
+            "transport_type": "voet",
+            "traject_name": "Molukkenstraat_Javaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14966",
+            "routeId": "14649_14966_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "start_id_reversed": "14969",
+            "end_id_reversed": "14950",
+            "start_naam_reversed": "Amsterdam, Javaplein",
+            "end_naam_reversed": "Amsterdam, 't Nopeind",
+            "trajectId_reversed": "14966-14649",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.964943,
+                52.409788
+              ],
+              [
+                4.939553,
+                52.364119
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14966",
+            "routeId": "14649_14966_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14966-14649",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14966",
+            "routeId": "14649_14966_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "43445",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14966-14649",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881773,
+              52.363482
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14966",
+            "routeId": "14649_14966_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14966-14649",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "49385",
+            "end_naam": "Amsterdam, Station Zuid",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "Leidseplein_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_99992",
+            "routeId": "14649_99992_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "49385",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Station Zuid",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "99992-14649",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14649-oud",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.873566,
+                52.340716
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_99992",
+            "routeId": "14649_99992_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "99992-14649",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14649-oud",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_99992",
+            "routeId": "14649_99992_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "49385",
+            "naam": "Amsterdam, Station Zuid",
+            "trajectId_reversed": "99992-14649",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14649-oud",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873566,
+              52.340716
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "49385",
+            "end_naam": "Amsterdam, Station Zuid",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "Leidseplein_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_99992",
+            "routeId": "14649_99992_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "49385",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Station Zuid",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "99992-14649",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14649-nieuw",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.873566,
+                52.340716
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_99992",
+            "routeId": "14649_99992_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "99992-14649",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14649-nieuw",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_99992",
+            "routeId": "14649_99992_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "49385",
+            "naam": "Amsterdam, Station Zuid",
+            "trajectId_reversed": "99992-14649",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14649-nieuw",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873566,
+              52.340716
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "62855",
+            "end_naam": "Amsterdam, De Boelelaan/VU",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "Leidseplein_VU",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14339",
+            "routeId": "14649_14339_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "62855",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14339-14649",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.868605,
+                52.334484
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14339",
+            "routeId": "14649_14339_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14339-14649",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14339",
+            "routeId": "14649_14339_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14339-14649",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "62855",
+            "end_naam": "Amsterdam, De Boelelaan/VU",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "Leidseplein_VU",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14339",
+            "routeId": "14649_14339_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "62855",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14339-14649",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.868605,
+                52.334484
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14339",
+            "routeId": "14649_14339_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14339-14649",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14339",
+            "routeId": "14649_14339_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14339-14649",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "15780",
+            "end_naam": "Amsterdam, Ten Katestraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Leidseplein_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_15462",
+            "routeId": "14649_15462_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15780",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Ten Katestraat",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15462-14649",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.867737,
+                52.366036
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_15462",
+            "routeId": "14649_15462_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15462-14649",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_15462",
+            "routeId": "14649_15462_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15780",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15462-14649",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867737,
+              52.366036
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "15780",
+            "end_naam": "Amsterdam, Ten Katestraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Leidseplein_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_15462",
+            "routeId": "14649_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15780",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Ten Katestraat",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15462-14649",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.867737,
+                52.366036
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_15462",
+            "routeId": "14649_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15462-14649",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_15462",
+            "routeId": "14649_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15780",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15462-14649",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867737,
+              52.366036
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "15565",
+            "end_naam": "Amsterdam, Surinameplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Leidseplein_Surinameplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_15569",
+            "routeId": "14649_15569_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15565",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Surinameplein",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15569-14649",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.852093,
+                52.358138
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_15569",
+            "routeId": "14649_15569_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15569-14649",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_15569",
+            "routeId": "14649_15569_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15569-14649",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "15565",
+            "end_naam": "Amsterdam, Surinameplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Leidseplein_Surinameplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_15569",
+            "routeId": "14649_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15565",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Surinameplein",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15569-14649",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.852093,
+                52.358138
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_15569",
+            "routeId": "14649_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15569-14649",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_15569",
+            "routeId": "14649_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15569-14649",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "14831",
+            "end_naam": "Amsterdam, Weteringcircuit",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7",
+              "10"
+            ],
+            "traject_name": "Leidseplein_Weteringcircuit",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14420",
+            "routeId": "14649_14420_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14831",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Weteringcircuit",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14420-14649",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.89075,
+                52.358945
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14831",
+            "start_naam": "Amsterdam, Weteringcircuit",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "24"
+            ],
+            "traject_name": "Weteringcircuit_Ceintuurbaan",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14420",
+            "routeId": "14649_14420_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "14831",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, Weteringcircuit",
+            "trajectId_reversed": "14420-14649",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.89075,
+                52.358945
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14420",
+            "routeId": "14649_14420_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14420-14649",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14420",
+            "routeId": "14649_14420_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14831",
+            "naam": "Amsterdam, Weteringcircuit",
+            "trajectId_reversed": "14420-14649",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89075,
+              52.358945
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14420",
+            "routeId": "14649_14420_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14420-14649",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "12"
+            ],
+            "traject_name": "Leidseplein_de_Pijp",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14420",
+            "routeId": "14649_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14420-14649",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14420",
+            "routeId": "14649_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14420-14649",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14420",
+            "routeId": "14649_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14420-14649",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "14952",
+            "end_naam": "Amsterdam, Frederiksplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7",
+              "10"
+            ],
+            "traject_name": "Leidseplein_Frederiksplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_15871",
+            "routeId": "14649_15871_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14952",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Frederiksplein",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15871-14649",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.899368,
+                52.360257
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15777",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15342",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "Frederiksplein_van_Woustraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_15871",
+            "routeId": "14649_15871_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15342",
+            "end_id_reversed": "15777",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "15871-14649",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872306,
+                52.367063
+              ],
+              [
+                4.900838,
+                52.354682
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_15871",
+            "routeId": "14649_15871_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15871-14649",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_15871",
+            "routeId": "14649_15871_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14952",
+            "naam": "Amsterdam, Frederiksplein",
+            "trajectId_reversed": "15871-14649",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899368,
+              52.360257
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_15871",
+            "routeId": "14649_15871_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15342",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-14649",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "14952",
+            "end_naam": "Amsterdam, Frederiksplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1",
+              "7",
+              "19"
+            ],
+            "traject_name": "Leidseplein_Frederiksplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_15871",
+            "routeId": "14649_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14952",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Frederiksplein",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15871-14649",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.899368,
+                52.360257
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15777",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15342",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "Frederiksplein_van_Woustraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_15871",
+            "routeId": "14649_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15342",
+            "end_id_reversed": "15777",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "15871-14649",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872306,
+                52.367063
+              ],
+              [
+                4.900838,
+                52.354682
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_15871",
+            "routeId": "14649_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15871-14649",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_15871",
+            "routeId": "14649_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14952",
+            "naam": "Amsterdam, Frederiksplein",
+            "trajectId_reversed": "15871-14649",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899368,
+              52.360257
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_15871",
+            "routeId": "14649_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15342",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-14649",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "14952",
+            "end_naam": "Amsterdam, Frederiksplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7",
+              "10"
+            ],
+            "traject_name": "Leidseplein_Frederiksplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14738",
+            "routeId": "14649_14738_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14952",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Frederiksplein",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14738-14649",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.899368,
+                52.360257
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15777",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15776",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "Frederiksplein_Maasstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14738",
+            "routeId": "14649_14738_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15776",
+            "end_id_reversed": "15777",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14738-14649",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872306,
+                52.367063
+              ],
+              [
+                4.89844,
+                52.340471
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14738",
+            "routeId": "14649_14738_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14738-14649",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14738",
+            "routeId": "14649_14738_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14952",
+            "naam": "Amsterdam, Frederiksplein",
+            "trajectId_reversed": "14738-14649",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899368,
+              52.360257
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14738",
+            "routeId": "14649_14738_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-14649",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "14952",
+            "end_naam": "Amsterdam, Frederiksplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1",
+              "7",
+              "19"
+            ],
+            "traject_name": "Leidseplein_Frederiksplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14738",
+            "routeId": "14649_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14952",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Frederiksplein",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14738-14649",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.899368,
+                52.360257
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15777",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15776",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "Frederiksplein_Maasstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14738",
+            "routeId": "14649_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15776",
+            "end_id_reversed": "15777",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14738-14649",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872306,
+                52.367063
+              ],
+              [
+                4.89844,
+                52.340471
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14738",
+            "routeId": "14649_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14738-14649",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14738",
+            "routeId": "14649_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14952",
+            "naam": "Amsterdam, Frederiksplein",
+            "trajectId_reversed": "14738-14649",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899368,
+              52.360257
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14738",
+            "routeId": "14649_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-14649",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "15818",
+            "end_naam": "Amsterdam, Stadionweg",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "Leidseplein_Stadionweg",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14356",
+            "routeId": "14649_14356_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15818",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Stadionweg",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14356-14649",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.876881,
+                52.347148
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "49702",
+            "start_naam": "Amsterdam, Stadionplein",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "voet",
+            "traject_name": "Stadionweg_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14356",
+            "routeId": "14649_14356_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "49702",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Amsterdam, Stadionplein",
+            "trajectId_reversed": "14356-14649",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.856591,
+                52.344138
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14356",
+            "routeId": "14649_14356_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14356-14649",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14356",
+            "routeId": "14649_14356_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15818",
+            "naam": "Amsterdam, Stadionweg",
+            "trajectId_reversed": "14356-14649",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.876881,
+              52.347148
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_14356",
+            "routeId": "14649_14356_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-14649",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "15818",
+            "end_naam": "Amsterdam, Stadionweg",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "5"
+            ],
+            "traject_name": "Leidseplein_Stadionweg",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14356",
+            "routeId": "14649_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15818",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Stadionweg",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14356-14649",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.876881,
+                52.347148
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "49702",
+            "start_naam": "Amsterdam, Stadionplein",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "voet",
+            "traject_name": "Stadionweg_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14356",
+            "routeId": "14649_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "49702",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Amsterdam, Stadionplein",
+            "trajectId_reversed": "14356-14649",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.856591,
+                52.344138
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14356",
+            "routeId": "14649_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14356-14649",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14356",
+            "routeId": "14649_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15818",
+            "naam": "Amsterdam, Stadionweg",
+            "trajectId_reversed": "14356-14649",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.876881,
+              52.347148
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_14356",
+            "routeId": "14649_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-14649",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "48855",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Leidseplein_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_13417",
+            "routeId": "14649_13417_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "48855",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "13417-14649",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.84944,
+                52.369954
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_13417",
+            "routeId": "14649_13417_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "13417-14649",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14649",
+            "trajectId": "14649_13417",
+            "routeId": "14649_13417_oud",
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "48855",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-14649",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14649-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.84944,
+              52.369954
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "48855",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Leidseplein_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_13417",
+            "routeId": "14649_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "48855",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "13417-14649",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.84944,
+                52.369954
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_13417",
+            "routeId": "14649_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "13417-14649",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14649",
+            "trajectId": "14649_13417",
+            "routeId": "14649_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Leidseplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "48855",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-14649",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14649-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Leidseplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.84944,
+              52.369954
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "station Noord",
+          "id": "99999"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.935017824,
+            52.40412729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mosplein",
+          "id": "14121"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.913404,
+            52.393065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Volendammerweg",
+          "id": "14536"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.956968,
+            52.392557
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Javaplein",
+          "id": "14966"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.939496,
+            52.363957
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Station Zuid",
+          "id": "99992"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.873056,
+            52.338889
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "VU",
+          "id": "14339"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.868856,
+            52.334404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Kinkerstraat",
+          "id": "15462"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.867372,
+            52.365918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Surinameplein",
+          "id": "15569"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.85252,
+            52.358068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Ferdinand Bol/Ceintuurbaan",
+          "id": "14420"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.889402,
+            52.354823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "v.Woustr/Ceintuurbaan",
+          "id": "15871"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.891233,
+            52.352539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Rooseveltlaan/Maasstraat",
+          "id": "14738"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.896841,
+            52.343107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Minervaplein",
+          "id": "14356"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.872043,
+            52.346695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mercatorplein",
+          "id": "13417"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.850108,
+            52.370577
+          ]
+        }
+      }
+    ],
+    "name": "destinations"
+  }
+]

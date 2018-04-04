@@ -1,0 +1,2221 @@
+[
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15462",
+            "start_naam": "Amsterdam, Ten Katestraat",
+            "end_id": "15565",
+            "end_naam": "Amsterdam, Surinameplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "17"
+            ],
+            "traject_name": "Ten_Katestraat_Surinameplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_15569",
+            "routeId": "15462_15569_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15565",
+            "end_id_reversed": "15462",
+            "start_naam_reversed": "Amsterdam, Surinameplein",
+            "end_naam_reversed": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15569-15462",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.867372,
+                52.365918
+              ],
+              [
+                4.852093,
+                52.358138
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_15569",
+            "routeId": "15462_15569_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15569-15462",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_15569",
+            "routeId": "15462_15569_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15569-15462",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15462",
+            "start_naam": "Amsterdam, Ten Katestraat",
+            "end_id": "15565",
+            "end_naam": "Amsterdam, Surinameplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "17"
+            ],
+            "traject_name": "Ten_Katestraat_Surinameplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_15569",
+            "routeId": "15462_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15565",
+            "end_id_reversed": "15462",
+            "start_naam_reversed": "Amsterdam, Surinameplein",
+            "end_naam_reversed": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15569-15462",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.867372,
+                52.365918
+              ],
+              [
+                4.852093,
+                52.358138
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_15569",
+            "routeId": "15462_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15569-15462",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_15569",
+            "routeId": "15462_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15569-15462",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15462",
+            "start_naam": "Amsterdam, Ten Katestraat",
+            "end_id": "15777",
+            "end_naam": "Amsterdam, Kinkerstraat",
+            "transport_type": "voet",
+            "traject_name": "Ten_Katestraat_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14420",
+            "routeId": "15462_14420_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15777",
+            "end_id_reversed": "15462",
+            "start_naam_reversed": "Amsterdam, Kinkerstraat",
+            "end_naam_reversed": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14420-15462",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.867372,
+                52.365918
+              ],
+              [
+                4.872306,
+                52.367063
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15777",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3",
+              "12"
+            ],
+            "traject_name": "Kinkerstraat_Ceintuurbaan",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14420",
+            "routeId": "15462_14420_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "15777",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14420-15462",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872306,
+                52.367063
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14420",
+            "routeId": "15462_14420_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14420-15462",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14420",
+            "routeId": "15462_14420_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15777",
+            "naam": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14420-15462",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872306,
+              52.367063
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14420",
+            "routeId": "15462_14420_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14420-15462",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15462",
+            "start_naam": "Amsterdam, Ten Katestraat",
+            "end_id": "15777",
+            "end_naam": "Amsterdam, Kinkerstraat",
+            "transport_type": "voet",
+            "traject_name": "Ten_Katestraat_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14420",
+            "routeId": "15462_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15777",
+            "end_id_reversed": "15462",
+            "start_naam_reversed": "Amsterdam, Kinkerstraat",
+            "end_naam_reversed": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14420-15462",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.867372,
+                52.365918
+              ],
+              [
+                4.872306,
+                52.367063
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15777",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Kinkerstraat_Ceintuurbaan",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14420",
+            "routeId": "15462_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "15777",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14420-15462",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872306,
+                52.367063
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14420",
+            "routeId": "15462_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14420-15462",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14420",
+            "routeId": "15462_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15777",
+            "naam": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14420-15462",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872306,
+              52.367063
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14420",
+            "routeId": "15462_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14420-15462",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15462",
+            "start_naam": "Amsterdam, Ten Katestraat",
+            "end_id": "15777",
+            "end_naam": "Amsterdam, Kinkerstraat",
+            "transport_type": "voet",
+            "traject_name": "Ten_Katestraat_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_15871",
+            "routeId": "15462_15871_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15777",
+            "end_id_reversed": "15462",
+            "start_naam_reversed": "Amsterdam, Kinkerstraat",
+            "end_naam_reversed": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15871-15462",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.867372,
+                52.365918
+              ],
+              [
+                4.872306,
+                52.367063
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15777",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15118",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Kinkerstraat_van_Woustraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_15871",
+            "routeId": "15462_15871_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15118",
+            "end_id_reversed": "15777",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "15871-15462",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872306,
+                52.367063
+              ],
+              [
+                4.899892,
+                52.357985
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_15871",
+            "routeId": "15462_15871_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15871-15462",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_15871",
+            "routeId": "15462_15871_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15777",
+            "naam": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "15871-15462",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872306,
+              52.367063
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_15871",
+            "routeId": "15462_15871_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15118",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-15462",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899892,
+              52.357985
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15462",
+            "start_naam": "Amsterdam, Ten Katestraat",
+            "end_id": "15777",
+            "end_naam": "Amsterdam, Kinkerstraat",
+            "transport_type": "voet",
+            "traject_name": "Ten_Katestraat_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_15871",
+            "routeId": "15462_15871_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15777",
+            "end_id_reversed": "15462",
+            "start_naam_reversed": "Amsterdam, Kinkerstraat",
+            "end_naam_reversed": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15871-15462",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.867372,
+                52.365918
+              ],
+              [
+                4.872306,
+                52.367063
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15777",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15118",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Kinkerstraat_van_Woustraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_15871",
+            "routeId": "15462_15871_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15118",
+            "end_id_reversed": "15777",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "15871-15462",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872306,
+                52.367063
+              ],
+              [
+                4.899892,
+                52.357985
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_15871",
+            "routeId": "15462_15871_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15871-15462",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_15871",
+            "routeId": "15462_15871_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15777",
+            "naam": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "15871-15462",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872306,
+              52.367063
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_15871",
+            "routeId": "15462_15871_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15118",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-15462",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899892,
+              52.357985
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15462",
+            "start_naam": "Amsterdam, Ten Katestraat",
+            "end_id": "15777",
+            "end_naam": "Amsterdam, Kinkerstraat",
+            "transport_type": "voet",
+            "traject_name": "Ten_Katestraat_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15777",
+            "end_id_reversed": "15462",
+            "start_naam_reversed": "Amsterdam, Kinkerstraat",
+            "end_naam_reversed": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.867372,
+                52.365918
+              ],
+              [
+                4.872306,
+                52.367063
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15778",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15776",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "12"
+            ],
+            "traject_name": "Kinkerstraat_Maasstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15776",
+            "end_id_reversed": "15778",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872008,
+                52.36743
+              ],
+              [
+                4.89844,
+                52.340471
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15777",
+            "naam": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872306,
+              52.367063
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15462",
+            "start_naam": "Amsterdam, Ten Katestraat",
+            "end_id": "15777",
+            "end_naam": "Amsterdam, Kinkerstraat",
+            "transport_type": "voet",
+            "traject_name": "Ten_Katestraat_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15777",
+            "end_id_reversed": "15462",
+            "start_naam_reversed": "Amsterdam, Kinkerstraat",
+            "end_naam_reversed": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.867372,
+                52.365918
+              ],
+              [
+                4.872306,
+                52.367063
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15777",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Kinkerstraat_Ceintuurbaan",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "15777",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872306,
+                52.367063
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15340",
+            "start_naam": "Amsterdam, Ceintuurbaan",
+            "end_id": "15776",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "Ceintuurbaan_Maasstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15776",
+            "end_id_reversed": "15340",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.901054,
+                52.35506
+              ],
+              [
+                4.89844,
+                52.340471
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15777",
+            "naam": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872306,
+              52.367063
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14738",
+            "routeId": "15462_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-15462",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15462",
+            "start_naam": "Amsterdam, Ten Katestraat",
+            "end_id": "15777",
+            "end_naam": "Amsterdam, Kinkerstraat",
+            "transport_type": "voet",
+            "traject_name": "Ten_Katestraat_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15777",
+            "end_id_reversed": "15462",
+            "start_naam_reversed": "Amsterdam, Kinkerstraat",
+            "end_naam_reversed": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.867372,
+                52.365918
+              ],
+              [
+                4.872306,
+                52.367063
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15777",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15021",
+            "end_naam": "Amsterdam, Roelof Hartplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3",
+              "12"
+            ],
+            "traject_name": "Kinkerstraat_Roelof_Hartplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15021",
+            "end_id_reversed": "15777",
+            "start_naam_reversed": "Amsterdam, Roelof Hartplein",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872306,
+                52.367063
+              ],
+              [
+                4.882067,
+                52.353147
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15019",
+            "start_naam": "Amsterdam, Roelof Hartplein",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "24"
+            ],
+            "traject_name": "Roelof_Hartplein_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "15019",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Amsterdam, Roelof Hartplein",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.882864,
+                52.352746
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15777",
+            "naam": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872306,
+              52.367063
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15021",
+            "naam": "Amsterdam, Roelof Hartplein",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.882067,
+              52.353147
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15462",
+            "start_naam": "Amsterdam, Ten Katestraat",
+            "end_id": "15777",
+            "end_naam": "Amsterdam, Kinkerstraat",
+            "transport_type": "voet",
+            "traject_name": "Ten_Katestraat_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15777",
+            "end_id_reversed": "15462",
+            "start_naam_reversed": "Amsterdam, Kinkerstraat",
+            "end_naam_reversed": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.867372,
+                52.365918
+              ],
+              [
+                4.872306,
+                52.367063
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15777",
+            "start_naam": "Amsterdam, Kinkerstraat",
+            "end_id": "15021",
+            "end_naam": "Amsterdam, Roelof Hartplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Kinkerstraat_Roelof_Hartplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15021",
+            "end_id_reversed": "15777",
+            "start_naam_reversed": "Amsterdam, Roelof Hartplein",
+            "end_naam_reversed": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872306,
+                52.367063
+              ],
+              [
+                4.882067,
+                52.353147
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15019",
+            "start_naam": "Amsterdam, Roelof Hartplein",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "24"
+            ],
+            "traject_name": "Roelof_Hartplein_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "15019",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Amsterdam, Roelof Hartplein",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.882864,
+                52.352746
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15777",
+            "naam": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872306,
+              52.367063
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15021",
+            "naam": "Amsterdam, Roelof Hartplein",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.882067,
+              52.353147
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_14356",
+            "routeId": "15462_14356_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-15462",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15462",
+            "start_naam": "Amsterdam, Ten Katestraat",
+            "end_id": "15780",
+            "end_naam": "Amsterdam, Ten Katestraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Ten_Katestraat_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_13417",
+            "routeId": "15462_13417_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "15780",
+            "end_id_reversed": "15462",
+            "start_naam_reversed": "Amsterdam, Ten Katestraat",
+            "end_naam_reversed": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "13417-15462",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.867372,
+                52.365918
+              ],
+              [
+                4.867737,
+                52.366036
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_13417",
+            "routeId": "15462_13417_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "13417-15462",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15462",
+            "trajectId": "15462_13417",
+            "routeId": "15462_13417_oud",
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15780",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "13417-15462",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15462-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867737,
+              52.366036
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "15780",
+            "end_naam": "Amsterdam, Ten Katestraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Ten_Katestraat_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_13417",
+            "routeId": "15462_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "15780",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Ten Katestraat",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "13417-15462",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.867737,
+                52.366036
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_13417",
+            "routeId": "15462_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "13417-15462",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15462",
+            "trajectId": "15462_13417",
+            "routeId": "15462_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ten Katestraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15780",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "13417-15462",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15462-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ten Katestraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867737,
+              52.366036
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Surinameplein",
+          "id": "15569"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.85252,
+            52.358068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Ferdinand Bol/Ceintuurbaan",
+          "id": "14420"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.889402,
+            52.354823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "v.Woustr/Ceintuurbaan",
+          "id": "15871"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.891233,
+            52.352539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Rooseveltlaan/Maasstraat",
+          "id": "14738"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.896841,
+            52.343107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Minervaplein",
+          "id": "14356"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.872043,
+            52.346695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mercatorplein",
+          "id": "13417"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.850108,
+            52.370577
+          ]
+        }
+      }
+    ],
+    "name": "destinations"
+  }
+]

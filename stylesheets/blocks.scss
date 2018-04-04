@@ -11,7 +11,7 @@
 
 #list-container {
 
-    max-height: calc(100% - 5rem);
+    max-height: calc(100% - 7rem);
     overflow-y: scroll;
 
     ul li {
@@ -19,9 +19,9 @@
       cursor:pointer;
     }
 
-    ul li:hover {
-      background: #fff;
-    }
+    //ul li:hover {
+    //  background: #fff;
+    //}
 }
 
 
@@ -73,6 +73,10 @@
   h3 {
     margin: 0;
     background: $black;
+    font-family:"Avenir Heavy";
+    color: white; // $yellow;
+    text-transform: uppercase;
+    font-size: 1rem;
     padding: 1rem;
   }
 
@@ -80,8 +84,23 @@
     //padding: .5rem 0;
 
     li {
-      padding: 1rem;
+      position: relative;
+      padding: 1rem 1rem 1rem 1rem;
 
+      label {
+        text-transform: uppercase;
+      }
+
+      svg {
+        position: absolute;
+        left: 0;
+        top: 1rem;
+        transform: scale(.85);
+      }
+
+      > div {
+        margin-left: 1.5rem;
+      }
 
       input {
         display: none;

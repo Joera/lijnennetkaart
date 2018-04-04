@@ -1,0 +1,1811 @@
+[
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15342",
+            "start_naam": "Amsterdam, Van Woustraat",
+            "end_id": "15776",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "Van_Woustraat_Maasstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_14738",
+            "routeId": "15871_14738_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15776",
+            "end_id_reversed": "15342",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "14738-15871",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.900838,
+                52.354682
+              ],
+              [
+                4.89844,
+                52.340471
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_14738",
+            "routeId": "15871_14738_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15342",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "14738-15871",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_14738",
+            "routeId": "15871_14738_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-15871",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15342",
+            "start_naam": "Amsterdam, Van Woustraat",
+            "end_id": "15776",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "Van_Woustraat_Maasstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_14738",
+            "routeId": "15871_14738_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15776",
+            "end_id_reversed": "15342",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "14738-15871",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.900838,
+                52.354682
+              ],
+              [
+                4.89844,
+                52.340471
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_14738",
+            "routeId": "15871_14738_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15342",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "14738-15871",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_14738",
+            "routeId": "15871_14738_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-15871",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15342",
+            "start_naam": "Amsterdam, Van Woustraat",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Van_Woustraat_Ceintuurbaan",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_14356",
+            "routeId": "15871_14356_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "15342",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "14356-15871",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.900838,
+                52.354682
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15340",
+            "start_naam": "Amsterdam, Ceintuurbaan",
+            "end_id": "14356",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "24"
+            ],
+            "traject_name": "Ceintuurbaan_Minervaplein",
+            "traject_stops": null,
+            "reistijd": 6,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 6,
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_14356",
+            "routeId": "15871_14356_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "operator": "GVB",
+            "route": "tram",
+            "wheelchair": "yes",
+            "from": "Amsterdam De Boelelaan/VU",
+            "name": "Tram 24: Amsterdam De Boelelaan/VU => Amsterdam Centraal Station",
+            "network": "Stadsvervoer Amsterdam",
+            "public_transport:version": "2",
+            "ref": "24",
+            "wikipedia": "nl:Tramlijn 24 (Amsterdam)",
+            "type": "route",
+            "@id": "relation/4513899",
+            "to": "Amsterdam Centraal Station",
+            "start_id_reversed": "14356",
+            "end_id_reversed": "15340",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14356-15871",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "coordinates": [
+              [
+                4.872906,
+                52.346728
+              ],
+              [
+                4.875327,
+                52.346792
+              ],
+              [
+                4.876458,
+                52.346846
+              ],
+              [
+                4.87652,
+                52.346846
+              ],
+              [
+                4.876602,
+                52.346849
+              ],
+              [
+                4.876692,
+                52.346863
+              ],
+              [
+                4.876736,
+                52.346895
+              ],
+              [
+                4.876788,
+                52.346933
+              ],
+              [
+                4.876842,
+                52.346973
+              ],
+              [
+                4.876873,
+                52.347001
+              ],
+              [
+                4.876893,
+                52.347023
+              ],
+              [
+                4.876934,
+                52.347071
+              ],
+              [
+                4.876995,
+                52.347477
+              ],
+              [
+                4.877138,
+                52.348381
+              ],
+              [
+                4.877202,
+                52.348818
+              ],
+              [
+                4.877215,
+                52.348901
+              ],
+              [
+                4.877251,
+                52.349004
+              ],
+              [
+                4.877348,
+                52.34914
+              ],
+              [
+                4.877928,
+                52.349668
+              ],
+              [
+                4.878643,
+                52.350332
+              ],
+              [
+                4.878672,
+                52.350363
+              ],
+              [
+                4.878836,
+                52.350681
+              ],
+              [
+                4.878849,
+                52.350713
+              ],
+              [
+                4.878882,
+                52.350782
+              ],
+              [
+                4.879013,
+                52.351043
+              ],
+              [
+                4.879151,
+                52.351315
+              ],
+              [
+                4.879248,
+                52.351423
+              ],
+              [
+                4.879437,
+                52.351528
+              ],
+              [
+                4.879792,
+                52.351679
+              ],
+              [
+                4.880666,
+                52.352039
+              ],
+              [
+                4.882114,
+                52.35265
+              ],
+              [
+                4.882275,
+                52.352723
+              ],
+              [
+                4.882337,
+                52.352738
+              ],
+              [
+                4.882458,
+                52.35277
+              ],
+              [
+                4.882563,
+                52.352779
+              ],
+              [
+                4.882666,
+                52.352763
+              ],
+              [
+                4.882735,
+                52.352749
+              ],
+              [
+                4.882813,
+                52.352733
+              ],
+              [
+                4.883254,
+                52.35259
+              ],
+              [
+                4.88367,
+                52.352479
+              ],
+              [
+                4.884217,
+                52.352375
+              ],
+              [
+                4.885196,
+                52.352279
+              ],
+              [
+                4.886114,
+                52.352224
+              ],
+              [
+                4.886216,
+                52.35222
+              ],
+              [
+                4.886307,
+                52.352221
+              ],
+              [
+                4.886702,
+                52.352213
+              ],
+              [
+                4.88681,
+                52.352215
+              ],
+              [
+                4.887354,
+                52.352262
+              ],
+              [
+                4.889172,
+                52.352496
+              ],
+              [
+                4.890718,
+                52.352711
+              ],
+              [
+                4.890823,
+                52.352726
+              ]
+            ],
+            "type": "LineString"
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_14356",
+            "routeId": "15871_14356_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15342",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "14356-15871",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_14356",
+            "routeId": "15871_14356_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14356-15871",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_14356",
+            "routeId": "15871_14356_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14356",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-15871",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872043,
+              52.346695
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15342",
+            "start_naam": "Amsterdam, Van Woustraat",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Van_Woustraat_Ceintuurbaan",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_14356",
+            "routeId": "15871_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "15342",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "14356-15871",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.900838,
+                52.354682
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15340",
+            "start_naam": "Amsterdam, Ceintuurbaan",
+            "end_id": "14356",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "24"
+            ],
+            "traject_name": "Ceintuurbaan_Minervaplein",
+            "traject_stops": null,
+            "reistijd": 6,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 6,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_14356",
+            "routeId": "15871_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "operator": "GVB",
+            "route": "tram",
+            "wheelchair": "yes",
+            "from": "Amsterdam De Boelelaan/VU",
+            "name": "Tram 24: Amsterdam De Boelelaan/VU => Amsterdam Centraal Station",
+            "network": "Stadsvervoer Amsterdam",
+            "public_transport:version": "2",
+            "ref": "24",
+            "wikipedia": "nl:Tramlijn 24 (Amsterdam)",
+            "type": "route",
+            "@id": "relation/4513899",
+            "to": "Amsterdam Centraal Station",
+            "start_id_reversed": "14356",
+            "end_id_reversed": "15340",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14356-15871",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "coordinates": [
+              [
+                4.872906,
+                52.346728
+              ],
+              [
+                4.875327,
+                52.346792
+              ],
+              [
+                4.876458,
+                52.346846
+              ],
+              [
+                4.87652,
+                52.346846
+              ],
+              [
+                4.876602,
+                52.346849
+              ],
+              [
+                4.876692,
+                52.346863
+              ],
+              [
+                4.876736,
+                52.346895
+              ],
+              [
+                4.876788,
+                52.346933
+              ],
+              [
+                4.876842,
+                52.346973
+              ],
+              [
+                4.876873,
+                52.347001
+              ],
+              [
+                4.876893,
+                52.347023
+              ],
+              [
+                4.876934,
+                52.347071
+              ],
+              [
+                4.876995,
+                52.347477
+              ],
+              [
+                4.877138,
+                52.348381
+              ],
+              [
+                4.877202,
+                52.348818
+              ],
+              [
+                4.877215,
+                52.348901
+              ],
+              [
+                4.877251,
+                52.349004
+              ],
+              [
+                4.877348,
+                52.34914
+              ],
+              [
+                4.877928,
+                52.349668
+              ],
+              [
+                4.878643,
+                52.350332
+              ],
+              [
+                4.878672,
+                52.350363
+              ],
+              [
+                4.878836,
+                52.350681
+              ],
+              [
+                4.878849,
+                52.350713
+              ],
+              [
+                4.878882,
+                52.350782
+              ],
+              [
+                4.879013,
+                52.351043
+              ],
+              [
+                4.879151,
+                52.351315
+              ],
+              [
+                4.879248,
+                52.351423
+              ],
+              [
+                4.879437,
+                52.351528
+              ],
+              [
+                4.879792,
+                52.351679
+              ],
+              [
+                4.880666,
+                52.352039
+              ],
+              [
+                4.882114,
+                52.35265
+              ],
+              [
+                4.882275,
+                52.352723
+              ],
+              [
+                4.882337,
+                52.352738
+              ],
+              [
+                4.882458,
+                52.35277
+              ],
+              [
+                4.882563,
+                52.352779
+              ],
+              [
+                4.882666,
+                52.352763
+              ],
+              [
+                4.882735,
+                52.352749
+              ],
+              [
+                4.882813,
+                52.352733
+              ],
+              [
+                4.883254,
+                52.35259
+              ],
+              [
+                4.88367,
+                52.352479
+              ],
+              [
+                4.884217,
+                52.352375
+              ],
+              [
+                4.885196,
+                52.352279
+              ],
+              [
+                4.886114,
+                52.352224
+              ],
+              [
+                4.886216,
+                52.35222
+              ],
+              [
+                4.886307,
+                52.352221
+              ],
+              [
+                4.886702,
+                52.352213
+              ],
+              [
+                4.88681,
+                52.352215
+              ],
+              [
+                4.887354,
+                52.352262
+              ],
+              [
+                4.889172,
+                52.352496
+              ],
+              [
+                4.890718,
+                52.352711
+              ],
+              [
+                4.890823,
+                52.352726
+              ]
+            ],
+            "type": "LineString"
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_14356",
+            "routeId": "15871_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15342",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "14356-15871",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_14356",
+            "routeId": "15871_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14356-15871",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_14356",
+            "routeId": "15871_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14356",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-15871",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872043,
+              52.346695
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15342",
+            "start_naam": "Amsterdam, Van Woustraat",
+            "end_id": "15709",
+            "end_naam": "Amsterdam, De Clercqstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3",
+              "12"
+            ],
+            "traject_name": "Van_Woustraat_De_Clerqstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_13417",
+            "routeId": "15871_13417_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "15709",
+            "end_id_reversed": "15342",
+            "start_naam_reversed": "Amsterdam, De Clercqstraat",
+            "end_naam_reversed": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "13417-15871",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.900838,
+                52.354682
+              ],
+              [
+                4.8704,
+                52.370614
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15709",
+            "start_naam": "Amsterdam, De Clercqstraat",
+            "end_id": "48855",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "13"
+            ],
+            "traject_name": "De_Clerqstraat_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_13417",
+            "routeId": "15871_13417_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "48855",
+            "end_id_reversed": "15709",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, De Clercqstraat",
+            "trajectId_reversed": "13417-15871",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.8704,
+                52.370614
+              ],
+              [
+                4.84944,
+                52.369954
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_13417",
+            "routeId": "15871_13417_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "15342",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "13417-15871",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_13417",
+            "routeId": "15871_13417_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15709",
+            "naam": "Amsterdam, De Clercqstraat",
+            "trajectId_reversed": "13417-15871",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.8704,
+              52.370614
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15871",
+            "trajectId": "15871_13417",
+            "routeId": "15871_13417_oud",
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "48855",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-15871",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15871-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.84944,
+              52.369954
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15342",
+            "start_naam": "Amsterdam, Van Woustraat",
+            "end_id": "15709",
+            "end_naam": "Amsterdam, De Clercqstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Van_Woustraat_De_Clerqstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_13417",
+            "routeId": "15871_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "15709",
+            "end_id_reversed": "15342",
+            "start_naam_reversed": "Amsterdam, De Clercqstraat",
+            "end_naam_reversed": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "13417-15871",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.900838,
+                52.354682
+              ],
+              [
+                4.8704,
+                52.370614
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15709",
+            "start_naam": "Amsterdam, De Clercqstraat",
+            "end_id": "48855",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "13"
+            ],
+            "traject_name": "De_Clerqstraat_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_13417",
+            "routeId": "15871_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "48855",
+            "end_id_reversed": "15709",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, De Clercqstraat",
+            "trajectId_reversed": "13417-15871",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.8704,
+                52.370614
+              ],
+              [
+                4.84944,
+                52.369954
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_13417",
+            "routeId": "15871_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "15342",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "13417-15871",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_13417",
+            "routeId": "15871_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15709",
+            "naam": "Amsterdam, De Clercqstraat",
+            "trajectId_reversed": "13417-15871",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.8704,
+              52.370614
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15871",
+            "trajectId": "15871_13417",
+            "routeId": "15871_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Ceintuurbaan - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "48855",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-15871",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15871-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Ceintuurbaan"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.84944,
+              52.369954
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "CS",
+          "id": "14404"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.901776,
+            52.377604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Rokin",
+          "id": "99996"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.893121719,
+            52.37214076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Waterlooplein",
+          "id": "14584"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.902979,
+            52.366977
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Westermarkt",
+          "id": "14509"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.884532,
+            52.374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Haarlemmerplein",
+          "id": "15687"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.88341,
+            52.384843
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Leidseplein",
+          "id": "14649"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.881247,
+            52.363291
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "station Noord",
+          "id": "99999"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.935017824,
+            52.40412729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mosplein",
+          "id": "14121"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.913404,
+            52.393065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Volendammerweg",
+          "id": "14536"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.956968,
+            52.392557
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Javaplein",
+          "id": "14966"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.939496,
+            52.363957
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Station Zuid",
+          "id": "99992"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.873056,
+            52.338889
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "VU",
+          "id": "14339"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.868856,
+            52.334404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Kinkerstraat",
+          "id": "15462"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.867372,
+            52.365918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Surinameplein",
+          "id": "15569"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.85252,
+            52.358068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Ferdinand Bol/Ceintuurbaan",
+          "id": "14420"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.889402,
+            52.354823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "v.Woustr/Ceintuurbaan",
+          "id": "15871"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.891233,
+            52.352539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Rooseveltlaan/Maasstraat",
+          "id": "14738"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.896841,
+            52.343107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Minervaplein",
+          "id": "14356"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.872043,
+            52.346695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mercatorplein",
+          "id": "13417"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.850108,
+            52.370577
+          ]
+        }
+      }
+    ],
+    "name": "destinations"
+  }
+]

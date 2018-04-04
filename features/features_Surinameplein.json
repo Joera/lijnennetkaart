@@ -1,0 +1,1776 @@
+[
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15565",
+            "start_naam": "Amsterdam, Surinameplein",
+            "end_id": "15128",
+            "end_naam": "Amsterdam, 1e Con. Huygensstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Surinameplein_1e Con_Huygensstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14420",
+            "routeId": "15569_14420_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15128",
+            "end_id_reversed": "15565",
+            "start_naam_reversed": "Amsterdam, 1e Con. Huygensstraat",
+            "end_naam_reversed": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14420-15569",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.852093,
+                52.358138
+              ],
+              [
+                4.874868,
+                52.362625
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15130",
+            "start_naam": "Amsterdam, 1e Con. Huygensstraat",
+            "end_id": "15871",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3",
+              "12"
+            ],
+            "traject_name": "Overtoom_De_Pijp",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14420",
+            "routeId": "15569_14420_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15871",
+            "end_id_reversed": "15130",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, 1e Con. Huygensstraat",
+            "trajectId_reversed": "14420-15569",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.87399,
+                52.362423
+              ],
+              [
+                4.891233,
+                52.352539
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14420",
+            "routeId": "15569_14420_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14420-15569",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14420",
+            "routeId": "15569_14420_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15128",
+            "naam": "Amsterdam, 1e Con. Huygensstraat",
+            "trajectId_reversed": "14420-15569",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.874868,
+              52.362625
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14420",
+            "routeId": "15569_14420_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15871",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14420-15569",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.891233,
+              52.352539
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15565",
+            "start_naam": "Amsterdam, Surinameplein",
+            "end_id": "15128",
+            "end_naam": "Amsterdam, 1e Con. Huygensstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Surinameplein_1e Con_Huygensstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14420",
+            "routeId": "15569_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15128",
+            "end_id_reversed": "15565",
+            "start_naam_reversed": "Amsterdam, 1e Con. Huygensstraat",
+            "end_naam_reversed": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14420-15569",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.852093,
+                52.358138
+              ],
+              [
+                4.874868,
+                52.362625
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15130",
+            "start_naam": "Amsterdam, 1e Con. Huygensstraat",
+            "end_id": "15871",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Overtoom_De_Pijp",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14420",
+            "routeId": "15569_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15871",
+            "end_id_reversed": "15130",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, 1e Con. Huygensstraat",
+            "trajectId_reversed": "14420-15569",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.87399,
+                52.362423
+              ],
+              [
+                4.891233,
+                52.352539
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14420",
+            "routeId": "15569_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14420-15569",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14420",
+            "routeId": "15569_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15128",
+            "naam": "Amsterdam, 1e Con. Huygensstraat",
+            "trajectId_reversed": "14420-15569",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.874868,
+              52.362625
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14420",
+            "routeId": "15569_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15871",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14420-15569",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.891233,
+              52.352539
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15565",
+            "start_naam": "Amsterdam, Surinameplein",
+            "end_id": "15128",
+            "end_naam": "Amsterdam, 1e Con. Huygensstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Surinameplein_1e Con_Huygensstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_15871",
+            "routeId": "15569_15871_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15128",
+            "end_id_reversed": "15565",
+            "start_naam_reversed": "Amsterdam, 1e Con. Huygensstraat",
+            "end_naam_reversed": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15871-15569",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.852093,
+                52.358138
+              ],
+              [
+                4.874868,
+                52.362625
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15130",
+            "start_naam": "Amsterdam, 1e Con. Huygensstraat",
+            "end_id": "15118",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3",
+              "12"
+            ],
+            "traject_name": "Overtoom_van_Woustraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_15871",
+            "routeId": "15569_15871_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15118",
+            "end_id_reversed": "15130",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Amsterdam, 1e Con. Huygensstraat",
+            "trajectId_reversed": "15871-15569",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.87399,
+                52.362423
+              ],
+              [
+                4.899892,
+                52.357985
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_15871",
+            "routeId": "15569_15871_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15871-15569",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_15871",
+            "routeId": "15569_15871_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15128",
+            "naam": "Amsterdam, 1e Con. Huygensstraat",
+            "trajectId_reversed": "15871-15569",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.874868,
+              52.362625
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_15871",
+            "routeId": "15569_15871_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15118",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-15569",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899892,
+              52.357985
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15565",
+            "start_naam": "Amsterdam, Surinameplein",
+            "end_id": "15128",
+            "end_naam": "Amsterdam, 1e Con. Huygensstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Surinameplein_1e Con_Huygensstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_15871",
+            "routeId": "15569_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15128",
+            "end_id_reversed": "15565",
+            "start_naam_reversed": "Amsterdam, 1e Con. Huygensstraat",
+            "end_naam_reversed": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15871-15569",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.852093,
+                52.358138
+              ],
+              [
+                4.874868,
+                52.362625
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15130",
+            "start_naam": "Amsterdam, 1e Con. Huygensstraat",
+            "end_id": "15118",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Overtoom_van_Woustraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_15871",
+            "routeId": "15569_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15118",
+            "end_id_reversed": "15130",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Amsterdam, 1e Con. Huygensstraat",
+            "trajectId_reversed": "15871-15569",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.87399,
+                52.362423
+              ],
+              [
+                4.899892,
+                52.357985
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_15871",
+            "routeId": "15569_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15871-15569",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_15871",
+            "routeId": "15569_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15128",
+            "naam": "Amsterdam, 1e Con. Huygensstraat",
+            "trajectId_reversed": "15871-15569",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.874868,
+              52.362625
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_15871",
+            "routeId": "15569_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15118",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-15569",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899892,
+              52.357985
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15565",
+            "start_naam": "Amsterdam, Surinameplein",
+            "end_id": "14882",
+            "end_naam": "Amsterdam, Station Zuid",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Surinameplein_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14738",
+            "routeId": "15569_14738_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14882",
+            "end_id_reversed": "15565",
+            "start_naam_reversed": "Amsterdam, Station Zuid",
+            "end_naam_reversed": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14738-15569",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.852093,
+                52.358138
+              ],
+              [
+                4.87374,
+                52.340825
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14882",
+            "start_naam": "Amsterdam, Station Zuid",
+            "end_id": "14738",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Zuid_Maasstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14738",
+            "routeId": "15569_14738_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14738",
+            "end_id_reversed": "14882",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Amsterdam, Station Zuid",
+            "trajectId_reversed": "14738-15569",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.87374,
+                52.340825
+              ],
+              [
+                4.896841,
+                52.343107
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14738",
+            "routeId": "15569_14738_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14738-15569",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14738",
+            "routeId": "15569_14738_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14882",
+            "naam": "Amsterdam, Station Zuid",
+            "trajectId_reversed": "14738-15569",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.87374,
+              52.340825
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14738",
+            "routeId": "15569_14738_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14738",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-15569",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.896841,
+              52.343107
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15565",
+            "start_naam": "Amsterdam, Surinameplein",
+            "end_id": "14784",
+            "end_naam": "Amsterdam, Frederiksplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Surinameplein_Frederiksplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14738",
+            "routeId": "15569_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14784",
+            "end_id_reversed": "15565",
+            "start_naam_reversed": "Amsterdam, Frederiksplein",
+            "end_naam_reversed": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14738-15569",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.852093,
+                52.358138
+              ],
+              [
+                4.897513,
+                52.359368
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14952",
+            "start_naam": "Amsterdam, Frederiksplein",
+            "end_id": "15776",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Frederiksplein_Maasstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14738",
+            "routeId": "15569_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15776",
+            "end_id_reversed": "14952",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Amsterdam, Frederiksplein",
+            "trajectId_reversed": "14738-15569",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.899368,
+                52.360257
+              ],
+              [
+                4.89844,
+                52.340471
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14738",
+            "routeId": "15569_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14738-15569",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14738",
+            "routeId": "15569_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14784",
+            "naam": "Amsterdam, Frederiksplein",
+            "trajectId_reversed": "14738-15569",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.897513,
+              52.359368
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14738",
+            "routeId": "15569_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-15569",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15565",
+            "start_naam": "Amsterdam, Surinameplein",
+            "end_id": "14355",
+            "end_naam": "Amsterdam, Olympiaplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Surinameplein_Olympiaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14356",
+            "routeId": "15569_14356_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14355",
+            "end_id_reversed": "15565",
+            "start_naam_reversed": "Amsterdam, Olympiaplein",
+            "end_naam_reversed": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14356-15569",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.852093,
+                52.358138
+              ],
+              [
+                4.865826,
+                52.3463
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14355",
+            "start_naam": "Amsterdam, Olympiaplein",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "voet",
+            "traject_name": "Olympiaplein_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14356",
+            "routeId": "15569_14356_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "14355",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Amsterdam, Olympiaplein",
+            "trajectId_reversed": "14356-15569",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.865826,
+                52.3463
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14356",
+            "routeId": "15569_14356_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14356-15569",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14356",
+            "routeId": "15569_14356_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14355",
+            "naam": "Amsterdam, Olympiaplein",
+            "trajectId_reversed": "14356-15569",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.865826,
+              52.3463
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_14356",
+            "routeId": "15569_14356_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-15569",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15565",
+            "start_naam": "Amsterdam, Surinameplein",
+            "end_id": "14355",
+            "end_naam": "Amsterdam, Olympiaplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Surinameplein_Olympiaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14356",
+            "routeId": "15569_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14355",
+            "end_id_reversed": "15565",
+            "start_naam_reversed": "Amsterdam, Olympiaplein",
+            "end_naam_reversed": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14356-15569",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.852093,
+                52.358138
+              ],
+              [
+                4.865826,
+                52.3463
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14355",
+            "start_naam": "Amsterdam, Olympiaplein",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "voet",
+            "traject_name": "Olympiaplein_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14356",
+            "routeId": "15569_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "14355",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Amsterdam, Olympiaplein",
+            "trajectId_reversed": "14356-15569",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.865826,
+                52.3463
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14356",
+            "routeId": "15569_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "14356-15569",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14356",
+            "routeId": "15569_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14355",
+            "naam": "Amsterdam, Olympiaplein",
+            "trajectId_reversed": "14356-15569",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.865826,
+              52.3463
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_14356",
+            "routeId": "15569_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-15569",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15565",
+            "start_naam": "Amsterdam, Surinameplein",
+            "end_id": "48855",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Surinameplein_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_13417",
+            "routeId": "15569_13417_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "48855",
+            "end_id_reversed": "15565",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "13417-15569",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.852093,
+                52.358138
+              ],
+              [
+                4.84944,
+                52.369954
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_13417",
+            "routeId": "15569_13417_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "13417-15569",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "15569",
+            "trajectId": "15569_13417",
+            "routeId": "15569_13417_oud",
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "48855",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-15569",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15569-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.84944,
+              52.369954
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15565",
+            "start_naam": "Amsterdam, Surinameplein",
+            "end_id": "48855",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Surinameplein_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_13417",
+            "routeId": "15569_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "48855",
+            "end_id_reversed": "15565",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "13417-15569",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.852093,
+                52.358138
+              ],
+              [
+                4.84944,
+                52.369954
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_13417",
+            "routeId": "15569_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "13417-15569",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "15569",
+            "trajectId": "15569_13417",
+            "routeId": "15569_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Surinameplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "48855",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-15569",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_15569-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Surinameplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.84944,
+              52.369954
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Ferdinand Bol/Ceintuurbaan",
+          "id": "14420"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.889402,
+            52.354823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "v.Woustr/Ceintuurbaan",
+          "id": "15871"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.891233,
+            52.352539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Rooseveltlaan/Maasstraat",
+          "id": "14738"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.896841,
+            52.343107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Minervaplein",
+          "id": "14356"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.872043,
+            52.346695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mercatorplein",
+          "id": "13417"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.850108,
+            52.370577
+          ]
+        }
+      }
+    ],
+    "name": "destinations"
+  }
+]

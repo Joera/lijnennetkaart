@@ -1,0 +1,3440 @@
+[
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14966",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "43793",
+            "end_naam": "Amsterdam, Amstelstation",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Javaplein_Amstelstation",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "43793",
+            "end_id_reversed": "14966",
+            "start_naam_reversed": "Amsterdam, Amstelstation",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-oud",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939496,
+                52.363957
+              ],
+              [
+                4.919841,
+                52.346858
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "43793",
+            "start_naam": "Amsterdam, Amstelstation",
+            "end_id": "99992",
+            "end_naam": "Zuid",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "51"
+            ],
+            "traject_name": "Amstelstation_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "99992",
+            "end_id_reversed": "43793",
+            "start_naam_reversed": "Zuid",
+            "end_naam_reversed": "Amsterdam, Amstelstation",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-oud",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.919841,
+                52.346858
+              ],
+              [
+                4.873056,
+                52.338889
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "14966",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-oud",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939496,
+              52.363957
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "43793",
+            "naam": "Amsterdam, Amstelstation",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-oud",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.919841,
+              52.346858
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-oud",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14969",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "15863",
+            "end_naam": "Amsterdam, Molukkenstraat",
+            "transport_type": "voet",
+            "traject_name": "Javaplein_Molukkenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "15863",
+            "end_id_reversed": "14969",
+            "start_naam_reversed": "Amsterdam, Molukkenstraat",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-nieuw",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939553,
+                52.364119
+              ],
+              [
+                4.939343,
+                52.361574
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "43793",
+            "start_naam": "Amsterdam, Amstelstation",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "51"
+            ],
+            "traject_name": "Molukkenstraat_De_Pijp",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "43793",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, Amstelstation",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-nieuw",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.919841,
+                52.346858
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99994",
+            "start_naam": "De Pijp",
+            "end_id": "99992",
+            "end_naam": "Zuid",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "52"
+            ],
+            "traject_name": "De_Pijp_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "99992",
+            "end_id_reversed": "99994",
+            "start_naam_reversed": "Zuid",
+            "end_naam_reversed": "De Pijp",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-nieuw",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.891018867,
+                52.35293117
+              ],
+              [
+                4.873056,
+                52.338889
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-nieuw",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15863",
+            "naam": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-nieuw",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939343,
+              52.361574
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-nieuw",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_99992",
+            "routeId": "14966_99992_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "99992-14966",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_14966-nieuw",
+            "trajectNaam_reversed": "Zuid - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14966",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "43793",
+            "end_naam": "Amsterdam, Amstelstation",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Javaplein_Amstelstation",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14339",
+            "routeId": "14966_14339_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "43793",
+            "end_id_reversed": "14966",
+            "start_naam_reversed": "Amsterdam, Amstelstation",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14339-14966",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939496,
+                52.363957
+              ],
+              [
+                4.919841,
+                52.346858
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "43793",
+            "start_naam": "Amsterdam, Amstelstation",
+            "end_id": "62855",
+            "end_naam": "Amsterdam, De Boelelaan/VU",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "51"
+            ],
+            "traject_name": "Amstelstation_VU",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14339",
+            "routeId": "14966_14339_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "62855",
+            "end_id_reversed": "43793",
+            "start_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "end_naam_reversed": "Amsterdam, Amstelstation",
+            "trajectId_reversed": "14339-14966",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.919841,
+                52.346858
+              ],
+              [
+                4.868605,
+                52.334484
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14339",
+            "routeId": "14966_14339_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "14966",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14339-14966",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939496,
+              52.363957
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14339",
+            "routeId": "14966_14339_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "43793",
+            "naam": "Amsterdam, Amstelstation",
+            "trajectId_reversed": "14339-14966",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.919841,
+              52.346858
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14339",
+            "routeId": "14966_14339_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14339-14966",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14966",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "43793",
+            "end_naam": "Amsterdam, Amstelstation",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Javaplein_Amstelstation",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14339",
+            "routeId": "14966_14339_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "43793",
+            "end_id_reversed": "14966",
+            "start_naam_reversed": "Amsterdam, Amstelstation",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14339-14966",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939496,
+                52.363957
+              ],
+              [
+                4.919841,
+                52.346858
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "43793",
+            "start_naam": "Amsterdam, Amstelstation",
+            "end_id": "62855",
+            "end_naam": "Amsterdam, De Boelelaan/VU",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "51"
+            ],
+            "traject_name": "Amstelstation_VU",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14339",
+            "routeId": "14966_14339_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "62855",
+            "end_id_reversed": "43793",
+            "start_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "end_naam_reversed": "Amsterdam, Amstelstation",
+            "trajectId_reversed": "14339-14966",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.919841,
+                52.346858
+              ],
+              [
+                4.868605,
+                52.334484
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14339",
+            "routeId": "14966_14339_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "14966",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14339-14966",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939496,
+              52.363957
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14339",
+            "routeId": "14966_14339_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "43793",
+            "naam": "Amsterdam, Amstelstation",
+            "trajectId_reversed": "14339-14966",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.919841,
+              52.346858
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14339",
+            "routeId": "14966_14339_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "62855",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14339-14966",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14969",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "15863",
+            "end_naam": "Amsterdam, Molukkenstraat",
+            "transport_type": "voet",
+            "traject_name": "Javaplein_Molukkenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15462",
+            "routeId": "14966_15462_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15863",
+            "end_id_reversed": "14969",
+            "start_naam_reversed": "Amsterdam, Molukkenstraat",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15462-14966",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939553,
+                52.364119
+              ],
+              [
+                4.939343,
+                52.361574
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15863",
+            "start_naam": "Amsterdam, Molukkenstraat",
+            "end_id": "15462",
+            "end_naam": "Amsterdam, Ten Katestraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Molukkenstraat_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15462",
+            "routeId": "14966_15462_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15462",
+            "end_id_reversed": "15863",
+            "start_naam_reversed": "Amsterdam, Ten Katestraat",
+            "end_naam_reversed": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "15462-14966",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939343,
+                52.361574
+              ],
+              [
+                4.867372,
+                52.365918
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15462",
+            "routeId": "14966_15462_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15462-14966",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15462",
+            "routeId": "14966_15462_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15863",
+            "naam": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "15462-14966",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939343,
+              52.361574
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15462",
+            "routeId": "14966_15462_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15462-14966",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14969",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "15863",
+            "end_naam": "Amsterdam, Molukkenstraat",
+            "transport_type": "voet",
+            "traject_name": "Javaplein_Molukkenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15462",
+            "routeId": "14966_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15863",
+            "end_id_reversed": "14969",
+            "start_naam_reversed": "Amsterdam, Molukkenstraat",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15462-14966",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939553,
+                52.364119
+              ],
+              [
+                4.939343,
+                52.361574
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15863",
+            "start_naam": "Amsterdam, Molukkenstraat",
+            "end_id": "15462",
+            "end_naam": "Amsterdam, Ten Katestraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Molukkenstraat_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15462",
+            "routeId": "14966_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15462",
+            "end_id_reversed": "15863",
+            "start_naam_reversed": "Amsterdam, Ten Katestraat",
+            "end_naam_reversed": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "15462-14966",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939343,
+                52.361574
+              ],
+              [
+                4.867372,
+                52.365918
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15462",
+            "routeId": "14966_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15462-14966",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15462",
+            "routeId": "14966_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15863",
+            "naam": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "15462-14966",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939343,
+              52.361574
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15462",
+            "routeId": "14966_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15462",
+            "naam": "Amsterdam, Ten Katestraat",
+            "trajectId_reversed": "15462-14966",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14969",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "15863",
+            "end_naam": "Amsterdam, Molukkenstraat",
+            "transport_type": "voet",
+            "traject_name": "Javaplein_Molukkenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15863",
+            "end_id_reversed": "14969",
+            "start_naam_reversed": "Amsterdam, Molukkenstraat",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939553,
+                52.364119
+              ],
+              [
+                4.939343,
+                52.361574
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15863",
+            "start_naam": "Amsterdam, Molukkenstraat",
+            "end_id": "14649",
+            "end_naam": "Amsterdam, Leidseplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Molukkenstraat_Leidseplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14649",
+            "end_id_reversed": "15863",
+            "start_naam_reversed": "Amsterdam, Leidseplein",
+            "end_naam_reversed": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939343,
+                52.361574
+              ],
+              [
+                4.881247,
+                52.363291
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14649",
+            "start_naam": "Amsterdam, Leidseplein",
+            "end_id": "15565",
+            "end_naam": "Amsterdam, Surinameplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Leidseplein_Surinameplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15565",
+            "end_id_reversed": "14649",
+            "start_naam_reversed": "Amsterdam, Surinameplein",
+            "end_naam_reversed": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.881247,
+                52.363291
+              ],
+              [
+                4.852093,
+                52.358138
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15863",
+            "naam": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939343,
+              52.361574
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14649",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14969",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "15206",
+            "end_naam": "Amsterdam, Alexanderplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "14"
+            ],
+            "traject_name": "Javaplein_Alexanderplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15206",
+            "end_id_reversed": "14969",
+            "start_naam_reversed": "Amsterdam, Alexanderplein",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939553,
+                52.364119
+              ],
+              [
+                4.919163,
+                52.363833
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15642",
+            "start_naam": "Amsterdam, Alexanderplein",
+            "end_id": "15565",
+            "end_naam": "Amsterdam, Surinameplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Alexanderplein_Surinameplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15565",
+            "end_id_reversed": "15642",
+            "start_naam_reversed": "Amsterdam, Surinameplein",
+            "end_naam_reversed": "Amsterdam, Alexanderplein",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.918668,
+                52.363409
+              ],
+              [
+                4.852093,
+                52.358138
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15206",
+            "naam": "Amsterdam, Alexanderplein",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.919163,
+              52.363833
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15569",
+            "routeId": "14966_15569_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15569-14966",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14969",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "14910",
+            "end_naam": "Amsterdam, Muiderpoortstation",
+            "transport_type": "voet",
+            "traject_name": "Javaplein_Muiderpoortstation",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14420",
+            "routeId": "14966_14420_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14910",
+            "end_id_reversed": "14969",
+            "start_naam_reversed": "Amsterdam, Muiderpoortstation",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14420-14966",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939553,
+                52.364119
+              ],
+              [
+                4.932539,
+                52.360883
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14910",
+            "start_naam": "Amsterdam, Muiderpoortstation",
+            "end_id": "99994",
+            "end_naam": "De Pijp",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Muiderpoortstation_de_Pijp",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14420",
+            "routeId": "14966_14420_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "99994",
+            "end_id_reversed": "14910",
+            "start_naam_reversed": "De Pijp",
+            "end_naam_reversed": "Amsterdam, Muiderpoortstation",
+            "trajectId_reversed": "14420-14966",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.932539,
+                52.360883
+              ],
+              [
+                4.891018867,
+                52.35293117
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14420",
+            "routeId": "14966_14420_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14420-14966",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14420",
+            "routeId": "14966_14420_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14910",
+            "naam": "Amsterdam, Muiderpoortstation",
+            "trajectId_reversed": "14420-14966",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.932539,
+              52.360883
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14420",
+            "routeId": "14966_14420_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "99994",
+            "naam": "De Pijp",
+            "trajectId_reversed": "14420-14966",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.891018867,
+              52.35293117
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14969",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "15863",
+            "end_naam": "Amsterdam, Molukkenstraat",
+            "transport_type": "voet",
+            "traject_name": "Javaplein_Molukkenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14420",
+            "routeId": "14966_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15863",
+            "end_id_reversed": "14969",
+            "start_naam_reversed": "Amsterdam, Molukkenstraat",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14420-14966",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939553,
+                52.364119
+              ],
+              [
+                4.939343,
+                52.361574
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15863",
+            "start_naam": "Amsterdam, Molukkenstraat",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Molukkenstraat_De_Pijp",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14420",
+            "routeId": "14966_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "15863",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "14420-14966",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939343,
+                52.361574
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14420",
+            "routeId": "14966_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14420-14966",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14420",
+            "routeId": "14966_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15863",
+            "naam": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "14420-14966",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939343,
+              52.361574
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14420",
+            "routeId": "14966_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14420-14966",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14969",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "14910",
+            "end_naam": "Amsterdam, Muiderpoortstation",
+            "transport_type": "voet",
+            "traject_name": "Javaplein_Muiderpoortstation",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15871",
+            "routeId": "14966_15871_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14910",
+            "end_id_reversed": "14969",
+            "start_naam_reversed": "Amsterdam, Muiderpoortstation",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15871-14966",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939553,
+                52.364119
+              ],
+              [
+                4.932539,
+                52.360883
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14910",
+            "start_naam": "Amsterdam, Muiderpoortstation",
+            "end_id": "15342",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Muiderpoortstation_van_Woustraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15871",
+            "routeId": "14966_15871_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15342",
+            "end_id_reversed": "14910",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Amsterdam, Muiderpoortstation",
+            "trajectId_reversed": "15871-14966",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.932539,
+                52.360883
+              ],
+              [
+                4.900838,
+                52.354682
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15871",
+            "routeId": "14966_15871_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15871-14966",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15871",
+            "routeId": "14966_15871_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14910",
+            "naam": "Amsterdam, Muiderpoortstation",
+            "trajectId_reversed": "15871-14966",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.932539,
+              52.360883
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_15871",
+            "routeId": "14966_15871_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15342",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-14966",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14969",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "15863",
+            "end_naam": "Amsterdam, Molukkenstraat",
+            "transport_type": "voet",
+            "traject_name": "Javaplein_Molukkenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15871",
+            "routeId": "14966_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15863",
+            "end_id_reversed": "14969",
+            "start_naam_reversed": "Amsterdam, Molukkenstraat",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15871-14966",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939553,
+                52.364119
+              ],
+              [
+                4.939343,
+                52.361574
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15863",
+            "start_naam": "Amsterdam, Molukkenstraat",
+            "end_id": "15342",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Molukkenstraat_van_Woustraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15871",
+            "routeId": "14966_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15342",
+            "end_id_reversed": "15863",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "15871-14966",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939343,
+                52.361574
+              ],
+              [
+                4.900838,
+                52.354682
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15871",
+            "routeId": "14966_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "15871-14966",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15871",
+            "routeId": "14966_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15863",
+            "naam": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "15871-14966",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939343,
+              52.361574
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_15871",
+            "routeId": "14966_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15342",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-14966",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14966",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Javaplein_Maasstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14738",
+            "routeId": "14966_14738_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "14966",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14738-14966",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939496,
+                52.363957
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14738",
+            "routeId": "14966_14738_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14966",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14738-14966",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939496,
+              52.363957
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14738",
+            "routeId": "14966_14738_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14738-14966",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14966",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "15340",
+            "end_naam": "Amsterdam, Ceintuurbaan",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Javaplein_Maasstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14738",
+            "routeId": "14966_14738_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15340",
+            "end_id_reversed": "14966",
+            "start_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14738-14966",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939496,
+                52.363957
+              ],
+              [
+                4.901054,
+                52.35506
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14738",
+            "routeId": "14966_14738_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14966",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14738-14966",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939496,
+              52.363957
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14738",
+            "routeId": "14966_14738_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15340",
+            "naam": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "14738-14966",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14966",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "14131",
+            "end_naam": "Purmerend, Beethovenstraat",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Javaplein_Beethovenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14356",
+            "routeId": "14966_14356_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14131",
+            "end_id_reversed": "14966",
+            "start_naam_reversed": "Purmerend, Beethovenstraat",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14356-14966",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939496,
+                52.363957
+              ],
+              [
+                4.968408,
+                52.487839
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14131",
+            "start_naam": "Purmerend, Beethovenstraat",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "voet",
+            "traject_name": "Beethovenstraat_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14356",
+            "routeId": "14966_14356_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "14131",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Purmerend, Beethovenstraat",
+            "trajectId_reversed": "14356-14966",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.968408,
+                52.487839
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14356",
+            "routeId": "14966_14356_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14966",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14356-14966",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939496,
+              52.363957
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14356",
+            "routeId": "14966_14356_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14131",
+            "naam": "Purmerend, Beethovenstraat",
+            "trajectId_reversed": "14356-14966",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.968408,
+              52.487839
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_14356",
+            "routeId": "14966_14356_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-14966",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14966",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "14131",
+            "end_naam": "Purmerend, Beethovenstraat",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Javaplein_Beethovenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14356",
+            "routeId": "14966_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14131",
+            "end_id_reversed": "14966",
+            "start_naam_reversed": "Purmerend, Beethovenstraat",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14356-14966",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939496,
+                52.363957
+              ],
+              [
+                4.968408,
+                52.487839
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14131",
+            "start_naam": "Purmerend, Beethovenstraat",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "voet",
+            "traject_name": "Beethovenstraat_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14356",
+            "routeId": "14966_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "14131",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Purmerend, Beethovenstraat",
+            "trajectId_reversed": "14356-14966",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.968408,
+                52.487839
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14356",
+            "routeId": "14966_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "14966",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14356-14966",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939496,
+              52.363957
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14356",
+            "routeId": "14966_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14131",
+            "naam": "Purmerend, Beethovenstraat",
+            "trajectId_reversed": "14356-14966",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.968408,
+              52.487839
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_14356",
+            "routeId": "14966_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-14966",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14969",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "15863",
+            "end_naam": "Amsterdam, Molukkenstraat",
+            "transport_type": "voet",
+            "traject_name": "Javaplein_Molukkenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_13417",
+            "routeId": "14966_13417_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "15863",
+            "end_id_reversed": "14969",
+            "start_naam_reversed": "Amsterdam, Molukkenstraat",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "13417-14966",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939553,
+                52.364119
+              ],
+              [
+                4.939343,
+                52.361574
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15863",
+            "start_naam": "Amsterdam, Molukkenstraat",
+            "end_id": "13417",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Molukkenstraat_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_13417",
+            "routeId": "14966_13417_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "13417",
+            "end_id_reversed": "15863",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "13417-14966",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939343,
+                52.361574
+              ],
+              [
+                4.850108,
+                52.370577
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_13417",
+            "routeId": "14966_13417_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "13417-14966",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_13417",
+            "routeId": "14966_13417_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15863",
+            "naam": "Amsterdam, Molukkenstraat",
+            "trajectId_reversed": "13417-14966",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939343,
+              52.361574
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14966",
+            "trajectId": "14966_13417",
+            "routeId": "14966_13417_oud",
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "13417",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-14966",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14966-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.850108,
+              52.370577
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14969",
+            "start_naam": "Amsterdam, Javaplein",
+            "end_id": "15206",
+            "end_naam": "Amsterdam, Alexanderplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "14"
+            ],
+            "traject_name": "Javaplein_Alexanderplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_13417",
+            "routeId": "14966_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "15206",
+            "end_id_reversed": "14969",
+            "start_naam_reversed": "Amsterdam, Alexanderplein",
+            "end_naam_reversed": "Amsterdam, Javaplein",
+            "trajectId_reversed": "13417-14966",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.939553,
+                52.364119
+              ],
+              [
+                4.919163,
+                52.363833
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15642",
+            "start_naam": "Amsterdam, Alexanderplein",
+            "end_id": "13417",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "7"
+            ],
+            "traject_name": "Alexanderplein_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_13417",
+            "routeId": "14966_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "13417",
+            "end_id_reversed": "15642",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Alexanderplein",
+            "trajectId_reversed": "13417-14966",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.918668,
+                52.363409
+              ],
+              [
+                4.850108,
+                52.370577
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_13417",
+            "routeId": "14966_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "13417-14966",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_13417",
+            "routeId": "14966_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15206",
+            "naam": "Amsterdam, Alexanderplein",
+            "trajectId_reversed": "13417-14966",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.919163,
+              52.363833
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14966",
+            "trajectId": "14966_13417",
+            "routeId": "14966_13417_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Amsterdam, Javaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "13417",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-14966",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14966-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Javaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.850108,
+              52.370577
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Station Zuid",
+          "id": "99992"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.873056,
+            52.338889
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "VU",
+          "id": "14339"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.868856,
+            52.334404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Kinkerstraat",
+          "id": "15462"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.867372,
+            52.365918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Surinameplein",
+          "id": "15569"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.85252,
+            52.358068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Ferdinand Bol/Ceintuurbaan",
+          "id": "14420"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.889402,
+            52.354823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "v.Woustr/Ceintuurbaan",
+          "id": "15871"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.891233,
+            52.352539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Rooseveltlaan/Maasstraat",
+          "id": "14738"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.896841,
+            52.343107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Minervaplein",
+          "id": "14356"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.872043,
+            52.346695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mercatorplein",
+          "id": "13417"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.850108,
+            52.370577
+          ]
+        }
+      }
+    ],
+    "name": "destinations"
+  }
+]

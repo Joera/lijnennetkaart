@@ -22,17 +22,47 @@ class Lines {
         self._draw();
     }
 
-    draw() {
+    // er zijn per route twee sources, een voor oud, een voor nieuw
+
+    drawOldLayers(routesId) {
 
         let self = this;
 
         self._map.addLayer({
-            "id": "bus-old",
+            "id": 'route-bus_old',
             "type": "line",
-            "source": "originData",
+            "source": 'routes-oud',
             "layout": {
                 "line-join": "miter",
-                "line-cap": "square"
+                "line-cap": "square",
+                "visibility": "visible"
+            },
+            "paint": {
+                "line-color": {
+                    property: 'routeVersion',
+                    type: 'categorical',
+                    stops: [
+                        ['prio', black],
+                        ['alt', '#999']
+                    ]
+                },
+                "line-width": 4,
+                "line-dasharray": [1,0]
+            },
+            "filter": ['all',
+                ["==","isNieuw",false],
+                ["==","transport_type","bus"]
+            ]
+        },'origins');
+
+        self._map.addLayer({
+            "id": 'route-tram_old',
+            "type": "line",
+            "source": 'routes-oud',
+            "layout": {
+                "line-join": "miter",
+                "line-cap": "square",
+                "visibility": "visible"
             },
             "paint": {
                 "line-color": {
@@ -45,146 +75,163 @@ class Lines {
                 },
                 "line-width": 4,
                 "line-dasharray": [1,0],
+
                 // "line-translate": [-4,-4]
             },
             "filter": ['all',
-                ["==","trajectId",""],
                 ["==","isNieuw",false],
-                ["==","transport_type","bus"]
+                ["==","transport_type","tram"]
             ]
         },'origins');
 
         self._map.addLayer({
-            "id": "bus-old-icon",
-            "type": "symbol",
-            "source": "originData",
-            "layout": {
-                "visibility": "visible",
-                "icon-image": "bus-15",
-                "icon-padding": 0,
-                // "icon-text-fit": 'both',
-                "icon-size": 1,
-                "icon-offset": [20,0],
-                // "icon-text-fit-padding": [5,10,2,10],
-                "icon-allow-overlap": true,
-                "text-field": "{transport_nrs}",
-                "symbol-placement": "line",
-                "icon-rotation-alignment": "viewport",
-                "text-rotation-alignment": "viewport",
-                "text-size": 15,
-                "text-anchor": "left",
-                "text-offset": [2,0.1],
-                "text-max-width": 30,
-                "text-font": ["Avenir LT Std 85 Heavy"],
-                "text-transform" : "uppercase",
-                "text-allow-overlap":true
-            },
-            "paint": {
-                'text-color': "#000"
-            },
-            "filter": ['all',
-                ["==","trajectId",""],
-                ["==","isNieuw",false],
-                ["==","transport_type","bus"]
-            ]
-        },'origins');
-
-        self._map.addLayer({
-            "id": "bus-new",
+            "id": 'route-metro_old',
             "type": "line",
-            "source": "originData",
+            "source": 'routes-oud',
             "layout": {
                 "line-join": "miter",
-                "line-cap": "square"
+                "line-cap": "square",
+                "visibility": "visible"
             },
             "paint": {
                 "line-color": {
                     property: 'routeVersion',
                     type: 'categorical',
                     stops: [
-                        ['prio', yellow],
+                        ['prio', purple],
                         ['alt', pink]
                     ]
                 },
                 "line-width": 4,
+                "line-dasharray": [1,1],
 
-                "line-dasharray": [1,1]
             },
             "filter": ['all',
-                ["==","trajectId",""],
+                ["==","isNieuw",false],
+                ["==","transport_type","metro"],
+            ]
+        },'origins');
+
+        self._map.addLayer({
+            "id": 'route-train_old',
+            "type": "line",
+            "source": 'routes-oud',
+            "layout": {
+                "line-join": "miter",
+                "line-cap": "square",
+                "visibility": "visible"
+            },
+            "paint": {
+                "line-color": {
+                    property: 'routeVersion',
+                    type: 'categorical',
+                    stops: [
+                        ['prio', purple],
+                        ['alt', pink]
+                    ]
+                },
+                "line-width": 4,
+                "line-dasharray": [1,1],
+
+            },
+            "filter": ['all',
+                ["==","isNieuw",true],
+                ["==","transport_type","trein"]
+            ]
+        },'origins');
+
+
+    }
+
+    drawNewLayers(routesId) {
+
+        let self = this;
+
+        self._map.addLayer({
+            "id": 'route-bus_new',
+            "type": "line",
+            "source": 'routes-nieuw',
+            "layout": {
+                "line-join": "miter",
+                "line-cap": "square",
+                "visibility": "visible"
+            },
+            "paint": {
+                "line-color": {
+                    property: 'routeVersion',
+                    type: 'categorical',
+                    stops: [
+                        ['prio', purple],
+                        ['alt', pink]
+                    ]
+                },
+                "line-width": 4,
+                "line-dasharray": [1,0],
+
+            },
+            "filter": ['all',
                 ["==","isNieuw",true],
                 ["==","transport_type","bus"]
             ]
         },'origins');
 
+
+
         self._map.addLayer({
-            "id": "metro-old",
+            "id": 'route-tram_new',
             "type": "line",
-            "source": "originData",
+            "source": 'routes-nieuw',
             "layout": {
                 "line-join": "miter",
-                "line-cap": "square"
+                "line-cap": "square",
+                "visibility": "visible"
             },
             "paint": {
-                "line-color": black,
+                "line-color": {
+                    property: 'routeVersion',
+                    type: 'categorical',
+                    stops: [
+                        ['prio', purple],
+                        ['alt', pink]
+                    ]
+                },
                 "line-width": 4,
-                "line-dasharray": [.25,.25]
+                "line-dasharray": [1,1],
+
             },
             "filter": ['all',
-                ["==","trajectId",""],
-                ["==","isNieuw",false],
-                ["==","transport_type","metro"]
+                ["==","isNieuw",true],
+                ["==","transport_type","tram"]
             ]
         },'origins');
 
-        self._map.addLayer({
-            "id": "metro-old-icon",
-            "type": "symbol",
-            "source": "originData",
-            "layout": {
-                "visibility": "visible",
-                "icon-image": "rail-15",
-                "icon-padding": 0,
-                "icon-size": 1,
-                "icon-offset": [20,0],
-                "icon-allow-overlap": true,
-                "text-field": "{transport_nrs}",
-                "symbol-placement": "line",
-                "icon-rotation-alignment": "viewport",
-                "text-rotation-alignment": "viewport",
-                "text-size": 15,
-                "text-anchor": "left",
-                "text-offset": [2,0.1],
-                "text-max-width": 30,
-                "text-font": ["Avenir LT Std 85 Heavy"],
-                "text-transform" : "uppercase",
-                "text-allow-overlap":true
-            },
-            "paint": {
-                'text-color': "#000"
-            },
-            "filter": ['all',
-                ["==","trajectId",""],
-                ["==","isNieuw",false],
-                ["==","transport_type","metro"]
-            ]
-        },'origins');
+
+
 
         self._map.addLayer({
-            "id": "metro-new",
+            "id": 'route-metro_new',
             "type": "line",
-            "source": "originData",
+            "source": 'routes-nieuw',
             "layout": {
                 "line-join": "miter",
-                "line-cap": "square"
+                "line-cap": "square",
+                "visibility": "visible"
             },
             "paint": {
-                "line-color": pink,
+                "line-color": {
+                    property: 'routeVersion',
+                    type: 'categorical',
+                    stops: [
+                        ['prio', purple],
+                        ['alt', '#999']
+                    ]
+                },
                 "line-width": 4,
-                // "line-dasharray": [.25,.25]
+                "line-dasharray": [.5,.5],
+
+                // "line-translate": [-4,-4]
             },
             "filter": ['all',
-                ["==","trajectId",""],
                 ["==","isNieuw",true],
                 ["==","transport_type","metro"]
             ]
@@ -193,140 +240,33 @@ class Lines {
 
 
         self._map.addLayer({
-            "id": "tram-old",
+            "id": 'route-train_new',
             "type": "line",
-            "source": "originData",
+            "source": 'routes-nieuw',
             "layout": {
                 "line-join": "miter",
-                "line-cap": "square"
+                "line-cap": "square",
+                "visibility": "visible"
             },
             "paint": {
-                "line-color": black,
+                "line-color": {
+                    property: 'routeVersion',
+                    type: 'categorical',
+                    stops: [
+                        ['prio', purple],
+                        ['alt', pink]
+                    ]
+                },
                 "line-width": 4,
+                "line-dasharray": [1,1],
+
             },
             "filter": ['all',
-                ["==","trajectId",""],
-                ["==","isNieuw",false],
-                ["==","transport_type","tram"]
-            ]
-        },'origins');
-
-        self._map.addLayer({
-            "id": "tram-old-icon",
-            "type": "symbol",
-            "source": "originData",
-            "layout": {
-                "visibility": "visible",
-                "icon-image": "rail-light-15",
-                "icon-padding": 0,
-                "icon-size": 1,
-                "icon-offset": [20,0],
-                "icon-allow-overlap": true,
-                "text-field": "{transport_nrs}",
-                "symbol-placement": "line",
-                "icon-rotation-alignment": "viewport",
-                "text-rotation-alignment": "viewport",
-                "text-size": 15,
-                "text-anchor": "left",
-                "text-offset": [2,0.1],
-                "text-max-width": 30,
-                "text-font": ["Avenir LT Std 85 Heavy"],
-                "text-transform" : "uppercase",
-                "text-allow-overlap":true
-            },
-            "paint": {
-                'text-color': "#000"
-            },
-            "filter": ['all',
-                ["==","trajectId",""],
-                ["==","isNieuw",false],
-                ["==","transport_type","tram"]
-            ]
-        },'origins');
-
-        self._map.addLayer({
-            "id": "tram-new",
-            "type": "line",
-            "source": "originData",
-            "layout": {
-                "line-join": "miter",
-                "line-cap": "square"
-            },
-            "paint": {
-                "line-color": yellow,
-                "line-width": 4,
-            },
-            "filter": ['all',
-                ["==","trajectId",""],
-                ["==","isNieuw",true],
-                ["==","transport_type","tram"]
-            ]
-        },'origins');
-
-        self._map.addLayer({
-            "id": "train-old",
-            "type": "line",
-            "source": "originData",
-            "layout": {
-                "line-join": "miter",
-                "line-cap": "square"
-            },
-            "paint": {
-                "line-color": black,
-                "line-width": 4,
-                // "line-dasharray": [2,2]
-            },
-            "filter": ['all',
-                ["==","trajectId",""],
-                ["==","isNieuw",false],
-                ["==","transport_type","trein"]
-            ]
-        },'origins');
-
-
-        self._map.addLayer({
-            "id": "train-new",
-            "type": "line",
-            "source": "originData",
-            "layout": {
-                "line-join": "miter",
-                "line-cap": "square"
-            },
-            "paint": {
-                "line-color": pink,
-                "line-width": 4,
-                "line-dasharray": [2,2]
-            },
-            "filter": ['all',
-                ["==","trajectId",""],
                 ["==","isNieuw",true],
                 ["==","transport_type","trein"]
             ]
         },'origins');
 
-        self._map.addLayer({
-            "id": "caption",
-            "type": "symbol",
-            "source": "originData",
-            "layout": {
-                "visibility": "visible",
-                "icon-image": "rect_purple",
-                "icon-padding": 0,
-                "icon-text-fit": 'both',
-                "icon-text-fit-padding": [10,5,0,5],
-                "icon-allow-overlap": true,
-                "icon-padding": 20,
-                "icon-anchor": "right",
-
-            },
-            'paint': {
-                "text-color": "#fff"
-            },
-            'filter': ['all',
-                ['has','trajectNaam'],
-                ["==","trajectId",""]
-            ]
-        },'origins');
 
 
     }

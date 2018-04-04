@@ -1,0 +1,772 @@
+[
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15776",
+            "start_naam": "Amsterdam, Maasstraat",
+            "end_id": "15683",
+            "end_naam": "Amsterdam, Beethovenstraat",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Maasstraat_Beethovenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14738",
+            "trajectId": "14738_14356",
+            "routeId": "14738_14356_oud",
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15683",
+            "end_id_reversed": "15776",
+            "start_naam_reversed": "Amsterdam, Beethovenstraat",
+            "end_naam_reversed": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14356-14738",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14738-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.89844,
+                52.340471
+              ],
+              [
+                4.878204,
+                52.347001
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14131",
+            "start_naam": "Purmerend, Beethovenstraat",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "voet",
+            "traject_name": "Beethovenstraat_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14738",
+            "trajectId": "14738_14356",
+            "routeId": "14738_14356_oud",
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "14131",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Purmerend, Beethovenstraat",
+            "trajectId_reversed": "14356-14738",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14738-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.968408,
+                52.487839
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14738",
+            "trajectId": "14738_14356",
+            "routeId": "14738_14356_oud",
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14356-14738",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14738-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14738",
+            "trajectId": "14738_14356",
+            "routeId": "14738_14356_oud",
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15683",
+            "naam": "Amsterdam, Beethovenstraat",
+            "trajectId_reversed": "14356-14738",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14738-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.878204,
+              52.347001
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14738",
+            "trajectId": "14738_14356",
+            "routeId": "14738_14356_oud",
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-14738",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14738-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15776",
+            "start_naam": "Amsterdam, Maasstraat",
+            "end_id": "15683",
+            "end_naam": "Amsterdam, Beethovenstraat",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Maasstraat_Beethovenstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14738",
+            "trajectId": "14738_14356",
+            "routeId": "14738_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15683",
+            "end_id_reversed": "15776",
+            "start_naam_reversed": "Amsterdam, Beethovenstraat",
+            "end_naam_reversed": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14356-14738",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14738-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.89844,
+                52.340471
+              ],
+              [
+                4.878204,
+                52.347001
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14131",
+            "start_naam": "Purmerend, Beethovenstraat",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "voet",
+            "traject_name": "Beethovenstraat_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14738",
+            "trajectId": "14738_14356",
+            "routeId": "14738_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "14131",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Purmerend, Beethovenstraat",
+            "trajectId_reversed": "14356-14738",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14738-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.968408,
+                52.487839
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14738",
+            "trajectId": "14738_14356",
+            "routeId": "14738_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14356-14738",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14738-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14738",
+            "trajectId": "14738_14356",
+            "routeId": "14738_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15683",
+            "naam": "Amsterdam, Beethovenstraat",
+            "trajectId_reversed": "14356-14738",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14738-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.878204,
+              52.347001
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14738",
+            "trajectId": "14738_14356",
+            "routeId": "14738_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-14738",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_14738-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15776",
+            "start_naam": "Amsterdam, Maasstraat",
+            "end_id": "99992",
+            "end_naam": "Zuid",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Maasstraat_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14738",
+            "trajectId": "14738_13417",
+            "routeId": "14738_13417_oud",
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "99992",
+            "end_id_reversed": "15776",
+            "start_naam_reversed": "Zuid",
+            "end_naam_reversed": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "13417-14738",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14738-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.89844,
+                52.340471
+              ],
+              [
+                4.873056,
+                52.338889
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14882",
+            "start_naam": "Amsterdam, Station Zuid",
+            "end_id": "13417",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Zuid_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14738",
+            "trajectId": "14738_13417",
+            "routeId": "14738_13417_oud",
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "13417",
+            "end_id_reversed": "14882",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Station Zuid",
+            "trajectId_reversed": "13417-14738",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14738-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.87374,
+                52.340825
+              ],
+              [
+                4.850108,
+                52.370577
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14738",
+            "trajectId": "14738_13417",
+            "routeId": "14738_13417_oud",
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "13417-14738",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14738-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14738",
+            "trajectId": "14738_13417",
+            "routeId": "14738_13417_oud",
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "13417-14738",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14738-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14738",
+            "trajectId": "14738_13417",
+            "routeId": "14738_13417_oud",
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "13417",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-14738",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14738-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.850108,
+              52.370577
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15776",
+            "start_naam": "Amsterdam, Maasstraat",
+            "end_id": "99992",
+            "end_naam": "Zuid",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Maasstraat_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14738",
+            "trajectId": "14738_13417",
+            "routeId": "14738_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "99992",
+            "end_id_reversed": "15776",
+            "start_naam_reversed": "Zuid",
+            "end_naam_reversed": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "13417-14738",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14738-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.89844,
+                52.340471
+              ],
+              [
+                4.873056,
+                52.338889
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14882",
+            "start_naam": "Amsterdam, Station Zuid",
+            "end_id": "13417",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Zuid_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14738",
+            "trajectId": "14738_13417",
+            "routeId": "14738_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "13417",
+            "end_id_reversed": "14882",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Station Zuid",
+            "trajectId_reversed": "13417-14738",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14738-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.87374,
+                52.340825
+              ],
+              [
+                4.850108,
+                52.370577
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14738",
+            "trajectId": "14738_13417",
+            "routeId": "14738_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "13417-14738",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14738-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14738",
+            "trajectId": "14738_13417",
+            "routeId": "14738_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "13417-14738",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14738-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14738",
+            "trajectId": "14738_13417",
+            "routeId": "14738_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Maasstraat - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "13417",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-14738",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14738-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Maasstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.850108,
+              52.370577
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Minervaplein",
+          "id": "14356"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.872043,
+            52.346695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mercatorplein",
+          "id": "13417"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.850108,
+            52.370577
+          ]
+        }
+      }
+    ],
+    "name": "destinations"
+  }
+]
