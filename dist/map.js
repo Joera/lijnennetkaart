@@ -1554,6 +1554,17 @@ var Map = function () {
 
             _self._switchRouteBlockColor();
         }
+
+        if (!fromSwitch) {
+            // set switch
+            var checkbox = document.getElementById('route-switch');
+            if (checkbox.checked) {
+                checkbox.checked = false;
+            } else {
+                console.log('no');
+                checkbox.checked = true;
+            }
+        }
     };
 
     Map.prototype._filterOrigins = function _filterOrigins(dataset) {

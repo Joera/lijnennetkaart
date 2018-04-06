@@ -768,6 +768,17 @@ class Map {
 
             self._switchRouteBlockColor();
         }
+
+        if (!fromSwitch) {
+            // set switch
+            let checkbox = document.getElementById('route-switch');
+            if(checkbox.checked) {
+                checkbox.checked = false;
+            } else {
+                console.log('no');
+                checkbox.checked = true;
+            }
+        }
     }
 
     _filterOrigins(dataset) {
