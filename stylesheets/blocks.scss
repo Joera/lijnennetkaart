@@ -72,7 +72,15 @@
         left: 0;
         top: 1rem;
         transform: scale(.85);
+
+        &.icon-metro {
+          transform: translateX(-4px);
+        }
+        &.icon-tram {
+          transform: translateX(3px);
+        }
       }
+
 
       > div {
         margin-left: 1.5rem;

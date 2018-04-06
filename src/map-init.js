@@ -582,7 +582,7 @@ class Map {
                     if(traject.properties.transport_type === 'bus') {
 
                         icon = `
-                            <svg width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg class="icon-bus" width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <polygon id="Path" fill="black" points="5.832 28.416 5.832 31.232 2.312 31.232 2.312 28.416 0.968 28.416 0.2 20.672 1.288 1.856 2.632 0.448 23.112 0.448 24.456 1.856 25.544 20.672 24.776 28.416 23.432 28.416 23.432 31.232 19.912 31.232 19.912 28.416"></polygon>
                                 <polygon id="Path" fill="white" points="2.888 4.864 22.856 4.864 22.856 2.304 2.888 2.304"></polygon>
                                 <path d="M2.312,23.296 C2.312,24.32 3.08,25.088 4.04,25.088 C5,25.088 5.832,24.32 5.832,23.296 C5.832,22.336 5,21.568 4.04,21.568 C3.08,21.568 2.312,22.336 2.312,23.296 Z" id="Path" fill="white"></path>
@@ -592,7 +592,7 @@ class Map {
                         `;
                     } else if (traject.properties.transport_type === 'metro') {
 
-                        icon = `<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        icon = `<svg class="icon-metro" width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <polygon id="Path" fill="black" points="7.208 0.232 27.048 0.232 28.136 1.384 28.136 21.352 26.024 23.4 8.104 23.4 5.992 21.352 5.992 1.384"></polygon>
                             <path d="M7.016,19.112 C7.016,20.008 7.72,20.712 8.616,20.712 C9.512,20.712 10.216,20.008 10.216,19.112 C10.216,18.216 9.512,17.512 8.616,17.512 C7.72,17.512 7.016,18.216 7.016,19.112 Z" id="Path" fill="white"></path>
                             <polygon id="Path" fill="black" points="29.864 33.32 22.248 25.128 23.592 25.128 33.768 33.32"></polygon>
@@ -605,7 +605,7 @@ class Map {
 
                     } else if (traject.properties.transport_type === 'tram') {
 
-                        icon = `<svg width="19px" height="36px" viewBox="0 0 19 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        icon = `<svg class="icon-tram" width="19px" height="36px" viewBox="0 0 19 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <polygon id="Path" fill="black" points="0.976 30.904 0.976 8.184 5.776 8.184 5.776 4.344 14.16 4.344 14.16 8.184 18.96 8.184 18.96 30.904 16.272 33.592 16.272 35.896 14.928 35.832 14.928 33.592 5.008 33.592 5.008 35.832 3.6 35.896 3.6 33.592"></polygon>
                             <polygon id="Path" fill="white" points="17.04 11.192 2.896 11.192 4.56 24.184 15.376 24.184"></polygon>
                             <path d="M8.4,28.152 C8.4,28.984 9.104,29.688 9.936,29.688 C10.832,29.688 11.536,28.984 11.536,28.152 C11.536,27.256 10.832,26.616 9.936,26.616 C9.104,26.616 8.4,27.256 8.4,28.152 Z" id="Path" fill="#000"></path>
@@ -618,7 +618,7 @@ class Map {
 
 
                         icon = `
-                            <svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg class="icon-walk" width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <path d="M5.112,9.976 C5.112,9.144 5.816,8.376 6.712,8.376 C7.608,8.376 8.312,9.144 8.312,9.976 C8.312,10.872 7.608,11.576 6.712,11.576 C5.816,11.576 5.112,10.872 5.112,9.976 Z" id="Path"></path>
                                 <polygon id="Path" points="29.496 7.416 32.76 13.304 37.752 17.336 36.664 19.384 30.648 15.672 29.496 13.432 29.496 18.232 32.568 24.248 34.488 35.064 31.288 35.832 29.24 26.488 26.808 22.456 23.928 28.28 19.256 34.168 17.08 32.184 21.176 25.592 23.736 18.04 23.736 11.704 21.048 14.328 18.424 19.128 16.44 17.976 19.256 11.896 23.736 7.416"></polygon>
                                 <path d="M23.928,3.448 C23.928,1.976 25.144,0.76 26.616,0.76 C28.088,0.76 29.304,1.976 29.304,3.448 C29.304,4.92 28.088,6.072 26.616,6.072 C25.144,6.072 23.928,4.92 23.928,3.448 Z" id="Path"></path>
