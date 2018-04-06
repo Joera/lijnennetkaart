@@ -1,0 +1,6344 @@
+[
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14584",
+            "end_naam": "Amsterdam, Waterlooplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "9",
+              "14"
+            ],
+            "traject_name": "Rokin_Waterlooplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14584",
+            "routeId": "99996_14584_oud",
+            "trajectNaam": "Rokin - Amsterdam, Waterlooplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "start_id_reversed": "14584",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Waterlooplein",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14584-99996",
+            "originId_reversed": "14584",
+            "routeId_reversed": "14584_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Waterlooplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.902979,
+                52.366977
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14584",
+            "routeId": "99996_14584_oud",
+            "trajectNaam": "Rokin - Amsterdam, Waterlooplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14584-99996",
+            "originId_reversed": "14584",
+            "routeId_reversed": "14584_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Waterlooplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14584",
+            "routeId": "99996_14584_oud",
+            "trajectNaam": "Rokin - Amsterdam, Waterlooplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14584",
+            "naam": "Amsterdam, Waterlooplein",
+            "trajectId_reversed": "14584-99996",
+            "originId_reversed": "14584",
+            "routeId_reversed": "14584_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Waterlooplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.902979,
+              52.366977
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14584",
+            "end_naam": "Amsterdam, Waterlooplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "14"
+            ],
+            "traject_name": "Rokin_Waterlooplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14584",
+            "routeId": "99996_14584_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Waterlooplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "start_id_reversed": "14584",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Waterlooplein",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14584-99996",
+            "originId_reversed": "14584",
+            "routeId_reversed": "14584_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Waterlooplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.902979,
+                52.366977
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14584",
+            "routeId": "99996_14584_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Waterlooplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14584-99996",
+            "originId_reversed": "14584",
+            "routeId_reversed": "14584_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Waterlooplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14584",
+            "routeId": "99996_14584_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Waterlooplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14584",
+            "naam": "Amsterdam, Waterlooplein",
+            "trajectId_reversed": "14584-99996",
+            "originId_reversed": "14584",
+            "routeId_reversed": "14584_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Waterlooplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.902979,
+              52.366977
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14509",
+            "end_naam": "Amsterdam, Westermarkt",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "14"
+            ],
+            "traject_name": "Rokin_Westermarkt",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14509",
+            "routeId": "99996_14509_oud",
+            "trajectNaam": "Rokin - Amsterdam, Westermarkt",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "start_id_reversed": "14509",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Westermarkt",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14509-99996",
+            "originId_reversed": "14509",
+            "routeId_reversed": "14509_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Westermarkt - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.884532,
+                52.374
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14509",
+            "routeId": "99996_14509_oud",
+            "trajectNaam": "Rokin - Amsterdam, Westermarkt",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14509-99996",
+            "originId_reversed": "14509",
+            "routeId_reversed": "14509_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Westermarkt - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14509",
+            "routeId": "99996_14509_oud",
+            "trajectNaam": "Rokin - Amsterdam, Westermarkt",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14509",
+            "naam": "Amsterdam, Westermarkt",
+            "trajectId_reversed": "14509-99996",
+            "originId_reversed": "14509",
+            "routeId_reversed": "14509_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Westermarkt - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.884532,
+              52.374
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14509",
+            "end_naam": "Amsterdam, Westermarkt",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "13",
+              "17"
+            ],
+            "traject_name": "Rokin_Westermarkt",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14509",
+            "routeId": "99996_14509_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Westermarkt",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "start_id_reversed": "14509",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Westermarkt",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14509-99996",
+            "originId_reversed": "14509",
+            "routeId_reversed": "14509_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Westermarkt - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.884532,
+                52.374
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14509",
+            "routeId": "99996_14509_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Westermarkt",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14509-99996",
+            "originId_reversed": "14509",
+            "routeId_reversed": "14509_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Westermarkt - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14509",
+            "routeId": "99996_14509_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Westermarkt",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14509",
+            "naam": "Amsterdam, Westermarkt",
+            "trajectId_reversed": "14509-99996",
+            "originId_reversed": "14509",
+            "routeId_reversed": "14509_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Westermarkt - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.884532,
+              52.374
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14404",
+            "end_naam": "Amsterdam, Centraal Station",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4",
+              "9",
+              "16",
+              "24"
+            ],
+            "traject_name": "Rokin_CS",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 5,
+            "wachttijd": 1.5,
+            "totaaltijd": 6.5,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15687",
+            "routeId": "99996_15687_oud",
+            "trajectNaam": "Rokin - Amsterdam, Haarlemmerplein",
+            "totaaltijdRoute": 14.5,
+            "cluster": "Amsterdam Centrum",
+            "start_id_reversed": "14404",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Centraal Station",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "15687-99996",
+            "originId_reversed": "15687",
+            "routeId_reversed": "15687_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Haarlemmerplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.901776,
+                52.377604
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14404",
+            "start_naam": "Amsterdam, Centraal Station",
+            "end_id": "15687",
+            "end_naam": "Amsterdam, Haarlemmerplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "18",
+              "21",
+              "22"
+            ],
+            "traject_name": "CS_Haarlemmerplein",
+            "traject_stops": null,
+            "reistijd": 8,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 8,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15687",
+            "routeId": "99996_15687_oud",
+            "trajectNaam": "Rokin - Amsterdam, Haarlemmerplein",
+            "totaaltijdRoute": 14.5,
+            "cluster": "Amsterdam Centrum",
+            "operator": "GVB",
+            "route": "bus",
+            "from": "Amsterdam Muiderpoortstation",
+            "name": "Bus 22: Amsterdam Muiderpoortstation => Amsterdam Station Sloterdijk",
+            "network": "Stadsvervoer Amsterdam",
+            "public_transport:version": "2",
+            "ref": "22",
+            "type": "route",
+            "@id": "relation/364640",
+            "to": "Amsterdam Station Sloterdijk",
+            "start_id_reversed": "15687",
+            "end_id_reversed": "14404",
+            "start_naam_reversed": "Amsterdam, Haarlemmerplein",
+            "end_naam_reversed": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "15687-99996",
+            "originId_reversed": "15687",
+            "routeId_reversed": "15687_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Haarlemmerplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.9009148,
+                52.3768933
+              ],
+              [
+                4.900805,
+                52.3768765
+              ],
+              [
+                4.9004655,
+                52.3768393
+              ],
+              [
+                4.9002399,
+                52.3768227
+              ],
+              [
+                4.8992465,
+                52.3767721
+              ],
+              [
+                4.8991882,
+                52.3767703
+              ],
+              [
+                4.8991432,
+                52.376771
+              ],
+              [
+                4.8991,
+                52.3767735
+              ],
+              [
+                4.8990516,
+                52.3767792
+              ],
+              [
+                4.8990136,
+                52.3767849
+              ],
+              [
+                4.8989834,
+                52.376792
+              ],
+              [
+                4.8989488,
+                52.376801
+              ],
+              [
+                4.8989115,
+                52.3768124
+              ],
+              [
+                4.898884,
+                52.3768256
+              ],
+              [
+                4.8988451,
+                52.3768463
+              ],
+              [
+                4.8986546,
+                52.3769578
+              ],
+              [
+                4.8985428,
+                52.377031
+              ],
+              [
+                4.8985019,
+                52.3770603
+              ],
+              [
+                4.8984756,
+                52.3770847
+              ],
+              [
+                4.898449,
+                52.3771181
+              ],
+              [
+                4.8984348,
+                52.3771449
+              ],
+              [
+                4.8984315,
+                52.3771765
+              ],
+              [
+                4.8984325,
+                52.3772098
+              ],
+              [
+                4.8984618,
+                52.3773213
+              ],
+              [
+                4.8984729,
+                52.3773634
+              ],
+              [
+                4.8985275,
+                52.3774954
+              ],
+              [
+                4.898533,
+                52.3775086
+              ],
+              [
+                4.8984407,
+                52.377561
+              ],
+              [
+                4.8984337,
+                52.3775886
+              ],
+              [
+                4.8984116,
+                52.377622
+              ],
+              [
+                4.8983718,
+                52.3776561
+              ],
+              [
+                4.8983311,
+                52.3776847
+              ],
+              [
+                4.8979556,
+                52.3779246
+              ],
+              [
+                4.8978337,
+                52.3779969
+              ],
+              [
+                4.8977691,
+                52.3780326
+              ],
+              [
+                4.8977134,
+                52.3780607
+              ],
+              [
+                4.8973122,
+                52.3782549
+              ],
+              [
+                4.8971928,
+                52.3783127
+              ],
+              [
+                4.8970874,
+                52.3783638
+              ],
+              [
+                4.8970221,
+                52.3783955
+              ],
+              [
+                4.8967937,
+                52.3785065
+              ],
+              [
+                4.8966442,
+                52.3786005
+              ],
+              [
+                4.8965135,
+                52.3786761
+              ],
+              [
+                4.8963873,
+                52.3787434
+              ],
+              [
+                4.8953548,
+                52.3793091
+              ],
+              [
+                4.895214,
+                52.3793916
+              ],
+              [
+                4.8948645,
+                52.3795865
+              ],
+              [
+                4.8948077,
+                52.3796239
+              ],
+              [
+                4.8947733,
+                52.3796554
+              ],
+              [
+                4.8947442,
+                52.3796942
+              ],
+              [
+                4.8947164,
+                52.3797336
+              ],
+              [
+                4.894692,
+                52.3797919
+              ],
+              [
+                4.8946554,
+                52.3802671
+              ],
+              [
+                4.8946125,
+                52.3804113
+              ],
+              [
+                4.8944537,
+                52.380571
+              ],
+              [
+                4.893988,
+                52.3807456
+              ],
+              [
+                4.8938029,
+                52.38081
+              ],
+              [
+                4.8929151,
+                52.3811189
+              ],
+              [
+                4.8923511,
+                52.3812493
+              ],
+              [
+                4.8917727,
+                52.3814304
+              ],
+              [
+                4.8914126,
+                52.3815771
+              ],
+              [
+                4.8912758,
+                52.3816377
+              ],
+              [
+                4.8904145,
+                52.3820682
+              ],
+              [
+                4.8897926,
+                52.3823648
+              ],
+              [
+                4.8892619,
+                52.3826028
+              ],
+              [
+                4.8885723,
+                52.3829021
+              ],
+              [
+                4.8882976,
+                52.3830208
+              ],
+              [
+                4.8880371,
+                52.3831468
+              ],
+              [
+                4.8878285,
+                52.3832817
+              ],
+              [
+                4.8874905,
+                52.3835088
+              ],
+              [
+                4.8868435,
+                52.3838687
+              ],
+              [
+                4.8850151,
+                52.3848997
+              ],
+              [
+                4.8844591,
+                52.3852022
+              ],
+              [
+                4.8842473,
+                52.3852796
+              ],
+              [
+                4.8841279,
+                52.3853119
+              ],
+              [
+                4.8840472,
+                52.3853251
+              ],
+              [
+                4.8839503,
+                52.3853298
+              ],
+              [
+                4.8838753,
+                52.3853255
+              ],
+              [
+                4.8838141,
+                52.3853066
+              ],
+              [
+                4.8837513,
+                52.3852745
+              ],
+              [
+                4.8836937,
+                52.3852088
+              ],
+              [
+                4.8834267,
+                52.3848553
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15687",
+            "routeId": "99996_15687_oud",
+            "trajectNaam": "Rokin - Amsterdam, Haarlemmerplein",
+            "totaaltijdRoute": 14.5,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "15687-99996",
+            "originId_reversed": "15687",
+            "routeId_reversed": "15687_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Haarlemmerplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15687",
+            "routeId": "99996_15687_oud",
+            "trajectNaam": "Rokin - Amsterdam, Haarlemmerplein",
+            "totaaltijdRoute": 14.5,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 5,
+            "wachttijd": 1.5,
+            "function": "overstap",
+            "id": "14404",
+            "naam": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "15687-99996",
+            "originId_reversed": "15687",
+            "routeId_reversed": "15687_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Haarlemmerplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901776,
+              52.377604
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15687",
+            "routeId": "99996_15687_oud",
+            "trajectNaam": "Rokin - Amsterdam, Haarlemmerplein",
+            "totaaltijdRoute": 14.5,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15687",
+            "naam": "Amsterdam, Haarlemmerplein",
+            "trajectId_reversed": "15687-99996",
+            "originId_reversed": "15687",
+            "routeId_reversed": "15687_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Haarlemmerplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.88341,
+              52.384843
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14404",
+            "end_naam": "Amsterdam, Centraal Station",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "52"
+            ],
+            "traject_name": "Rokin_CS",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 5,
+            "wachttijd": 1.5,
+            "totaaltijd": 6.5,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15687",
+            "routeId": "99996_15687_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Haarlemmerplein",
+            "totaaltijdRoute": 14.5,
+            "cluster": "Amsterdam Centrum",
+            "start_id_reversed": "14404",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Centraal Station",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "15687-99996",
+            "originId_reversed": "15687",
+            "routeId_reversed": "15687_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Haarlemmerplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.901776,
+                52.377604
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14404",
+            "start_naam": "Amsterdam, Centraal Station",
+            "end_id": "15687",
+            "end_naam": "Amsterdam, Haarlemmerplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "18",
+              "21",
+              "22"
+            ],
+            "traject_name": "CS_Haarlemmerplein",
+            "traject_stops": null,
+            "reistijd": 8,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 8,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15687",
+            "routeId": "99996_15687_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Haarlemmerplein",
+            "totaaltijdRoute": 14.5,
+            "cluster": "Amsterdam Centrum",
+            "operator": "GVB",
+            "route": "bus",
+            "from": "Amsterdam Muiderpoortstation",
+            "name": "Bus 22: Amsterdam Muiderpoortstation => Amsterdam Station Sloterdijk",
+            "network": "Stadsvervoer Amsterdam",
+            "public_transport:version": "2",
+            "ref": "22",
+            "type": "route",
+            "@id": "relation/364640",
+            "to": "Amsterdam Station Sloterdijk",
+            "start_id_reversed": "15687",
+            "end_id_reversed": "14404",
+            "start_naam_reversed": "Amsterdam, Haarlemmerplein",
+            "end_naam_reversed": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "15687-99996",
+            "originId_reversed": "15687",
+            "routeId_reversed": "15687_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Haarlemmerplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.9009148,
+                52.3768933
+              ],
+              [
+                4.900805,
+                52.3768765
+              ],
+              [
+                4.9004655,
+                52.3768393
+              ],
+              [
+                4.9002399,
+                52.3768227
+              ],
+              [
+                4.8992465,
+                52.3767721
+              ],
+              [
+                4.8991882,
+                52.3767703
+              ],
+              [
+                4.8991432,
+                52.376771
+              ],
+              [
+                4.8991,
+                52.3767735
+              ],
+              [
+                4.8990516,
+                52.3767792
+              ],
+              [
+                4.8990136,
+                52.3767849
+              ],
+              [
+                4.8989834,
+                52.376792
+              ],
+              [
+                4.8989488,
+                52.376801
+              ],
+              [
+                4.8989115,
+                52.3768124
+              ],
+              [
+                4.898884,
+                52.3768256
+              ],
+              [
+                4.8988451,
+                52.3768463
+              ],
+              [
+                4.8986546,
+                52.3769578
+              ],
+              [
+                4.8985428,
+                52.377031
+              ],
+              [
+                4.8985019,
+                52.3770603
+              ],
+              [
+                4.8984756,
+                52.3770847
+              ],
+              [
+                4.898449,
+                52.3771181
+              ],
+              [
+                4.8984348,
+                52.3771449
+              ],
+              [
+                4.8984315,
+                52.3771765
+              ],
+              [
+                4.8984325,
+                52.3772098
+              ],
+              [
+                4.8984618,
+                52.3773213
+              ],
+              [
+                4.8984729,
+                52.3773634
+              ],
+              [
+                4.8985275,
+                52.3774954
+              ],
+              [
+                4.898533,
+                52.3775086
+              ],
+              [
+                4.8984407,
+                52.377561
+              ],
+              [
+                4.8984337,
+                52.3775886
+              ],
+              [
+                4.8984116,
+                52.377622
+              ],
+              [
+                4.8983718,
+                52.3776561
+              ],
+              [
+                4.8983311,
+                52.3776847
+              ],
+              [
+                4.8979556,
+                52.3779246
+              ],
+              [
+                4.8978337,
+                52.3779969
+              ],
+              [
+                4.8977691,
+                52.3780326
+              ],
+              [
+                4.8977134,
+                52.3780607
+              ],
+              [
+                4.8973122,
+                52.3782549
+              ],
+              [
+                4.8971928,
+                52.3783127
+              ],
+              [
+                4.8970874,
+                52.3783638
+              ],
+              [
+                4.8970221,
+                52.3783955
+              ],
+              [
+                4.8967937,
+                52.3785065
+              ],
+              [
+                4.8966442,
+                52.3786005
+              ],
+              [
+                4.8965135,
+                52.3786761
+              ],
+              [
+                4.8963873,
+                52.3787434
+              ],
+              [
+                4.8953548,
+                52.3793091
+              ],
+              [
+                4.895214,
+                52.3793916
+              ],
+              [
+                4.8948645,
+                52.3795865
+              ],
+              [
+                4.8948077,
+                52.3796239
+              ],
+              [
+                4.8947733,
+                52.3796554
+              ],
+              [
+                4.8947442,
+                52.3796942
+              ],
+              [
+                4.8947164,
+                52.3797336
+              ],
+              [
+                4.894692,
+                52.3797919
+              ],
+              [
+                4.8946554,
+                52.3802671
+              ],
+              [
+                4.8946125,
+                52.3804113
+              ],
+              [
+                4.8944537,
+                52.380571
+              ],
+              [
+                4.893988,
+                52.3807456
+              ],
+              [
+                4.8938029,
+                52.38081
+              ],
+              [
+                4.8929151,
+                52.3811189
+              ],
+              [
+                4.8923511,
+                52.3812493
+              ],
+              [
+                4.8917727,
+                52.3814304
+              ],
+              [
+                4.8914126,
+                52.3815771
+              ],
+              [
+                4.8912758,
+                52.3816377
+              ],
+              [
+                4.8904145,
+                52.3820682
+              ],
+              [
+                4.8897926,
+                52.3823648
+              ],
+              [
+                4.8892619,
+                52.3826028
+              ],
+              [
+                4.8885723,
+                52.3829021
+              ],
+              [
+                4.8882976,
+                52.3830208
+              ],
+              [
+                4.8880371,
+                52.3831468
+              ],
+              [
+                4.8878285,
+                52.3832817
+              ],
+              [
+                4.8874905,
+                52.3835088
+              ],
+              [
+                4.8868435,
+                52.3838687
+              ],
+              [
+                4.8850151,
+                52.3848997
+              ],
+              [
+                4.8844591,
+                52.3852022
+              ],
+              [
+                4.8842473,
+                52.3852796
+              ],
+              [
+                4.8841279,
+                52.3853119
+              ],
+              [
+                4.8840472,
+                52.3853251
+              ],
+              [
+                4.8839503,
+                52.3853298
+              ],
+              [
+                4.8838753,
+                52.3853255
+              ],
+              [
+                4.8838141,
+                52.3853066
+              ],
+              [
+                4.8837513,
+                52.3852745
+              ],
+              [
+                4.8836937,
+                52.3852088
+              ],
+              [
+                4.8834267,
+                52.3848553
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15687",
+            "routeId": "99996_15687_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Haarlemmerplein",
+            "totaaltijdRoute": 14.5,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "15687-99996",
+            "originId_reversed": "15687",
+            "routeId_reversed": "15687_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Haarlemmerplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15687",
+            "routeId": "99996_15687_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Haarlemmerplein",
+            "totaaltijdRoute": 14.5,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 5,
+            "wachttijd": 1.5,
+            "function": "overstap",
+            "id": "14404",
+            "naam": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "15687-99996",
+            "originId_reversed": "15687",
+            "routeId_reversed": "15687_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Haarlemmerplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901776,
+              52.377604
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15687",
+            "routeId": "99996_15687_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Haarlemmerplein",
+            "totaaltijdRoute": 14.5,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15687",
+            "naam": "Amsterdam, Haarlemmerplein",
+            "trajectId_reversed": "15687-99996",
+            "originId_reversed": "15687",
+            "routeId_reversed": "15687_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Haarlemmerplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.88341,
+              52.384843
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "15922",
+            "end_naam": "Amsterdam, Spui",
+            "transport_type": "voet",
+            "traject_name": "Rokin_Spui_wandelen",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14649",
+            "routeId": "99996_14649_oud",
+            "trajectNaam": "Rokin - Amsterdam, Leidseplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "start_id_reversed": "15922",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Spui",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14649-99996",
+            "originId_reversed": "14649",
+            "routeId_reversed": "14649_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Leidseplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.892094,
+                52.368801
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15305",
+            "start_naam": "Amsterdam, Spui",
+            "end_id": "43445",
+            "end_naam": "Amsterdam, Leidseplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1",
+              "2",
+              "5"
+            ],
+            "traject_name": "Spui_Leidseplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14649",
+            "routeId": "99996_14649_oud",
+            "trajectNaam": "Rokin - Amsterdam, Leidseplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "start_id_reversed": "43445",
+            "end_id_reversed": "15305",
+            "start_naam_reversed": "Amsterdam, Leidseplein",
+            "end_naam_reversed": "Amsterdam, Spui",
+            "trajectId_reversed": "14649-99996",
+            "originId_reversed": "14649",
+            "routeId_reversed": "14649_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Leidseplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.889327,
+                52.369329
+              ],
+              [
+                4.881773,
+                52.363482
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14649",
+            "routeId": "99996_14649_oud",
+            "trajectNaam": "Rokin - Amsterdam, Leidseplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14649-99996",
+            "originId_reversed": "14649",
+            "routeId_reversed": "14649_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Leidseplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14649",
+            "routeId": "99996_14649_oud",
+            "trajectNaam": "Rokin - Amsterdam, Leidseplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15922",
+            "naam": "Amsterdam, Spui",
+            "trajectId_reversed": "14649-99996",
+            "originId_reversed": "14649",
+            "routeId_reversed": "14649_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Leidseplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.892094,
+              52.368801
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14649",
+            "routeId": "99996_14649_oud",
+            "trajectNaam": "Rokin - Amsterdam, Leidseplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "43445",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14649-99996",
+            "originId_reversed": "14649",
+            "routeId_reversed": "14649_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Leidseplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881773,
+              52.363482
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "15922",
+            "end_naam": "Amsterdam, Spui",
+            "transport_type": "voet",
+            "traject_name": "Rokin_Spui_wandelen",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14649",
+            "routeId": "99996_14649_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Leidseplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "start_id_reversed": "15922",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Spui",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14649-99996",
+            "originId_reversed": "14649",
+            "routeId_reversed": "14649_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Leidseplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.892094,
+                52.368801
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15305",
+            "start_naam": "Amsterdam, Spui",
+            "end_id": "43445",
+            "end_naam": "Amsterdam, Leidseplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "2",
+              "11",
+              "12"
+            ],
+            "traject_name": "Spui_Leidseplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14649",
+            "routeId": "99996_14649_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Leidseplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "start_id_reversed": "43445",
+            "end_id_reversed": "15305",
+            "start_naam_reversed": "Amsterdam, Leidseplein",
+            "end_naam_reversed": "Amsterdam, Spui",
+            "trajectId_reversed": "14649-99996",
+            "originId_reversed": "14649",
+            "routeId_reversed": "14649_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Leidseplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.889327,
+                52.369329
+              ],
+              [
+                4.881773,
+                52.363482
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14649",
+            "routeId": "99996_14649_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Leidseplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14649-99996",
+            "originId_reversed": "14649",
+            "routeId_reversed": "14649_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Leidseplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14649",
+            "routeId": "99996_14649_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Leidseplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15922",
+            "naam": "Amsterdam, Spui",
+            "trajectId_reversed": "14649-99996",
+            "originId_reversed": "14649",
+            "routeId_reversed": "14649_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Leidseplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.892094,
+              52.368801
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14649",
+            "routeId": "99996_14649_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Leidseplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "43445",
+            "naam": "Amsterdam, Leidseplein",
+            "trajectId_reversed": "14649-99996",
+            "originId_reversed": "14649",
+            "routeId_reversed": "14649_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Leidseplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881773,
+              52.363482
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14404",
+            "end_naam": "Amsterdam, Centraal Station",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4",
+              "9",
+              "16",
+              "24"
+            ],
+            "traject_name": "Rokin_CS",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 4,
+            "wachttijd": 3.75,
+            "totaaltijd": 7.75,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_99999",
+            "routeId": "99996_99999_oud",
+            "trajectNaam": "Rokin - Station Noord",
+            "totaaltijdRoute": 19.75,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14404",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Centraal Station",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "99999-99996",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_99996-oud",
+            "trajectNaam_reversed": "Station Noord - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.901776,
+                52.377604
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14404",
+            "start_naam": "Amsterdam, Centraal Station",
+            "end_id": "13871",
+            "end_naam": "Amsterdam, Buikslotermeerplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "33",
+              "392"
+            ],
+            "traject_name": "CS_Buikslotermeerplein(met_bus)",
+            "traject_stops": "",
+            "reistijd": 12,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 12,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_99999",
+            "routeId": "99996_99999_oud",
+            "trajectNaam": "Rokin - Station Noord",
+            "totaaltijdRoute": 19.75,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "13871",
+            "end_id_reversed": "14404",
+            "start_naam_reversed": "Amsterdam, Buikslotermeerplein",
+            "end_naam_reversed": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "99999-99996",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_99996-oud",
+            "trajectNaam_reversed": "Station Noord - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.901776,
+                52.377604
+              ],
+              [
+                4.935204,
+                52.400385
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_99999",
+            "routeId": "99996_99999_oud",
+            "trajectNaam": "Rokin - Station Noord",
+            "totaaltijdRoute": 19.75,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "99999-99996",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_99996-oud",
+            "trajectNaam_reversed": "Station Noord - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_99999",
+            "routeId": "99996_99999_oud",
+            "trajectNaam": "Rokin - Station Noord",
+            "totaaltijdRoute": 19.75,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 4,
+            "wachttijd": 3.75,
+            "function": "overstap",
+            "id": "14404",
+            "naam": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "99999-99996",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_99996-oud",
+            "trajectNaam_reversed": "Station Noord - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901776,
+              52.377604
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_99999",
+            "routeId": "99996_99999_oud",
+            "trajectNaam": "Rokin - Station Noord",
+            "totaaltijdRoute": 19.75,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "13871",
+            "naam": "Amsterdam, Buikslotermeerplein",
+            "trajectId_reversed": "99999-99996",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_99996-oud",
+            "trajectNaam_reversed": "Station Noord - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.935204,
+              52.400385
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "99999",
+            "end_naam": "Station Noord",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "52"
+            ],
+            "traject_name": "Rokin_Station Noord",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_99999",
+            "routeId": "99996_99999_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Station Noord",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "99999",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Station Noord",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "99999-99996",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_99996-nieuw",
+            "trajectNaam_reversed": "Station Noord - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.935017824,
+                52.40412729
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_99999",
+            "routeId": "99996_99999_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Station Noord",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "99999-99996",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_99996-nieuw",
+            "trajectNaam_reversed": "Station Noord - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_99999",
+            "routeId": "99996_99999_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Station Noord",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "99999",
+            "naam": "Station Noord",
+            "trajectId_reversed": "99999-99996",
+            "originId_reversed": "99999",
+            "routeId_reversed": "99999_99996-nieuw",
+            "trajectNaam_reversed": "Station Noord - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.935017824,
+              52.40412729
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14404",
+            "end_naam": "Amsterdam, Centraal Station",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4",
+              "9",
+              "16",
+              "24"
+            ],
+            "traject_name": "Rokin_CS",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14121",
+            "routeId": "99996_14121_oud",
+            "trajectNaam": "Rokin - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14404",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Centraal Station",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14121-99996",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.901776,
+                52.377604
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14404",
+            "start_naam": "Amsterdam, Centraal Station",
+            "end_id": "14121",
+            "end_naam": "Amsterdam, Mosplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "34",
+              "35",
+              "391",
+              "394"
+            ],
+            "traject_name": "CS_Mosplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14121",
+            "routeId": "99996_14121_oud",
+            "trajectNaam": "Rokin - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14121",
+            "end_id_reversed": "14404",
+            "start_naam_reversed": "Amsterdam, Mosplein",
+            "end_naam_reversed": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "14121-99996",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.901776,
+                52.377604
+              ],
+              [
+                4.913404,
+                52.393065
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14121",
+            "routeId": "99996_14121_oud",
+            "trajectNaam": "Rokin - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14121-99996",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14121",
+            "routeId": "99996_14121_oud",
+            "trajectNaam": "Rokin - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14404",
+            "naam": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "14121-99996",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901776,
+              52.377604
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14121",
+            "routeId": "99996_14121_oud",
+            "trajectNaam": "Rokin - Amsterdam, Mosplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14121",
+            "naam": "Amsterdam, Mosplein",
+            "trajectId_reversed": "14121-99996",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.913404,
+              52.393065
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "99998",
+            "end_naam": "Noorderpark",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "52"
+            ],
+            "traject_name": "CS_Noorderpark",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 2,
+            "wachttijd": 1,
+            "totaaltijd": 3,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14121",
+            "routeId": "99996_14121_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Mosplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "99998",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Noorderpark",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14121-99996",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.919167,
+                52.389167
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99998",
+            "start_naam": "Noorderpark",
+            "end_id": "14121",
+            "end_naam": "Amsterdam, Mosplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "34",
+              "35",
+              "391",
+              "394"
+            ],
+            "traject_name": "Noorderpark_Mosplein",
+            "traject_stops": "",
+            "reistijd": 3,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 3,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14121",
+            "routeId": "99996_14121_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Mosplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14121",
+            "end_id_reversed": "99998",
+            "start_naam_reversed": "Amsterdam, Mosplein",
+            "end_naam_reversed": "Noorderpark",
+            "trajectId_reversed": "14121-99996",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.919167,
+                52.389167
+              ],
+              [
+                4.913404,
+                52.393065
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14121",
+            "routeId": "99996_14121_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Mosplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14121-99996",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14121",
+            "routeId": "99996_14121_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Mosplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 2,
+            "wachttijd": 1,
+            "function": "overstap",
+            "id": "99998",
+            "naam": "Noorderpark",
+            "trajectId_reversed": "14121-99996",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.919167,
+              52.389167
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14121",
+            "routeId": "99996_14121_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Mosplein",
+            "totaaltijdRoute": 6,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14121",
+            "naam": "Amsterdam, Mosplein",
+            "trajectId_reversed": "14121-99996",
+            "originId_reversed": "14121",
+            "routeId_reversed": "14121_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mosplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.913404,
+              52.393065
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14404",
+            "end_naam": "Amsterdam, Centraal Station",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4",
+              "9",
+              "16",
+              "24"
+            ],
+            "traject_name": "Rokin_CS",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14536",
+            "routeId": "99996_14536_oud",
+            "trajectNaam": "Rokin - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14404",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Centraal Station",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14536-99996",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.901776,
+                52.377604
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14404",
+            "start_naam": "Amsterdam, Centraal Station",
+            "end_id": "14536",
+            "end_naam": "Amsterdam, Volendammerweg",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "32"
+            ],
+            "traject_name": "CS_Volendammerweg",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14536",
+            "routeId": "99996_14536_oud",
+            "trajectNaam": "Rokin - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14536",
+            "end_id_reversed": "14404",
+            "start_naam_reversed": "Amsterdam, Volendammerweg",
+            "end_naam_reversed": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "14536-99996",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.901776,
+                52.377604
+              ],
+              [
+                4.956968,
+                52.392557
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14536",
+            "routeId": "99996_14536_oud",
+            "trajectNaam": "Rokin - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14536-99996",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14536",
+            "routeId": "99996_14536_oud",
+            "trajectNaam": "Rokin - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14404",
+            "naam": "Amsterdam, Centraal Station",
+            "trajectId_reversed": "14536-99996",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901776,
+              52.377604
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14536",
+            "routeId": "99996_14536_oud",
+            "trajectNaam": "Rokin - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14536",
+            "naam": "Amsterdam, Volendammerweg",
+            "trajectId_reversed": "14536-99996",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.956968,
+              52.392557
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "99999",
+            "end_naam": "Station Noord",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "52"
+            ],
+            "traject_name": "CS_Noord",
+            "traject_stops": null,
+            "reistijd": 0,
+            "looptijd": 1,
+            "wachttijd": 5,
+            "totaaltijd": 6,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14536",
+            "routeId": "99996_14536_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 15,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "99999",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Station Noord",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14536-99996",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Rokin"
+          },
+          "geometry": {
+            "coordinates": [
+              [
+                4.935349611969656,
+                52.4044330240167
+              ],
+              [
+                4.933700147459888,
+                52.403240342511
+              ],
+              [
+                4.932508867526167,
+                52.402258840842705
+              ],
+              [
+                4.931582316467882,
+                52.401513381940646
+              ],
+              [
+                4.929047028512201,
+                52.39950057997865
+              ],
+              [
+                4.927265199556757,
+                52.39812759765178
+              ],
+              [
+                4.925982282757275,
+                52.39700929991446
+              ],
+              [
+                4.92536118795627,
+                52.39645635336879
+              ],
+              [
+                4.925208459763752,
+                52.39628239121157
+              ],
+              [
+                4.924943730889879,
+                52.39597795578629
+              ],
+              [
+                4.924332818119666,
+                52.395275882404945
+              ],
+              [
+                4.923874633482541,
+                52.39470427463547
+              ],
+              [
+                4.9234266307827,
+                52.39406431362633
+              ],
+              [
+                4.922418624701777,
+                52.39244883678202
+              ],
+              [
+                4.921644801833509,
+                52.39131796785966
+              ],
+              [
+                4.921400436715317,
+                52.39100107080404
+              ],
+              [
+                4.921186617230575,
+                52.3907835911198
+              ],
+              [
+                4.920952434015504,
+                52.39057853786238
+              ],
+              [
+                4.920677523263777,
+                52.39038591121272
+              ],
+              [
+                4.920392430609212,
+                52.390168428497475
+              ],
+              [
+                4.920036064677902,
+                52.389932303195366
+              ],
+              [
+                4.91978151768194,
+                52.38978317076911
+              ],
+              [
+                4.919445515638159,
+                52.389596754535404
+              ],
+              [
+                4.918885512257077,
+                52.389254989390366
+              ],
+              [
+                4.918152416927768,
+                52.3888572957033
+              ],
+              [
+                4.916360405939656,
+                52.38780090449208
+              ],
+              [
+                4.91350519290711,
+                52.386392538980886
+              ],
+              [
+                4.912649324728335,
+                52.3859848377258
+              ],
+              [
+                4.911897830701662,
+                52.38564720747391
+              ],
+              [
+                4.91085988937715,
+                52.38520184300549
+              ],
+              [
+                4.907822600910322,
+                52.38389587665563
+              ],
+              [
+                4.906697791058406,
+                52.38334475662896
+              ],
+              [
+                4.905698230166308,
+                52.38288282114675
+              ],
+              [
+                4.904617601124869,
+                52.38234119030949
+              ],
+              [
+                4.903583584074767,
+                52.38179307305023
+              ],
+              [
+                4.903100853566343,
+                52.381472930903584
+              ],
+              [
+                4.902534623682158,
+                52.38101262295601
+              ],
+              [
+                4.901725723898778,
+                52.38016207590391
+              ],
+              [
+                4.901391726359805,
+                52.37979254473635
+              ],
+              [
+                4.899533866035881,
+                52.37810413014162
+              ]
+            ],
+            "type": "LineString"
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99999",
+            "start_naam": "Station Noord",
+            "end_id": "14536",
+            "end_naam": "Amsterdam, Volendammerweg",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "37"
+            ],
+            "traject_name": "Noord_Volendammerweg",
+            "traject_stops": "",
+            "reistijd": 9,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 9,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14536",
+            "routeId": "99996_14536_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 15,
+            "cluster": "Amsterdam Noord",
+            "start_id_reversed": "14536",
+            "end_id_reversed": "99999",
+            "start_naam_reversed": "Amsterdam, Volendammerweg",
+            "end_naam_reversed": "Station Noord",
+            "trajectId_reversed": "14536-99996",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.935017824,
+                52.40412729
+              ],
+              [
+                4.956968,
+                52.392557
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14536",
+            "routeId": "99996_14536_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 15,
+            "cluster": "Amsterdam Noord",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14536-99996",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14536",
+            "routeId": "99996_14536_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 15,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 1,
+            "wachttijd": 5,
+            "function": "overstap",
+            "id": "99999",
+            "naam": "Station Noord",
+            "trajectId_reversed": "14536-99996",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.935017824,
+              52.40412729
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14536",
+            "routeId": "99996_14536_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Volendammerweg",
+            "totaaltijdRoute": 15,
+            "cluster": "Amsterdam Noord",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14536",
+            "naam": "Amsterdam, Volendammerweg",
+            "trajectId_reversed": "14536-99996",
+            "originId_reversed": "14536",
+            "routeId_reversed": "14536_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Volendammerweg - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.956968,
+              52.392557
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14969",
+            "end_naam": "Amsterdam, Javaplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "14"
+            ],
+            "traject_name": "Rokin_Javaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14966",
+            "routeId": "99996_14966_oud",
+            "trajectNaam": "Rokin - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "start_id_reversed": "14969",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Javaplein",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14966-99996",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.939553,
+                52.364119
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14966",
+            "routeId": "99996_14966_oud",
+            "trajectNaam": "Rokin - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14966-99996",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14966",
+            "routeId": "99996_14966_oud",
+            "trajectNaam": "Rokin - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14966-99996",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14969",
+            "end_naam": "Amsterdam, Javaplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "14"
+            ],
+            "traject_name": "Rokin_Javaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14966",
+            "routeId": "99996_14966_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "start_id_reversed": "14969",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Javaplein",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14966-99996",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.939553,
+                52.364119
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14966",
+            "routeId": "99996_14966_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14966-99996",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14966",
+            "routeId": "99996_14966_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Javaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oost",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14969",
+            "naam": "Amsterdam, Javaplein",
+            "trajectId_reversed": "14966-99996",
+            "originId_reversed": "14966",
+            "routeId_reversed": "14966_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Javaplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939553,
+              52.364119
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "15922",
+            "end_naam": "Amsterdam, Spui",
+            "transport_type": "voet",
+            "traject_name": "Rokin_Spui_wandelen",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_99992",
+            "routeId": "99996_99992_oud",
+            "trajectNaam": "Rokin - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "15922",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Spui",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "99992-99996",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_99996-oud",
+            "trajectNaam_reversed": "Zuid - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.892094,
+                52.368801
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15305",
+            "start_naam": "Amsterdam, Spui",
+            "end_id": "99992",
+            "end_naam": "Zuid",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1",
+              "2",
+              "5"
+            ],
+            "traject_name": "Spui_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_99992",
+            "routeId": "99996_99992_oud",
+            "trajectNaam": "Rokin - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "99992",
+            "end_id_reversed": "15305",
+            "start_naam_reversed": "Zuid",
+            "end_naam_reversed": "Amsterdam, Spui",
+            "trajectId_reversed": "99992-99996",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_99996-oud",
+            "trajectNaam_reversed": "Zuid - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.889327,
+                52.369329
+              ],
+              [
+                4.873056,
+                52.338889
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_99992",
+            "routeId": "99996_99992_oud",
+            "trajectNaam": "Rokin - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "99992-99996",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_99996-oud",
+            "trajectNaam_reversed": "Zuid - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_99992",
+            "routeId": "99996_99992_oud",
+            "trajectNaam": "Rokin - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15922",
+            "naam": "Amsterdam, Spui",
+            "trajectId_reversed": "99992-99996",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_99996-oud",
+            "trajectNaam_reversed": "Zuid - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.892094,
+              52.368801
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_99992",
+            "routeId": "99996_99992_oud",
+            "trajectNaam": "Rokin - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "99992-99996",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_99996-oud",
+            "trajectNaam_reversed": "Zuid - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "99992",
+            "end_naam": "Zuid",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "52"
+            ],
+            "traject_name": "CS_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_99992",
+            "routeId": "99996_99992_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "99992",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Zuid",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "99992-99996",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_99996-nieuw",
+            "trajectNaam_reversed": "Zuid - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.873056,
+                52.338889
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_99992",
+            "routeId": "99996_99992_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "99992-99996",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_99996-nieuw",
+            "trajectNaam_reversed": "Zuid - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_99992",
+            "routeId": "99996_99992_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Zuid",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "99992-99996",
+            "originId_reversed": "99992",
+            "routeId_reversed": "99992_99996-nieuw",
+            "trajectNaam_reversed": "Zuid - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "15922",
+            "end_naam": "Amsterdam, Spui",
+            "transport_type": "voet",
+            "traject_name": "Rokin_Spui_wandelen",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14339",
+            "routeId": "99996_14339_oud",
+            "trajectNaam": "Rokin - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "15922",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Spui",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14339-99996",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.892094,
+                52.368801
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15305",
+            "start_naam": "Amsterdam, Spui",
+            "end_id": "14339",
+            "end_naam": "Amsterdam, De Boelelaan/VU",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1",
+              "2",
+              "5"
+            ],
+            "traject_name": "Spui_VU",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14339",
+            "routeId": "99996_14339_oud",
+            "trajectNaam": "Rokin - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "14339",
+            "end_id_reversed": "15305",
+            "start_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "end_naam_reversed": "Amsterdam, Spui",
+            "trajectId_reversed": "14339-99996",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.889327,
+                52.369329
+              ],
+              [
+                4.868856,
+                52.334404
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14339",
+            "routeId": "99996_14339_oud",
+            "trajectNaam": "Rokin - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14339-99996",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14339",
+            "routeId": "99996_14339_oud",
+            "trajectNaam": "Rokin - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15922",
+            "naam": "Amsterdam, Spui",
+            "trajectId_reversed": "14339-99996",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.892094,
+              52.368801
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14339",
+            "routeId": "99996_14339_oud",
+            "trajectNaam": "Rokin - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14339",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14339-99996",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868856,
+              52.334404
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "99992",
+            "end_naam": "Zuid",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "52"
+            ],
+            "traject_name": "Rokin_Zuid",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14339",
+            "routeId": "99996_14339_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "99992",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Zuid",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14339-99996",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.873056,
+                52.338889
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99992",
+            "start_naam": "Zuid",
+            "end_id": "14339",
+            "end_naam": "Amsterdam, De Boelelaan/VU",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "51"
+            ],
+            "traject_name": "Zuid_VU",
+            "traject_stops": "",
+            "reistijd": 2,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 2,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14339",
+            "routeId": "99996_14339_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "start_id_reversed": "14339",
+            "end_id_reversed": "99992",
+            "start_naam_reversed": "Amsterdam, De Boelelaan/VU",
+            "end_naam_reversed": "Zuid",
+            "trajectId_reversed": "14339-99996",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.873056,
+                52.338889
+              ],
+              [
+                4.868856,
+                52.334404
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14339",
+            "routeId": "99996_14339_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14339-99996",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14339",
+            "routeId": "99996_14339_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "99992",
+            "naam": "Zuid",
+            "trajectId_reversed": "14339-99996",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14339",
+            "routeId": "99996_14339_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, De Boelelaan/VU",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Zuid / Buitenveldert",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14339",
+            "naam": "Amsterdam, De Boelelaan/VU",
+            "trajectId_reversed": "14339-99996",
+            "originId_reversed": "14339",
+            "routeId_reversed": "14339_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, De Boelelaan/VU - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868856,
+              52.334404
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14395",
+            "end_naam": "Amsterdam, Dam",
+            "transport_type": "voet",
+            "traject_name": "Rokin_Dam_wandelen",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15462",
+            "routeId": "99996_15462_oud",
+            "trajectNaam": "Rokin - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14395",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Dam",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "15462-99996",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.891242,
+                52.372725
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14395",
+            "start_naam": "Amsterdam, Dam",
+            "end_id": "15777",
+            "end_naam": "Amsterdam, Kinkerstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "17"
+            ],
+            "traject_name": "Dam_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15462",
+            "routeId": "99996_15462_oud",
+            "trajectNaam": "Rokin - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15777",
+            "end_id_reversed": "14395",
+            "start_naam_reversed": "Amsterdam, Kinkerstraat",
+            "end_naam_reversed": "Amsterdam, Dam",
+            "trajectId_reversed": "15462-99996",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.891242,
+                52.372725
+              ],
+              [
+                4.872306,
+                52.367063
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15462",
+            "routeId": "99996_15462_oud",
+            "trajectNaam": "Rokin - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "15462-99996",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15462",
+            "routeId": "99996_15462_oud",
+            "trajectNaam": "Rokin - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14395",
+            "naam": "Amsterdam, Dam",
+            "trajectId_reversed": "15462-99996",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.891242,
+              52.372725
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15462",
+            "routeId": "99996_15462_oud",
+            "trajectNaam": "Rokin - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15777",
+            "naam": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "15462-99996",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872306,
+              52.367063
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14395",
+            "end_naam": "Amsterdam, Dam",
+            "transport_type": "voet",
+            "traject_name": "Rokin_Dam_wandelen",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15462",
+            "routeId": "99996_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14395",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Dam",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "15462-99996",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.891242,
+                52.372725
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14395",
+            "start_naam": "Amsterdam, Dam",
+            "end_id": "15777",
+            "end_naam": "Amsterdam, Kinkerstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "17"
+            ],
+            "traject_name": "Dam_Kinkerstraat",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15462",
+            "routeId": "99996_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15777",
+            "end_id_reversed": "14395",
+            "start_naam_reversed": "Amsterdam, Kinkerstraat",
+            "end_naam_reversed": "Amsterdam, Dam",
+            "trajectId_reversed": "15462-99996",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.891242,
+                52.372725
+              ],
+              [
+                4.872306,
+                52.367063
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15462",
+            "routeId": "99996_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "15462-99996",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15462",
+            "routeId": "99996_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14395",
+            "naam": "Amsterdam, Dam",
+            "trajectId_reversed": "15462-99996",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.891242,
+              52.372725
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15462",
+            "routeId": "99996_15462_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Ten Katestraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15777",
+            "naam": "Amsterdam, Kinkerstraat",
+            "trajectId_reversed": "15462-99996",
+            "originId_reversed": "15462",
+            "routeId_reversed": "15462_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ten Katestraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872306,
+              52.367063
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "15922",
+            "end_naam": "Amsterdam, Spui",
+            "transport_type": "voet",
+            "traject_name": "Rokin_Spui_wandelen",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15569",
+            "routeId": "99996_15569_oud",
+            "trajectNaam": "Rokin - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15922",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Spui",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "15569-99996",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.892094,
+                52.368801
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15305",
+            "start_naam": "Amsterdam, Spui",
+            "end_id": "15565",
+            "end_naam": "Amsterdam, Surinameplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Spui_Surinameplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15569",
+            "routeId": "99996_15569_oud",
+            "trajectNaam": "Rokin - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15565",
+            "end_id_reversed": "15305",
+            "start_naam_reversed": "Amsterdam, Surinameplein",
+            "end_naam_reversed": "Amsterdam, Spui",
+            "trajectId_reversed": "15569-99996",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.889327,
+                52.369329
+              ],
+              [
+                4.852093,
+                52.358138
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15569",
+            "routeId": "99996_15569_oud",
+            "trajectNaam": "Rokin - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "15569-99996",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15569",
+            "routeId": "99996_15569_oud",
+            "trajectNaam": "Rokin - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15922",
+            "naam": "Amsterdam, Spui",
+            "trajectId_reversed": "15569-99996",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.892094,
+              52.368801
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15569",
+            "routeId": "99996_15569_oud",
+            "trajectNaam": "Rokin - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15569-99996",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "15922",
+            "end_naam": "Amsterdam, Spui",
+            "transport_type": "voet",
+            "traject_name": "Rokin_Spui_wandelen",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15569",
+            "routeId": "99996_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15922",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Spui",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "15569-99996",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.892094,
+                52.368801
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15305",
+            "start_naam": "Amsterdam, Spui",
+            "end_id": "15565",
+            "end_naam": "Amsterdam, Surinameplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "1"
+            ],
+            "traject_name": "Spui_Surinameplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15569",
+            "routeId": "99996_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15565",
+            "end_id_reversed": "15305",
+            "start_naam_reversed": "Amsterdam, Surinameplein",
+            "end_naam_reversed": "Amsterdam, Spui",
+            "trajectId_reversed": "15569-99996",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.889327,
+                52.369329
+              ],
+              [
+                4.852093,
+                52.358138
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15569",
+            "routeId": "99996_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "15569-99996",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15569",
+            "routeId": "99996_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "15922",
+            "naam": "Amsterdam, Spui",
+            "trajectId_reversed": "15569-99996",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.892094,
+              52.368801
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15569",
+            "routeId": "99996_15569_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Surinameplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15565",
+            "naam": "Amsterdam, Surinameplein",
+            "trajectId_reversed": "15569-99996",
+            "originId_reversed": "15569",
+            "routeId_reversed": "15569_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Surinameplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "15123",
+            "end_naam": "Amsterdam, Ferd. Bolstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "24"
+            ],
+            "traject_name": "Rokin_F.Bol/Ceintuurb",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14420",
+            "routeId": "99996_14420_oud",
+            "trajectNaam": "Rokin - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15123",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Ferd. Bolstraat",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14420-99996",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.89239,
+                52.35799
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14420",
+            "routeId": "99996_14420_oud",
+            "trajectNaam": "Rokin - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14420-99996",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14420",
+            "routeId": "99996_14420_oud",
+            "trajectNaam": "Rokin - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15123",
+            "naam": "Amsterdam, Ferd. Bolstraat",
+            "trajectId_reversed": "14420-99996",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89239,
+              52.35799
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "99994",
+            "end_naam": "De Pijp",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "52"
+            ],
+            "traject_name": "Rokin_De Pijp",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14420",
+            "routeId": "99996_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "99994",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "De Pijp",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14420-99996",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.891018867,
+                52.35293117
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14420",
+            "routeId": "99996_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14420-99996",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14420",
+            "routeId": "99996_14420_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Albert Cuypstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "99994",
+            "naam": "De Pijp",
+            "trajectId_reversed": "14420-99996",
+            "originId_reversed": "14420",
+            "routeId_reversed": "14420_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Albert Cuypstraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.891018867,
+              52.35293117
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "15118",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "Rokin_v.Wou/Ceintuurb",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15871",
+            "routeId": "99996_15871_oud",
+            "trajectNaam": "Rokin - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15118",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "15871-99996",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.899892,
+                52.357985
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15871",
+            "routeId": "99996_15871_oud",
+            "trajectNaam": "Rokin - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "15871-99996",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_15871",
+            "routeId": "99996_15871_oud",
+            "trajectNaam": "Rokin - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15118",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-99996",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899892,
+              52.357985
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "99994",
+            "end_naam": "De Pijp",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "52"
+            ],
+            "traject_name": "Rokin_De Pijp",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15871",
+            "routeId": "99996_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "99994",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "De Pijp",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "15871-99996",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.891018867,
+                52.35293117
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "15340",
+            "start_naam": "Amsterdam, Ceintuurbaan",
+            "end_id": "15118",
+            "end_naam": "Amsterdam, Van Woustraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "3"
+            ],
+            "traject_name": "Ceintuurbaan_van_Woustraat/Ceintuurbaan",
+            "traject_stops": null,
+            "reistijd": 2,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 2,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15871",
+            "routeId": "99996_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "operator": "GVB",
+            "route": "tram",
+            "from": "Amsterdam Muiderpoortstation",
+            "name": "Tram 3: Amsterdam Muiderpoortstation => Amsterdam Zoutkeesgracht",
+            "colour": "#ab10d2",
+            "network": "Stadsvervoer Amsterdam",
+            "public_transport:version": "2",
+            "ref": "3",
+            "type": "route",
+            "@id": "relation/4498753",
+            "to": "Amsterdam Zoutkeesgracht",
+            "start_id_reversed": "15118",
+            "end_id_reversed": "15340",
+            "start_naam_reversed": "Amsterdam, Van Woustraat",
+            "end_naam_reversed": "Amsterdam, Ceintuurbaan",
+            "trajectId_reversed": "15871-99996",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Rokin"
+          },
+          "geometry": {
+            "coordinates": [
+              [
+                4.900949,
+                52.354743
+              ],
+              [
+                4.900839,
+                52.354708
+              ],
+              [
+                4.899612,
+                52.354311
+              ],
+              [
+                4.899146,
+                52.354191
+              ],
+              [
+                4.89493,
+                52.35333
+              ],
+              [
+                4.894604,
+                52.353264
+              ],
+              [
+                4.894565,
+                52.353258
+              ],
+              [
+                4.893271,
+                52.353081
+              ],
+              [
+                4.891712,
+                52.352874
+              ],
+              [
+                4.891528,
+                52.352849
+              ],
+              [
+                4.891517,
+                52.352848
+              ]
+            ],
+            "type": "LineString"
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15871",
+            "routeId": "99996_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "15871-99996",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15871",
+            "routeId": "99996_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "99994",
+            "naam": "De Pijp",
+            "trajectId_reversed": "15871-99996",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.891018867,
+              52.35293117
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_15871",
+            "routeId": "99996_15871_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Ceintuurbaan",
+            "totaaltijdRoute": 2,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15118",
+            "naam": "Amsterdam, Van Woustraat",
+            "trajectId_reversed": "15871-99996",
+            "originId_reversed": "15871",
+            "routeId_reversed": "15871_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Ceintuurbaan - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899892,
+              52.357985
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "15776",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "Rokin_Rooseveltl/Maasst",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14738",
+            "routeId": "99996_14738_oud",
+            "trajectNaam": "Rokin - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "15776",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14738-99996",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.89844,
+                52.340471
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14738",
+            "routeId": "99996_14738_oud",
+            "trajectNaam": "Rokin - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14738-99996",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14738",
+            "routeId": "99996_14738_oud",
+            "trajectNaam": "Rokin - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "15776",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-99996",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "99993",
+            "end_naam": "Europaplein",
+            "transport_type": "metro",
+            "transport_nrs": [
+              "52"
+            ],
+            "traject_name": "Rokin_Europaplein/Rai",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 3,
+            "wachttijd": 3.75,
+            "totaaltijd": 6.75,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14738",
+            "routeId": "99996_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "99993",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Europaplein",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14738-99996",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.890632629,
+                52.3428382
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99993",
+            "start_naam": "Europaplein",
+            "end_id": "14738",
+            "end_naam": "Amsterdam, Maasstraat",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "4"
+            ],
+            "traject_name": "RAI_Rooseveltlaan/Maasstraat",
+            "traject_stops": "",
+            "reistijd": 2,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 2,
+            "segment_changed": true,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14738",
+            "routeId": "99996_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14738",
+            "end_id_reversed": "99993",
+            "start_naam_reversed": "Amsterdam, Maasstraat",
+            "end_naam_reversed": "Europaplein",
+            "trajectId_reversed": "14738-99996",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.890632629,
+                52.3428382
+              ],
+              [
+                4.896841,
+                52.343107
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14738",
+            "routeId": "99996_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14738-99996",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14738",
+            "routeId": "99996_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 3,
+            "wachttijd": 3.75,
+            "function": "overstap",
+            "id": "99993",
+            "naam": "Europaplein",
+            "trajectId_reversed": "14738-99996",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.890632629,
+              52.3428382
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14738",
+            "routeId": "99996_14738_nieuw",
+            "route_changed": true,
+            "trajectNaam": "Rokin - Amsterdam, Maasstraat",
+            "totaaltijdRoute": 8.75,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14738",
+            "naam": "Amsterdam, Maasstraat",
+            "trajectId_reversed": "14738-99996",
+            "originId_reversed": "14738",
+            "routeId_reversed": "14738_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Maasstraat - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.896841,
+              52.343107
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "24"
+            ],
+            "traject_name": "Rokin_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14356",
+            "routeId": "99996_14356_oud",
+            "trajectNaam": "Rokin - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14356-99996",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14356",
+            "routeId": "99996_14356_oud",
+            "trajectNaam": "Rokin - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14356-99996",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_14356",
+            "routeId": "99996_14356_oud",
+            "trajectNaam": "Rokin - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-99996",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14357",
+            "end_naam": "Amsterdam, Minervaplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "24"
+            ],
+            "traject_name": "Rokin_Minervaplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14356",
+            "routeId": "99996_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "start_id_reversed": "14357",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Minervaplein",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "14356-99996",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.872997,
+                52.346771
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14356",
+            "routeId": "99996_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "14356-99996",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_14356",
+            "routeId": "99996_14356_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Minervaplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Oud-West en Oud-Zuid",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "14356-99996",
+            "originId_reversed": "14356",
+            "routeId_reversed": "14356_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Minervaplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14395",
+            "end_naam": "Amsterdam, Dam",
+            "transport_type": "voet",
+            "traject_name": "Rokin_Dam_wandelen",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_13417",
+            "routeId": "99996_13417_oud",
+            "trajectNaam": "Rokin - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "14395",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Dam",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "13417-99996",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.891242,
+                52.372725
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14395",
+            "start_naam": "Amsterdam, Dam",
+            "end_id": "13417",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "13"
+            ],
+            "traject_name": "Dam_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_13417",
+            "routeId": "99996_13417_oud",
+            "trajectNaam": "Rokin - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "13417",
+            "end_id_reversed": "14395",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Dam",
+            "trajectId_reversed": "13417-99996",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.891242,
+                52.372725
+              ],
+              [
+                4.850108,
+                52.370577
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_13417",
+            "routeId": "99996_13417_oud",
+            "trajectNaam": "Rokin - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "13417-99996",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_13417",
+            "routeId": "99996_13417_oud",
+            "trajectNaam": "Rokin - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14395",
+            "naam": "Amsterdam, Dam",
+            "trajectId_reversed": "13417-99996",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.891242,
+              52.372725
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "99996",
+            "trajectId": "99996_13417",
+            "routeId": "99996_13417_oud",
+            "trajectNaam": "Rokin - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "13417",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-99996",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_99996-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.850108,
+              52.370577
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "99996",
+            "start_naam": "Rokin",
+            "end_id": "14395",
+            "end_naam": "Amsterdam, Dam",
+            "transport_type": "voet",
+            "traject_name": "Rokin_Dam_wandelen",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_13417",
+            "routeId": "99996_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "14395",
+            "end_id_reversed": "99996",
+            "start_naam_reversed": "Amsterdam, Dam",
+            "end_naam_reversed": "Rokin",
+            "trajectId_reversed": "13417-99996",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.893121719,
+                52.37214076
+              ],
+              [
+                4.891242,
+                52.372725
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14395",
+            "start_naam": "Amsterdam, Dam",
+            "end_id": "13417",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "tram",
+            "transport_nrs": [
+              "13"
+            ],
+            "traject_name": "Dam_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_13417",
+            "routeId": "99996_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "13417",
+            "end_id_reversed": "14395",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Dam",
+            "trajectId_reversed": "13417-99996",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Rokin"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.891242,
+                52.372725
+              ],
+              [
+                4.850108,
+                52.370577
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_13417",
+            "routeId": "99996_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "99996",
+            "naam": "Rokin",
+            "trajectId_reversed": "13417-99996",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_13417",
+            "routeId": "99996_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14395",
+            "naam": "Amsterdam, Dam",
+            "trajectId_reversed": "13417-99996",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.891242,
+              52.372725
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "99996",
+            "trajectId": "99996_13417",
+            "routeId": "99996_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Rokin - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "13417",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-99996",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_99996-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Rokin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.850108,
+              52.370577
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Waterlooplein",
+          "id": "14584"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.902979,
+            52.366977
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Westermarkt",
+          "id": "14509"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.884532,
+            52.374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Haarlemmerplein",
+          "id": "15687"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.88341,
+            52.384843
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Leidseplein",
+          "id": "14649"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.881247,
+            52.363291
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "station Noord",
+          "id": "99999"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.935017824,
+            52.40412729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mosplein",
+          "id": "14121"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.913404,
+            52.393065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Volendammerweg",
+          "id": "14536"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.956968,
+            52.392557
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Javaplein",
+          "id": "14966"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.939496,
+            52.363957
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Station Zuid",
+          "id": "99992"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.873056,
+            52.338889
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "VU",
+          "id": "14339"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.868856,
+            52.334404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Kinkerstraat",
+          "id": "15462"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.867372,
+            52.365918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Surinameplein",
+          "id": "15569"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.85252,
+            52.358068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Ferdinand Bol/Ceintuurbaan",
+          "id": "14420"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.889402,
+            52.354823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "v.Woustr/Ceintuurbaan",
+          "id": "15871"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.891233,
+            52.352539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Rooseveltlaan/Maasstraat",
+          "id": "14738"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.896841,
+            52.343107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Minervaplein",
+          "id": "14356"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.872043,
+            52.346695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mercatorplein",
+          "id": "13417"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.850108,
+            52.370577
+          ]
+        }
+      }
+    ],
+    "name": "destinations"
+  }
+]

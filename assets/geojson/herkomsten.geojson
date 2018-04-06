@@ -1,0 +1,247 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "36003",
+        "trajectId": "36003_14404",
+        "routeId": "36003_14404_oud",
+        "trajectNaam": "Zaandam, Barkstraat - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 35,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Zaandam, Barkstraat",
+        "id": "36003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.845003,
+          52.449385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "35250",
+        "trajectId": "35250_14404",
+        "routeId": "35250_14404_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 34,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "13527",
+        "trajectId": "13527_14404",
+        "routeId": "13527_14404_oud",
+        "trajectNaam": "Volendam, Stadskantoor - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 35,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Volendam, Stadskantoor",
+        "id": "13527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.054103,
+          52.500217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "13412",
+        "trajectId": "13412_14404",
+        "routeId": "13412_14404_oud",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 37,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Purmerend, Korenstraat",
+        "id": "13412"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.993163,
+          52.511956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "10220",
+        "trajectId": "10220_14404",
+        "routeId": "10220_14404_oud",
+        "trajectNaam": "Uithoorn, Busstation - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 64,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Uithoorn, Busstation",
+        "id": "10220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.821661,
+          52.24297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "originId": "34294",
+        "trajectId": "34294_14404",
+        "routeId": "34294_14404_oud",
+        "trajectNaam": "Hoofddorp, Station - Amsterdam, Centraal Station",
+        "totaaltijdRoute": 24,
+        "cluster": "Amsterdam Centrum",
+        "function": "herkomst",
+        "naam": "Hoofddorp, Station",
+        "id": "34294"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.697839,
+          52.29287
+        ]
+      }
+    },
+     {
+       "type": "Feature",
+       "properties": {
+         "isNieuw": false,
+         "originId": "10220",
+         "trajectId": "10220_14404",
+         "routeId": "10220_14404_oud",
+         "trajectNaam": "Uithoorn, Busstation - Amsterdam, Centraal Station",
+         "totaaltijdRoute": 21.75,
+         "cluster": "Amsterdam Centrum",
+         "function": "herkomst",
+         "id": "37224",
+         "naam": "Aalsmeer, Hortensiaplein"
+       },
+       "geometry": {
+         "type": "Point",
+         "coordinates": [
+           4.757719,
+           52.262762
+         ]
+       }
+     },
+      {
+        "type": "Feature",
+        "properties": {
+          "isNieuw": false,
+          "originId": "13663",
+          "trajectId": "13663_14404",
+          "routeId": "13663_14404_oud",
+          "trajectNaam": "Marken, Minneweg - Amsterdam, Centraal Station",
+          "totaaltijdRoute": 0,
+          "cluster": "Waterland_Minneweg",
+          "function": "herkomst",
+          "id": "13663",
+          "naam": "Marken, Minneweg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.109598,
+            52.461947
+          ]
+        }
+      },
+       {
+         "type": "Feature",
+         "properties": {
+           "isNieuw": false,
+           "originId": "13431",
+           "trajectId": "13431_14404",
+           "routeId": "13431_14404_oud",
+           "trajectNaam": "Monnickendam, Swaensborch - Amsterdam, Centraal Station",
+           "totaaltijdRoute": 0,
+           "cluster": "Waterland_Swaensborch",
+           "function": "herkomst",
+           "id": "13431",
+           "naam": "Monnickendam, Swaensborch"
+         },
+         "geometry": {
+           "type": "Point",
+           "coordinates": [
+             5.037434,
+             52.45542
+           ]
+         }
+       },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "13378",
+            "trajectId": "13378_14404",
+            "routeId": "13378_14404_oud",
+            "trajectNaam": "Landsmeer, van Beekstraat - Amsterdam, Centraal Station",
+            "totaaltijdRoute": 0,
+            "cluster": "Waterland van Beekstraat",
+            "function": "herkomst",
+            "id": "13378",
+            "naam": "Landsmeer, van Beekstraat"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.913461,
+              52.428989
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "41783",
+            "trajectId": "41783_14404",
+            "routeId": "41783_14404_oud",
+            "trajectNaam": "Oostzaan, Lisweg - Amsterdam, Centraal Station",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam Centrum",
+            "function": "herkomst",
+            "id": "41783",
+            "naam": "Oostzaan, Lisweg"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.87739,
+              52.436964
+            ]
+          }
+        }
+    ]
+}

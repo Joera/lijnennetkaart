@@ -1,0 +1,393 @@
+[
+  [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14357",
+            "start_naam": "Amsterdam, Minervaplein",
+            "end_id": "14572",
+            "end_naam": "Amsterdam, Olympiaweg",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Minervaplein_Olympiaweg",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14356",
+            "trajectId": "14356_13417",
+            "routeId": "14356_13417_oud",
+            "trajectNaam": "Amsterdam, Minervaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "14572",
+            "end_id_reversed": "14357",
+            "start_naam_reversed": "Amsterdam, Olympiaweg",
+            "end_naam_reversed": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "13417-14356",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14356-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Minervaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872997,
+                52.346771
+              ],
+              [
+                4.858339,
+                52.34526
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14777",
+            "start_naam": "Amsterdam, Olympiaweg",
+            "end_id": "48855",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Olympiaweg_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "isNieuw": false,
+            "originId": "14356",
+            "trajectId": "14356_13417",
+            "routeId": "14356_13417_oud",
+            "trajectNaam": "Amsterdam, Minervaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "48855",
+            "end_id_reversed": "14777",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Olympiaweg",
+            "trajectId_reversed": "13417-14356",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14356-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Minervaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.858735,
+                52.34528
+              ],
+              [
+                4.84944,
+                52.369954
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14356",
+            "trajectId": "14356_13417",
+            "routeId": "14356_13417_oud",
+            "trajectNaam": "Amsterdam, Minervaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "13417-14356",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14356-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Minervaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14356",
+            "trajectId": "14356_13417",
+            "routeId": "14356_13417_oud",
+            "trajectNaam": "Amsterdam, Minervaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14572",
+            "naam": "Amsterdam, Olympiaweg",
+            "trajectId_reversed": "13417-14356",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14356-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Minervaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.858339,
+              52.34526
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": false,
+            "originId": "14356",
+            "trajectId": "14356_13417",
+            "routeId": "14356_13417_oud",
+            "trajectNaam": "Amsterdam, Minervaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "48855",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-14356",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14356-oud",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Minervaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.84944,
+              52.369954
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14357",
+            "start_naam": "Amsterdam, Minervaplein",
+            "end_id": "14572",
+            "end_naam": "Amsterdam, Olympiaweg",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "65"
+            ],
+            "traject_name": "Minervaplein_Olympiaweg",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14356",
+            "trajectId": "14356_13417",
+            "routeId": "14356_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Minervaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "14572",
+            "end_id_reversed": "14357",
+            "start_naam_reversed": "Amsterdam, Olympiaweg",
+            "end_naam_reversed": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "13417-14356",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14356-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Minervaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.872997,
+                52.346771
+              ],
+              [
+                4.858339,
+                52.34526
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "start_id": "14777",
+            "start_naam": "Amsterdam, Olympiaweg",
+            "end_id": "48855",
+            "end_naam": "Amsterdam, Mercatorplein",
+            "transport_type": "bus",
+            "transport_nrs": [
+              "15"
+            ],
+            "traject_name": "Olympiaweg_Mercatorplein",
+            "traject_stops": "",
+            "reistijd": 0,
+            "looptijd": 0,
+            "wachttijd": 0,
+            "totaaltijd": 0,
+            "segment_changed": false,
+            "isNieuw": true,
+            "originId": "14356",
+            "trajectId": "14356_13417",
+            "routeId": "14356_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Minervaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "start_id_reversed": "48855",
+            "end_id_reversed": "14777",
+            "start_naam_reversed": "Amsterdam, Mercatorplein",
+            "end_naam_reversed": "Amsterdam, Olympiaweg",
+            "trajectId_reversed": "13417-14356",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14356-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Minervaplein"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                4.858735,
+                52.34528
+              ],
+              [
+                4.84944,
+                52.369954
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14356",
+            "trajectId": "14356_13417",
+            "routeId": "14356_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Minervaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "function": "herkomst",
+            "id": "14357",
+            "naam": "Amsterdam, Minervaplein",
+            "trajectId_reversed": "13417-14356",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14356-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Minervaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14356",
+            "trajectId": "14356_13417",
+            "routeId": "14356_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Minervaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "overstap",
+            "id": "14572",
+            "naam": "Amsterdam, Olympiaweg",
+            "trajectId_reversed": "13417-14356",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14356-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Minervaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.858339,
+              52.34526
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "isNieuw": true,
+            "originId": "14356",
+            "trajectId": "14356_13417",
+            "routeId": "14356_13417_nieuw",
+            "route_changed": false,
+            "trajectNaam": "Amsterdam, Minervaplein - Amsterdam, Mercatorplein",
+            "totaaltijdRoute": 0,
+            "cluster": "Amsterdam West",
+            "looptijd": 0,
+            "wachttijd": 0,
+            "function": "bestemming",
+            "id": "48855",
+            "naam": "Amsterdam, Mercatorplein",
+            "trajectId_reversed": "13417-14356",
+            "originId_reversed": "13417",
+            "routeId_reversed": "13417_14356-nieuw",
+            "trajectNaam_reversed": "Amsterdam, Mercatorplein - Amsterdam, Minervaplein"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.84944,
+              52.369954
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "naam": "Mercatorplein",
+          "id": "13417"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.850108,
+            52.370577
+          ]
+        }
+      }
+    ],
+    "name": "destinations"
+  }
+]

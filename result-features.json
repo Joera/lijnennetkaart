@@ -1,0 +1,1143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "13412",
+        "start_naam": "Purmerend, Korenstraat",
+        "end_id": "13597",
+        "end_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "304"
+        ],
+        "reistijd": 39,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "totaaltijd": 39,
+        "isNieuw": false,
+        "trajectId": "13412_13597",
+        "routeId": "13412_13597_oud",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, CS Pr. Hendrik Plantsoen",
+        "totaaltijdRoute": 39
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.993163,
+            52.511956
+          ],
+          [
+            4.898146,
+            52.377841
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "13412_13597",
+        "routeId": "13412_13597_oud",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, CS Pr. Hendrik Plantsoen",
+        "totaaltijdRoute": 39,
+        "function": "herkomst",
+        "naam": "Purmerend, Korenstraat",
+        "id": "13412"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.993163,
+          52.511956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "13412_13597",
+        "routeId": "13412_13597_oud",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, CS Pr. Hendrik Plantsoen",
+        "totaaltijdRoute": 39,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "id": "13597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.898146,
+          52.377841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "13412",
+        "start_naam": "Purmerend, Korenstraat",
+        "end_id": "99999",
+        "end_naam": "Station Noord",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "304"
+        ],
+        "reistijd": 31,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "totaaltijd": 35.5,
+        "isNieuw": true,
+        "trajectId": "13412_13597",
+        "routeId": "13412_13597_nieuw",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, CS Pr. Hendrik Plantsoen",
+        "totaaltijdRoute": 42.6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.993163,
+            52.511956
+          ],
+          [
+            4.935017824,
+            52.40412729
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "99999",
+        "start_naam": "Station Noord",
+        "end_id": "13597",
+        "end_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "52"
+        ],
+        "reistijd": 4.1,
+        "looptijd": 3,
+        "wachttijd": 0,
+        "totaaltijd": 7.1,
+        "isNieuw": true,
+        "trajectId": "13412_13597",
+        "routeId": "13412_13597_nieuw",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, CS Pr. Hendrik Plantsoen",
+        "totaaltijdRoute": 42.6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.935017824,
+            52.40412729
+          ],
+          [
+            4.898146,
+            52.377841
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "13412_13597",
+        "routeId": "13412_13597_nieuw",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, CS Pr. Hendrik Plantsoen",
+        "totaaltijdRoute": 42.6,
+        "function": "herkomst",
+        "naam": "Purmerend, Korenstraat",
+        "id": "13412"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.993163,
+          52.511956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "13412_13597",
+        "routeId": "13412_13597_nieuw",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, CS Pr. Hendrik Plantsoen",
+        "totaaltijdRoute": 42.6,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "function": "overstap",
+        "naam": "Station Noord",
+        "id": "99999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.935017824,
+          52.40412729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "13412_13597",
+        "routeId": "13412_13597_nieuw",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, CS Pr. Hendrik Plantsoen",
+        "totaaltijdRoute": 42.6,
+        "looptijd": 3,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "id": "13597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.898146,
+          52.377841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "13412",
+        "start_naam": "Purmerend, Korenstraat",
+        "end_id": "13597",
+        "end_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "304"
+        ],
+        "reistijd": 38,
+        "looptijd": 3,
+        "wachttijd": 1,
+        "totaaltijd": 42,
+        "isNieuw": false,
+        "trajectId": "13412_15305",
+        "routeId": "13412_15305_oud",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Spui",
+        "totaaltijdRoute": 49
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.993163,
+            52.511956
+          ],
+          [
+            4.898146,
+            52.377841
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "13597",
+        "start_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "end_id": "15305",
+        "end_naam": "Amsterdam, Spui",
+        "transport_type": "tram",
+        "transport_nrs": [
+          "4",
+          "9",
+          "16",
+          "24"
+        ],
+        "reistijd": 7,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "totaaltijd": 7,
+        "isNieuw": false,
+        "trajectId": "13412_15305",
+        "routeId": "13412_15305_oud",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Spui",
+        "totaaltijdRoute": 49
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.898146,
+            52.377841
+          ],
+          [
+            4.889327,
+            52.369329
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "13412_15305",
+        "routeId": "13412_15305_oud",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Spui",
+        "totaaltijdRoute": 49,
+        "function": "herkomst",
+        "naam": "Purmerend, Korenstraat",
+        "id": "13412"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.993163,
+          52.511956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "13412_15305",
+        "routeId": "13412_15305_oud",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Spui",
+        "totaaltijdRoute": 49,
+        "looptijd": 3,
+        "wachttijd": 1,
+        "function": "overstap",
+        "naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "id": "13597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.898146,
+          52.377841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "13412_15305",
+        "routeId": "13412_15305_oud",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Spui",
+        "totaaltijdRoute": 49,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Spui",
+        "id": "15305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.889327,
+          52.369329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "13412",
+        "start_naam": "Purmerend, Korenstraat",
+        "end_id": "99999",
+        "end_naam": "Station Noord",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "304"
+        ],
+        "reistijd": 31,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "totaaltijd": 35.5,
+        "isNieuw": true,
+        "trajectId": "13412_15305",
+        "routeId": "13412_15305_nieuw",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Spui",
+        "totaaltijdRoute": 41.6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.993163,
+            52.511956
+          ],
+          [
+            4.935017824,
+            52.40412729
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "99999",
+        "start_naam": "Station Noord",
+        "end_id": "15305",
+        "end_naam": "Amsterdam, Spui",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "52"
+        ],
+        "reistijd": 6.1,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "totaaltijd": 6.1,
+        "isNieuw": true,
+        "trajectId": "13412_15305",
+        "routeId": "13412_15305_nieuw",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Spui",
+        "totaaltijdRoute": 41.6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.935017824,
+            52.40412729
+          ],
+          [
+            4.889327,
+            52.369329
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "13412_15305",
+        "routeId": "13412_15305_nieuw",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Spui",
+        "totaaltijdRoute": 41.6,
+        "function": "herkomst",
+        "naam": "Purmerend, Korenstraat",
+        "id": "13412"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.993163,
+          52.511956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "13412_15305",
+        "routeId": "13412_15305_nieuw",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Spui",
+        "totaaltijdRoute": 41.6,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "function": "overstap",
+        "naam": "Station Noord",
+        "id": "99999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.935017824,
+          52.40412729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "13412_15305",
+        "routeId": "13412_15305_nieuw",
+        "trajectNaam": "Purmerend, Korenstraat - Amsterdam, Spui",
+        "totaaltijdRoute": 41.6,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Spui",
+        "id": "15305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.889327,
+          52.369329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "13597",
+        "end_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "reistijd": 33,
+        "looptijd": 5,
+        "wachttijd": 2,
+        "totaaltijd": 40,
+        "isNieuw": false,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 48
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.898146,
+            52.377841
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "13597",
+        "start_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "end_id": "14509",
+        "end_naam": "Amsterdam, Westermarkt",
+        "transport_type": "tram",
+        "transport_nrs": [
+          "13",
+          "17"
+        ],
+        "reistijd": 8,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "totaaltijd": 8,
+        "isNieuw": false,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 48
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.898146,
+            52.377841
+          ],
+          [
+            4.884532,
+            52.374
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 48,
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 48,
+        "looptijd": 5,
+        "wachttijd": 2,
+        "function": "overstap",
+        "naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "id": "13597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.898146,
+          52.377841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 48,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Westermarkt",
+        "id": "14509"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.884532,
+          52.374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "99999",
+        "end_naam": "Station Noord",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "reistijd": 26,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "totaaltijd": 30.5,
+        "isNieuw": true,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 46.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.935017824,
+            52.40412729
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "99999",
+        "start_naam": "Station Noord",
+        "end_id": "13597",
+        "end_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "52"
+        ],
+        "reistijd": 2.2,
+        "looptijd": 4,
+        "wachttijd": 1.5,
+        "totaaltijd": 7.7,
+        "isNieuw": true,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 46.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.935017824,
+            52.40412729
+          ],
+          [
+            4.898146,
+            52.377841
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "13597",
+        "start_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "end_id": "14509",
+        "end_naam": "Amsterdam, Westermarkt",
+        "transport_type": "tram",
+        "transport_nrs": [
+          "13",
+          "17"
+        ],
+        "reistijd": 8,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "totaaltijd": 8,
+        "isNieuw": true,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 46.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.898146,
+            52.377841
+          ],
+          [
+            4.884532,
+            52.374
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 46.2,
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 46.2,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "function": "overstap",
+        "naam": "Station Noord",
+        "id": "99999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.935017824,
+          52.40412729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 46.2,
+        "looptijd": 4,
+        "wachttijd": 1.5,
+        "function": "overstap",
+        "naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "id": "13597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.898146,
+          52.377841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_14509",
+        "routeId": "35250_14509_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Westermarkt",
+        "totaaltijdRoute": 46.2,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Westermarkt",
+        "id": "14509"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.884532,
+          52.374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "13597",
+        "end_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "reistijd": 33,
+        "looptijd": 5,
+        "wachttijd": 1.5,
+        "totaaltijd": 39.5,
+        "isNieuw": false,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.898146,
+            52.377841
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "13597",
+        "start_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "end_id": "15687",
+        "end_naam": "Amsterdam, Haarlemmerplein",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "18",
+          "21",
+          "22"
+        ],
+        "reistijd": 8,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "totaaltijd": 8,
+        "isNieuw": false,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.898146,
+            52.377841
+          ],
+          [
+            4.88341,
+            52.384843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.5,
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.5,
+        "looptijd": 5,
+        "wachttijd": 1.5,
+        "function": "overstap",
+        "naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "id": "13597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.898146,
+          52.377841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": false,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_oud",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.5,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Haarlemmerplein",
+        "id": "15687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.88341,
+          52.384843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "35250",
+        "start_naam": "Zaandam, Morgensterstraat",
+        "end_id": "99999",
+        "end_naam": "Station Noord",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "391"
+        ],
+        "reistijd": 26,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "totaaltijd": 30.5,
+        "isNieuw": true,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.838866,
+            52.434168
+          ],
+          [
+            4.935017824,
+            52.40412729
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "99999",
+        "start_naam": "Station Noord",
+        "end_id": "13597",
+        "end_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "transport_type": "metro",
+        "transport_nrs": [
+          "52"
+        ],
+        "reistijd": 2.2,
+        "looptijd": 5,
+        "wachttijd": 1.5,
+        "totaaltijd": 8.7,
+        "isNieuw": true,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.935017824,
+            52.40412729
+          ],
+          [
+            4.898146,
+            52.377841
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "start_id": "13597",
+        "start_naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "end_id": "15687",
+        "end_naam": "Amsterdam, Haarlemmerplein",
+        "transport_type": "bus",
+        "transport_nrs": [
+          "18",
+          "21",
+          "22"
+        ],
+        "reistijd": 8,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "totaaltijd": 8,
+        "isNieuw": true,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.898146,
+            52.377841
+          ],
+          [
+            4.88341,
+            52.384843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.2,
+        "function": "herkomst",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.2,
+        "looptijd": 2,
+        "wachttijd": 2.5,
+        "function": "overstap",
+        "naam": "Station Noord",
+        "id": "99999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.935017824,
+          52.40412729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.2,
+        "looptijd": 5,
+        "wachttijd": 1.5,
+        "function": "overstap",
+        "naam": "Amsterdam, CS Pr. Hendrik Plantsoen",
+        "id": "13597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.898146,
+          52.377841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "isNieuw": true,
+        "trajectId": "35250_15687",
+        "routeId": "35250_15687_nieuw",
+        "trajectNaam": "Zaandam, Morgensterstraat - Amsterdam, Haarlemmerplein",
+        "totaaltijdRoute": 47.2,
+        "looptijd": 0,
+        "wachttijd": 0,
+        "function": "bestemming",
+        "naam": "Amsterdam, Haarlemmerplein",
+        "id": "15687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.88341,
+          52.384843
+        ]
+      }
+    }
+  ]
+}

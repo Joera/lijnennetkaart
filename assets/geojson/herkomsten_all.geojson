@@ -1,0 +1,499 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "originId": "36003",
+        "naam": "Zaandam, Barkstraat",
+        "id": "36003",
+        "available_as_destination": false,
+        "state": "inactive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.845003,
+          52.449385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "originId": "35250",
+        "naam": "Zaandam, Morgensterstraat",
+        "id": "35250",
+        "available_as_destination": false,
+        "state": "inactive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838866,
+          52.434168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "originId": "13527",
+        "naam": "Volendam, Stadskantoor",
+        "id": "13527",
+        "state": "inactive",
+        "available_as_destination": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.054103,
+          52.500217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "originId": "13412",
+        "naam": "Purmerend, Korenstraat",
+        "id": "13412",
+        "available_as_destination": false,
+        "state": "inactive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.993163,
+          52.511956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "originId": "10220",
+        "naam": "Uithoorn, Busstation",
+        "id": "10220",
+        "available_as_destination": false,
+        "state": "inactive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.821661,
+          52.24297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "originId": "34294",
+        "naam": "Hoofddorp, Station",
+        "id": "34294",
+        "available_as_destination": false,
+        "state": "inactive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.697839,
+          52.29287
+        ]
+      }
+    },
+     {
+       "type": "Feature",
+       "properties": {
+         "originId": "10220",
+         "id": "37224",
+         "naam": "Aalsmeer, Hortensiaplein",
+         "available_as_destination": false,
+         "state": "inactive"
+       },
+       "geometry": {
+         "type": "Point",
+         "coordinates": [
+           4.757719,
+           52.262762
+         ]
+       }
+     },
+      {
+        "type": "Feature",
+        "properties": {
+          "originId": "13663",
+          "id": "13663",
+          "naam": "Marken, Minneweg",
+          "available_as_destination": false,
+          "state": "inactive"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.109598,
+            52.461947
+          ]
+        }
+      },
+       {
+         "type": "Feature",
+         "properties": {
+           "originId": "13431",
+           "id": "13431",
+           "naam": "Monnickendam, Swaensborch",
+           "available_as_destination": false,
+           "state": "inactive"
+         },
+         "geometry": {
+           "type": "Point",
+           "coordinates": [
+             5.037434,
+             52.45542
+           ]
+         }
+       },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "13378",
+            "id": "13378",
+            "naam": "Landsmeer, van Beekstraat",
+            "available_as_destination": false,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.913461,
+              52.428989
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "41783",
+            "id": "41783",
+            "naam": "Oostzaan, Lisweg",
+            "available_as_destination": false,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.87739,
+              52.436964
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "14420",
+            "id": "15340",
+            "naam": "Ceintuurbaan",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.901054,
+              52.35506
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "14404",
+            "function": "herkomst",
+            "id": "14404",
+            "naam": "Centraal Station",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.899804040143607,
+              52.37818519858757
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "15687",
+            "id": "15687",
+            "naam": "Haarlemmerplein",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.88341,
+              52.384843
+            ]
+          }
+        },
+       {
+          "type": "Feature",
+          "properties": {
+            "originId": "14966",
+            "id": "14966",
+            "naam": "Javaplein",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.939496,
+              52.363957
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "15462",
+            "id": "15462",
+            "naam": "Ten Katestraat",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.867372,
+              52.365918
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "14649",
+            "id": "14649",
+            "naam": "Leidseplein",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.881247,
+              52.363291
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "14738",
+            "id": "15776",
+            "naam": "Maasstraat",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.89844,
+              52.340471
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "14356",
+            "id": "14357",
+            "naam": "Minervaplein",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.872997,
+              52.346771
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "14121",
+            "id": "45642",
+            "naam": "Mosplein",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.913551,
+              52.393048
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "99996",
+            "id": "99996",
+            "naam": "Rokin",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.893121719,
+              52.37214076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "99999",
+            "id": "99999",
+            "naam": "Station Noord",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.935017824,
+              52.40412729
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "99992",
+            "id": "99992",
+            "naam": "Station Zuid",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.873056,
+              52.338889
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "15569",
+            "id": "15565",
+            "naam": "Surinameplein",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.852093,
+              52.358138
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "15871",
+            "id": "15342",
+            "naam": "Van Woustraat",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.900838,
+              52.354682
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "14536",
+            "id": "15674",
+            "naam": "Volendammerweg",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.957564,
+              52.391688
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "14339",
+            "id": "62855",
+            "naam": "De Boelelaan/VU",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.868605,
+              52.334484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "14584",
+            "id": "14584",
+            "naam": "Waterlooplein",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.902979,
+              52.366977
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "14509",
+            "id": "48295",
+            "naam": "Westermarkt",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.883605,
+              52.374122
+            ]
+          }
+        }
+    ]
+}

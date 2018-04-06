@@ -1,0 +1,83 @@
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ddd;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 43px;
+  width: 43px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: $pink;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px $pink;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(148px);
+  -ms-transform: translateX(148px);
+  transform: translateX(148px);
+}
+
+span.label {
+  display: none;
+  color: #000;
+  text-transform: uppercase;
+  font-family:"Avenir Heavy";
+  position: absolute;
+  top: 15px;
+  font-size: 1rem;
+}
+
+span.label.unchecked {
+  display: inline;
+  right: 31px;
+}
+
+input:checked ~ span.label.checked {
+  color: #fff;
+  display: inline;
+  right: 64px;
+}
+
+input:checked ~ span.label.unchecked {
+  display: none;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
