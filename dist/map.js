@@ -90,6 +90,7 @@ var grey = '#ddd';
 
 var purple = 'rgb(182,32,121)';
 var pink = 'rgb(237,62,117)';
+var lightpink = 'rgb(252,213,225)';
 var yellow = 'rgb(255,241,0)';
 function loadJSON(filepath, callback) {
 
@@ -1340,7 +1341,7 @@ var Map = function () {
         knob.innerHTML = "\n                    <label class=\"switch\">\n                        <input id=\"route-switch\" type=\"checkbox\">\n                        <span class=\"slider round\"></span>\n                        <span class=\"label checked\">Nieuwe reis</span>\n                        <span class=\"label unchecked\">Huidige reis</span>\n                    </label>\n        ";
 
         knob.addEventListener("click", function (e) {
-            self._routeSwitch(this, e);
+            self._routeSwitch(this, e, true);
         }, false);
 
         var ul = document.createElement('ul');
@@ -1384,8 +1385,8 @@ var Map = function () {
             }
 
             var li = document.createElement('li');
-            li.addEventListener("click", function () {
-                self._routeSwitch(this);
+            li.addEventListener("click", function (e) {
+                self._routeSwitch(this, e, false);
             }, false);
             var input = document.createElement('input');
             input.type = "checkbox";
@@ -1459,11 +1460,11 @@ var Map = function () {
 
         self = this;
         if (self.session.incarnation === 'old') {
-            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = pink;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = lightpink;
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = grey;
         } else {
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = grey;
-            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = pink;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = lightpink;
         }
     };
 
@@ -1531,9 +1532,11 @@ var Map = function () {
         });
     };
 
-    Map.prototype._routeSwitch = function _routeSwitch(el, e) {
+    Map.prototype._routeSwitch = function _routeSwitch(el, e, fromSwitch) {
 
-        if (e.target.tagName === 'INPUT' || e.target.tagName === 'DIV') {
+        console.log(e.target.tagName);
+
+        if (!fromSwitch || fromSwitch && (e.target.tagName === 'INPUT' || e.target.tagName === 'DIV')) {
 
             var _self = this,
                 routes = void 0,

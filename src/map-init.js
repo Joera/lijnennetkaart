@@ -509,7 +509,7 @@ class Map {
                     </label>
         `;
 
-        knob.addEventListener("click",function(e) { self._routeSwitch(this,e) },false);
+        knob.addEventListener("click",function(e) { self._routeSwitch(this,e,true) },false);
 
         let ul = document.createElement('ul');
 
@@ -556,7 +556,7 @@ class Map {
             }
 
             let li = document.createElement('li');
-            li.addEventListener("click",function() { self._routeSwitch(this) },false);
+            li.addEventListener("click",function(e) { self._routeSwitch(this,e,false) },false);
             let input = document.createElement('input');
             input.type = "checkbox";
             input.name = route[0].properties.routeId;
@@ -670,11 +670,11 @@ class Map {
 
         self = this;
         if(self.session.incarnation === 'old') {
-            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = pink;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = lightpink;
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = grey;
         } else {
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = grey;
-            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = pink;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = lightpink;
         }
     }
 
@@ -745,9 +745,11 @@ class Map {
         });
     }
 
-    _routeSwitch(el,e) {
+    _routeSwitch(el,e,fromSwitch) {
 
-        if (e.target.tagName === 'INPUT' ||e.target.tagName === 'DIV' ) {
+        console.log(e.target.tagName);
+
+        if (!fromSwitch || (fromSwitch && (e.target.tagName === 'INPUT' || e.target.tagName === 'DIV'))) {
 
 
             let self = this,
