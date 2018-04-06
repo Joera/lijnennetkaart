@@ -44,7 +44,7 @@ class Points {
                 "circle-stroke-opacity": 1,
             },
             "filter": ['all',
-                ["==", "function", "herkomst"],
+                // ["==", "function", "herkomst"],
             ]
         }   );
 

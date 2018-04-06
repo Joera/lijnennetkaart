@@ -29,7 +29,8 @@ class Map {
             origin : null,
             destination : null,
             data : {},
-            route: null
+            route: null,
+            routeName: ''
         }
 
         //data from argument in footer scripts (datasets)
@@ -44,8 +45,8 @@ class Map {
         this._callToAction = document.getElementById('call-to-action');
         this._listContainer = document.getElementById('list-container');
         this._routeBlock = document.getElementById('route-block');
-        this._routeSelect = document.getElementById('route-switch');
         this._newOrigin = document.getElementById('new-origin');
+
         // this._newDestination = document.getElementById('new-destination');
 
 
@@ -64,12 +65,35 @@ class Map {
         self._lines = new Lines(self._map, self.config);
 
         self._map.on('style.load', function () {
+            console.log(self.config.origins);
             self._points.addOrigins();
             self._initMap();
         });
-
         self._newOrigin.addEventListener("click",function() { self._clearOrigin() },false);
-        self._routeSelect.addEventListener("click",function() { self._routeSwitch(this) },false);
+
+        this._listEventHandlers();
+    }
+
+    _listEventHandlers() {
+
+        let self = this;
+        this._originList = document.getElementById('origin-list');
+        [].slice.call(self._originList.querySelectorAll('ul')).forEach( (ul) => {
+            let concessiegebied = ul.getAttribute('data-concession');
+            ul.querySelector('span.concessiegebied').addEventListener("click",function(el) { self._toggleConcession(ul,concessiegebied) },false);
+        });
+    }
+
+    _toggleConcession(ul,concessiegebied) {
+        let self = this;
+
+        [].slice.call(ul.querySelectorAll('li')).forEach( (li) => {
+           if (li.classList.contains('hidden')) {
+               li.classList.remove('hidden');
+           } else {
+               li.classList.add('hidden');
+           }
+        });
     }
 
     _initMap() {
@@ -77,10 +101,10 @@ class Map {
         let self = this;
 
         self._points.drawOrigins();
-        self._originList();
+        self._adaptOriginList();
 
         self._map.on("mouseover", "origins", function (e) {
-            self._highlightOrigin(e.features[0].properties.naam);
+            self._highlightOrigin(e.features[0].properties.originId);
         });
         self._map.on("mouseout", "origins", function (e) {
             self._unhighlightOrigin();
@@ -91,10 +115,15 @@ class Map {
 
     }
 
-    _originList() {
+    _adaptOriginList() {
 
         let self = this;
-        self._callToAction.innerHTML = '<span>Kies</span> een <span>startpunt</span>';
+        self._callToAction.innerHTML = `
+
+            <h2><span>Kies</span> een <span>startpunt</span></h2>
+            <span>uit de lijst of klik op een punt op de kaart</span>
+
+        `;
 
         let listItems = [].slice.call(self._listContainer.querySelectorAll('li'));
 
@@ -139,9 +168,22 @@ class Map {
         this._map.getSource('origins').setData(self.config.origins);
     }
 
+    _purgeOrigins() {
+
+        self = this;
+
+        self.config.origins.features = self.config.origins.features.filter((f) =>{
+
+            return f.property.availabe_as_destination === true;
+        });
+
+        this._map.getSource('origins').setData(self.config.origins);
+    }
+
     _selectOrigin(originId,filename) {
             let self = this;
             self.session.origin = originId;
+            self.session.routeName = self._getPointName(originId);
 
             self.config.origins.features.forEach( function(d) {
                 // if(d.properties.state === 'origin') {
@@ -156,8 +198,10 @@ class Map {
             });
             this._map.getSource('origins').setData(self.config.origins);
 
+
+
            // let url = 'http://localhost:9876/api/route/' + originId;
-            let url = 'http://37.46.136.132:9876/api/route/' + originId;
+            let url = 'http://lijnennetkaart.speldtenhooijbergh.nl/api/route/' + originId;
 
             axios.get(url)
                 .then(function(response) {
@@ -203,7 +247,10 @@ class Map {
 
         let self = this;
         // self._listContainer.innerHTML = '';
-        self._callToAction.innerHTML = '<span>Kies</span> een <span>bestemming</span>';
+        self._callToAction.innerHTML = `
+                <h2><span>Kies</span> een <span>bestemming</span></h2>
+                <span>uit de lijst of klik op een punt op de kaart</span>
+            `;
 
         // wissel oude lijst met nieuwe lijst (zonder event handlers)
         let list = self._listContainer.querySelector('#origin-list');
@@ -211,13 +258,27 @@ class Map {
 
         if(['13412','13663','13431','13527','13378','36003','35250','41783','34294','10220','37224'].indexOf(self.session.origin) > -1 ) {
 
-            [].slice.call(newList.querySelectorAll('ul.buiten-amsterdam li')).forEach((li) => {
-                li.classList.add('hidden');
-            });
+            // [].slice.call(newList.querySelectorAll('ul.buiten-amsterdam li')).forEach((li) => {
+            //     li.classList.add('hidden');
+            // });
         }
 
         self._listContainer.removeChild(list);
         self._listContainer.appendChild(newList);
+
+        if(['13412','13663','13431','13527','13378','36003','35250','41783','34294','10220','37224'].indexOf(self.session.origin) > -1 ) {
+
+            [].slice.call(newList.querySelectorAll('ul[data-concession]')).forEach((ul) => {
+                if (ul.getAttribute('data-concession') === 'amsterdam') {
+                    // console.log('raar');
+                    self._toggleConcession(ul,'amsterdam');
+                }
+            });
+
+                //
+        }
+
+
 
         // nieuwe event handlers)
         let listItems = [].slice.call(self._listContainer.querySelectorAll('li'));
@@ -287,6 +348,7 @@ class Map {
         // add selected destination to session
         self.session.destination = destination;
         self.session.route = self.session.origin + '_' + destination;
+        self.session.routeName = self.session.routeName + ' naar ' + self._getPointName(destination);
 
         // hier status van origins aanpassen
         self.config.origins.features.forEach( function(d) {
@@ -311,7 +373,6 @@ class Map {
 
             // origin = 13412
             // destination = 15569
-            console.log('destination ' + destination);
 
             if(
                 (traject.properties.routeId.split('_')[0] === self.session.origin) && (traject.properties.routeId.split('_')[1] === destination) ||
@@ -371,6 +432,12 @@ class Map {
             console.log(self.session);
         }
 
+        setTimeout( function(){
+
+            self._setBoundingBox();
+        },500);
+
+
     }
 
     _showDestinations() {
@@ -388,7 +455,23 @@ class Map {
 
         self._routeBlock.innerHTML = '';
         let header = document.createElement('h3');
-        header.innerHTML = routes[0][0].properties.trajectNaam;
+
+        header.innerHTML = self.session.routeName;
+
+        let knob = document.createElement('div');
+        knob.id = "route-select";
+
+        knob.innerHTML = `
+                    <label class="switch">
+                        <input id="route-switch" type="checkbox">
+                        <span class="slider round"></span>
+                        <span class="label checked">Nieuwe reis</span>
+                        <span class="label unchecked">Huidige reis</span>
+                    </label>
+        `;
+
+        knob.addEventListener("click",function(e) { self._routeSwitch(this,e) },false);
+
         let ul = document.createElement('ul');
 
         let routeIds = [];
@@ -450,7 +533,7 @@ class Map {
 
                     let nrs;
                     if(traject.properties.transport_type !== 'trein') {
-                        nrs = traject.properties.transport_nrs.join(' ');
+                        nrs = traject.properties.transport_nrs.join('/');
                     } else {
                         nrs = '';
                     }
@@ -527,6 +610,7 @@ class Map {
         });
 
         self._routeBlock.appendChild(header);
+        self._routeBlock.appendChild(knob);
         self._routeBlock.appendChild(ul);
 
     }
@@ -547,19 +631,17 @@ class Map {
 
         self = this;
         if(self.session.incarnation === 'old') {
-            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = purple;
-            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = black;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = pink;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = grey;
         } else {
-            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = black;
-            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = purple;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = grey;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = pink;
         }
     }
 
     _showNew() {
 
         let self = this;
-
-        console.log(self.session.route);
 
         self._map.setLayoutProperty('route-bus_new', 'visibility', 'visible');
         self._map.setLayoutProperty('route-metro_new', 'visibility', 'visible');
@@ -575,6 +657,10 @@ class Map {
         self._map.setLayoutProperty('transfer-labels-new', 'visibility', 'visible');
         self._map.setLayoutProperty('transfers-old', 'visibility', 'none');
         self._map.setLayoutProperty('transfer-labels-old', 'visibility', 'none');
+
+        self._map.setLayoutProperty('transport-mode-old', 'visibility', 'none');
+        self._map.setLayoutProperty('transport-mode-new', 'visibility', 'visible');
+
     }
 
     _showOld() {
@@ -596,68 +682,51 @@ class Map {
         self._map.setLayoutProperty('transfers-old', 'visibility', 'visible');
         self._map.setLayoutProperty('transfer-labels-old', 'visibility', 'visible');
 
+        self._map.setLayoutProperty('transport-mode-old', 'visibility', 'visible');
+        self._map.setLayoutProperty('transport-mode-new', 'visibility', 'none');
+
     }
 
     _setBoundingBox() {
 
         let self = this;
-        let features = self._map.queryRenderedFeatures({ layers: ['origins','destinations','transfers'] });
+        let features = self._map.queryRenderedFeatures({ layers: ['route-bus_new','route-metro_new','route-tram_new','route-train_new','route-bus_old','route-metro_old','route-tram_old','route-train_old'] });
 
         let collection = {
             "type": "FeatureCollection",
             "features": features
         }
+
         let bbox = turf.bbox(collection);
 
         self._map.fitBounds(
             bbox, {
-            padding: {top: 100, bottom:100, left: 100, right: 100},
+            padding: {top: 200, bottom:200, left: 200, right: 200},
             linear: true
         });
     }
 
-    _routeSwitch(el) {
+    _routeSwitch(el,e) {
 
-        let self = this,
-            routes,
-            routeIds = [];
+        if (e.target.tagName === 'INPUT' ||e.target.tagName === 'DIV' ) {
 
-        if(this.session.incarnation === 'old') {
-            this.session.incarnation = 'new';
-            let newRouteId = self.session.data.routes[1][0].properties.routeId;
-            self._switchRouteLayers(newRouteId);
-        } else {
-            this.session.incarnation = 'old';
-            let oldRouteId = self.session.data.routes[0][0].properties.routeId;
-            self._switchRouteLayers(oldRouteId);
+
+            let self = this,
+                routes,
+                routeIds = [];
+
+            if (this.session.incarnation === 'old') {
+                this.session.incarnation = 'new';
+                let newRouteId = self.session.data.routes[1][0].properties.routeId;
+                self._switchRouteLayers(newRouteId);
+            } else {
+                this.session.incarnation = 'old';
+                let oldRouteId = self.session.data.routes[0][0].properties.routeId;
+                self._switchRouteLayers(oldRouteId);
+            }
+
+            self._switchRouteBlockColor();
         }
-
-        self._switchRouteBlockColor();
-
-        // if (self.session.data.routes !== undefined && self.session.data.routes.length > 0) {
-        //
-        //     // console.log(self.session.data.routes);
-        //
-        //     // self.session.data.routes.forEach ( (route) => {
-        //     //
-        //     //     // routes  = route.filter( (traject) => {
-        //     //     //
-        //     //     //     return traject.geometry.type === 'LineString';
-        //     //     // });
-        //
-        //
-        //
-        //     // });
-        //
-        // } else {
-        //
-        //     console.log('kies eerst een herkomst en een bestemming');
-        // }
-
-        // console.log(routeIds);
-
-
-
     }
 
     _filterOrigins(dataset) {
@@ -712,5 +781,14 @@ class Map {
         });
 
         self._initMap();
+    }
+
+    _getPointName(id){
+
+        let self = this;
+        let point = self.config.origins.features.find( (p) => {
+            return p.properties.originId === id;
+        });
+        return point.properties.naam;
     }
 }

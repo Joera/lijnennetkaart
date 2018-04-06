@@ -38,14 +38,7 @@ class Lines {
                 "visibility": "visible"
             },
             "paint": {
-                "line-color": {
-                    property: 'routeVersion',
-                    type: 'categorical',
-                    stops: [
-                        ['prio', black],
-                        ['alt', '#999']
-                    ]
-                },
+                "line-color": black,
                 "line-width": 4,
                 "line-dasharray": [1,0]
             },
@@ -65,18 +58,9 @@ class Lines {
                 "visibility": "visible"
             },
             "paint": {
-                "line-color": {
-                    property: 'routeVersion',
-                    type: 'categorical',
-                    stops: [
-                        ['prio', black],
-                        ['alt', '#999']
-                    ]
-                },
+                "line-color": black,
                 "line-width": 4,
-                "line-dasharray": [1,0],
-
-                // "line-translate": [-4,-4]
+                "line-dasharray": [.75,.25],
             },
             "filter": ['all',
                 ["==","isNieuw",false],
@@ -94,14 +78,7 @@ class Lines {
                 "visibility": "visible"
             },
             "paint": {
-                "line-color": {
-                    property: 'routeVersion',
-                    type: 'categorical',
-                    stops: [
-                        ['prio', purple],
-                        ['alt', pink]
-                    ]
-                },
+                "line-color": black,
                 "line-width": 4,
                 "line-dasharray": [1,1],
 
@@ -122,16 +99,9 @@ class Lines {
                 "visibility": "visible"
             },
             "paint": {
-                "line-color": {
-                    property: 'routeVersion',
-                    type: 'categorical',
-                    stops: [
-                        ['prio', purple],
-                        ['alt', pink]
-                    ]
-                },
+                "line-color": black,
                 "line-width": 4,
-                "line-dasharray": [1,1],
+                "line-dasharray": [1,2],
 
             },
             "filter": ['all',
@@ -157,14 +127,7 @@ class Lines {
                 "visibility": "visible"
             },
             "paint": {
-                "line-color": {
-                    property: 'routeVersion',
-                    type: 'categorical',
-                    stops: [
-                        ['prio', purple],
-                        ['alt', pink]
-                    ]
-                },
+                "line-color": black,
                 "line-width": 4,
                 "line-dasharray": [1,0],
 
@@ -187,16 +150,9 @@ class Lines {
                 "visibility": "visible"
             },
             "paint": {
-                "line-color": {
-                    property: 'routeVersion',
-                    type: 'categorical',
-                    stops: [
-                        ['prio', purple],
-                        ['alt', pink]
-                    ]
-                },
+                "line-color": black,
                 "line-width": 4,
-                "line-dasharray": [1,1],
+                "line-dasharray": [.25,.75],
 
             },
             "filter": ['all',
@@ -218,18 +174,9 @@ class Lines {
                 "visibility": "visible"
             },
             "paint": {
-                "line-color": {
-                    property: 'routeVersion',
-                    type: 'categorical',
-                    stops: [
-                        ['prio', purple],
-                        ['alt', '#999']
-                    ]
-                },
+                "line-color": black,
                 "line-width": 4,
                 "line-dasharray": [.5,.5],
-
-                // "line-translate": [-4,-4]
             },
             "filter": ['all',
                 ["==","isNieuw",true],
@@ -249,16 +196,9 @@ class Lines {
                 "visibility": "visible"
             },
             "paint": {
-                "line-color": {
-                    property: 'routeVersion',
-                    type: 'categorical',
-                    stops: [
-                        ['prio', purple],
-                        ['alt', pink]
-                    ]
-                },
+                "line-color": black,
                 "line-width": 4,
-                "line-dasharray": [1,1],
+                "line-dasharray": [1,2],
 
             },
             "filter": ['all',
@@ -267,9 +207,97 @@ class Lines {
             ]
         },'origins');
 
+        self._map.addLayer({
+            "id": "transport-mode-new",
+            "type": "symbol",
+            "source": "routes-nieuw",
+            "layout": {
+                "symbol-placement": "line",
+                "icon-rotation-alignment": "viewport",
+                "icon-image": {
+                    property: 'transport_type',
+                    type: 'categorical',
+                    stops: [
+                        ['trein', "trein"],
+                        ['bus', "bus"],
+                        ['tram', "tram"],
+                        ['metro', "metro"],
+                        ['wandel', "voetganger"]
+                    ]
+                },
+                "icon-size": .7,
+                "icon-padding": 20,
+                "icon-allow-overlap": true,
+                "icon-anchor": 'bottom',
+                "icon-offset": [-40,25],
+                "visibility": "none",
+                "text-field": "{transport_nrs}",
+                "symbol-placement": "point",
+                "text-size": 15,
+                "text-anchor": "right",
+                "text-offset": [-2.75,.275],
+                "text-max-width": 30,
+                "text-font": ["Avenir LT Std 85 Heavy"],
+                "text-transform" : "uppercase",
+                "text-allow-overlap":true
+            },
+            "paint": {
+                "icon-opacity": 1,
+                "text-color": black
+            },
+            "filter": ['all',
+                ["==","isNieuw",true],
+            ]
+        });
+
+        self._map.addLayer({
+            "id": "transport-mode-old",
+            "type": "symbol",
+            "source": "routes-oud",
+            "layout": {
+                "symbol-placement": "line",
+                "icon-rotation-alignment": "viewport",
+                "icon-image": {
+                    property: 'transport_type',
+                    type: 'categorical',
+                    stops: [
+                        ['trein', "trein"],
+                        ['bus', "bus"],
+                        ['tram', "tram"],
+                        ['metro', "metro"],
+                        ['wandel', "voetganger"]
+                    ]
+                },
+                "icon-size": .7,
+                "icon-padding": 20,
+                "icon-allow-overlap": true,
+                "icon-anchor": 'bottom',
+                "icon-offset": [-40,25],
+                "visibility": "none",
+                "text-field": "{transport_nrs}",
+                "symbol-placement": "point",
+                "text-size": 15,
+                "text-anchor": "right",
+                "text-offset": [-2.75,.275],
+                "text-max-width": 30,
+                "text-font": ["Avenir LT Std 85 Heavy"],
+                "text-transform" : "uppercase",
+                "text-allow-overlap":true
+            },
+            "paint": {
+                "icon-opacity": 1,
+                "text-color": black
+            },
+            "filter": ['all',
+                ["==","isNieuw",false],
+            ]
+        });
+
 
 
     }
+
+
 
     _animateLine(timestamp) {
 

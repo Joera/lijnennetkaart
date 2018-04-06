@@ -9,7 +9,7 @@
 <link rel='stylesheet' id='mapbox_css-css'  href='//api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css' type='text/css' media='all' />
 <link rel='stylesheet' id='css'  href='assets/css/main.css' type='text/css' media='all' />
 
-<!--<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>-->
+<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
 <!--<script src="dist/browser-polyfill.min.js"></script>-->
 <script src="dist/map.js"></script>
 <script>
@@ -24,66 +24,57 @@
 
             <div id="map-container"></div>
             <div id="sidebar">
-                <div id="call-to-action"></div>
+                <div id="call-to-action">
+
+
+                </div>
                 <div id="list-container">
                     <div id="origin-list">
 
-                        <ul class="grey buiten-amsterdam">
-                            <span class="concessiegebied">Waterland</span>
-                            <li data-name="Purmerend, Korenstraat" data-origin-id="13412" data-filename="features_Waterland_Korenstraat">Purmerend, Korenstraat</li>
-                            <li data-name="Marken, Minneweg" data-origin-id="13663" data-filename="features_Waterland_Minneweg">Marken, Minneweg</li>
-                            <li data-name="Monnickendam, Swaensborch" data-origin-id="13431" data-filename="features_Waterland_Swaensborch">Monnickendam, Swaensborch</li>
-                            <li data-name="Volendam, Stadskantoor" data-origin-id="13527" data-filename="features_Waterland_Stadskantoor">Volendam, Stadskantoor</li>
-                            <li data-name="Landsmeer, van Beekstraat" data-origin-id="13378" data-filename="features_Waterland_van_Beekstraat">Landsmeer, van Beekstraat</li>
+                        <ul class="white buiten-amsterdam" data-concession="Waterland">
+                            <span class="concessiegebied"  >Waterland</span>
+                            <li class="hidden" data-name="Landsmeer, van Beekstraat" data-origin-id="13378" data-filename="features_Waterland_van_Beekstraat">Landsmeer, van Beekstraat</li>
+                            <li class="hidden" data-name="Marken, Minneweg" data-origin-id="13663" data-filename="features_Waterland_Minneweg">Marken, Minneweg</li>
+                            <li class="hidden" data-name="Monnickendam, Swaensborch" data-origin-id="13431" data-filename="features_Waterland_Swaensborch">Monnickendam, Swaensborch</li>
+                            <li class="hidden" data-name="Purmerend, Korenstraat" data-origin-id="13412" data-filename="features_Waterland_Korenstraat">Purmerend, Korenstraat</li>
+                            <li class="hidden" data-name="Volendam, Stadskantoor" data-origin-id="13527" data-filename="features_Waterland_Stadskantoor">Volendam, Stadskantoor</li>
                         </ul>
-                        <ul class="white buiten-amsterdam">
+                        <ul class="white buiten-amsterdam" data-concession="zaanstreek">
                             <span class="concessiegebied">Zaanstreek</span>
-                            <li data-name="Zaandam, Barkstraat" data-origin-id="36003" data-filename="features_Zaanstreek_Barkstraat">Zaandam, Barkstraat</li>
-                            <li data-name="Zaandam, Morgensterstraat" data-origin-id="35250" data-filename="features_Zaanstreek_Morgensterstraat">Zaandam, Morgensterstraat</li>
-                            <li data-name="Oostzaan, Lisweg" data-origin-id="41783" data-filename="features_Zaanstreek_Lisweg">Oostzaan, Lisweg</li>
+                            <li class="hidden" data-name="Oostzaan, Lisweg" data-origin-id="41783" data-filename="features_Zaanstreek_Lisweg">Oostzaan, Lisweg</li>
+                            <li class="hidden" data-name="Zaandam, Barkstraat" data-origin-id="36003" data-filename="features_Zaanstreek_Barkstraat">Zaandam, Barkstraat</li>
+                            <li class="hidden" data-name="Zaandam, Morgensterstraat" data-origin-id="35250" data-filename="features_Zaanstreek_Morgensterstraat">Zaandam, Morgensterstraat</li>
                         </ul>
-                        <ul class="grey buiten-amsterdam">
+                        <ul class="white buiten-amsterdam" data-concession="amstelland">
                             <span class="concessiegebied">Amstelland</span>
-                            <li data-name="Hoofddorp, Station" data-origin-id="34294" data-filename="features_Amstelland_Station_Hoofddorp">Hoofddorp, Station</li>
-                            <li data-name="Uithoorn, Busstation" data-origin-id="10220" data-filename="features_Amstelland_Uithoorn_Busstation">Uithoorn, Busstation</li>
-                            <li data-name="Aalsmeer, Hortensiaplein" data-origin-id="37224" data-filename="features_Amstelland_Hortensiaplein">Aalsmeer, Hortensiaplein</li>
+                            <li class="hidden" data-name="Aalsmeer, Hortensiaplein" data-origin-id="37224" data-filename="features_Amstelland_Hortensiaplein">Aalsmeer, Hortensiaplein</li>
+                            <li class="hidden" data-name="Hoofddorp, Station" data-origin-id="34294" data-filename="features_Amstelland_Station_Hoofddorp">Hoofddorp, Station</li>
+                            <li class="hidden" data-name="Uithoorn, Busstation" data-origin-id="10220" data-filename="features_Amstelland_Uithoorn_Busstation">Uithoorn, Busstation</li>
                         </ul>
-                        <ul class="white">
-                            <span class="concessiegebied"></span>
-                            <li data-name="Centraal Station" data-origin-id="14404" data-filename="features_CS">Centraal Station</li>
-                            <li data-name="Rokin" data-origin-id="99996" data-filename="features_Rokin">Rokin</li>
-                            <li data-name="Waerlooplein" data-origin-id="14584" data-filename="features_Waterlooplein">Waterlooplein</li>
-                            <li data-name="Westermarkt" data-origin-id="14509" data-filename="features_Westermarkt">Westermarkt</li>
-                            <li data-name="Haarlemmerplein" data-origin-id="15687" data-filename="features_Haarlemmerplein">Haarlemmerplein</li>
-                            <li data-name="Leidseplein" data-origin-id="14649" data-filename="features_Leidseplein">Leidseplein</li>
-                        </ul>
-                        <ul class="grey">
-                            <span class="concessiegebied"></span>
-                            <li data-name="station Noord" data-origin-id="99999" data-filename="features_Station_Noord">Station Noord</li>
-                            <li data-name="Mosplein" data-origin-id="14121" data-filename="features_Mosplein">Mosplein</li>
-                            <li data-name="Volendammerweg" data-origin-id="14536" data-filename="features_Volendammerweg">Volendammerweg</li>
-                        </ul>
-                        <ul class="white">
-                            <span class="concessiegebied"></span>
-                            <li data-name="Javaplein" data-origin-id="14966" data-filename="features_Javaplein">Javaplein</li>
-                        </ul>
-                        <ul class="grey">
-                            <span class="concessiegebied"></span>
-                            <li data-name="Station Zuid" data-origin-id="99992" data-filename="features_Station_Zuid">Station Zuid</li>
-                            <li data-name="VU" data-origin-id="14339" data-filename="features_VU">VU</li>
-                        </ul>
-                        <ul class="white">
-                            <span class="concessiegebied"></span>
-                            <li data-name="Mercatorplein" data-origin-id="13417" data-filename="features_Mercatorplein">Mercatorplein</li>
-                            <li data-name="Kinkerstraat" data-origin-id="15462" data-filename="features_Kinkerstraat">Kinkerstraat</li>
-                            <li data-name="Surinameplein" data-origin-id="15569" data-filename="features_Surinameplein">Surinameplein</li>
-                        </ul>
-                        <ul class="grey">
-                            <span class="concessiegebied"></span>
-                            <li data-name="Ferdinand Bol/Ceintuurbaan" data-origin-id="99994" data-filename="features_Ceintuurbaan">Ferdinand Bol/Ceintuurbaan</li>
-                            <li data-name="v.Woustr/Ceintuurbaan" data-origin-id="15871" data-filename="features_vanWoustraat">v.Woustr/Ceintuurbaan</li>
-                            <li data-name="Rooseveltlaan/Maasstraat" data-origin-id="14738" data-filename="features_Maasstraat">Rooseveltlaan/Maasstraat</li>
-                            <li data-name="Minervaplein" data-origin-id="14356" data-filename="features_Minervaplein">Minervaplein</li>
+                        <ul class="white" data-concession="amsterdam">
+                            <span class="concessiegebied">Amsterdam</span>
+
+                            <li class="hidden" data-name="Centraal Station" data-origin-id="14404" data-filename="features_CS">Centraal Station</li>
+                            <li class="hidden" data-name="Ferdinand Bol/Ceintuurbaan" data-origin-id="99994" data-filename="features_Ceintuurbaan">Ferdinand Bol/Ceintuurbaan</li>
+                            <li class="hidden" data-name="Haarlemmerplein" data-origin-id="15687" data-filename="features_Haarlemmerplein">Haarlemmerplein</li>
+                            <li class="hidden" data-name="Javaplein" data-origin-id="14966" data-filename="features_Javaplein">Javaplein</li>
+                            <li class="hidden" data-name="Kinkerstraat" data-origin-id="15462" data-filename="features_Kinkerstraat">Kinkerstraat</li>
+                            <li class="hidden" data-name="Leidseplein" data-origin-id="14649" data-filename="features_Leidseplein">Leidseplein</li>
+                            <li class="hidden" data-name="Mercatorplein" data-origin-id="13417" data-filename="features_Mercatorplein">Mercatorplein</li>
+                            <li class="hidden" data-name="Minervaplein" data-origin-id="14356" data-filename="features_Minervaplein">Minervaplein</li>
+                            <li class="hidden" data-name="Mosplein" data-origin-id="14121" data-filename="features_Mosplein">Mosplein</li>
+                            <li class="hidden" data-name="Rokin" data-origin-id="99996" data-filename="features_Rokin">Rokin</li>
+                            <li class="hidden" data-name="Rooseveltlaan/Maasstraat" data-origin-id="14738" data-filename="features_Maasstraat">Rooseveltlaan/Maasstraat</li>
+                            <li class="hidden" data-name="Surinameplein" data-origin-id="15569" data-filename="features_Surinameplein">Surinameplein</li>
+                            <li class="hidden" data-name="Station Noord" data-origin-id="99999" data-filename="features_Station_Noord">Station Noord</li>
+                            <li class="hidden" data-name="Station Zuid" data-origin-id="99992" data-filename="features_Station_Zuid">Station Zuid</li>
+                            <li class="hidden" data-name="Volendammerweg" data-origin-id="14536" data-filename="features_Volendammerweg">Volendammerweg</li>
+                            <li class="hidden" data-name="VU" data-origin-id="14339" data-filename="features_VU">VU</li>
+                            <li class="hidden" data-name="v.Woustr/Ceintuurbaan" data-origin-id="15871" data-filename="features_vanWoustraat">v.Woustr/Ceintuurbaan</li>
+                            <li class="hidden" data-name="Waterlooplein" data-origin-id="14584" data-filename="features_Waterlooplein">Waterlooplein</li>
+                            <li class="hidden" data-name="Westermarkt" data-origin-id="14509" data-filename="features_Westermarkt">Westermarkt</li>
+
+
                         </ul>
                     </div>
 
@@ -98,14 +89,7 @@
                 </div>
             </div>
 
-            <div id="route-select">
-                <label class="switch">
-                    <input id="route-switch" type="checkbox">
-                    <span class="slider round"></span>
-                    <span class="label checked">Nieuwe reis</span>
-                    <span class="label unchecked">Huidige reis</span>
-                </label>
-            </div>
+
 
             <div id="routes">
 

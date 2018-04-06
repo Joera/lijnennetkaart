@@ -1,7 +1,7 @@
 
 const black = 'rgb(0,0,0)';
 const white = 'rgb(255,255,255)';
-const grey = '#999';
+const grey = '#ddd';
 
 const purple = 'rgb(182,32,121)';
 const pink = 'rgb(237,62,117)';
