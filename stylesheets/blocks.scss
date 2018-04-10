@@ -1,38 +1,37 @@
 
 
 
-.route-info-block {
+//.route-info-block {
+//
+//  padding: 1rem;
+//  color: black;
+//  opacity: 0;
+//  transition: opacity 1000ms ease;
+//
+//  ul li {
+//    padding: .75rem 0rem;
+//
+//    > .start, .end {
+//      display: inline;
+//      text-transform: uppercase;
+//    }
+//
+//    > .time {
+//      font-size: .8rem;
+//    }
+//
+//
+//  }
 
-  background: black;
-  padding: 1rem;
-  color: #fff;
-  opacity: 0;
-  transition: opacity 1000ms ease;
-
-  ul li {
-    padding: .75rem 0rem;
-
-    > .start, .end {
-      display: inline;
-      text-transform: uppercase;
-    }
-
-    > .time {
-      font-size: .8rem;
-    }
-
-
-  }
-
-  li.button {
-    background: $purple;
-    color: $yellow;
-    width: 100%;
-    padding: 1rem;
-    margin-left: -1rem;
-    margin-bottom: -1rem;
-  }
-}
+//  li.button {
+//    background: $purple;
+//    color: $yellow;
+//    width: 100%;
+//    padding: 1rem;
+//    margin-left: -1rem;
+//    margin-bottom: -1rem;
+//  }
+//}
 
 #routes {
   position: absolute;
@@ -42,14 +41,20 @@
 
   width: 16rem;
   height: auto;
-  color: white;
+  color: black;
   padding: 1rem;
 
+
+  &.hidden {
+
+    bottom: auto;
+    top: calc(100vh - 6rem);
+  }
 
   h3 {
     margin: 0;
     background: $grey;
-    font-family:"Avenir Heavy";
+    font-family: "Avenir Heavy";
     color: black; // $yellow;
     text-transform: uppercase;
     font-size: 1rem;
@@ -61,7 +66,15 @@
 
     li {
       position: relative;
-      padding: 1rem 1rem 1rem 1rem;
+      padding: 1rem;
+
+      ul {
+        margin: 1rem 0 2rem 0;
+
+        li {
+          padding: 0 1.5rem 0 1rem;
+        }
+      }
 
       label {
         text-transform: uppercase;
@@ -70,17 +83,102 @@
       svg {
         position: absolute;
         left: 0;
-        top: 1rem;
+        top: 2.5rem;
         transform: scale(.85);
+
+        &.icon-metro {
+          transform: translateX(-4px);
+        }
+        &.icon-tram {
+          transform: translateX(3px);
+        }
       }
 
       > div {
-        margin-left: 1.5rem;
+        position : relative;
+        margin-left: 1rem;
+        padding: 1rem 0rem 1rem 1rem;
+        background-image: linear-gradient(transparent 0%,#000 0,#000);
+        background-position: 0;
+        background-size: 4px 4px;
+        background-repeat: repeat-y;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 4rem;
+
+
+        &.metro {
+
+          background-image: linear-gradient(transparent 50%,#000 0,#000);
+          background-size: 4px 8px;
+        }
+
+        &.tram {
+
+          background-image: linear-gradient(transparent 50%,#000 0,#000);
+        }
+
+        &.trein {
+
+          background-image: linear-gradient(transparent 50%,#000 0,#000);
+        }
+
+        &.wandel {
+
+          background-image: linear-gradient(transparent 50%,#000 0,#000);
+        }
       }
 
       input {
         display: none;
         margin-right: .5rem;
+      }
+
+      span.halte {
+        position: absolute;
+        top: 0;
+        left: -.44rem;
+        z-index: 99;
+        background: #fff;
+        color: #fff;
+        border-radius: 50px;
+        display: inline-block;
+        height: 0;
+        width: 0;
+        padding: .3rem;
+        border: 4px solid #000;
+
+
+      }
+
+
+
+      div.start {
+        position: absolute;
+        font-family:"Avenir Heavy";
+        margin: 0;
+        top: 0;
+      }
+
+      .modaliteit {
+        margin-top: 1rem;
+        display: block;
+      }
+
+      .destination_halte {
+          position: absolute;
+          top: auto;
+          bottom: 1.4rem;
+          left: 3rem;
+
+          .haltenaam {
+
+            font-family:"Avenir Heavy";
+            margin-left: 1rem;
+            max-width: 6rem;
+            display: block;
+          }
       }
     }
   }
@@ -97,7 +195,4 @@
   justify-content: center;
   align-items: center;
   height: 4rem;
-  //position: absolute;
-  //top: 2rem;
-  //left: calc(((100% - 24rem) / 2) - 100px + 24rem);
 }

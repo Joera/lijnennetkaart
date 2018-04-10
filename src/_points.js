@@ -319,9 +319,127 @@ class Points {
             },
             "filter": ['all',
                 ["==", "function", "overstap"],
+                ["!in", "id","99999","99999","99998","99997","99996","99995","99994","99993","99992"],
                 ["==", "isNieuw", true]
             ]
         });
+
+        self._map.addLayer({
+            "id": "transfer-labels-new-info",
+            "type": "symbol",
+            "source": "routes-nieuw",
+            "layout": {
+                "visibility": "visible",
+                "icon-image": "rect_black",
+                "icon-padding": 0,
+                "icon-text-fit": 'both',
+                "icon-text-fit-padding": [5,10,2,10],
+                "icon-allow-overlap": true,
+                "text-field": "{naam} (info)",
+                "symbol-placement": "point",
+                "text-size": 15,
+                "text-anchor": "right",
+                "text-offset": [-1.6,0],
+                "text-max-width": 30,
+                "text-font": ["Avenir LT Std 85 Heavy"],
+                "text-transform" : "uppercase",
+                "text-allow-overlap":true
+            },
+            "paint": {
+                'text-color': "#fff"
+            },
+            "filter": ['all',
+                ["==", "function", "overstap"],
+                ["in", "id","99999","99999","99998","99997","99996","99995","99994","99993","99992"],
+                ["==", "isNieuw", true]
+            ]
+        });
+
+        self._map.on("click", "transfer-labels-new-info", function (e) {
+
+            let url = '';
+
+            if (e.features[0].properties.id === '99999') {
+
+                url = 'http://wijnemenjemee.nl/noordzuidlijn/station/station-noord';
+
+            } else if (e.features[0].properties.id === '99998') {
+
+                url = 'http://wijnemenjemee.nl/noordzuidlijn/station/station-noorderpark';
+
+            } else if (e.features[0].properties.id === '99997') {
+
+                url = 'http://wijnemenjemee.nl/noordzuidlijn/station/centraal-station';
+
+            } else if (e.features[0].properties.id === '99996') {
+
+                url = 'http://wijnemenjemee.nl/noordzuidlijn/station/rokin';
+
+            } else if (e.features[0].properties.id === '99995') {
+
+                url = 'http://wijnemenjemee.nl/noordzuidlijn/station/station-vijzelgracht';
+
+            } else if (e.features[0].properties.id === '99994') {
+
+                url = 'http://wijnemenjemee.nl/noordzuidlijn/station/station-de-pijp';
+
+            } else if (e.features[0].properties.id === '99993') {
+                url = 'http://wijnemenjemee.nl/noordzuidlijn/station/station-europaplein';
+
+            } else if (e.features[0].properties.id === '99992') {
+
+                url = 'http://wijnemenjemee.nl/noordzuidlijn/station/station-zuid';
+            }
+
+            window.open(url,'_blank');
+        });
+
+
+
+
+        // self._map.addLayer({
+        //     "id": "transfer-info-new",
+        //     "type": "symbol",
+        //     "source": "routes-nieuw",
+        //     "layout": {
+        //         "visibility": "visible",
+        //         "icon-image": "info",
+        //         "icon-padding": 0,
+        //         "icon-offset": [-20,-20],
+        //         "icon-allow-overlap": true,
+        //         "symbol-placement": "point",
+        //     },
+        //     "paint": {
+        //         'text-color': "#fff"
+        //     },
+        //     "filter": ['all',
+        //         ["==", "function", "overstap"],
+        //
+        //         ["==", "isNieuw", true]
+        //     ]
+        // });
+        //
+        // self._map.addLayer({
+        //     "id": "transfer-info-old",
+        //     "type": "symbol",
+        //     "source": "routes-oud",
+        //     "layout": {
+        //         "visibility": "visible",
+        //         "icon-image": "info",
+        //         "icon-padding": 0,
+        //         "icon-offset": [-20,-20],
+        //         "icon-allow-overlap": true,
+        //         "symbol-placement": "point",
+        //     },
+        //     "paint": {
+        //         'text-color': "#fff"
+        //     },
+        //     "filter": ['all',
+        //         ["==", "function", "overstap"],
+        //         ["in", "id","99999","99999","99998","99997","99996","99995","99994","99993","99992"],
+        //         ["==", "isNieuw", false]
+        //     ]
+        // });
 
     }
 

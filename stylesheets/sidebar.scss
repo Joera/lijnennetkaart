@@ -10,11 +10,39 @@
   position: absolute;
   z-index: 20;
   top: 0rem;
-  left: 0rem;
+  left: -21rem;
   width: 24rem;
   height: 100vh;
   background: #e8e8e8;
+  transition: left 500ms ease;
+
+    #sidebar-button {
+
+      position: absolute;
+      top: -0.5rem;
+      right: 0.5rem;
+
+      .chevron svg {
+        transform: scale(.25) rotate(-180deg);
+
+        stroke: #fff;
+        stroke-width: 4px;
+
+
+      }
+    }
+
+  &.open {
+
+    left: 0rem;
+
+    #sidebar-button .chevron svg {
+      transform: scale(.25); // rotate(-90deg);
+    }
+  }
 }
+
+
 
 #list-container {
 
@@ -60,6 +88,16 @@
   }
 }
 
+
+#selection-list {
+
+  li {
+      background: $pink;
+      color: white;
+      text-transform: uppercase;
+  }
+}
+
 #origin-list {
 
 
@@ -75,6 +113,16 @@
       display: block;
       border-bottom: 1px solid white;
       background: $grey;
+
+        span.chevron {
+          position: absolute;
+          right: .5rem;
+          top: -.8rem;
+
+          svg {
+            transform: scale(.25) rotate(-90deg);
+          }
+        }
     }
 
     li {
@@ -92,8 +140,14 @@
 
       display: block;
       background: black;
-      color: $yellow;
+      background: $pink;
+      color: white;
     }
+
+    &.hidden {
+      display: none;
+    }
+
 
     &.grey {
       background: $grey;

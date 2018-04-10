@@ -1,0 +1,14 @@
+#disclaimer {
+
+  position: fixed;
+  width: 600px;
+  top: 4em;
+  left: calc(50vw - 300px);
+  background: white;
+  min-height: 200px;
+  padding: 2rem;
+
+  &.hidden {
+    display: none;
+  }
+}

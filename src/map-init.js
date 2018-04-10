@@ -30,7 +30,9 @@ class Map {
             destination : null,
             data : {},
             route: null,
-            routeName: ''
+            routeName: '',
+            sidebar: false,
+            disclaimer: true
         }
 
         //data from argument in footer scripts (datasets)
@@ -43,12 +45,14 @@ class Map {
         this.config.origins = JSON.parse(data);
 
         this._callToAction = document.getElementById('call-to-action');
+        this._sidebar = document.getElementById('sidebar');
         this._listContainer = document.getElementById('list-container');
+        this._toggleSideBarButton = document.getElementById('sidebar-button');
         this._routeBlock = document.getElementById('route-block');
         this._newOrigin = document.getElementById('new-origin');
+        this._disclaimerBlock = document.getElementById('disclaimer');
 
         // this._newDestination = document.getElementById('new-destination');
-
 
     }
 
@@ -65,13 +69,19 @@ class Map {
         self._lines = new Lines(self._map, self.config);
 
         self._map.on('style.load', function () {
-            console.log(self.config.origins);
             self._points.addOrigins();
             self._initMap();
         });
         self._newOrigin.addEventListener("click",function() { self._clearOrigin() },false);
 
         this._listEventHandlers();
+
+        if(self.session.sidebar) {
+            self._sidebar.classList.add('open');
+        }
+
+        self._toggleSideBarButton.addEventListener("click",function(el) { self._toggleSidebar(); },false);
+        self._disclaimerBlock.addEventListener("click",function(el) { self._toggleDisclaimer(); },false);
     }
 
     _listEventHandlers() {
@@ -102,6 +112,10 @@ class Map {
 
         self._points.drawOrigins();
         self._adaptOriginList();
+
+        setTimeout( function() {
+            self._setBoundingBoxForOrigins();
+        },1500)
 
         self._map.on("mouseover", "origins", function (e) {
             self._highlightOrigin(e.features[0].properties.originId);
@@ -182,36 +196,75 @@ class Map {
 
     _selectOrigin(originId,filename) {
             let self = this;
-            self.session.origin = originId;
-            self.session.routeName = self._getPointName(originId);
 
-            self.config.origins.features.forEach( function(d) {
-                // if(d.properties.state === 'origin') {
-                //     d.properties.state = 'inactive';
-                // } else if (d.properties.id === id) {
-                //     d.properties.state = 'highlighted';
-                // }
-                d.properties.state = 'inactive';
-                if(d.properties.originId === originId) {
-                    d.properties.state = 'origin';
-                }
-            });
-            this._map.getSource('origins').setData(self.config.origins);
+            if(self.session.origin === null) { // alleen draaien wanneer origin onbekend is
+                self.session.origin = originId;
+                self.session.routeName = self._getPointName(originId);
 
-
-
-           // let url = 'http://localhost:9876/api/route/' + originId;
-            let url = 'http://lijnennetkaart.speldtenhooijbergh.nl/api/route/' + originId;
-
-            axios.get(url)
-                .then(function(response) {
-                    if (response.status !== 200) {
-                        console.log('foutje bedankt')
+                self.config.origins.features.forEach( function(d) {
+                    // if(d.properties.state === 'origin') {
+                    //     d.properties.state = 'inactive';
+                    // } else if (d.properties.id === id) {
+                    //     d.properties.state = 'highlighted';
+                    // }
+                    d.properties.state = 'inactive';
+                    if(d.properties.originId === originId) {
+                        d.properties.state = 'origin';
                     }
-                    self.session.data = {};
-                    self.session.data.originData = response.data;
-                    self._destinationList();
                 });
+                this._map.getSource('origins').setData(self.config.origins);
+
+               // let url = 'http://localhost:9876/api/route/' + originId;
+                let url = 'http://lijnennetkaart.speldtenhooijbergh.nl/api/route/' + originId;
+
+                axios.get(url)
+                    .then(function(response) {
+                        if (response.status !== 200) {
+                            console.log('foutje bedankt')
+                        }
+                        self.session.data = {};
+                        self.session.data.originData = response.data;
+                        self._destinationList();
+                        self._remapOriginsToDestinations();
+                    });
+            }
+
+    }
+
+    _remapOriginsToDestinations() {
+
+        let self = this;
+
+        self.config.origins.features = self.config.origins.features.filter( (p) => {
+                return p.properties.available_as_destination || p.properties.state === "origin" ;
+        });
+
+        this._map.getSource('origins').setData(self.config.origins);
+
+        // self._map.getStyle().layers.forEach( (l) => {
+        //
+        //     if(l.id.indexOf('origin') > -1 ) {
+        //         self._map.removeLayer(l.id);
+        //     }
+        // });
+
+        // self._points.drawOrigins();
+        self._adaptOriginList();
+
+        // self._map.on("mouseover", "origins", function (e) {
+        //     self._highlightOrigin(e.features[0].properties.originId);
+        // });
+        // self._map.on("mouseout", "origins", function (e) {
+        //     self._unhighlightOrigin();
+        // });
+        self._map.on("click", "origins", function (e) {
+            self._initRoute(e.features[0].properties.originId);
+        });
+        // self._map.on("click", "origin-labels", function (e) {
+        //     console.log(e);
+        //     //self._initRoute(originId);
+        // });
+
     }
 
     // _highlightDestination(id) {
@@ -256,21 +309,44 @@ class Map {
         let list = self._listContainer.querySelector('#origin-list');
         var newList = list.cloneNode(true);
 
-        if(['13412','13663','13431','13527','13378','36003','35250','41783','34294','10220','37224'].indexOf(self.session.origin) > -1 ) {
+        // if(['13412','13663','13431','13527','13378','36003','35250','41783','34294','10220','37224'].indexOf(self.session.origin) > -1 ) {
+        //
+        //     // [].slice.call(newList.querySelectorAll('ul.buiten-amsterdam li')).forEach((li) => {
+        //     //     li.classList.add('hidden');
+        //     // });
+        // }
+        // console.log(self._listContainer);
+        // self._listContainer.removeChild(list);
 
-            // [].slice.call(newList.querySelectorAll('ul.buiten-amsterdam li')).forEach((li) => {
-            //     li.classList.add('hidden');
-            // });
-        }
-
-        self._listContainer.removeChild(list);
         self._listContainer.appendChild(newList);
 
+        let originalOriginItem = [].slice.call(list.querySelectorAll('li[data-origin-id]')).find((li) => {
+            return li.getAttribute('data-origin-id') === self.session.origin;
+        });
+
+        let originItem = originalOriginItem.cloneNode(true);
+        originItem.classList.add('active-origin');
+
+        let selectionList = document.createElement('ul');
+        selectionList.id = "selection-list";
+        selectionList.appendChild(originItem);
+
+        self._listContainer.removeChild(list);
+        self._listContainer.appendChild(selectionList);
+        self._listContainer.appendChild(newList);
+
+        // kan dit via een data property op de ul?
         if(['13412','13663','13431','13527','13378','36003','35250','41783','34294','10220','37224'].indexOf(self.session.origin) > -1 ) {
 
+            // hide gebieden buiten amsterdam
+            [].slice.call(newList.querySelectorAll('ul.buiten-amsterdam')).forEach((ul) => {
+               ul.classList.add('hidden');
+            });
+
+            // open amsterdam items
             [].slice.call(newList.querySelectorAll('ul[data-concession]')).forEach((ul) => {
                 if (ul.getAttribute('data-concession') === 'amsterdam') {
-                    // console.log('raar');
+
                     self._toggleConcession(ul,'amsterdam');
                 }
             });
@@ -306,6 +382,8 @@ class Map {
         });
 
         activeOriginItem.classList.add('active');
+
+        self._listEventHandlers();
 
         // let ul = document.createElement('ul');
         //
@@ -349,6 +427,17 @@ class Map {
         self.session.destination = destination;
         self.session.route = self.session.origin + '_' + destination;
         self.session.routeName = self.session.routeName + ' naar ' + self._getPointName(destination);
+
+        // highlight item in list
+        let list = document.querySelector('#origin-list');
+        [].slice.call(list.querySelectorAll('li[data-origin-id]')).forEach((li) => {
+            if(li.classList.contains('active')) {
+                li.classList.remove('active')
+            }
+            if (li.getAttribute('data-origin-id') === self.session.destination) {
+                li.classList.add('active');
+            }
+        });
 
         // hier status van origins aanpassen
         self.config.origins.features.forEach( function(d) {
@@ -397,6 +486,8 @@ class Map {
 
             self._setRouteInfo(self.session.data.routes);
 
+
+
             self.session.data.routes.forEach( (r) => {
 
                 let incarnation = r[0].properties.routeId.split('_')[2];
@@ -409,6 +500,7 @@ class Map {
                 }
 
                 if (self._map.getSource('routes-' + incarnation) === undefined) {
+
                     self._map.addSource('routes-' + incarnation, {
                         "type": "geojson",
                         "data": route
@@ -417,11 +509,15 @@ class Map {
                         self._lines.drawOldLayers();
                         self._lines.drawNewLayers();
                         self._points.drawTransfers(self.session.route);
+
                         self._switchRouteBlockColor();
                         self._switchRouteLayers(self.session.route);
                     },200);
 
                 } else {
+                    self._points.drawTransfers(self.session.route);
+                    self._switchRouteBlockColor();
+                    self._switchRouteLayers(self.session.route);
                     self._map.getSource('routes-' + incarnation).setData(route);
                 }
             });
@@ -430,6 +526,10 @@ class Map {
 
             console.log('routes object is leeg');
             console.log(self.session);
+        }
+
+        if (window.innerWidth <= 1024) {
+            self._toggleSidebar();
         }
 
         setTimeout( function(){
@@ -465,12 +565,15 @@ class Map {
                     <label class="switch">
                         <input id="route-switch" type="checkbox">
                         <span class="slider round"></span>
-                        <span class="label checked">Nieuwe reis</span>
-                        <span class="label unchecked">Huidige reis</span>
+                        <span class="label checked">Nieuwe route</span>
+                        <span class="label unchecked">Huidige route</span>
                     </label>
         `;
 
-        knob.addEventListener("click",function(e) { self._routeSwitch(this,e) },false);
+
+        // knob.addEventListener("click",function(e) { self._routeSwitch(this,e) },false);
+
+        knob.addEventListener("click",function(e) { self._routeSwitch(this,e,true) },false);
 
         let ul = document.createElement('ul');
 
@@ -517,7 +620,7 @@ class Map {
             }
 
             let li = document.createElement('li');
-            li.addEventListener("click",function() { self._routeSwitch(this) },false);
+            li.addEventListener("click",function(e) { self._routeSwitch(this,e,false) },false);
             let input = document.createElement('input');
             input.type = "checkbox";
             input.name = route[0].properties.routeId;
@@ -527,7 +630,7 @@ class Map {
             label.innerHTML = q;
             li.appendChild(label);
             let segmentList = document.createElement('ul');
-                route.forEach ((traject) => {
+                route.forEach ((traject,idx, array) => {
 
                 if(traject.geometry.type === 'LineString') {
 
@@ -543,35 +646,36 @@ class Map {
                     if(traject.properties.transport_type === 'bus') {
 
                         icon = `
-                            <svg width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <polygon id="Path" fill="#FFFFFF" points="5.832 28.416 5.832 31.232 2.312 31.232 2.312 28.416 0.968 28.416 0.2 20.672 1.288 1.856 2.632 0.448 23.112 0.448 24.456 1.856 25.544 20.672 24.776 28.416 23.432 28.416 23.432 31.232 19.912 31.232 19.912 28.416"></polygon>
-                                <polygon id="Path" fill="#000000" points="2.888 4.864 22.856 4.864 22.856 2.304 2.888 2.304"></polygon>
-                                <path d="M2.312,23.296 C2.312,24.32 3.08,25.088 4.04,25.088 C5,25.088 5.832,24.32 5.832,23.296 C5.832,22.336 5,21.568 4.04,21.568 C3.08,21.568 2.312,22.336 2.312,23.296 Z" id="Path" fill="#000000"></path>
-                                <path d="M19.912,23.296 C19.912,24.32 20.744,25.088 21.704,25.088 C22.664,25.088 23.432,24.32 23.432,23.296 C23.432,22.336 22.664,21.568 21.704,21.568 C20.744,21.568 19.912,22.336 19.912,23.296 Z" id="Path" fill="#000000"></path>
-                                <polygon id="Path" fill="#000000" points="3.656 18.048 22.088 18.048 22.856 6.464 2.888 6.464"></polygon>
+
+                            <svg class="icon-bus" width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <polygon id="Path" fill="black" points="5.832 28.416 5.832 31.232 2.312 31.232 2.312 28.416 0.968 28.416 0.2 20.672 1.288 1.856 2.632 0.448 23.112 0.448 24.456 1.856 25.544 20.672 24.776 28.416 23.432 28.416 23.432 31.232 19.912 31.232 19.912 28.416"></polygon>
+                                <polygon id="Path" fill="white" points="2.888 4.864 22.856 4.864 22.856 2.304 2.888 2.304"></polygon>
+                                <path d="M2.312,23.296 C2.312,24.32 3.08,25.088 4.04,25.088 C5,25.088 5.832,24.32 5.832,23.296 C5.832,22.336 5,21.568 4.04,21.568 C3.08,21.568 2.312,22.336 2.312,23.296 Z" id="Path" fill="white"></path>
+                                <path d="M19.912,23.296 C19.912,24.32 20.744,25.088 21.704,25.088 C22.664,25.088 23.432,24.32 23.432,23.296 C23.432,22.336 22.664,21.568 21.704,21.568 C20.744,21.568 19.912,22.336 19.912,23.296 Z" id="Path" fill="white"></path>
+                                <polygon id="Path" fill="white" points="3.656 18.048 22.088 18.048 22.856 6.464 2.888 6.464"></polygon>
                             </svg> 
                         `;
                     } else if (traject.properties.transport_type === 'metro') {
 
-                        icon = `<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <polygon id="Path" fill="#fff" points="7.208 0.232 27.048 0.232 28.136 1.384 28.136 21.352 26.024 23.4 8.104 23.4 5.992 21.352 5.992 1.384"></polygon>
-                            <path d="M7.016,19.112 C7.016,20.008 7.72,20.712 8.616,20.712 C9.512,20.712 10.216,20.008 10.216,19.112 C10.216,18.216 9.512,17.512 8.616,17.512 C7.72,17.512 7.016,18.216 7.016,19.112 Z" id="Path" fill="#000"></path>
-                            <polygon id="Path" fill="#fff" points="29.864 33.32 22.248 25.128 23.592 25.128 33.768 33.32"></polygon>
-                            <polygon id="Path" fill="#fff" points="12.328 25.128 4.776 33.32 0.872 33.32 11.048 25.128"></polygon>
-                            <path d="M23.528,19.112 C23.528,20.008 24.296,20.712 25.192,20.712 C26.024,20.712 26.792,20.008 26.792,19.112 C26.792,18.216 26.024,17.512 25.192,17.512 C24.296,17.512 23.528,18.216 23.528,19.112 Z" id="Path" fill="#000"></path>
-                            <polygon id="Path" fill="#000" points="13.352 6.504 13.352 14.696 26.792 14.696 26.792 6.504"></polygon>
-                            <polygon id="Path" fill="#000" points="7.464 1.64 7.464 5.352 12.328 5.352 12.328 1.64"></polygon>
+                        icon = `<svg class="icon-metro" width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <polygon id="Path" fill="black" points="7.208 0.232 27.048 0.232 28.136 1.384 28.136 21.352 26.024 23.4 8.104 23.4 5.992 21.352 5.992 1.384"></polygon>
+                            <path d="M7.016,19.112 C7.016,20.008 7.72,20.712 8.616,20.712 C9.512,20.712 10.216,20.008 10.216,19.112 C10.216,18.216 9.512,17.512 8.616,17.512 C7.72,17.512 7.016,18.216 7.016,19.112 Z" id="Path" fill="white"></path>
+                            <polygon id="Path" fill="black" points="29.864 33.32 22.248 25.128 23.592 25.128 33.768 33.32"></polygon>
+                            <polygon id="Path" fill="black" points="12.328 25.128 4.776 33.32 0.872 33.32 11.048 25.128"></polygon>
+                            <path d="M23.528,19.112 C23.528,20.008 24.296,20.712 25.192,20.712 C26.024,20.712 26.792,20.008 26.792,19.112 C26.792,18.216 26.024,17.512 25.192,17.512 C24.296,17.512 23.528,18.216 23.528,19.112 Z" id="Path" fill="white"></path>
+                            <polygon id="Path" fill="white" points="13.352 6.504 13.352 14.696 26.792 14.696 26.792 6.504"></polygon>
+                            <polygon id="Path" fill="white" points="7.464 1.64 7.464 5.352 12.328 5.352 12.328 1.64"></polygon>
                         </svg>`;
 
 
                     } else if (traject.properties.transport_type === 'tram') {
 
-                        icon = `<svg width="19px" height="36px" viewBox="0 0 19 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <polygon id="Path" fill="#fff" points="0.976 30.904 0.976 8.184 5.776 8.184 5.776 4.344 14.16 4.344 14.16 8.184 18.96 8.184 18.96 30.904 16.272 33.592 16.272 35.896 14.928 35.832 14.928 33.592 5.008 33.592 5.008 35.832 3.6 35.896 3.6 33.592"></polygon>
-                            <polygon id="Path" fill="#000" points="17.04 11.192 2.896 11.192 4.56 24.184 15.376 24.184"></polygon>
+                        icon = `<svg class="icon-tram" width="19px" height="36px" viewBox="0 0 19 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <polygon id="Path" fill="black" points="0.976 30.904 0.976 8.184 5.776 8.184 5.776 4.344 14.16 4.344 14.16 8.184 18.96 8.184 18.96 30.904 16.272 33.592 16.272 35.896 14.928 35.832 14.928 33.592 5.008 33.592 5.008 35.832 3.6 35.896 3.6 33.592"></polygon>
+                            <polygon id="Path" fill="white" points="17.04 11.192 2.896 11.192 4.56 24.184 15.376 24.184"></polygon>
                             <path d="M8.4,28.152 C8.4,28.984 9.104,29.688 9.936,29.688 C10.832,29.688 11.536,28.984 11.536,28.152 C11.536,27.256 10.832,26.616 9.936,26.616 C9.104,26.616 8.4,27.256 8.4,28.152 Z" id="Path" fill="#000"></path>
-                            <polygon id="Path" fill="#000" points="7.12 9.592 12.752 9.592 12.752 5.688 7.12 5.688"></polygon>
-                            <polygon id="Path" fill="#fff" points="2.384 2.04 2.384 0.76 17.552 0.76 17.552 2.04"></polygon>
+                            <polygon id="Path" fill="white" points="7.12 9.592 12.752 9.592 12.752 5.688 7.12 5.688"></polygon>
+                            <polygon id="Path" fill="black" points="2.384 2.04 2.384 0.76 17.552 0.76 17.552 2.04"></polygon>
                         </svg>`;
 
 
@@ -579,24 +683,47 @@ class Map {
 
 
                         icon = `
-                            <svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg class="icon-walk" width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <path d="M5.112,9.976 C5.112,9.144 5.816,8.376 6.712,8.376 C7.608,8.376 8.312,9.144 8.312,9.976 C8.312,10.872 7.608,11.576 6.712,11.576 C5.816,11.576 5.112,10.872 5.112,9.976 Z" id="Path"></path>
                                 <polygon id="Path" points="29.496 7.416 32.76 13.304 37.752 17.336 36.664 19.384 30.648 15.672 29.496 13.432 29.496 18.232 32.568 24.248 34.488 35.064 31.288 35.832 29.24 26.488 26.808 22.456 23.928 28.28 19.256 34.168 17.08 32.184 21.176 25.592 23.736 18.04 23.736 11.704 21.048 14.328 18.424 19.128 16.44 17.976 19.256 11.896 23.736 7.416"></polygon>
                                 <path d="M23.928,3.448 C23.928,1.976 25.144,0.76 26.616,0.76 C28.088,0.76 29.304,1.976 29.304,3.448 C29.304,4.92 28.088,6.072 26.616,6.072 C25.144,6.072 23.928,4.92 23.928,3.448 Z" id="Path"></path>
                                 <polygon id="Path" points="4.984 12.408 8.44 12.408 11.128 15.096 12.856 18.744 11.64 19.384 10.104 16.568 8.44 14.968 8.44 18.744 9.976 23.288 12.472 27.256 11.128 28.408 8.376 24.952 6.648 21.432 5.112 23.864 3.896 29.432 1.976 28.984 3.192 22.456 4.984 18.872 4.984 15.992 4.28 17.336 0.696 19.576 0.056 18.36 3.064 15.928"></polygon>
-                            </svg>`;
+                            </svg>
+                            `;
 
 
                     }
 
+
+
                     let segment = document.createElement('li');
-                    let segmentContent = icon + '<div><span>' + traject.properties.transport_type
-                        + '</span> <span>' + nrs
-                        + '</span><span> : </span><span>' + traject.properties.start_naam
-                        + '</span><span> - </span></span><span>' + traject.properties.end_naam
+                    let segmentContent = icon + '<div class="' + traject.properties.transport_type + '"><span class="halte"></span><div class="start">' + traject.properties.start_naam
+                        + '</div><span class="modaliteit">' + traject.properties.transport_type + ' ' + nrs
                         + '</span></div>';
+
+
+
+
                     segment.innerHTML = segmentContent;
+
                     segmentList.appendChild(segment);
+
+                    if (idx === array.length - 1){
+
+                        let destination = document.createElement('div');
+                        destination.classList.add('destination_halte');
+
+                        let destinationHalte = document.createElement('span');
+                        destinationHalte.classList.add('halte');
+
+                        destination.appendChild(destinationHalte);
+                        let destinationName = document.createElement('span');
+                        destinationName.classList.add('haltenaam');
+                        destinationName.innerHTML = traject.properties.end_naam;
+                        destination.appendChild(destinationName);
+                        segmentList.appendChild(destination);
+
+                    }
                 }
             });
             li.appendChild(segmentList);
@@ -612,6 +739,17 @@ class Map {
         self._routeBlock.appendChild(header);
         self._routeBlock.appendChild(knob);
         self._routeBlock.appendChild(ul);
+
+        let checkbox = document.getElementById('route-switch');
+        if (self.session.incarnation === 'new') {
+            checkbox.checked = true;
+        }
+
+        if(window.innerWidth < 700) {
+
+            console.log('bdkuede');
+            document.getElementById('routes').classList.add('hidden');
+        }
 
     }
 
@@ -631,11 +769,23 @@ class Map {
 
         self = this;
         if(self.session.incarnation === 'old') {
-            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = pink;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = lightpink;
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = grey;
         } else {
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.background = grey;
-            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = pink;
+            self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = lightpink;
+        }
+
+        if (window.innerWidth <= 1024) {
+
+            if(self.session.incarnation === 'old') {
+                self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.display = "block";
+                self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.display = "none";
+            } else {
+                self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.display = "none";
+                self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.display = "block";
+            }
+
         }
     }
 
@@ -655,6 +805,8 @@ class Map {
 
         self._map.setLayoutProperty('transfers-new', 'visibility', 'visible');
         self._map.setLayoutProperty('transfer-labels-new', 'visibility', 'visible');
+        self._map.setLayoutProperty('transfer-labels-new-info', 'visibility', 'visible');
+
         self._map.setLayoutProperty('transfers-old', 'visibility', 'none');
         self._map.setLayoutProperty('transfer-labels-old', 'visibility', 'none');
 
@@ -679,6 +831,7 @@ class Map {
 
         self._map.setLayoutProperty('transfers-new', 'visibility', 'none');
         self._map.setLayoutProperty('transfer-labels-new', 'visibility', 'none');
+        self._map.setLayoutProperty('transfer-labels-new-info', 'visibility', 'none');
         self._map.setLayoutProperty('transfers-old', 'visibility', 'visible');
         self._map.setLayoutProperty('transfer-labels-old', 'visibility', 'visible');
 
@@ -706,9 +859,37 @@ class Map {
         });
     }
 
-    _routeSwitch(el,e) {
+    _setBoundingBoxForOrigins() {
 
-        if (e.target.tagName === 'INPUT' ||e.target.tagName === 'DIV' ) {
+        let self = this;
+        let features = self._map.queryRenderedFeatures({ layers: ['origins'] });
+
+        let collection = {
+            "type": "FeatureCollection",
+            "features": features
+        }
+
+        let bbox = turf.bbox(collection);
+
+        let leftMargin = 0;
+
+        if(self.session.sidebar) {
+            leftMargin = 400;
+        } else {
+            leftMargin = 100;
+        }
+
+        self._map.fitBounds(
+            bbox, {
+                padding: {top: 100, bottom:100, left: leftMargin, right: 100},
+                linear: true
+            });
+    }
+
+    _routeSwitch(el,e,fromSwitch) {
+
+
+        if (!fromSwitch || (fromSwitch && (e.target.tagName === 'INPUT' || e.target.tagName === 'DIV'))) {
 
 
             let self = this,
@@ -726,6 +907,17 @@ class Map {
             }
 
             self._switchRouteBlockColor();
+        }
+
+        if (!fromSwitch) {
+            // set switch
+            let checkbox = document.getElementById('route-switch');
+            if(checkbox.checked) {
+                checkbox.checked = false;
+            } else {
+                console.log('no');
+                checkbox.checked = true;
+            }
         }
     }
 
@@ -790,5 +982,34 @@ class Map {
             return p.properties.originId === id;
         });
         return point.properties.naam;
+    }
+
+    _toggleSidebar() {
+
+        let self = this;
+        if (self._sidebar.classList.contains('open')) {
+            self.session.sidebar = false;
+            self._sidebar.classList.remove('open');
+        } else {
+            self.session.sidebar = true;
+            self._sidebar.classList.add('open');
+        }
+
+        self._setBoundingBoxForOrigins();
+
+    }
+
+    _toggleDisclaimer() {
+
+        let self = this;
+        if (self._disclaimerBlock.classList.contains('hidden')) {
+            self.session.disclaimer = true;
+            self._disclaimerBlock.classList.remove('hidden');
+        } else {
+            self.session.disclaimer = false;
+            self._disclaimerBlock.classList.add('hidden');
+        }
+
+        self._toggleSidebar();
     }
 }
