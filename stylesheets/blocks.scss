@@ -36,7 +36,7 @@
 #routes {
   position: absolute;
   z-index: 20;
-  bottom: 2rem;
+  top: 0rem;
   right: 2rem;
 
   width: 16rem;
@@ -47,18 +47,19 @@
 
   &.hidden {
 
-    bottom: auto;
+
     top: calc(100vh - 6rem);
   }
 
   h3 {
     margin: 0;
-    background: $grey;
+    background: white;
     font-family: "Avenir Heavy";
     color: black; // $yellow;
     text-transform: uppercase;
     font-size: 1rem;
     padding: 1rem;
+    margin-bottom: 1rem;
   }
 
   ul {
@@ -67,12 +68,18 @@
     li {
       position: relative;
       padding: 1rem;
+      border: 2px solid #fff;
+
+      &:last-of-type {
+        border-top: none;
+      }
 
       ul {
         margin: 1rem 0 2rem 0;
 
         li {
           padding: 0 1.5rem 0 1rem;
+          border: none;
         }
       }
 
@@ -190,9 +197,12 @@
 
 #route-select {
 
-  background : white;
+  //background : white;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  height: 4rem;
+  background: #fff;
+  //margin-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 34px;
 }

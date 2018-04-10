@@ -26,6 +26,8 @@ class Lines {
 
     drawOldLayers(routesId) {
 
+        console.log('once or twice?')
+
         let self = this;
 
         self._map.addLayer({

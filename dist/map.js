@@ -141,6 +141,8 @@ var Lines = function () {
 
     Lines.prototype.drawOldLayers = function drawOldLayers(routesId) {
 
+        console.log('once or twice?');
+
         var self = this;
 
         self._map.addLayer({
@@ -1454,7 +1456,7 @@ var Map = function () {
 
             self._setRouteInfo(self.session.data.routes);
 
-            self.session.data.routes.forEach(function (r) {
+            self.session.data.routes.forEach(function (r, i) {
 
                 var incarnation = r[0].properties.routeId.split('_')[2];
 
@@ -1472,8 +1474,12 @@ var Map = function () {
                         "data": route
                     });
                     setTimeout(function () {
-                        self._lines.drawOldLayers();
-                        self._lines.drawNewLayers();
+
+                        // alleen de eerste keer
+                        if (i === 0) {
+                            self._lines.drawOldLayers();
+                            self._lines.drawNewLayers();
+                        }
                         self._points.drawTransfers(self.session.route);
 
                         self._switchRouteBlockColor();
@@ -1492,7 +1498,7 @@ var Map = function () {
             console.log(self.session);
         }
 
-        if (window.innerWidth <= 1024) {
+        if (window.innerWidth <= 1400) {
             self._toggleSidebar();
         }
 
@@ -1522,7 +1528,7 @@ var Map = function () {
         var knob = document.createElement('div');
         knob.id = "route-select";
 
-        knob.innerHTML = "\n                    <label class=\"switch\">\n                        <input id=\"route-switch\" type=\"checkbox\">\n                        <span class=\"slider round\"></span>\n                        <span class=\"label checked\">Nieuwe route</span>\n                        <span class=\"label unchecked\">Huidige route</span>\n                    </label>\n        ";
+        knob.innerHTML = "\n                    <label class=\"switch\">\n                        <input id=\"route-switch\" type=\"checkbox\">\n                        <span class=\"slider round\"></span>\n                        <span class=\"label checked\">Toon nieuwe route</span>\n                        <span class=\"label unchecked\">Toon oude route</span>\n                    </label>\n        ";
 
         // knob.addEventListener("click",function(e) { self._routeSwitch(this,e) },false);
 
@@ -1643,8 +1649,9 @@ var Map = function () {
             routeIds.push(route[0].properties.routeId);
         });
 
-        self._routeBlock.appendChild(header);
         self._routeBlock.appendChild(knob);
+        self._routeBlock.appendChild(header);
+
         self._routeBlock.appendChild(ul);
 
         var checkbox = document.getElementById('route-switch');
@@ -1653,8 +1660,6 @@ var Map = function () {
         }
 
         if (window.innerWidth < 700) {
-
-            console.log('bdkuede');
             document.getElementById('routes').classList.add('hidden');
         }
     };
@@ -1682,7 +1687,7 @@ var Map = function () {
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = lightpink;
         }
 
-        if (window.innerWidth <= 1024) {
+        if (window.innerWidth <= 1400) {
 
             if (self.session.incarnation === 'old') {
                 self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.display = "block";
@@ -1866,14 +1871,17 @@ var Map = function () {
         };
         this._listContainer.innerHTML = '';
 
+        console.log('jhiiie');
+
         // remove previous route layers
         self._map.getStyle().layers.forEach(function (l) {
-            if (l.id.indexOf('route-') > -1 || l.id.indexOf('origin') > -1 || l.id.indexOf('destination') > -1) {
-                self._map.removeLayer(l.id);
+            console.log(l.id);
+            if (l.id.indexOf('route-') > -1 || l.id.indexOf('origin') > -1 || l.id.indexOf('transfer') > -1) {
+                //  self._map.removeLayer(l.id);
             }
         });
 
-        self._initMap();
+        // self._initMap();
     };
 
     Map.prototype._getPointName = function _getPointName(id) {

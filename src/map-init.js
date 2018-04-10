@@ -488,7 +488,7 @@ class Map {
 
 
 
-            self.session.data.routes.forEach( (r) => {
+            self.session.data.routes.forEach( (r,i) => {
 
                 let incarnation = r[0].properties.routeId.split('_')[2];
 
@@ -506,8 +506,12 @@ class Map {
                         "data": route
                     });
                     setTimeout( function() {
-                        self._lines.drawOldLayers();
-                        self._lines.drawNewLayers();
+
+                        // alleen de eerste keer
+                        if(i === 0) {
+                            self._lines.drawOldLayers();
+                            self._lines.drawNewLayers();
+                        }
                         self._points.drawTransfers(self.session.route);
 
                         self._switchRouteBlockColor();
@@ -528,7 +532,7 @@ class Map {
             console.log(self.session);
         }
 
-        if (window.innerWidth <= 1024) {
+        if (window.innerWidth <= 1400) {
             self._toggleSidebar();
         }
 
@@ -565,8 +569,8 @@ class Map {
                     <label class="switch">
                         <input id="route-switch" type="checkbox">
                         <span class="slider round"></span>
-                        <span class="label checked">Nieuwe route</span>
-                        <span class="label unchecked">Huidige route</span>
+                        <span class="label checked">Toon nieuwe route</span>
+                        <span class="label unchecked">Toon oude route</span>
                     </label>
         `;
 
@@ -736,8 +740,9 @@ class Map {
 
         });
 
-        self._routeBlock.appendChild(header);
         self._routeBlock.appendChild(knob);
+        self._routeBlock.appendChild(header);
+
         self._routeBlock.appendChild(ul);
 
         let checkbox = document.getElementById('route-switch');
@@ -746,8 +751,6 @@ class Map {
         }
 
         if(window.innerWidth < 700) {
-
-            console.log('bdkuede');
             document.getElementById('routes').classList.add('hidden');
         }
 
@@ -776,7 +779,7 @@ class Map {
             self._routeBlock.querySelector('#route-block > ul > li:nth-child(2)').style.background = lightpink;
         }
 
-        if (window.innerWidth <= 1024) {
+        if (window.innerWidth <= 1400) {
 
             if(self.session.incarnation === 'old') {
                 self._routeBlock.querySelector('#route-block > ul > li:nth-child(1)').style.display = "block";
@@ -965,14 +968,17 @@ class Map {
         }
         this._listContainer.innerHTML = '';
 
+        console.log('jhiiie');
+
         // remove previous route layers
         self._map.getStyle().layers.forEach( (l) => {
-            if(l.id.indexOf('route-') > -1 || l.id.indexOf('origin') > -1 || l.id.indexOf('destination') > -1 ) {
-                self._map.removeLayer(l.id);
+            console.log(l.id);
+            if(l.id.indexOf('route-') > -1 || l.id.indexOf('origin') > -1 || l.id.indexOf('transfer') > -1 ) {
+               //  self._map.removeLayer(l.id);
             }
         });
 
-        self._initMap();
+        // self._initMap();
     }
 
     _getPointName(id){
