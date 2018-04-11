@@ -718,7 +718,7 @@ class Map {
 
         self._map.fitBounds(
             bbox, {
-            padding: {top: 40, bottom:40, left: 40, right: 40},
+            padding: {top: 100, bottom:100, left: 100, right: 100},
             linear: true
         });
     }
@@ -745,7 +745,7 @@ class Map {
 
         self._map.fitBounds(
             bbox, {
-                padding: {top: 40, bottom:40, left: leftMargin, right: 40},
+                padding: {top: 100, bottom:100, left: leftMargin, right: 100},
                 linear: true
             });
     }
