@@ -42,12 +42,11 @@
   }
 }
 
-
-
 #list-container {
 
   max-height: calc(100% - 7rem);
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 
   ul li {
     @include listitem;

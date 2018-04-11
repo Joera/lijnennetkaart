@@ -43,11 +43,10 @@
   height: auto;
   color: black;
   padding: 1rem;
+  transition: top 250ms ease;
 
 
   &.hidden {
-
-
     top: calc(100vh - 6rem);
   }
 

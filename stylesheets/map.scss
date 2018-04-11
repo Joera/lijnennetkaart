@@ -1,11 +1,52 @@
-#map-container {
-  position: absolute;
-  height: 100vh;
-  width: calc(100vw);
-  right: 0;
-}
+//#map-container {
+//  position: absolute;
+//  height: 100vh;
+//  width: calc(100vw);
+//  right: 0;
+//}
 
 .datavis-map {
   height: 100%;
   width: 100%;
 }
+
+#kaart {
+  width: 44vw;
+  //position: absolute;
+  //top: 4rem;
+  right: 0;
+
+  #sidebar, #routes { display: none; }
+
+  &.open {
+
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+
+    #sidebar, #routes {
+      display: block;
+    }
+
+    #map-introduction {
+      display: none;
+    }
+  }
+}
+
+#map-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  // width: calc(100vw - 24rem);
+  right: 0;
+
+}
+
+.mapboxgl-ctrl-top-left, .mapboxgl-ctrl-top-right, .mapboxgl-ctrl-bottom-left, .mapboxgl-ctrl-bottom-right {
+
+  display: none;
+}
+

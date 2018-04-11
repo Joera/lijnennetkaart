@@ -1,12 +1,22 @@
 #disclaimer {
 
-  position: fixed;
-  width: 600px;
-  top: 4em;
-  left: calc(50vw - 300px);
-  background: white;
-  min-height: 200px;
-  padding: 2rem;
+
+    position: fixed;
+    top: 4em;
+    width: calc(100vw - 4rem);
+    left: 1rem;
+    padding: 1rem;
+    background: white;
+    min-height: 200px;
+
+
+  @media (min-width: 800px ) {
+
+    width: 600px;
+    left: calc(50vw - 300px);
+    padding: 2rem;
+
+  }
 
   &.hidden {
     display: none;

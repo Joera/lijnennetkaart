@@ -51,6 +51,8 @@ class Map {
         this._routeBlock = document.getElementById('route-block');
         this._newOrigin = document.getElementById('new-origin');
         this._disclaimerBlock = document.getElementById('disclaimer');
+        this._introduction = document.getElementById('map-introduction');
+
 
         // this._newDestination = document.getElementById('new-destination');
 
@@ -431,7 +433,8 @@ class Map {
         // add selected destination to session
         self.session.destination = destination;
         self.session.route = self.session.origin + '_' + destination;
-        self.session.routeName = self.session.routeName + ' naar ' + self._getPointName(destination);
+        console.log('hdhdhdd');
+        self.session.routeName = self._getPointName(self.session.origin) + ' naar ' + self._getPointName(destination);
 
         // highlight item in list
         let list = document.querySelector('#origin-list');
@@ -701,7 +704,7 @@ class Map {
                             let destinationName = document.createElement('span');
                             destinationName.classList.add('haltenaam');
                             destinationName.innerHTML = traject.properties.end_naam;
-                            console.log(destinationName);
+
                             destination.appendChild(destinationName);
                             segmentList.appendChild(destination);
 
@@ -728,8 +731,10 @@ class Map {
             checkbox.checked = true;
         }
 
-        if(window.innerWidth < 700) {
-            document.getElementById('routes').classList.add('hidden');
+        if(window.innerWidth < 800) {
+            let routesBlock = document.getElementById('routes');
+            routesBlock.classList.add('hidden');
+            routesBlock.addEventListener("click", function (e) { self._toggleRouteBlock(routesBlock); }, false);
         }
 
     }
@@ -993,5 +998,15 @@ class Map {
         }
 
         self._toggleSidebar();
+    }
+
+    _toggleRouteBlock(routesBlock) {
+
+        let self = this;
+        if (routesBlock.classList.contains('hidden')) {
+            routesBlock.classList.remove('hidden');
+        } else {
+            routesBlock.classList.add('hidden');
+        }
     }
 }

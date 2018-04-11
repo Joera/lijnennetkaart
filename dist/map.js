@@ -1031,6 +1031,7 @@ var Map = function () {
         this._routeBlock = document.getElementById('route-block');
         this._newOrigin = document.getElementById('new-origin');
         this._disclaimerBlock = document.getElementById('disclaimer');
+        this._introduction = document.getElementById('map-introduction');
 
         // this._newDestination = document.getElementById('new-destination');
     }
@@ -1403,7 +1404,8 @@ var Map = function () {
         // add selected destination to session
         self.session.destination = destination;
         self.session.route = self.session.origin + '_' + destination;
-        self.session.routeName = self.session.routeName + ' naar ' + self._getPointName(destination);
+        console.log('hdhdhdd');
+        self.session.routeName = self._getPointName(self.session.origin) + ' naar ' + self._getPointName(destination);
 
         // highlight item in list
         var list = document.querySelector('#origin-list');
@@ -1527,7 +1529,7 @@ var Map = function () {
         var knob = document.createElement('div');
         knob.id = "route-select";
 
-        knob.innerHTML = "\n                    <label class=\"switch\">\n                        <input id=\"route-switch\" type=\"checkbox\">\n                        <span class=\"slider round\"></span>\n                        <span class=\"label checked\">Toon nieuwe route</span>\n                        <span class=\"label unchecked\">Toon oude route</span>\n                    </label>\n        ";
+        knob.innerHTML = "\n                    <label class=\"switch\">\n                        <input id=\"route-switch\" type=\"checkbox\">\n                        <span class=\"slider round\"></span>\n                        <span class=\"label checked\">Toon oude route</span>\n                        <span class=\"label unchecked\">Toon nieuwe route</span>\n                    </label>\n        ";
 
         knob.addEventListener("click", function (e) {
             self._routeSwitch(this, e, true);
@@ -1616,7 +1618,7 @@ var Map = function () {
                         var destinationName = document.createElement('span');
                         destinationName.classList.add('haltenaam');
                         destinationName.innerHTML = traject.properties.end_naam;
-                        console.log(destinationName);
+
                         destination.appendChild(destinationName);
                         segmentList.appendChild(destination);
                     }
@@ -1641,8 +1643,12 @@ var Map = function () {
             checkbox.checked = true;
         }
 
-        if (window.innerWidth < 700) {
-            document.getElementById('routes').classList.add('hidden');
+        if (window.innerWidth < 800) {
+            var routesBlock = document.getElementById('routes');
+            routesBlock.classList.add('hidden');
+            routesBlock.addEventListener("click", function (e) {
+                self._toggleRouteBlock(routesBlock);
+            }, false);
         }
     };
 
@@ -1899,6 +1905,16 @@ var Map = function () {
         }
 
         self._toggleSidebar();
+    };
+
+    Map.prototype._toggleRouteBlock = function _toggleRouteBlock(routesBlock) {
+
+        var self = this;
+        if (routesBlock.classList.contains('hidden')) {
+            routesBlock.classList.remove('hidden');
+        } else {
+            routesBlock.classList.add('hidden');
+        }
     };
 
     return Map;
