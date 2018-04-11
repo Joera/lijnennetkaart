@@ -26,6 +26,8 @@ class Lines {
 
     drawOldLayers(routesId) {
 
+        console.log('drawing old layers');
+
         let self = this;
 
         self._map.addLayer({

@@ -141,6 +141,8 @@ var Lines = function () {
 
     Lines.prototype.drawOldLayers = function drawOldLayers(routesId) {
 
+        console.log('drawing old layers');
+
         var self = this;
 
         self._map.addLayer({
@@ -1005,24 +1007,15 @@ var Map = function () {
             scrollZoom: false
         };
 
-        this.session = {
-            incarnation: 'old',
-            origin: null,
-            destination: null,
-            data: {},
-            route: null,
-            routeName: '',
-            sidebar: false,
-            disclaimer: true
+        this._initSession();
 
-            //data from argument in footer scripts (datasets)
-        };if (data) {
-            this.config.origins = JSON.parse(data);
+        //data from argument in footer scripts (datasets)
+        if (data) {
+            this.originalOrigins = JSON.parse(data);
+            this.config.origins = JSON.parse(JSON.stringify(this.originalOrigins));
         } else {
             this.config.origins = {};
         }
-
-        this.config.origins = JSON.parse(data);
 
         this._callToAction = document.getElementById('call-to-action');
         this._sidebar = document.getElementById('sidebar');
@@ -1032,8 +1025,6 @@ var Map = function () {
         this._newOrigin = document.getElementById('new-origin');
         this._disclaimerBlock = document.getElementById('disclaimer');
         this._introduction = document.getElementById('map-introduction');
-
-        // this._newDestination = document.getElementById('new-destination');
     }
 
     Map.prototype.init = function init() {
@@ -1043,7 +1034,6 @@ var Map = function () {
         var mapWebGL = new MapWebGL(self.config);
         self._map = mapWebGL.create();
 
-        // self._background = new Background(self._map, self.config);
         self._origin = new Origin(self._map, self.config);
         self._points = new Points(self._map, self.config);
         self._lines = new Lines(self._map, self.config);
@@ -1068,6 +1058,21 @@ var Map = function () {
         self._disclaimerBlock.addEventListener("click", function (el) {
             self._toggleDisclaimer();
         }, false);
+    };
+
+    Map.prototype._initSession = function _initSession() {
+
+        this.session = {
+            incarnation: 'old',
+            origin: null,
+            destination: null,
+            data: {},
+            route: null,
+            routeName: '',
+            sidebar: false,
+            disclaimer: true,
+            repeat: false
+        };
     };
 
     Map.prototype._listEventHandlers = function _listEventHandlers() {
@@ -1119,7 +1124,7 @@ var Map = function () {
     Map.prototype._adaptOriginList = function _adaptOriginList() {
 
         var self = this;
-        self._callToAction.innerHTML = "\n\n            <h2><span>Kies</span> een <span>startpunt</span></h2>\n            <span>uit de lijst of klik op een punt op de kaart</span>\n\n        ";
+        self._callToAction.innerHTML = "\n            <h2><span>Kies</span> een <span>startpunt</span></h2>\n            <span>uit de lijst of klik op een punt op de kaart</span>\n        ";
 
         var listItems = [].slice.call(self._listContainer.querySelectorAll('li'));
 
@@ -1169,16 +1174,14 @@ var Map = function () {
     Map.prototype._purgeOrigins = function _purgeOrigins() {
 
         self = this;
-
         self.config.origins.features = self.config.origins.features.filter(function (f) {
-
             return f.property.availabe_as_destination === true;
         });
-
         this._map.getSource('origins').setData(self.config.origins);
     };
 
     Map.prototype._selectOrigin = function _selectOrigin(originId, filename) {
+
         var self = this;
 
         if (self.session.origin === null) {
@@ -1187,11 +1190,6 @@ var Map = function () {
             self.session.routeName = self._getPointName(originId);
 
             self.config.origins.features.forEach(function (d) {
-                // if(d.properties.state === 'origin') {
-                //     d.properties.state = 'inactive';
-                // } else if (d.properties.id === id) {
-                //     d.properties.state = 'highlighted';
-                // }
                 d.properties.state = 'inactive';
                 if (d.properties.originId === originId) {
                     d.properties.state = 'origin';
@@ -1199,7 +1197,6 @@ var Map = function () {
             });
             this._map.getSource('origins').setData(self.config.origins);
 
-            // let url = 'http://localhost:9876/api/route/' + originId;
             var url = 'http://lijnennetkaart.speldtenhooijbergh.nl/api/route/' + originId;
 
             axios.get(url).then(function (response) {
@@ -1224,59 +1221,12 @@ var Map = function () {
 
         this._map.getSource('origins').setData(self.config.origins);
 
-        // self._map.getStyle().layers.forEach( (l) => {
-        //
-        //     if(l.id.indexOf('origin') > -1 ) {
-        //         self._map.removeLayer(l.id);
-        //     }
-        // });
-
-        // self._points.drawOrigins();
         self._adaptOriginList();
 
-        // self._map.on("mouseover", "origins", function (e) {
-        //     self._highlightOrigin(e.features[0].properties.originId);
-        // });
-        // self._map.on("mouseout", "origins", function (e) {
-        //     self._unhighlightOrigin();
-        // });
         self._map.on("click", "origins", function (e) {
             self._initRoute(e.features[0].properties.originId);
         });
-        // self._map.on("click", "origin-labels", function (e) {
-        //     console.log(e);
-        //     //self._initRoute(originId);
-        // });
     };
-
-    // _highlightDestination(id) {
-    //
-    //     let self = this;
-    //     self.session.data.destinations.features.forEach( function(d) {
-    //         if(d.properties.state === 'highlighted') {
-    //             d.properties.state = 'inactive';
-    //         } else if (d.properties.id === id) {
-    //             d.properties.state = 'highlighted';
-    //         }
-    //     });
-    //     this._map.getSource('destinations').setData(self.session.data.destinations);
-    // }
-
-    // _unhighlightDestination() {
-    //
-    //     let self = this;
-    //     self.session.data.destinations.features.forEach( function(d) {
-    //         if(d.properties.state === 'highlighted') {
-    //             d.properties.state = 'inactive';
-    //         }
-    //     });
-    //     this._map.getSource('destinations').setData(self.session.data.destinations);
-    // }
-    //
-    // _activateDestination(id) {
-    //
-    //
-    // }
 
     Map.prototype._destinationList = function _destinationList() {
 
@@ -1285,21 +1235,12 @@ var Map = function () {
         self._callToAction.innerHTML = "\n                <h2><span>Kies</span> een <span>bestemming</span></h2>\n                <span>uit de lijst of klik op een punt op de kaart</span>\n            ";
 
         // wissel oude lijst met nieuwe lijst (zonder event handlers)
-        var list = self._listContainer.querySelector('#origin-list');
-        var newList = list.cloneNode(true);
-
-        // if(['13412','13663','13431','13527','13378','36003','35250','41783','34294','10220','37224'].indexOf(self.session.origin) > -1 ) {
-        //
-        //     // [].slice.call(newList.querySelectorAll('ul.buiten-amsterdam li')).forEach((li) => {
-        //     //     li.classList.add('hidden');
-        //     // });
-        // }
-        // console.log(self._listContainer);
-        // self._listContainer.removeChild(list);
+        self._list = self._listContainer.querySelector('#origin-list');
+        var newList = self._list.cloneNode(true);
 
         self._listContainer.appendChild(newList);
 
-        var originalOriginItem = [].slice.call(list.querySelectorAll('li[data-origin-id]')).find(function (li) {
+        var originalOriginItem = [].slice.call(self._list.querySelectorAll('li[data-origin-id]')).find(function (li) {
             return li.getAttribute('data-origin-id') === self.session.origin;
         });
 
@@ -1310,7 +1251,7 @@ var Map = function () {
         selectionList.id = "selection-list";
         selectionList.appendChild(originItem);
 
-        self._listContainer.removeChild(list);
+        self._listContainer.removeChild(self._list);
         self._listContainer.appendChild(selectionList);
         self._listContainer.appendChild(newList);
 
@@ -1321,16 +1262,12 @@ var Map = function () {
             [].slice.call(newList.querySelectorAll('ul.buiten-amsterdam')).forEach(function (ul) {
                 ul.classList.add('hidden');
             });
-
             // open amsterdam items
             [].slice.call(newList.querySelectorAll('ul[data-concession]')).forEach(function (ul) {
                 if (ul.getAttribute('data-concession') === 'amsterdam') {
-
                     self._toggleConcession(ul, 'amsterdam');
                 }
             });
-
-            //
         }
 
         // nieuwe event handlers)
@@ -1353,58 +1290,21 @@ var Map = function () {
         });
 
         var activeOriginItem = listItems.find(function (li) {
-
-            // console.log(li.getAttribute('data-origin-id'));
             return li.getAttribute('data-origin-id') == self.session.origin;
         });
 
         activeOriginItem.classList.add('active');
 
         self._listEventHandlers();
-
-        // let ul = document.createElement('ul');
-        //
-        // self.session.data.destinations.features.sort(function(a,b) {
-        //     return (a.properties.naam > b.properties.naam) ? 1 : ((b.properties.naam > a.properties.naam) ? -1 : 0);
-        // });
-        //
-        // self.session.data.destinations.features.forEach( (o) => {
-        //
-        //     let li = document.createElement('li');
-        //     li.innerHTML = o.properties.naam;
-        //     li.addEventListener('mouseover', function () {
-        //         self._highlightDestination(o.properties.id);
-        //     }, false);
-        //     li.addEventListener('mouseout', function () {
-        //         self._unhighlightDestination();
-        //     }, false);
-        //     li.addEventListener('click', function () {
-        //         self._initRoute(o.properties.id);
-        //     }, false);
-        //
-        //     ul.appendChild(li);
-        // });
-        //
-        // self._listContainer.appendChild(ul);
     };
 
     Map.prototype._initRoute = function _initRoute(destination) {
 
-        console.log(destination);
-
         var self = this;
-
-        // remove previous route layers
-        // self._map.getStyle().layers.forEach( (l) => {
-        //     if(l.id.indexOf('route-') > -1 || l.id.indexOf('transfer') > -1) {
-        //         self._map.removeLayer(l.id);
-        //     }
-        // });
 
         // add selected destination to session
         self.session.destination = destination;
         self.session.route = self.session.origin + '_' + destination;
-        console.log('hdhdhdd');
         self.session.routeName = self._getPointName(self.session.origin) + ' naar ' + self._getPointName(destination);
 
         // highlight item in list
@@ -1425,22 +1325,16 @@ var Map = function () {
                 d.properties.state = 'muted';
             }
             if (d.properties.originId === destination) {
-                // console.log(d.properties);
                 d.properties.state = 'destination';
             }
         });
         self._map.getSource('origins').setData(self.config.origins);
-
-        // self._activateDestination(destination);
 
         var newRoute = [];
         var oldRoute = [];
 
         // verdeel trajecten over object met nieuwe en oude route
         self.session.data.originData.forEach(function (traject) {
-
-            // origin = 13412
-            // destination = 15569
 
             if (traject.properties.routeId.split('_')[0] === self.session.origin && traject.properties.routeId.split('_')[1] === destination ||
             // voor reversed route
@@ -1478,17 +1372,26 @@ var Map = function () {
                     setTimeout(function () {
 
                         // alleen de eerste keer
-                        if (i === 0) {
+                        console.log(self.session.repeat);
+                        console.log(self.session.repeat);
+                        if (i === 0 && !self.session.repeat) {
+
+                            console.log('hiiieieieieieie');
                             self._lines.drawOldLayers();
                             self._lines.drawNewLayers();
+                            self._points.drawTransfers(self.session.route);
+                            self.session.repeat = true;
                         }
-                        self._points.drawTransfers(self.session.route);
-
                         self._switchRouteBlockColor();
                         self._switchRouteLayers(self.session.route);
                     }, 200);
                 } else {
-                    self._points.drawTransfers(self.session.route);
+                    if (i === 0 && !self.session.repeat) {
+                        self._lines.drawOldLayers();
+                        self._lines.drawNewLayers();
+                        self._points.drawTransfers(self.session.route);
+                        self.session.repeat = true;
+                    }
                     self._switchRouteBlockColor();
                     self._switchRouteLayers(self.session.route);
                     self._map.getSource('routes-' + incarnation).setData(route);
@@ -1601,10 +1504,7 @@ var Map = function () {
                     var segmentContent = icon + '<div class="' + traject.properties.transport_type + '"><span class="halte"></span><div class="start">' + traject.properties.start_naam + '</div><span class="modaliteit">' + traject.properties.transport_type + ' ' + nrs + '</span></div>';
 
                     segment.innerHTML = segmentContent;
-
                     segmentList.appendChild(segment);
-
-                    // console.log(traject);
 
                     if (idx === array.length - 1) {
 
@@ -1625,9 +1525,6 @@ var Map = function () {
                 }
             });
             li.appendChild(segmentList);
-            // li.addEventListener("click", function (e) {
-            //     self._toggleRoute(e,r.features[0].properties.routeId);
-            // }, false);
             ul.appendChild(li);
 
             routeIds.push(route[0].properties.routeId);
@@ -1657,7 +1554,6 @@ var Map = function () {
         self = this;
 
         if (self.session.incarnation === 'old') {
-
             self._showOld(routeId);
         } else {
             self._showNew(routeId);
@@ -1861,13 +1757,17 @@ var Map = function () {
 
         // remove previous route layers
         self._map.getStyle().layers.forEach(function (l) {
-            console.log(l.id);
-            if (l.id.indexOf('route-') > -1 || l.id.indexOf('origin') > -1 || l.id.indexOf('transfer') > -1) {
-                //  self._map.removeLayer(l.id);
+            if (l.id.indexOf('route-') > -1 || l.id.indexOf('origin') > -1 || l.id.indexOf('transfer') > -1 || l.id.indexOf('transport-mode') > -1) {
+                self._map.removeLayer(l.id);
             }
         });
 
-        // self._initMap();
+        self._initSession();
+        self.session.repeat = false;
+        self._listContainer.appendChild(self._list);
+        self.config.origins = JSON.parse(JSON.stringify(self.originalOrigins));
+        self._map.getSource('origins').setData(self.config.origins);
+        self._initMap(true);
     };
 
     Map.prototype._getPointName = function _getPointName(id) {
