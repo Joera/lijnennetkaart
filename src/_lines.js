@@ -12,8 +12,6 @@ class Lines {
         this.progress = 0; // progress = timestamp - startTime
         this.resetTime = false; // indicator of whether time reset is needed for the animation
         this.layerId = 'cjc4zc40d13wa2wqskv9bk020';
-
-        //mapbox://styles/wijnemenjemee/cjdvrcqvn6dy32smopkqhd9q3
     }
 
     init() {
@@ -48,7 +46,7 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","bus"]
             ]
-        });
+        },'origin-labels');
 
         self._map.addLayer({
             "id": 'route-tram_old',
@@ -68,7 +66,7 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","tram"]
             ]
-        });
+        },'origin-labels');
 
         self._map.addLayer({
             "id": 'route-metro_old',
@@ -89,7 +87,7 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","metro"],
             ]
-        });
+        },'origin-labels');
 
         self._map.addLayer({
             "id": 'route-train_old',
@@ -110,7 +108,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","trein"]
             ]
-        });
+        },'origin-labels');
 
 
     }
@@ -138,7 +136,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","bus"]
             ]
-        });
+        },'origin-labels');
 
 
 
@@ -161,7 +159,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","tram"]
             ]
-        });
+        },'origin-labels');
 
 
 
@@ -184,7 +182,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","metro"]
             ]
-        });
+        },'origin-labels');
 
 
 
@@ -207,7 +205,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","trein"]
             ]
-        });
+        },'origin-labels');
 
         self._map.addLayer({
             "id": "transport-mode-new",
@@ -250,7 +248,7 @@ class Lines {
             "filter": ['all',
                 ["==","isNieuw",true],
             ]
-        });
+        },'origin-labels');
 
         self._map.addLayer({
             "id": "transport-mode-old",
@@ -293,40 +291,6 @@ class Lines {
             "filter": ['all',
                 ["==","isNieuw",false],
             ]
-        });
-
-
-
-    }
-
-
-
-    _animateLine(timestamp) {
-
-        let self = this;
-
-        if (self.resetTime) {
-            // resume previous progress
-            self.startTime = performance.now() - self.progress;
-            self.resetTime = false;
-        } else {
-            self.progress = timestamp - self.startTime;
-        }
-
-        // restart if it finishes a loop
-        if (self.progress > self.speedFactor * 360) {
-            self.startTime = timestamp;
-            self.lines.features[0].geometry.coordinates = [];
-        } else {
-            var x = self.progress / self.speedFactor;
-            // draw a sine wave with some math.
-            var y = Math.sin(x * Math.PI / 90) * 40;
-            // append new coordinates to the lineString
-            self.lines.features[0].geometry.coordinates.push([x, y]);
-            // then update the map
-            self._map.getSource('lines').setData(self.lines);
-        }
-        // Request the next frame of the animation.
-        self.animation = requestAnimationFrame(self._animateLine);
+        },'origin-labels');
     }
 }

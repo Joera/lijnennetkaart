@@ -47,7 +47,7 @@ class Points {
             "filter": ['all',
                 // ["==", "function", "herkomst"],
             ]
-        }   );
+        },'route-bus_old');
 
         self._map.addLayer({
             "id": "origin-labels",
@@ -127,105 +127,6 @@ class Points {
         },'origins');
     }
 
-    // drawDestinations(filter) {
-    //
-    //     let self = this;
-    //
-    //     self._map.addLayer({
-    //         "id": "destinations",
-    //         "type": "circle",
-    //         "source": "destinations",
-    //         "paint": {
-    //             "circle-color": white,
-    //             "circle-radius": 4,
-    //             "circle-opacity": 1,
-    //             "circle-stroke-width": 4,
-    //             "circle-stroke-color": {
-    //                 property: 'state',
-    //                 type: 'categorical',
-    //                 stops: [
-    //                     ['inactive', grey],
-    //                     ['highlighted', pink],
-    //                     ['active', yellow]
-    //                 ]
-    //             },
-    //             "circle-stroke-opacity": 1,
-    //         },
-    //     });
-    //
-    //     self._map.addLayer({
-    //         "id": "destination-labels",
-    //         "type": "symbol",
-    //         "source": "destinations",
-    //         "layout": {
-    //             "visibility": "visible",
-    //             "icon-image": {
-    //                 property: 'state',
-    //                 type: 'categorical',
-    //                 stops: [
-    //                     ['inactive', ''],
-    //                     ['highlighted', 'rect_pink'],
-    //                     ['active', 'rect_yellow']
-    //                 ]
-    //             },
-    //             "icon-padding": 0,
-    //             "icon-text-fit": 'both',
-    //             "icon-text-fit-padding": [5,10,2,10],
-    //             "icon-allow-overlap": true,
-    //             "text-field": "{naam}",
-    //             "symbol-placement": "point",
-    //             "text-size": 15,
-    //             "text-anchor": "left",
-    //             "text-offset": [1.6,0],
-    //             "text-max-width": 30,
-    //             "text-font": ["Avenir LT Std 85 Heavy"],
-    //             "text-transform" : "uppercase",
-    //             "text-allow-overlap":true
-    //         },
-    //         "paint": {
-    //             'text-color': {
-    //                 property: 'state',
-    //                 type: 'categorical',
-    //                 stops: [
-    //                     ['inactive', '#fff'],
-    //                     ['highlighted', '#fff'],
-    //                     ['active', '#000']
-    //                 ]
-    //             },
-    //         },
-    //         "filter": ['all',
-    //             ["in", "state", "highlighted","active"]
-    //         ]
-    //     });
-    //
-    //     self._map.addLayer({
-    //         "id": "destination-labels-connector",
-    //         "type": "symbol",
-    //         "source": "destinations",
-    //         "layout": {
-    //
-    //             "icon-image": {
-    //                 property: 'state',
-    //                 type: 'categorical',
-    //                 stops: [
-    //                     ['inactive', ''],
-    //                     ['highlighted', 'connector_pink'],
-    //                     ['active', 'connector_yellow']
-    //                 ]
-    //             },
-    //             "icon-padding": 0,
-    //             "icon-allow-overlap": true,
-    //             "symbol-placement": "point",
-    //             "icon-size": 1,
-    //             "icon-offset": [16,0],
-    //
-    //         },
-    //         "filter": ['all',
-    //             ["in", "state", "highlighted","active"]
-    //         ]
-    //     },'destination-labels');
-    // }
-
     drawTransfers(routesId) {
 
         let self = this;
@@ -245,7 +146,7 @@ class Points {
             "filter": ['all',
                 ["==", "function", "overstap"]
             ]
-        });
+        },'route-bus_old');
 
         self._map.addLayer({
             "id": "transfers-new",
@@ -262,7 +163,7 @@ class Points {
             "filter": ['all',
                 ["==", "function", "overstap"]
             ]
-        });
+        },'route-bus_old');
 
         self._map.addLayer({
             "id": "transfer-labels-old",
@@ -292,7 +193,7 @@ class Points {
                 ["==", "function", "overstap"],
                 ["==", "isNieuw", false]
             ]
-        });
+        },'route-bus_old');
 
         self._map.addLayer({
             "id": "transfer-labels-new",
@@ -323,7 +224,7 @@ class Points {
                 ["!in", "id","99999","99999","99998","99997","99996","99995","99994","99993","99992"],
                 ["==", "isNieuw", true]
             ]
-        });
+        },'route-bus_old');
 
         self._map.addLayer({
             "id": "transfer-labels-new-info",
@@ -354,7 +255,7 @@ class Points {
                 ["in", "id","99999","99999","99998","99997","99996","99995","99994","99993","99992"],
                 ["==", "isNieuw", true]
             ]
-        });
+        },'route-bus_old');
 
         self._map.on("click", "transfer-labels-new-info", function (e) {
 
@@ -394,77 +295,5 @@ class Points {
 
             window.open(url,'_blank');
         });
-
-
-
-
-        // self._map.addLayer({
-        //     "id": "transfer-info-new",
-        //     "type": "symbol",
-        //     "source": "routes-nieuw",
-        //     "layout": {
-        //         "visibility": "visible",
-        //         "icon-image": "info",
-        //         "icon-padding": 0,
-        //         "icon-offset": [-20,-20],
-        //         "icon-allow-overlap": true,
-        //         "symbol-placement": "point",
-        //     },
-        //     "paint": {
-        //         'text-color': "#fff"
-        //     },
-        //     "filter": ['all',
-        //         ["==", "function", "overstap"],
-        //
-        //         ["==", "isNieuw", true]
-        //     ]
-        // });
-        //
-        // self._map.addLayer({
-        //     "id": "transfer-info-old",
-        //     "type": "symbol",
-        //     "source": "routes-oud",
-        //     "layout": {
-        //         "visibility": "visible",
-        //         "icon-image": "info",
-        //         "icon-padding": 0,
-        //         "icon-offset": [-20,-20],
-        //         "icon-allow-overlap": true,
-        //         "symbol-placement": "point",
-        //     },
-        //     "paint": {
-        //         'text-color': "#fff"
-        //     },
-        //     "filter": ['all',
-        //         ["==", "function", "overstap"],
-        //         ["in", "id","99999","99999","99998","99997","99996","99995","99994","99993","99992"],
-        //         ["==", "isNieuw", false]
-        //     ]
-        // });
-
     }
-
-
-        // self._map.addLayer({
-        //     "id": "labels",
-        //     "type": "symbol",
-        //     "source": "originData",
-        //     "layout": {
-        //         "text-font": ["Cabrito Semi W01 Norm E ExtraBold"],
-        //         "text-field": "{name}",
-        //         "symbol-placement": "point",
-        //         "text-size": 20,
-        //         "text-anchor": "left",
-        //         "text-offset": [1.5,0],
-        //         "text-max-width": 30
-        //     },
-        //     "paint": {
-        //         'text-color': '#ffffff'
-        //     }
-        // });
-
-
-
-
-
 }
