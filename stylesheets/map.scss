@@ -20,7 +20,7 @@
 
   &.open {
 
-    position: fixed;
+    position: absolute;
     height: 100vh;
     width: 100vw;
     top: 0;
@@ -40,13 +40,10 @@
   position: relative;
   height: 100%;
   width: 100%;
-  // width: calc(100vw - 24rem);
   right: 0;
-
 }
 
 .mapboxgl-ctrl-top-left, .mapboxgl-ctrl-top-right, .mapboxgl-ctrl-bottom-left, .mapboxgl-ctrl-bottom-right {
-
   display: none;
 }
 
