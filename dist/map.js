@@ -127,8 +127,6 @@ var Lines = function () {
         this.progress = 0; // progress = timestamp - startTime
         this.resetTime = false; // indicator of whether time reset is needed for the animation
         this.layerId = 'cjc4zc40d13wa2wqskv9bk020';
-
-        //mapbox://styles/wijnemenjemee/cjdvrcqvn6dy32smopkqhd9q3
     }
 
     Lines.prototype.init = function init() {
@@ -160,7 +158,7 @@ var Lines = function () {
                 "line-dasharray": [1, 0]
             },
             "filter": ['all', ["==", "isNieuw", false], ["==", "transport_type", "bus"]]
-        });
+        }, 'origins');
 
         self._map.addLayer({
             "id": 'route-tram_old',
@@ -177,7 +175,7 @@ var Lines = function () {
                 "line-dasharray": [.5, .5]
             },
             "filter": ['all', ["==", "isNieuw", false], ["==", "transport_type", "tram"]]
-        });
+        }, 'origins');
 
         self._map.addLayer({
             "id": 'route-metro_old',
@@ -195,7 +193,7 @@ var Lines = function () {
 
             },
             "filter": ['all', ["==", "isNieuw", false], ["==", "transport_type", "metro"]]
-        });
+        }, 'origins');
 
         self._map.addLayer({
             "id": 'route-train_old',
@@ -213,7 +211,7 @@ var Lines = function () {
 
             },
             "filter": ['all', ["==", "isNieuw", true], ["==", "transport_type", "trein"]]
-        });
+        }, 'origins');
     };
 
     Lines.prototype.drawNewLayers = function drawNewLayers(routesId) {
@@ -236,7 +234,7 @@ var Lines = function () {
 
             },
             "filter": ['all', ["==", "isNieuw", true], ["==", "transport_type", "bus"]]
-        });
+        }, 'origins');
 
         self._map.addLayer({
             "id": 'route-tram_new',
@@ -254,7 +252,7 @@ var Lines = function () {
 
             },
             "filter": ['all', ["==", "isNieuw", true], ["==", "transport_type", "tram"]]
-        });
+        }, 'origins');
 
         self._map.addLayer({
             "id": 'route-metro_new',
@@ -271,7 +269,7 @@ var Lines = function () {
                 "line-dasharray": [1, .5]
             },
             "filter": ['all', ["==", "isNieuw", true], ["==", "transport_type", "metro"]]
-        });
+        }, 'origins');
 
         self._map.addLayer({
             "id": 'route-train_new',
@@ -289,7 +287,7 @@ var Lines = function () {
 
             },
             "filter": ['all', ["==", "isNieuw", true], ["==", "transport_type", "trein"]]
-        });
+        }, 'origins');
 
         self._map.addLayer({
             "id": "transport-mode-new",
@@ -324,7 +322,7 @@ var Lines = function () {
                 "text-color": black
             },
             "filter": ['all', ["==", "isNieuw", true]]
-        });
+        }, 'origins');
 
         self._map.addLayer({
             "id": "transport-mode-old",
@@ -359,36 +357,7 @@ var Lines = function () {
                 "text-color": black
             },
             "filter": ['all', ["==", "isNieuw", false]]
-        });
-    };
-
-    Lines.prototype._animateLine = function _animateLine(timestamp) {
-
-        var self = this;
-
-        if (self.resetTime) {
-            // resume previous progress
-            self.startTime = performance.now() - self.progress;
-            self.resetTime = false;
-        } else {
-            self.progress = timestamp - self.startTime;
-        }
-
-        // restart if it finishes a loop
-        if (self.progress > self.speedFactor * 360) {
-            self.startTime = timestamp;
-            self.lines.features[0].geometry.coordinates = [];
-        } else {
-            var x = self.progress / self.speedFactor;
-            // draw a sine wave with some math.
-            var y = Math.sin(x * Math.PI / 90) * 40;
-            // append new coordinates to the lineString
-            self.lines.features[0].geometry.coordinates.push([x, y]);
-            // then update the map
-            self._map.getSource('lines').setData(self.lines);
-        }
-        // Request the next frame of the animation.
-        self.animation = requestAnimationFrame(self._animateLine);
+        }, 'origins');
     };
 
     return Lines;
@@ -669,105 +638,6 @@ var Points = function () {
         }, 'origins');
     };
 
-    // drawDestinations(filter) {
-    //
-    //     let self = this;
-    //
-    //     self._map.addLayer({
-    //         "id": "destinations",
-    //         "type": "circle",
-    //         "source": "destinations",
-    //         "paint": {
-    //             "circle-color": white,
-    //             "circle-radius": 4,
-    //             "circle-opacity": 1,
-    //             "circle-stroke-width": 4,
-    //             "circle-stroke-color": {
-    //                 property: 'state',
-    //                 type: 'categorical',
-    //                 stops: [
-    //                     ['inactive', grey],
-    //                     ['highlighted', pink],
-    //                     ['active', yellow]
-    //                 ]
-    //             },
-    //             "circle-stroke-opacity": 1,
-    //         },
-    //     });
-    //
-    //     self._map.addLayer({
-    //         "id": "destination-labels",
-    //         "type": "symbol",
-    //         "source": "destinations",
-    //         "layout": {
-    //             "visibility": "visible",
-    //             "icon-image": {
-    //                 property: 'state',
-    //                 type: 'categorical',
-    //                 stops: [
-    //                     ['inactive', ''],
-    //                     ['highlighted', 'rect_pink'],
-    //                     ['active', 'rect_yellow']
-    //                 ]
-    //             },
-    //             "icon-padding": 0,
-    //             "icon-text-fit": 'both',
-    //             "icon-text-fit-padding": [5,10,2,10],
-    //             "icon-allow-overlap": true,
-    //             "text-field": "{naam}",
-    //             "symbol-placement": "point",
-    //             "text-size": 15,
-    //             "text-anchor": "left",
-    //             "text-offset": [1.6,0],
-    //             "text-max-width": 30,
-    //             "text-font": ["Avenir LT Std 85 Heavy"],
-    //             "text-transform" : "uppercase",
-    //             "text-allow-overlap":true
-    //         },
-    //         "paint": {
-    //             'text-color': {
-    //                 property: 'state',
-    //                 type: 'categorical',
-    //                 stops: [
-    //                     ['inactive', '#fff'],
-    //                     ['highlighted', '#fff'],
-    //                     ['active', '#000']
-    //                 ]
-    //             },
-    //         },
-    //         "filter": ['all',
-    //             ["in", "state", "highlighted","active"]
-    //         ]
-    //     });
-    //
-    //     self._map.addLayer({
-    //         "id": "destination-labels-connector",
-    //         "type": "symbol",
-    //         "source": "destinations",
-    //         "layout": {
-    //
-    //             "icon-image": {
-    //                 property: 'state',
-    //                 type: 'categorical',
-    //                 stops: [
-    //                     ['inactive', ''],
-    //                     ['highlighted', 'connector_pink'],
-    //                     ['active', 'connector_yellow']
-    //                 ]
-    //             },
-    //             "icon-padding": 0,
-    //             "icon-allow-overlap": true,
-    //             "symbol-placement": "point",
-    //             "icon-size": 1,
-    //             "icon-offset": [16,0],
-    //
-    //         },
-    //         "filter": ['all',
-    //             ["in", "state", "highlighted","active"]
-    //         ]
-    //     },'destination-labels');
-    // }
-
     Points.prototype.drawTransfers = function drawTransfers(routesId) {
 
         var self = this;
@@ -914,70 +784,7 @@ var Points = function () {
 
             window.open(url, '_blank');
         });
-
-        // self._map.addLayer({
-        //     "id": "transfer-info-new",
-        //     "type": "symbol",
-        //     "source": "routes-nieuw",
-        //     "layout": {
-        //         "visibility": "visible",
-        //         "icon-image": "info",
-        //         "icon-padding": 0,
-        //         "icon-offset": [-20,-20],
-        //         "icon-allow-overlap": true,
-        //         "symbol-placement": "point",
-        //     },
-        //     "paint": {
-        //         'text-color': "#fff"
-        //     },
-        //     "filter": ['all',
-        //         ["==", "function", "overstap"],
-        //
-        //         ["==", "isNieuw", true]
-        //     ]
-        // });
-        //
-        // self._map.addLayer({
-        //     "id": "transfer-info-old",
-        //     "type": "symbol",
-        //     "source": "routes-oud",
-        //     "layout": {
-        //         "visibility": "visible",
-        //         "icon-image": "info",
-        //         "icon-padding": 0,
-        //         "icon-offset": [-20,-20],
-        //         "icon-allow-overlap": true,
-        //         "symbol-placement": "point",
-        //     },
-        //     "paint": {
-        //         'text-color': "#fff"
-        //     },
-        //     "filter": ['all',
-        //         ["==", "function", "overstap"],
-        //         ["in", "id","99999","99999","99998","99997","99996","99995","99994","99993","99992"],
-        //         ["==", "isNieuw", false]
-        //     ]
-        // });
     };
-
-    // self._map.addLayer({
-    //     "id": "labels",
-    //     "type": "symbol",
-    //     "source": "originData",
-    //     "layout": {
-    //         "text-font": ["Cabrito Semi W01 Norm E ExtraBold"],
-    //         "text-field": "{name}",
-    //         "symbol-placement": "point",
-    //         "text-size": 20,
-    //         "text-anchor": "left",
-    //         "text-offset": [1.5,0],
-    //         "text-max-width": 30
-    //     },
-    //     "paint": {
-    //         'text-color': '#ffffff'
-    //     }
-    // });
-
 
     return Points;
 }();
@@ -1645,7 +1452,7 @@ var Map = function () {
         var bbox = turf.bbox(collection);
 
         self._map.fitBounds(bbox, {
-            padding: { top: 200, bottom: 200, left: 200, right: 200 },
+            padding: { top: 40, bottom: 40, left: 40, right: 40 },
             linear: true
         });
     };
@@ -1667,11 +1474,11 @@ var Map = function () {
         if (self.session.sidebar) {
             leftMargin = 400;
         } else {
-            leftMargin = 100;
+            leftMargin = 40;
         }
 
         self._map.fitBounds(bbox, {
-            padding: { top: 100, bottom: 100, left: leftMargin, right: 100 },
+            padding: { top: 40, bottom: 40, left: leftMargin, right: 40 },
             linear: true
         });
     };

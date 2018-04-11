@@ -718,7 +718,7 @@ class Map {
 
         self._map.fitBounds(
             bbox, {
-            padding: {top: 200, bottom:200, left: 200, right: 200},
+            padding: {top: 40, bottom:40, left: 40, right: 40},
             linear: true
         });
     }
@@ -740,12 +740,12 @@ class Map {
         if(self.session.sidebar) {
             leftMargin = 400;
         } else {
-            leftMargin = 100;
+            leftMargin = 40;
         }
 
         self._map.fitBounds(
             bbox, {
-                padding: {top: 100, bottom:100, left: leftMargin, right: 100},
+                padding: {top: 40, bottom:40, left: leftMargin, right: 40},
                 linear: true
             });
     }

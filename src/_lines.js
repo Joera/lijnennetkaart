@@ -46,7 +46,7 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","bus"]
             ]
-        },'origin-labels');
+        },'origins');
 
         self._map.addLayer({
             "id": 'route-tram_old',
@@ -66,7 +66,7 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","tram"]
             ]
-        },'origin-labels');
+        },'origins');
 
         self._map.addLayer({
             "id": 'route-metro_old',
@@ -87,7 +87,7 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","metro"],
             ]
-        },'origin-labels');
+        },'origins');
 
         self._map.addLayer({
             "id": 'route-train_old',
@@ -108,7 +108,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","trein"]
             ]
-        },'origin-labels');
+        },'origins');
 
 
     }
@@ -136,7 +136,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","bus"]
             ]
-        },'origin-labels');
+        },'origins');
 
 
 
@@ -159,7 +159,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","tram"]
             ]
-        },'origin-labels');
+        },'origins');
 
 
 
@@ -182,7 +182,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","metro"]
             ]
-        },'origin-labels');
+        },'origins');
 
 
 
@@ -205,7 +205,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","trein"]
             ]
-        },'origin-labels');
+        },'origins');
 
         self._map.addLayer({
             "id": "transport-mode-new",
@@ -248,7 +248,7 @@ class Lines {
             "filter": ['all',
                 ["==","isNieuw",true],
             ]
-        },'origin-labels');
+        },'origins');
 
         self._map.addLayer({
             "id": "transport-mode-old",
@@ -291,6 +291,6 @@ class Lines {
             "filter": ['all',
                 ["==","isNieuw",false],
             ]
-        },'origin-labels');
+        },'origins');
     }
 }

@@ -47,7 +47,7 @@ class Points {
             "filter": ['all',
                 // ["==", "function", "herkomst"],
             ]
-        },'route-bus_old');
+        });
 
         self._map.addLayer({
             "id": "origin-labels",
@@ -146,7 +146,7 @@ class Points {
             "filter": ['all',
                 ["==", "function", "overstap"]
             ]
-        },'route-bus_old');
+        });
 
         self._map.addLayer({
             "id": "transfers-new",
@@ -163,7 +163,7 @@ class Points {
             "filter": ['all',
                 ["==", "function", "overstap"]
             ]
-        },'route-bus_old');
+        });
 
         self._map.addLayer({
             "id": "transfer-labels-old",
@@ -193,7 +193,7 @@ class Points {
                 ["==", "function", "overstap"],
                 ["==", "isNieuw", false]
             ]
-        },'route-bus_old');
+        });
 
         self._map.addLayer({
             "id": "transfer-labels-new",
@@ -224,7 +224,7 @@ class Points {
                 ["!in", "id","99999","99999","99998","99997","99996","99995","99994","99993","99992"],
                 ["==", "isNieuw", true]
             ]
-        },'route-bus_old');
+        });
 
         self._map.addLayer({
             "id": "transfer-labels-new-info",
@@ -255,7 +255,7 @@ class Points {
                 ["in", "id","99999","99999","99998","99997","99996","99995","99994","99993","99992"],
                 ["==", "isNieuw", true]
             ]
-        },'route-bus_old');
+        });
 
         self._map.on("click", "transfer-labels-new-info", function (e) {
 
