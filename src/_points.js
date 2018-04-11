@@ -35,6 +35,7 @@ class Points {
                     property: 'state',
                     type: 'categorical',
                     stops: [
+                        ['muted', grey],
                         ['inactive', purple],
                         ['highlighted', pink],
                         ['origin', black],

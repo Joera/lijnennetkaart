@@ -26,8 +26,6 @@ class Lines {
 
     drawOldLayers(routesId) {
 
-        console.log('once or twice?')
-
         let self = this;
 
         self._map.addLayer({
@@ -48,7 +46,7 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","bus"]
             ]
-        },'origins');
+        });
 
         self._map.addLayer({
             "id": 'route-tram_old',
@@ -68,7 +66,7 @@ class Lines {
                 ["==","isNieuw",false],
                 ["==","transport_type","tram"]
             ]
-        },'origins');
+        });
 
         self._map.addLayer({
             "id": 'route-metro_old',
@@ -82,14 +80,14 @@ class Lines {
             "paint": {
                 "line-color": black,
                 "line-width": 4,
-                "line-dasharray": [2,2],
+                "line-dasharray": [1,.5],
 
             },
             "filter": ['all',
                 ["==","isNieuw",false],
                 ["==","transport_type","metro"],
             ]
-        },'origins');
+        });
 
         self._map.addLayer({
             "id": 'route-train_old',
@@ -110,7 +108,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","trein"]
             ]
-        },'origins');
+        });
 
 
     }
@@ -138,7 +136,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","bus"]
             ]
-        },'origins');
+        });
 
 
 
@@ -161,7 +159,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","tram"]
             ]
-        },'origins');
+        });
 
 
 
@@ -178,13 +176,13 @@ class Lines {
             "paint": {
                 "line-color": black,
                 "line-width": 4,
-                "line-dasharray": [2,2],
+                "line-dasharray": [1,.5],
             },
             "filter": ['all',
                 ["==","isNieuw",true],
                 ["==","transport_type","metro"]
             ]
-        },'origins');
+        });
 
 
 
@@ -207,7 +205,7 @@ class Lines {
                 ["==","isNieuw",true],
                 ["==","transport_type","trein"]
             ]
-        },'origins');
+        });
 
         self._map.addLayer({
             "id": "transport-mode-new",

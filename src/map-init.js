@@ -175,7 +175,10 @@ class Map {
 
         self = this;
         self.config.origins.features.forEach( function(d) {
-            if (d.properties.state !== 'origin' && d.properties.state !== 'destination') {
+            if (d.properties.state === 'muted' && d.properties.state !== 'destination') {
+                d.properties.state = 'muted';
+            }
+            else if (d.properties.state !== 'origin' && d.properties.state !== 'destination') {
                 d.properties.state = 'inactive';
             }
         });
@@ -414,6 +417,8 @@ class Map {
 
     _initRoute(destination) {
 
+        console.log(destination);
+
         let self = this;
 
         // remove previous route layers
@@ -443,7 +448,7 @@ class Map {
         self.config.origins.features.forEach( function(d) {
 
             if(d.properties.state !== 'origin') {
-                d.properties.state = 'inactive';
+                d.properties.state = 'muted';
             }
             if(d.properties.originId === destination) {
                 // console.log(d.properties);
@@ -484,15 +489,11 @@ class Map {
 
         if(self.session.data.routes[0] && self.session.data.routes[0].length > 0) {
 
-            self._setRouteInfo(self.session.data.routes);
-
-
+           self._setRouteInfo(self.session.data.routes);
 
             self.session.data.routes.forEach( (r,i) => {
 
                 let incarnation = r[0].properties.routeId.split('_')[2];
-
-                // console.log(r);
 
                 let route = {
                     "type": "FeatureCollection",
@@ -537,7 +538,6 @@ class Map {
         }
 
         setTimeout( function(){
-
             self._setBoundingBox();
         },500);
 
@@ -569,13 +569,10 @@ class Map {
                     <label class="switch">
                         <input id="route-switch" type="checkbox">
                         <span class="slider round"></span>
-                        <span class="label checked">Toon nieuwe route</span>
-                        <span class="label unchecked">Toon oude route</span>
+                        <span class="label checked">Toon oude route</span>
+                        <span class="label unchecked">Toon nieuwe route</span>
                     </label>
         `;
-
-
-        // knob.addEventListener("click",function(e) { self._routeSwitch(this,e) },false);
 
         knob.addEventListener("click",function(e) { self._routeSwitch(this,e,true) },false);
 
@@ -583,160 +580,141 @@ class Map {
 
         let routeIds = [];
 
-            routes.forEach( (route) => {
+        routes.forEach( (route) => {
 
+                route = route.filter( function(t) {
+                    return t.geometry.type === 'LineString';
+                });
 
+                route.sort(function(a,b) {
+                        return a.properties.order_nr - b.properties.order_nr;
+                });
 
-               //  sort by  properties.order_nr
+                let q;
 
-                var sort = function (prop, arr) {
-                    prop = prop.split('.');
-                    var len = prop.length;
+                if (route[0] && route[0].properties.isNieuw === true) {
+                    q = 'Nieuwe route';
+                } else {
+                    q = 'Huidige route';
+                }
 
-                    arr.sort(function (a, b) {
-                        var i = 0;
-                        while( i < len ) {
-                            a = a[prop[i]];
-                            b = b[prop[i]];
-                            i++;
-                        }
-                        if (a < b) {
-                            return -1;
-                        } else if (a > b) {
-                            return 1;
-                        } else {
-                            return 0;
-                        }
-                    });
-                    return arr;
-                };
-
-                route = sort('properties.order_nr',route);
-
-
-
-            let q;
-
-            if (route[0] && route[0].properties.isNieuw === true) {
-                q = 'Nieuwe route';
-            } else {
-                q = 'Huidige route';
-            }
-
-            let li = document.createElement('li');
-            li.addEventListener("click",function(e) { self._routeSwitch(this,e,false) },false);
-            let input = document.createElement('input');
-            input.type = "checkbox";
-            input.name = route[0].properties.routeId;
-            input.checked = true;
-            li.appendChild(input);
-            let label = document.createElement('label');
-            label.innerHTML = q;
-            li.appendChild(label);
-            let segmentList = document.createElement('ul');
+                let li = document.createElement('li');
+                li.addEventListener("click",function(e) { self._routeSwitch(this,e,false) },false);
+                let input = document.createElement('input');
+                input.type = "checkbox";
+                input.name = route[0].properties.routeId;
+                input.checked = true;
+                li.appendChild(input);
+                let label = document.createElement('label');
+                label.innerHTML = q;
+                li.appendChild(label);
+                let segmentList = document.createElement('ul');
                 route.forEach ((traject,idx, array) => {
 
-                if(traject.geometry.type === 'LineString') {
+                    if(traject.geometry.type === 'LineString') {
 
-                    let nrs;
-                    if(traject.properties.transport_type !== 'trein') {
-                        nrs = traject.properties.transport_nrs.join('/');
-                    } else {
-                        nrs = '';
-                    }
+                        let nrs;
+                        if(traject.properties.transport_type !== 'trein') {
+                            nrs = traject.properties.transport_nrs.join('/');
+                        } else {
+                            nrs = '';
+                        }
 
-                    let icon = '';
+                        let icon = '';
 
-                    if(traject.properties.transport_type === 'bus') {
+                        if(traject.properties.transport_type === 'bus') {
 
-                        icon = `
-
-                            <svg class="icon-bus" width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <polygon id="Path" fill="black" points="5.832 28.416 5.832 31.232 2.312 31.232 2.312 28.416 0.968 28.416 0.2 20.672 1.288 1.856 2.632 0.448 23.112 0.448 24.456 1.856 25.544 20.672 24.776 28.416 23.432 28.416 23.432 31.232 19.912 31.232 19.912 28.416"></polygon>
-                                <polygon id="Path" fill="white" points="2.888 4.864 22.856 4.864 22.856 2.304 2.888 2.304"></polygon>
-                                <path d="M2.312,23.296 C2.312,24.32 3.08,25.088 4.04,25.088 C5,25.088 5.832,24.32 5.832,23.296 C5.832,22.336 5,21.568 4.04,21.568 C3.08,21.568 2.312,22.336 2.312,23.296 Z" id="Path" fill="white"></path>
-                                <path d="M19.912,23.296 C19.912,24.32 20.744,25.088 21.704,25.088 C22.664,25.088 23.432,24.32 23.432,23.296 C23.432,22.336 22.664,21.568 21.704,21.568 C20.744,21.568 19.912,22.336 19.912,23.296 Z" id="Path" fill="white"></path>
-                                <polygon id="Path" fill="white" points="3.656 18.048 22.088 18.048 22.856 6.464 2.888 6.464"></polygon>
-                            </svg> 
-                        `;
-                    } else if (traject.properties.transport_type === 'metro') {
-
-                        icon = `<svg class="icon-metro" width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <polygon id="Path" fill="black" points="7.208 0.232 27.048 0.232 28.136 1.384 28.136 21.352 26.024 23.4 8.104 23.4 5.992 21.352 5.992 1.384"></polygon>
-                            <path d="M7.016,19.112 C7.016,20.008 7.72,20.712 8.616,20.712 C9.512,20.712 10.216,20.008 10.216,19.112 C10.216,18.216 9.512,17.512 8.616,17.512 C7.72,17.512 7.016,18.216 7.016,19.112 Z" id="Path" fill="white"></path>
-                            <polygon id="Path" fill="black" points="29.864 33.32 22.248 25.128 23.592 25.128 33.768 33.32"></polygon>
-                            <polygon id="Path" fill="black" points="12.328 25.128 4.776 33.32 0.872 33.32 11.048 25.128"></polygon>
-                            <path d="M23.528,19.112 C23.528,20.008 24.296,20.712 25.192,20.712 C26.024,20.712 26.792,20.008 26.792,19.112 C26.792,18.216 26.024,17.512 25.192,17.512 C24.296,17.512 23.528,18.216 23.528,19.112 Z" id="Path" fill="white"></path>
-                            <polygon id="Path" fill="white" points="13.352 6.504 13.352 14.696 26.792 14.696 26.792 6.504"></polygon>
-                            <polygon id="Path" fill="white" points="7.464 1.64 7.464 5.352 12.328 5.352 12.328 1.64"></polygon>
-                        </svg>`;
-
-
-                    } else if (traject.properties.transport_type === 'tram') {
-
-                        icon = `<svg class="icon-tram" width="19px" height="36px" viewBox="0 0 19 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <polygon id="Path" fill="black" points="0.976 30.904 0.976 8.184 5.776 8.184 5.776 4.344 14.16 4.344 14.16 8.184 18.96 8.184 18.96 30.904 16.272 33.592 16.272 35.896 14.928 35.832 14.928 33.592 5.008 33.592 5.008 35.832 3.6 35.896 3.6 33.592"></polygon>
-                            <polygon id="Path" fill="white" points="17.04 11.192 2.896 11.192 4.56 24.184 15.376 24.184"></polygon>
-                            <path d="M8.4,28.152 C8.4,28.984 9.104,29.688 9.936,29.688 C10.832,29.688 11.536,28.984 11.536,28.152 C11.536,27.256 10.832,26.616 9.936,26.616 C9.104,26.616 8.4,27.256 8.4,28.152 Z" id="Path" fill="#000"></path>
-                            <polygon id="Path" fill="white" points="7.12 9.592 12.752 9.592 12.752 5.688 7.12 5.688"></polygon>
-                            <polygon id="Path" fill="black" points="2.384 2.04 2.384 0.76 17.552 0.76 17.552 2.04"></polygon>
-                        </svg>`;
-
-
-                    } else if (traject.properties.transport_type === 'walk') {
-
-
-                        icon = `
-                            <svg class="icon-walk" width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <path d="M5.112,9.976 C5.112,9.144 5.816,8.376 6.712,8.376 C7.608,8.376 8.312,9.144 8.312,9.976 C8.312,10.872 7.608,11.576 6.712,11.576 C5.816,11.576 5.112,10.872 5.112,9.976 Z" id="Path"></path>
-                                <polygon id="Path" points="29.496 7.416 32.76 13.304 37.752 17.336 36.664 19.384 30.648 15.672 29.496 13.432 29.496 18.232 32.568 24.248 34.488 35.064 31.288 35.832 29.24 26.488 26.808 22.456 23.928 28.28 19.256 34.168 17.08 32.184 21.176 25.592 23.736 18.04 23.736 11.704 21.048 14.328 18.424 19.128 16.44 17.976 19.256 11.896 23.736 7.416"></polygon>
-                                <path d="M23.928,3.448 C23.928,1.976 25.144,0.76 26.616,0.76 C28.088,0.76 29.304,1.976 29.304,3.448 C29.304,4.92 28.088,6.072 26.616,6.072 C25.144,6.072 23.928,4.92 23.928,3.448 Z" id="Path"></path>
-                                <polygon id="Path" points="4.984 12.408 8.44 12.408 11.128 15.096 12.856 18.744 11.64 19.384 10.104 16.568 8.44 14.968 8.44 18.744 9.976 23.288 12.472 27.256 11.128 28.408 8.376 24.952 6.648 21.432 5.112 23.864 3.896 29.432 1.976 28.984 3.192 22.456 4.984 18.872 4.984 15.992 4.28 17.336 0.696 19.576 0.056 18.36 3.064 15.928"></polygon>
-                            </svg>
+                            icon = `
+    
+                                <svg class="icon-bus" width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <polygon id="Path" fill="black" points="5.832 28.416 5.832 31.232 2.312 31.232 2.312 28.416 0.968 28.416 0.2 20.672 1.288 1.856 2.632 0.448 23.112 0.448 24.456 1.856 25.544 20.672 24.776 28.416 23.432 28.416 23.432 31.232 19.912 31.232 19.912 28.416"></polygon>
+                                    <polygon id="Path" fill="white" points="2.888 4.864 22.856 4.864 22.856 2.304 2.888 2.304"></polygon>
+                                    <path d="M2.312,23.296 C2.312,24.32 3.08,25.088 4.04,25.088 C5,25.088 5.832,24.32 5.832,23.296 C5.832,22.336 5,21.568 4.04,21.568 C3.08,21.568 2.312,22.336 2.312,23.296 Z" id="Path" fill="white"></path>
+                                    <path d="M19.912,23.296 C19.912,24.32 20.744,25.088 21.704,25.088 C22.664,25.088 23.432,24.32 23.432,23.296 C23.432,22.336 22.664,21.568 21.704,21.568 C20.744,21.568 19.912,22.336 19.912,23.296 Z" id="Path" fill="white"></path>
+                                    <polygon id="Path" fill="white" points="3.656 18.048 22.088 18.048 22.856 6.464 2.888 6.464"></polygon>
+                                </svg> 
                             `;
+                        } else if (traject.properties.transport_type === 'metro') {
+
+                            icon = `<svg class="icon-metro" width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <polygon id="Path" fill="black" points="7.208 0.232 27.048 0.232 28.136 1.384 28.136 21.352 26.024 23.4 8.104 23.4 5.992 21.352 5.992 1.384"></polygon>
+                                <path d="M7.016,19.112 C7.016,20.008 7.72,20.712 8.616,20.712 C9.512,20.712 10.216,20.008 10.216,19.112 C10.216,18.216 9.512,17.512 8.616,17.512 C7.72,17.512 7.016,18.216 7.016,19.112 Z" id="Path" fill="white"></path>
+                                <polygon id="Path" fill="black" points="29.864 33.32 22.248 25.128 23.592 25.128 33.768 33.32"></polygon>
+                                <polygon id="Path" fill="black" points="12.328 25.128 4.776 33.32 0.872 33.32 11.048 25.128"></polygon>
+                                <path d="M23.528,19.112 C23.528,20.008 24.296,20.712 25.192,20.712 C26.024,20.712 26.792,20.008 26.792,19.112 C26.792,18.216 26.024,17.512 25.192,17.512 C24.296,17.512 23.528,18.216 23.528,19.112 Z" id="Path" fill="white"></path>
+                                <polygon id="Path" fill="white" points="13.352 6.504 13.352 14.696 26.792 14.696 26.792 6.504"></polygon>
+                                <polygon id="Path" fill="white" points="7.464 1.64 7.464 5.352 12.328 5.352 12.328 1.64"></polygon>
+                            </svg>`;
 
 
+                        } else if (traject.properties.transport_type === 'tram') {
+
+                            icon = `<svg class="icon-tram" width="19px" height="36px" viewBox="0 0 19 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <polygon id="Path" fill="black" points="0.976 30.904 0.976 8.184 5.776 8.184 5.776 4.344 14.16 4.344 14.16 8.184 18.96 8.184 18.96 30.904 16.272 33.592 16.272 35.896 14.928 35.832 14.928 33.592 5.008 33.592 5.008 35.832 3.6 35.896 3.6 33.592"></polygon>
+                                <polygon id="Path" fill="white" points="17.04 11.192 2.896 11.192 4.56 24.184 15.376 24.184"></polygon>
+                                <path d="M8.4,28.152 C8.4,28.984 9.104,29.688 9.936,29.688 C10.832,29.688 11.536,28.984 11.536,28.152 C11.536,27.256 10.832,26.616 9.936,26.616 C9.104,26.616 8.4,27.256 8.4,28.152 Z" id="Path" fill="#000"></path>
+                                <polygon id="Path" fill="white" points="7.12 9.592 12.752 9.592 12.752 5.688 7.12 5.688"></polygon>
+                                <polygon id="Path" fill="black" points="2.384 2.04 2.384 0.76 17.552 0.76 17.552 2.04"></polygon>
+                            </svg>`;
+
+
+                        } else if (traject.properties.transport_type === 'walk') {
+
+
+                            icon = `
+                                <svg class="icon-walk" width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M5.112,9.976 C5.112,9.144 5.816,8.376 6.712,8.376 C7.608,8.376 8.312,9.144 8.312,9.976 C8.312,10.872 7.608,11.576 6.712,11.576 C5.816,11.576 5.112,10.872 5.112,9.976 Z" id="Path"></path>
+                                    <polygon id="Path" points="29.496 7.416 32.76 13.304 37.752 17.336 36.664 19.384 30.648 15.672 29.496 13.432 29.496 18.232 32.568 24.248 34.488 35.064 31.288 35.832 29.24 26.488 26.808 22.456 23.928 28.28 19.256 34.168 17.08 32.184 21.176 25.592 23.736 18.04 23.736 11.704 21.048 14.328 18.424 19.128 16.44 17.976 19.256 11.896 23.736 7.416"></polygon>
+                                    <path d="M23.928,3.448 C23.928,1.976 25.144,0.76 26.616,0.76 C28.088,0.76 29.304,1.976 29.304,3.448 C29.304,4.92 28.088,6.072 26.616,6.072 C25.144,6.072 23.928,4.92 23.928,3.448 Z" id="Path"></path>
+                                    <polygon id="Path" points="4.984 12.408 8.44 12.408 11.128 15.096 12.856 18.744 11.64 19.384 10.104 16.568 8.44 14.968 8.44 18.744 9.976 23.288 12.472 27.256 11.128 28.408 8.376 24.952 6.648 21.432 5.112 23.864 3.896 29.432 1.976 28.984 3.192 22.456 4.984 18.872 4.984 15.992 4.28 17.336 0.696 19.576 0.056 18.36 3.064 15.928"></polygon>
+                                </svg>
+                                `;
+
+
+                        }
+
+
+
+                        let segment = document.createElement('li');
+                        let segmentContent = icon + '<div class="' + traject.properties.transport_type + '"><span class="halte"></span><div class="start">' + traject.properties.start_naam
+                            + '</div><span class="modaliteit">' + traject.properties.transport_type + ' ' + nrs
+                            + '</span></div>';
+
+
+
+
+                        segment.innerHTML = segmentContent;
+
+                        segmentList.appendChild(segment);
+
+                        // console.log(traject);
+
+                        if (idx === array.length - 1){
+
+                            let destination = document.createElement('div');
+                            destination.classList.add('destination_halte');
+
+                            let destinationHalte = document.createElement('span');
+                            destinationHalte.classList.add('halte');
+
+                            destination.appendChild(destinationHalte);
+                            let destinationName = document.createElement('span');
+                            destinationName.classList.add('haltenaam');
+                            destinationName.innerHTML = traject.properties.end_naam;
+                            console.log(destinationName);
+                            destination.appendChild(destinationName);
+                            segmentList.appendChild(destination);
+
+                        }
                     }
+                });
+                li.appendChild(segmentList);
+                // li.addEventListener("click", function (e) {
+                //     self._toggleRoute(e,r.features[0].properties.routeId);
+                // }, false);
+                ul.appendChild(li);
 
-
-
-                    let segment = document.createElement('li');
-                    let segmentContent = icon + '<div class="' + traject.properties.transport_type + '"><span class="halte"></span><div class="start">' + traject.properties.start_naam
-                        + '</div><span class="modaliteit">' + traject.properties.transport_type + ' ' + nrs
-                        + '</span></div>';
-
-
-
-
-                    segment.innerHTML = segmentContent;
-
-                    segmentList.appendChild(segment);
-
-                    if (idx === array.length - 1){
-
-                        let destination = document.createElement('div');
-                        destination.classList.add('destination_halte');
-
-                        let destinationHalte = document.createElement('span');
-                        destinationHalte.classList.add('halte');
-
-                        destination.appendChild(destinationHalte);
-                        let destinationName = document.createElement('span');
-                        destinationName.classList.add('haltenaam');
-                        destinationName.innerHTML = traject.properties.end_naam;
-                        destination.appendChild(destinationName);
-                        segmentList.appendChild(destination);
-
-                    }
-                }
-            });
-            li.appendChild(segmentList);
-            // li.addEventListener("click", function (e) {
-            //     self._toggleRoute(e,r.features[0].properties.routeId);
-            // }, false);
-            ul.appendChild(li);
-
-            routeIds.push(route[0].properties.routeId);
+                routeIds.push(route[0].properties.routeId);
 
         });
 
@@ -967,8 +945,6 @@ class Map {
             destination : null
         }
         this._listContainer.innerHTML = '';
-
-        console.log('jhiiie');
 
         // remove previous route layers
         self._map.getStyle().layers.forEach( (l) => {

@@ -191,8 +191,25 @@
         {
           "type": "Feature",
           "properties": {
+            "originId": "99994",
+            "id": "99994",
+            "naam": "De Pijp",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.890990016036341,
+              52.35284612735262
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
             "originId": "14420",
-            "id": "15340",
+            "id": "14420",
             "naam": "Ceintuurbaan",
             "available_as_destination": true,
             "state": "inactive"
@@ -200,8 +217,8 @@
           "geometry": {
             "type": "Point",
             "coordinates": [
-              4.901054,
-              52.35506
+              4.890990016036341,
+              52.35284612735262
             ]
           }
         },
@@ -422,8 +439,8 @@
           "geometry": {
             "type": "Point",
             "coordinates": [
-              4.900838,
-              52.354682
+               4.901148453352931,
+               52.35478718550743
             ]
           }
         },
@@ -492,6 +509,23 @@
             "coordinates": [
               4.883605,
               52.374122
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "originId": "13417",
+            "id": "13417",
+            "naam": "Mercatorplein",
+            "available_as_destination": true,
+            "state": "inactive"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.85060537707318,
+              52.3701115425759
             ]
           }
         }
